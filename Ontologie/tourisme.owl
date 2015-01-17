@@ -8,13 +8,30 @@ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 xmlns="http://www.w3.org/2000/01/rdf-schema#" 
 xml:base="http://www.polytech.semantique/tourisme"
 xmlns:owl = "http://www.w3.org/2002/07/owl#"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+
+       
+
+<owl:Ontology>
+<rdfs:comment>Tourisme OWL ontology</rdfs:comment>
+<owl:priorVersion>
+<owl:Ontology rdf:about="http://www.w3.org/2002/07/owl#"/> </owl:priorVersion>
+<rdfs:comment>Ontologie définie dans le cadre d'un projet d'étude du cours Web sémantique </rdfs:comment>
+<rdfs:label>Tourisme Ontology</rdfs:label>
+</owl:Ontology>
+
 
 <owl:Class rdf:ID="Emplacement">
   <label xml:lang="en">Place</label>
   <comment xml:lang="en">Place</comment>
   <label xml:lang="fr">Emplacement</label>
   <comment xml:lang="fr">Emplacement</comment>
+  <owl:disjointWith rdf:resource="#Batiment"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+	
 </owl:Class>
 
 <owl:Class rdf:ID="Batiment">
@@ -22,6 +39,16 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <comment xml:lang="en">Batiment</comment>
   <label xml:lang="fr">Batiment</label>
   <comment xml:lang="fr">Batiment</comment>
+  <owl:disjointWith rdf:resource="#Emplacement"/>
+  <subClassOf>
+  <owl:Restriction>
+   <owl:onProperty rdf:resource="#esSituéA"/>
+   <owl:hasValue rdf:resource="#Emplacement"/>
+  </owl:Restriction>
+  </subClassOf>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:Class>
 
 <owl:Class rdf:ID="Ville">
@@ -30,6 +57,16 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <comment xml:lang="en">place where a set of people lives</comment>
   <label xml:lang="fr">Ville</label>
   <comment xml:lang="fr">représente un lieu ou un ensemble d’individus vit</comment>
+  <subClassOf>
+  <owl:Restriction>
+   <owl:onProperty rdf:resource="#contientMonument"/>
+   <owl:hasValue rdf:resource="#Batiment"/>
+  </owl:Restriction>
+  </subClassOf>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+
 </owl:Class>
 
 <owl:Class rdf:ID="Hotel">
@@ -37,8 +74,10 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="en">Hotel</label>
   <comment xml:lang="fr">Heberge les gens</comment>
   <comment xml:lang="en">Heberge people</comment>
-  <owl:disjointWith rdf:resource="#Monument"/>
- <subClassOf rdf:resource="#Batiment"/>
+  <subClassOf rdf:resource="#Batiment"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
  </owl:Class>
 
 <owl:Class rdf:ID="Restaurant">
@@ -47,7 +86,11 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <comment xml:lang="fr">Restaurant</comment>
   <comment xml:lang="en">Restaurant</comment>
   <owl:disjointWith rdf:resource="#Monument"/>
- <subClassOf rdf:resource="#Batiment"/>
+  <subClassOf rdf:resource="#Batiment"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+
  </owl:Class>
 
 <owl:Class rdf:ID="Monument">
@@ -55,8 +98,10 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <comment xml:lang="en"> Monument</comment>
   <label xml:lang="fr">monument</label>
   <comment xml:lang="fr">monument</comment>
-  <owl:disjointWith rdf:resource="#Hotel"/>
- <subClassOf rdf:resource="#Batiment"/>
+  <subClassOf rdf:resource="#Batiment"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:Class>
 
 <owl:Class rdf:ID="Pays">
@@ -64,6 +109,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <comment xml:lang="en"> Pays</comment>
   <label xml:lang="fr">Pays</label>
   <comment xml:lang="fr">Pays</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:Class>
 
 <owl:TransitiveProperty rdf:ID="dansPays">
@@ -72,6 +120,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <comment xml:lang="en">DansPays</comment>
   <label xml:lang="fr">DansPays</label>
   <comment xml:lang="fr">DansPays</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:TransitiveProperty>
 
 <owl:DatatypeProperty rdf:ID="siteWeb">
@@ -79,6 +130,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">siteWeb</label>
   <comment xml:lang="en">siteWeb</comment>
   <comment xml:lang="fr">siteWeb</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="imageUrl">
@@ -86,6 +140,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">imageUrl</label>
   <comment xml:lang="en">imageUrl</comment>
   <comment xml:lang="fr">imageUrl</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="nom">
@@ -93,6 +150,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">nom</label>
   <comment xml:lang="en">nom</comment>
   <comment xml:lang="fr">nom</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="description">
@@ -100,6 +160,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">description</label>
   <comment xml:lang="en">description</comment>
   <comment xml:lang="fr">description</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="departement">
@@ -107,6 +170,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">departement</label>
   <comment xml:lang="en">departement</comment>
   <comment xml:lang="fr">departement</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="codePostale">
@@ -114,6 +180,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">codePostale</label>
   <comment xml:lang="en">codePostale</comment>
   <comment xml:lang="fr">codePostale</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="localisation">
@@ -121,6 +190,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">localization</label>
   <comment xml:lang="en">localization</comment>
   <comment xml:lang="fr">localization</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:ObjectProperty rdf:ID="contientMonument">
@@ -129,6 +201,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">contientMonument</label>
   <comment xml:lang="fr">contientMonument</comment>
   <owl:inverseOf rdf:resource="#esSituéA"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:ObjectProperty> 
 
 <owl:ObjectProperty rdf:ID="estSituéA">
@@ -137,6 +212,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">esSituéA</label>
   <comment xml:lang="fr">esSituéA</comment>
   <owl:inverseOf rdf:resource="#contientMonument"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:ObjectProperty> 
 
 <owl:DatatypeProperty rdf:ID="adresse">
@@ -144,6 +222,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">adresse</label>
   <comment xml:lang="en">adresse</comment>
   <comment xml:lang="fr">adresse</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="telephone">
@@ -151,6 +232,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">telephone</label>
   <comment xml:lang="en">telephone</comment>
   <comment xml:lang="fr">telephone</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="note">
@@ -158,6 +242,9 @@ xmlns:owl = "http://www.w3.org/2002/07/owl#"
   <label xml:lang="fr">note</label>
   <comment xml:lang="en">note</comment>
   <comment xml:lang="fr">note</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 </rdf:RDF>
