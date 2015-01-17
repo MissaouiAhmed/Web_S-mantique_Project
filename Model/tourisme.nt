@@ -1,0 +1,1719 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tourisme: <http://www.polytech.semantique/tourisme#> .
+
+tourisme:Dallmayr  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Dienerstr. 14-15, Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d695601-Reviews-Dallmayr-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "089-213-50-" .
+
+tourisme:Bruxelle  a  "http://www.polytech.semantique/tourisme#Ville" .
+
+tourisme:NOI_Nuova_Osteria_Italiana
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via di colle Rosato 8 B | Zona Piazza Della Radio, Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4403647-Reviews-NOI_Nuova_Osteria_Italiana-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 4547 7984" .
+
+tourisme:Panino_Ricco
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Panetteria, 42/a, 00187 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6621383-Reviews-Panino_Ricco-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 678 3834" .
+
+tourisme:Nice  a  "http://www.polytech.semantique/tourisme#Ville" .
+
+tourisme:Les_Papilles
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "30 Rue Gay-Lussac, 75005 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719540-Reviews-Les_Papilles-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 43 25 20 79" .
+
+tourisme:DSTAGE  a          "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Regueros,8, 28004  Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6884911-Reviews-DSTAGE-Madrid.html/" ;
+        tourisme:telephone  "" .
+
+tourisme:Stirwen  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "chaussÃ©e saint-pierre, Bruxelles 1040, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1128569-Reviews-Stirwen-Brussels.html/" ;
+        tourisme:telephone  "+32 2 640 85 41" .
+
+tourisme:Alto_Resto  a      "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "21,rue Barla, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1797374-Reviews-Restaurant_tapas_ALTO-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 83 39 35 57" .
+
+<http://www.polytech.semantique/tourisme#HANgoÃ»t_Restaurant>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "5 Rue du Moulin | 06300, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d4430082-Reviews-HANgout_Restaurant-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 22 16 99 26" .
+
+tourisme:El_Club_Allard
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle de Ferraz, 2, 28008 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1019405-Reviews-El_Club_Allard-Madrid.html/" ;
+        tourisme:telephone  "+34 915 59 09 39" .
+
+tourisme:Savanna  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Maistr. 63 | 80337 Munchen, 80337 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2656918-Reviews-Savanna-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 53906363" .
+
+tourisme:Rock_Salt_Chilli_Peppers
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "34-36, Rue des Cultes, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6678011-Reviews-Rock_Salt_Chilli_Peppers-Brussels.html/" ;
+        tourisme:telephone  "+32 2 201 54 00" .
+
+tourisme:Robadora  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Robador 18 | Sant Rafael 7, 08001 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7234138-Reviews-Robadora-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "932529639" .
+
+tourisme:Le_114_Faubourg
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "114 rue du Faubourg Saint Honore, 75008 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2013853-Reviews-Le_114_Faubourg-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 53434300" .
+
+<http://www.polytech.semantique/tourisme#C'est_Bon_C'est_Belge_-_La_Terrasse>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "3/5 Rue de Rollebeek, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d7155469-Reviews-C_est_Bon_C_est_Belge_La_Terrasse-Brussels.html/" ;
+        tourisme:telephone  "+(32)2/512.29.99" .
+
+tourisme:Barcelone  a  "http://www.polytech.semantique/tourisme#Ville" .
+
+tourisme:Broeding  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Schulstrasse 9, 80634 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d692576-Reviews-Broeding-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 164238" .
+
+tourisme:Moratin_Vinoteca_Bistrot
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Moratin 36, 28004 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3669444-Reviews-Moratin_Vinoteca_Bistrot-Madrid.html/" ;
+        tourisme:telephone  "+34 911 27 60 85" .
+
+tourisme:Arlequin_Gelati_Italiani
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "9 Avenue Malaussena, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1592829-Reviews-Arlequin_Gelati_Italiani-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 04 69 88" .
+
+tourisme:Franchin  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "10 rue Massenet | Zone Pietonne, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1326341-Reviews-Restaurant_Franchin-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 87 15 74" .
+
+tourisme:P.Korn  a          "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Gabrielenstrasse 6, 80636 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3489142-Reviews-P_Korn-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 99930319" .
+
+<http://www.polytech.semantique/tourisme#Pur'>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "5, rue de la Paix | Park Hyatt Paris-Vendome, 75002 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719852-Reviews-Pur-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 58 71 10 60" .
+
+tourisme:Bateau_le_Calife
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "AmarrÃ© Port de Saints-PÃ¨res | Pont des Arts, 75006 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d951228-Reviews-Bateau_le_Calife-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 (0)1 43 54 50 04" .
+
+<http://www.polytech.semantique/tourisme#Yogurteria_YO!_Centocelle>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via delle Betulle 18/20, 00171 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4475247-Reviews-Yogurteria_YO_Centocelle-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 215 7179" .
+
+tourisme:El_b_Us  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Duque de Rivas, 5, 28012 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6641622-Reviews-El_b_Us-Madrid.html/" ;
+        tourisme:telephone  "+34 691 31 62 83" .
+
+tourisme:Restaurant_Mariette
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "24 Rue Bosquet, 75007 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d1897962-Reviews-Restaurant_Mariette-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "01 45 51 78 82" .
+
+tourisme:Le_Vingt4  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "24 rue Alphonse Karr, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2264534-Reviews-Le_Vingt4-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 88 45 49" .
+
+tourisme:Cientoocho  a      "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "carrer Girona 108, 08009 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4734463-Reviews-Cientoocho-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 932 50 73 03" .
+
+tourisme:Le_Sixieme_Sens
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "43, rue de la Roquette, Bastille, 75011 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d5889030-Reviews-Le_Sixieme_Sens-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "09 83 88 63 52" .
+
+tourisme:Zoryani_Gelateria_Artigianale
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Cipro 4F, 00136 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4420305-Reviews-Zoryani_Gelateria_Artigianale-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 6400 6242" .
+
+<http://www.polytech.semantique/tourisme#A_l'Endroit>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "9 Rue du Tunnel, 75019 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6523426-Reviews-A_L_endroit-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 53 38 57 58" .
+
+tourisme:Naxos_Taverna
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Verdistrasse 33, 81247 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2660543-Reviews-Naxos_Taverna-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 85793920" .
+
+tourisme:Pasta_Divina
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Bergstraat 16 (rue de la montagne 16), Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2208064-Reviews-Pasta_Divina-Brussels.html/" ;
+        tourisme:telephone  "003225112155" .
+
+tourisme:STREATART  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Piazza Buenos Aires 19a 19b, 00198 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7210796-Reviews-STREATART-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 9761 1623" .
+
+tourisme:Maitia  a          "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C / Trueba y Fernandez, 16, 28016 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3948218-Reviews-Maitia-Madrid.html/" ;
+        tourisme:telephone  "+34 911 72 31 40" .
+
+tourisme:Gelateria_Azzurro
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "1 Rue Ste Reparate Vieux Nice, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d799491-Reviews-Gelateria_Azzurro-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 13 92 24" .
+
+tourisme:Pastry_Plaisirs
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "11 rue delille, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3561018-Reviews-Pastry_Plaisirs-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 6 21 25 35 87" .
+
+tourisme:Sathees  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Marche Alimentaire Saint-Germain | 4 - 8 rue Lobineau, 75006 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6557109-Reviews-Sathees-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 56 81 70 07" .
+
+<http://www.polytech.semantique/tourisme#SacrÃ©e_fleur>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "50 rue de Clignancourt, 75018 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6633751-Reviews-Sacree_Fleur-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 42 51 66 18" .
+
+<http://www.polytech.semantique/tourisme#AccÃ©s>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Aribau 55, 08011 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6277239-Reviews-Acces-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 691 01 56 67" .
+
+tourisme:Le_Cinq  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "31, avenue George V | Four Seasons Hotel George V, 75008 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d699456-Reviews-Le_Cinq-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 (1) 49 52 71 54" .
+
+tourisme:Peck_47  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue Marche Aux Poulets 47, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6577463-Reviews-Peck_47-Brussels.html/" ;
+        tourisme:telephone  "+32 2 513 02 87" .
+
+tourisme:Matilda_Cafe_Cantina
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Almaden, 15, 28014 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6404685-Reviews-Matilda_Cafe_Cantina-Madrid.html/" ;
+        tourisme:telephone  "91 429 80 29" .
+
+tourisme:Taberna_del_Chato
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ de la Cruz 35, 28012 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3476797-Reviews-Taberna_del_Chato-Madrid.html/" ;
+        tourisme:telephone  "34-915-231-629" .
+
+tourisme:Restaurante_Arume
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Botella, 11-13, 08001 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6839857-Reviews-Restaurante_Arume-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 933 15 48 72" .
+
+tourisme:Paris  a              "http://www.polytech.semantique/tourisme#Ville" ;
+        tourisme:codePostale   "75001-75020, 75116" ;
+        tourisme:dansPays      tourisme:France ;
+        tourisme:description   "Paris (prononcé [pa.ʁi] ) est la commune la plus peuplée et la capitale de la France, le chef-lieu de la région Île-de-France et l'unique commune-département du pays. Elle se situe au centre du Bassin parisien, sur une boucle de la Seine, entre les confluents de celle-ci avec la Marne et l’Oise. Ses habitants s’appellent les Parisiens. La ville est divisée en vingt arrondissements.D’après le recensement de l’Insee, la commune de Paris comptait au 1er janvier 2010 plus de 2,2 millions d'habitants. L'agglomération de Paris s’est largement développée au cours du XXe siècle, rassemblant 10,5 millions d'habitants au 1er janvier 2010, et son aire urbaine (l’agglomération et la couronne périurbaine) comptait environ 12,2 millions d'habitants au 1er janvier 2010. Elle est l'une des agglomérations européennes les plus peuplées.La position de Paris, à un carrefour entre les itinéraires commerciaux terrestres et fluviaux et au cœur d’une riche région agricole, en fait une des principales villes de France au cours du Xe siècle, avec des palais royaux, de riches abbayes et une cathédrale ; au cours du XIIe siècle, Paris devient un des premiers foyers en Europe pour l’enseignement et les arts. Le pouvoir royal se fixant dans cette ville, son importance économique et politique ne cesse de croître. Ainsi, au début du XIVe siècle, Paris est l'une des villes les plus importantes de tout le monde chrétien. Au XVIIe siècle, elle est la capitale de l'une des principales puissances politiques européenne, au XVIIIe siècle l'un des plus grands centres culturels de l’Europe et au XIXe siècle la capitale des arts et des plaisirs. Paris joue donc un rôle politique et économique majeur dans l’histoire de l'Europe au cours du IIe millénaire. Symbole de la culture française, abritant de nombreux monuments, la ville attire dans les années 2000 près de trente millions de visiteurs par an. Paris occupe également une place prépondérante dans le milieu de la mode et du luxe ; c'est aussi la capitale la plus visitée au monde.La ville est, avec sa banlieue, la capitale économique et commerciale de la France, ainsi que sa première place financière et boursière. La région parisienne, avec un produit intérieur brut (PIB) de 607 milliards d'euros (845 milliards de dollars) en 2011, est un acteur économique européen majeur. Elle est la 1re région européenne en termes de PIB régional et 6e en termes de PIB par habitant PPA. La densité de son réseau ferroviaire, autoroutier et sa structure aéroportuaire, plaque tournante du réseau aérien français et européen, en font un point de convergence pour les transports internationaux. Cette situation résulte d’une longue évolution, en particulier des conceptions centralisatrices des monarchies et des républiques, qui donnent un rôle considérable à la capitale dans le pays et tendent à y concentrer les institutions. Depuis les années 1960, les politiques gouvernementales oscillent toutefois entre déconcentration et décentralisation.@fr" ;
+        tourisme:imageUrl      "http://commons.wikimedia.org/wiki/Special:FilePath/Paris_montage2.jpg?width=300" ;
+        tourisme:localisation  "48.8567 2.3508" ;
+        tourisme:siteWeb       "http://www.paris.fr/" .
+
+tourisme:La_Tragantua
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Veronica, 4, 28014 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1222048-Reviews-La_Tragantua-Madrid.html/" ;
+        tourisme:telephone  "914203108" .
+
+tourisme:Le_Bistrot_De_La_Vieille
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "8 Rue Saint Vincent, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6550546-Reviews-Le_Bistrot_de_la_Vieille-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 89 22 68 98" .
+
+tourisme:Chez_Toinette
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "20, rue Germain Pilon, Paris Montmartre, 75018 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d715006-Reviews-Chez_Toinette-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 42 54 44 36" .
+
+tourisme:Brasseria_Italiana_-_Punto_Giusto
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "7 Rue de la Cerisaie, 75004 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6168613-Reviews-Brasseria_Italiana_Punto_Giusto-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "0142785647" .
+
+tourisme:osteria_pane_e_vino
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "48 Rue Archimede, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d7140973-Reviews-Osteria_pane_e_vino-Brussels.html/" ;
+        tourisme:telephone  "+32 2 230 59 51" .
+
+tourisme:Carabassa_Restaurant
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carabassa 19, 08002 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3357229-Reviews-Carabassa_Restaurant-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "933025204" .
+
+tourisme:DokiDoki  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle de Villalar, 4, 28001 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7125336-Reviews-DokiDoki-Madrid.html/" ;
+        tourisme:telephone  "+34 917 79 36 49" .
+
+<http://www.polytech.semantique/tourisme#Piazze_D'Italia>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer de Casanova, 94, 08011 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d997375-Reviews-Piazze_D_Italia-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 933 23 59 77" .
+
+tourisme:Munich  a             "http://www.polytech.semantique/tourisme#Ville" ;
+        tourisme:codePostale   "80331–81929" ;
+        tourisme:dansPays      tourisme:Germany ;
+        tourisme:description   "Munich [mynik] (München en allemand, Minga en bavarois) est, avec 1 443 122 habitants, la troisième ville d'Allemagne par la population après Berlin et Hambourg. Son aire urbaine compte 2 351 706 habitants. Munich est la capitale du Land de Bavière et du district de Haute-Bavière. Située entre 482 et 579 mètres d'altitude, la ville est traversée par l'Isar sur une distance de 13,7 km, du sud-ouest au nord-est. Important pôle économique, siège de grandes sociétés dont Siemens, Allianz, BMW, Münchener Rückversicherung, Linde, EADS Deutschland et HypoVereinsbank.Selon Eurostat, la zone urbaine élargie de la région métropolitaine de Munich est la plus importante d'Allemagne en termes de PIB avec 117,6 milliards d'euros, devant Hambourg, Berlin et Francfort. Avec un PIB par habitant de 53 073 euros, Munich est également l'une des villes les plus riches de l'Union européenne.La ville est célèbre pour sa traditionnelle fête de la bière (Oktoberfest) qui se déroule, chaque année, de fin septembre à début octobre.C'est la deuxième destination touristique d'Allemagne après Berlin.Les habitants de Munich sont des Munichois(e)s.@fr" ;
+        tourisme:imageUrl      "http://commons.wikimedia.org/wiki/Special:FilePath/Munchen_collage.jpg?width=300" ;
+        tourisme:localisation  "48.13333333333333 11.566666666666666" ;
+        tourisme:siteWeb       "http://www.muenchen.de/" .
+
+tourisme:La_Gelateria_Frigidarium
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via del Governo Vecchio, 112, 00186 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d1536028-Reviews-La_Gelateria_Frigidarium-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 334 995 1184" .
+
+tourisme:EssZimmer_-_Fine_Dining_Restaurant_in_der_BMW_Welt
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Am Olympiapark 1 | BMW Welt, 80809 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4368168-Reviews-EssZimmer_Fine_Dining_Restaurant_in_der_BMW_Welt-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+(49) 89 358 99 18 14" .
+
+<http://www.polytech.semantique/tourisme#Fin_de_SiÃ¨cle>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue des Chartreux 9, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1852850-Reviews-Fin_de_Siecle-Brussels.html/" ;
+        tourisme:telephone  "4.5 5 Ã©toiles" .
+
+<http://www.polytech.semantique/tourisme#L'Arena_del_Gelato>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via di Porta Castello, 8/A, 00193 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3844357-Reviews-L_Arena_del_Gelato-Rome_Lazio.html/" ;
+        tourisme:telephone  "+(39)0668806312" .
+
+tourisme:Cobea  a           "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "11, rue Raymond Losserand, 75014  Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2320662-Reviews-Cobea-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 43 20 21 39 " .
+
+<http://www.polytech.semantique/tourisme#L'inattendu>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "13 Rue St Paul, 75004 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6475397-Reviews-L_inattendu-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "06 63 35 84 21" .
+
+tourisme:Miseria_e_Nobilta
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Dels Enamorats, NÂ° 112, 08026 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7158449-Reviews-Miseria_e_Nobilta-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "93.500.99.68" .
+
+<http://www.polytech.semantique/tourisme#Le_SÃ©jour_CafÃ©>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "11 Rue Grimaldi, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3255993-Reviews-Le_Sejour_Cafe-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 27 37 84" .
+
+tourisme:SantaGula  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Plaza Narcis Oller, 3, 08006 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2518790-Reviews-SantaGula-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 931 85 76 49" .
+
+tourisme:Rome  a  "http://www.polytech.semantique/tourisme#Ville" .
+
+tourisme:Koy_Shunka  a      "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer de Copons, 08002 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d1471799-Reviews-Koy_Shunka-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "93 412 79 39" .
+
+tourisme:Il_Pasticcio
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue Marie de Bourgogne 3, Bruxelles 1050, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d814522-Reviews-Il_Pasticcio-Brussels.html/" ;
+        tourisme:telephone  "2 512 62 52" .
+
+tourisme:Le_Jamoncito
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "13 Rue Quincampoix, Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6802665-Reviews-Le_Jamoncito-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "0142710308" .
+
+tourisme:Comme_Chez_Soi
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "place Rouppe 23, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d691977-Reviews-Comme_Chez_Soi-Brussels.html/" ;
+        tourisme:telephone  "+32 2 512 29 21" .
+
+tourisme:Petit_Pau_Restaurant
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer de l'Espanya Industrial num. 22, 08014 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5484912-Reviews-Petit_Pau_Restaurant-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 933 31 32 75" .
+
+tourisme:Chez_Papa_Fred
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "25 Boulevard de la Madeleine, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3175650-Reviews-Chez_Papa_Fred-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 86 84 60" .
+
+tourisme:La_Forquilla
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Pere IV, 210, Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2578464-Reviews-La_Forquilla-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "93.300.79.80" .
+
+tourisme:Vinos_de_Bellota
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Antonio Acuna 27 | Doctor Castelo 3, 28009 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3530204-Reviews-Vinos_de_Bellota-Madrid.html/" ;
+        tourisme:telephone  "+34 912 09 26 36" .
+
+tourisme:Tast-Ller  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Barri Gotic, 08002 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6482227-Reviews-Tast_Ller-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 663 83 37 17" .
+
+tourisme:Neuhaus_Galerie_de_la_Reine_-_Salon_de_Chocolat
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Galerie de la Reine 29, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d4059377-Reviews-Neuhaus_Galerie_de_la_Reine_Salon_de_Chocolat-Brussels.html/" ;
+        tourisme:telephone  "+32 (0) 2 502 92 82" .
+
+tourisme:I_Vicini_Bistrot
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Di Torre Argentina 70, 00186 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7097365-Reviews-I_Vicini_Bistrot-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 4555 5563" .
+
+tourisme:Wonderful_Ice_Cream
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Nazionale 19A | Via Del Corso 74, 00184 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5038694-Reviews-Wonderful_Ice_Cream-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 487 1809" .
+
+tourisme:La_Pagnottella_Gourmet
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Quintino Sella 53, 00187 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3837037-Reviews-La_Pagnottella_Gourmet-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 6482 4024" .
+
+tourisme:Dinnerhopping
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Arnulfstr. 1 | Start und Ende des Erlebnissdinners, 80636 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4085091-Reviews-Dinnerhopping-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 8122 559912" .
+
+<http://www.polytech.semantique/tourisme#Cremeria_Don_Pepe_"Gelateria_e_Yogurteria">
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via di San Giovanni in Laterano 40, 00184 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4088077-Reviews-Cremeria_Don_Pepe_Gelateria_e_Yogurteria-Rome_Lazio.html/" ;
+        tourisme:telephone  "5.0 5 Ã©toiles" .
+
+tourisme:Jeremie  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "33, rue de Longchamp, 75116 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6538833-Reviews-Jeremie-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+(33)147049681" .
+
+tourisme:Taberna_Gastromaquia
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Pelayo 8 | chueca, Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1024062-Reviews-Taberna_Gastromaquia-Madrid.html/" ;
+        tourisme:telephone  "915226413" .
+
+tourisme:Pinsere_Roma
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Flavia, 98, 00187 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3570028-Reviews-Pinsere_Roma-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 4202 0924" .
+
+tourisme:Taberna_el_Sur
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Torrecilla del Leal 12, Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d2527526-Reviews-Taberna_el_Sur-Madrid.html/" ;
+        tourisme:telephone  "34 915 278 340" .
+
+tourisme:Casa_9_Restaurante
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Reina 9, 28004 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d4847445-Reviews-Casa_9_Restaurante-Madrid.html/" ;
+        tourisme:telephone  "915237493" .
+
+tourisme:Cera_23  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer de la Cera, 23, 08001 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2314335-Reviews-Cera_23-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 934 42 08 08" .
+
+<http://www.polytech.semantique/tourisme#"FÃ­aschetteria_""La_Saletta""">
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle de Santa Isabel 5 | Mercado de Anton Martin, Madrid Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6736921-Reviews-Fiaschetteria_La_Saletta-Madrid.html/" ;
+        tourisme:telephone  "+34 914 29 17 71" .
+
+tourisme:Buenos_Aires_Grill_Restaurant
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer de ValÃ¨ncia, 189, 08011 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6413496-Reviews-Buenos_Aires_Grill_Restaurant-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 933 28 46 33" .
+
+tourisme:Oliviera  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "8 bis rue du Collet, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1155633-Reviews-Oliviera-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "0493130645" .
+
+<http://www.polytech.semantique/tourisme#Co.So._Cocktails_&_Social>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Braccio da Montone 80, Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5605648-Reviews-Co_So_Cocktails_Social-Rome_Lazio.html/" ;
+        tourisme:telephone  "0645435428" .
+
+tourisme:Bar_Italia_Brasserie
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "22 Rue Moncey, 75009 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d3842915-Reviews-Bar_Italia_Brasserie-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 83 97 25 85 " .
+
+tourisme:La_Canica  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Avda. De Los Andes 25, 28043 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7284099-Reviews-La_Canica-Madrid.html/" ;
+        tourisme:telephone  "+34 913 20 15 03" .
+
+tourisme:Pizza_Dai_Cinque
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Cicerone 76/78, 00193 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6367220-Reviews-Pizza_Dai_Cinque-Rome_Lazio.html/" ;
+        tourisme:telephone  "063208731" .
+
+tourisme:Garnett  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "85 Rue Cardinet, Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7233108-Reviews-Garnett-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "09 67 14 82 20" .
+
+tourisme:Le_Chantecler
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "37, promenade des Anglais, Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d965976-Reviews-Le_Chantecler-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 (0)4 93 16 64 00" .
+
+tourisme:Gastro_Wriasko
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/Lagasca 103, 28006 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7004356-Reviews-Gastro_Wriasko-Madrid.html/" ;
+        tourisme:telephone  "+34 916 34 08 29" .
+
+tourisme:Epicure  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "112 rue du Faubourg Saint HonorÃ©, 75008 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 (0)1 53 43 43 40" .
+
+tourisme:Nam_Giao_31  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Maistrasse 31 | Naehe Sendlinger Tor, 80337 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1932566-Reviews-Nam_Giao_31-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49(0)8959988033" .
+
+tourisme:Waraku  a          "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Guglielmo Albimonte 12-12A, Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4297416-Reviews-Waraku-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 329 724 8911" .
+
+tourisme:Kreta_Grill  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "NordendstraÃŸe 60, 80801 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983425-Reviews-Kreta_Grill-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "089 / 271 52 02" .
+
+tourisme:Bespoke  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "3 Rue Oberkampf, 75011 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6500714-Reviews-Bespoke-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 58 30 88 59" .
+
+tourisme:Sushi_Se  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Agnesstr. 2, 80801 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6714776-Reviews-Sushi_Se-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "08928778277" .
+
+<http://www.polytech.semantique/tourisme#L'Aubergeade>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue de Chaligny, Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d718040-Reviews-L_Aubergeade-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "01 43 44 33 36" .
+
+tourisme:La_Villa_Lorraine
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Avenue du Vivier d'Oie 75, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d694768-Reviews-La_Villa_Lorraine-Brussels.html/" ;
+        tourisme:telephone  "02 374 31 63" .
+
+tourisme:Mati  a            "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "43, rue Duquesnoy, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6484830-Reviews-Mati-Brussels.html/" ;
+        tourisme:telephone  "+32(0)2/540.87.71" .
+
+tourisme:Il_Etait_Un_Square
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "54 Rue Corvisart, 75013 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6575305-Reviews-Il_Etait_Un_Square-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "0143376807" .
+
+<http://www.polytech.semantique/tourisme#C'est_Bon_C'est_Belge>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue de Bon Secours 14-16 | Bruxelles, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3741305-Reviews-C_est_Bon_C_est_Belge-Brussels.html/" ;
+        tourisme:telephone  "+32 2 512 19 99" .
+
+tourisme:Jan  a             "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "12 Rue Lascaris, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d4975072-Reviews-Jan-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 97 19 32 23" .
+
+<http://www.polytech.semantique/tourisme#Chez_Freddy_|_Jusqu'Ã _50Â %_de_rÃ©duction>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "20-22 Cours Saleya | Vieux Nice, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1234666-Reviews-Chez_Freddy-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 85 49 99" .
+
+tourisme:Domino_Bar  a      "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer de Les Flors, 16, 08001 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3753321-Reviews-Domino_Bar-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 696 46 17 25" .
+
+tourisme:Hedera  a          "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Borgo Pio 179, 00193 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4045683-Reviews-Hedera-Rome_Lazio.html/" ;
+        tourisme:telephone  "+(39)066832971" .
+
+tourisme:My_Little_Cup
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue de la Croix de Fer, 53, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6995372-Reviews-My_Little_Cup-Brussels.html/" ;
+        tourisme:telephone  "483015660" .
+
+tourisme:Zwickl_-_Gastlichkeit_am_Viktualienmarkt
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Dreifaltigkeitsplatz 2, 80331 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3499387-Reviews-Zwickl_Gastlichkeit_am_Viktualienmarkt-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 46228833" .
+
+tourisme:La_Provencita
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Santa Isabel 5 | (Planta 1, Puesto 23), 28012 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6899427-Reviews-La_Provencita-Madrid.html/" ;
+        tourisme:telephone  "+34 697 24 48 82" .
+
+tourisme:CUARTO_y_MITAD
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Nou de la Ramba, 146 | 08004, 08004 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6916095-Reviews-CUARTO_y_MITAD-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 931 88 90 67" .
+
+tourisme:Le_Vaisseau_Vert
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "10, Rue de Parme, 75009 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6856452-Reviews-Le_Vaisseau_Vert-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 6 01 13 17 91" .
+
+tourisme:Why_Not_Cocktail_Bar
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "353, Diagonal Avenue | Barcelona, Spain, 08037 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5795008-Reviews-Why_Not_Cocktail_Bar-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 692 25 66 46" .
+
+tourisme:La_Route_du_Miam
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "1, rue MoliÃ¨re, Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1111880-Reviews-La_Route_du_Miam-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "06 16 36 33 22" .
+
+tourisme:Vinpasa  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Isabellastrasse 47, 80796 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2182818-Reviews-Vinpasa-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 27373511" .
+
+tourisme:Bacio_Di_Puglia
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Del Mascherino 59, 00193 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6578187-Reviews-Bacio_Di_Puglia-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 6830 7697" .
+
+tourisme:Carnavalet_Museum
+        a                      "http://www.polytech.semantique/tourisme#Monument" ;
+        tourisme:description   "Le musée Carnavalet est le musée municipal parisien consacré à l'Histoire de Paris des origines de la ville à nos jours. Situé dans le quartier du Marais au 23, rue de Sévigné, à Paris, dans le 3e arrondissement, il présente des collections exceptionnelles : souvenirs de la Révolution française, peintures, sculptures, mobilier et objets d'art. Il est dirigé depuis 1993 par Jean-Marc Léri.Le musée est constitué de l'hôtel de Carnavalet et l'hôtel Le Peletier de Saint-Fargeau reliés par une galerie située au premier étage.Il s'agit d'un des 14 Musées de la Ville de Paris gérés depuis le 1er janvier 2013 par l'établissement public administratif Paris Musées." ;
+        tourisme:estSituéA     tourisme:Paris ;
+        tourisme:imageUrl      "http://commons.wikimedia.org/wiki/Special:FilePath/Carnavalet_Portal.JPG?width=300" ;
+        tourisme:localisation  "48.8574 2.36214" ;
+        tourisme:siteWeb       "http://carnavalet.paris.fr/en" .
+
+tourisme:336  a             "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Consell de Cent 336, 08009 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3635934-Reviews-336-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 934 67 67 35" .
+
+tourisme:La_Pizzetteria
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Vestricio Spurinna, 53 | Angolo Farmacia Scribonio Curione, 00100 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3494494-Reviews-La_Pizzetteria-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 7696 7895" .
+
+tourisme:Disfrutar  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Villarroel, 163, 08036 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7281314-Reviews-Disfrutar-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+(34)933486896" .
+
+tourisme:Tramonti_e_Muffati
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Santa Maria Ausiliatrice, 105, 00181 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d798103-Reviews-Tramonti_e_Muffati-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 780 1342" .
+
+tourisme:Madrid  a  "http://www.polytech.semantique/tourisme#Ville" .
+
+tourisme:Le_Chou_de_Bruxelles
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue de Florence 26, Ixelles, Bruxelles 1050, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g1136493-d1013936-Reviews-Le_Chou_de_Bruxelles-Ixelles_Brussels.html/" ;
+        tourisme:telephone  "+32 2 537 69 95" .
+
+tourisme:Bon-bon  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "avenue de Tervueren 453, Bruxelles 1150, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d800348-Reviews-Bon_bon-Brussels.html/" ;
+        tourisme:telephone  "003223466615" .
+
+<http://www.polytech.semantique/tourisme#Le_Second_DegrÃ©>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "15, Avenue Legrand, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5927690-Reviews-Le_Second_Degre-Brussels.html/" ;
+        tourisme:telephone  "+(32)2 647 29 47" .
+
+tourisme:Noordzee_Mer_du_Nord
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "45, Rue Sainte-Catherine, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1133830-Reviews-Noordzee_Mer_du_Nord-Brussels.html/" ;
+        tourisme:telephone  "02 513 11 92" .
+
+tourisme:La_Era_Restaurante
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Infanta Mercedes, 103, 28020 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3864734-Reviews-La_Era_Restaurante-Madrid.html/" ;
+        tourisme:telephone  "+(34)915670144" .
+
+tourisme:Delicatessen
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue Sainte-Catherine 17-19, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d4741883-Reviews-Delicatessen-Brussels.html/" ;
+        tourisme:telephone  "+32 2 324 78 79" .
+
+tourisme:Locanda_Giuliva
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Lungotevere Flaminio 62 d, 00196 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5889231-Reviews-Locanda_Giuliva-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 324 1835" .
+
+tourisme:Mimmo_E_Co  a      "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Kapuzinerstr. 6, 80337 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6676190-Reviews-Mimmo_E_Co-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "(0) 89/ 76701545" .
+
+<http://www.polytech.semantique/tourisme#True_&_12_Handmade_Ice_Cream>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rosenheimer Strasse 14, 81669 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6619136-Reviews-True_12_Handmade_Ice_Cream-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "4.5 5 Ã©toiles" .
+
+<http://www.polytech.semantique/tourisme#Todo_Pasa_|_Jusqu'Ã _50Â %_de_rÃ©duction>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Vila I Vila, 53 Paral-Lel, 08004 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6561880-Reviews-Todo_Pasa-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "933 284 692" .
+
+tourisme:La_Roustide  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "34 Rue Beaumont | Riquier/ acropolis, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1401830-Reviews-La_Roustide-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "04 93 89 69 60" .
+
+tourisme:Aksum_Coffee_House
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue des Eperonniers/Spoormakersstraat 60, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2207931-Reviews-Aksum_Coffee_House-Brussels.html/" ;
+        tourisme:telephone  "4.5 5 Ã©toiles" .
+
+tourisme:napa  a            "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Aribau 151, 08036 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7131299-Reviews-Napa-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 933 48 36 52" .
+
+tourisme:beach38  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Friedenstrasse 22c | 81671, Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3249941-Reviews-Beach38-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "4.5 5 Ã©toiles" .
+
+tourisme:Angrypig_Birretta_e_Porchetta
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Tunisi, 38, 00192 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6603135-Reviews-Angrypig_Birretta_e_Porchetta-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 6452 1633" .
+
+<http://www.polytech.semantique/tourisme#L'Ange_20_Restaurant>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "8 Rue Geoffroy L'Angevin, 75004 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2042295-Reviews-L_Ange_20_Restaurant-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 (0)1 40 27 93 67" .
+
+tourisme:The_Louvre  a         "http://www.polytech.semantique/tourisme#Monument" ;
+        tourisme:description   "Le musée du Louvre est l'un des plus grands musées du monde et le plus grand musée de Paris par sa surface de 210 000 m2 dont 60 600 consacrés aux expositions. Situé au cœur de la ville, entre la rive droite de la Seine et la rue de Rivoli, dans le 1er arrondissement, le bâtiment est un ancien palais royal, le palais du Louvre. La statue équestre de Louis XIV constitue le point de départ de l'axe historique, mais le palais n'est pas aligné sur cet axe. Le Louvre possède une longue histoire de conservation artistique et historique de la France, depuis les rois capétiens jusqu'à nos jours." ;
+        tourisme:estSituéA     tourisme:Paris ;
+        tourisme:imageUrl      "http://commons.wikimedia.org/wiki/Special:FilePath/Le_Louvre_-_Aile_Richelieu.jpg?width=300" ;
+        tourisme:localisation  "48.860339 2.337599" , "48.861111111111114 2.336388888888889" ;
+        tourisme:siteWeb       "http://www.louvre.fr/en/homepage" .
+
+tourisme:Melodynice  a      "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "12 rue Dante, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2508314-Reviews-Melodynice-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "0483552915" .
+
+<http://www.polytech.semantique/tourisme#Gelateria_dellâ€™Angeletto_â€“_Emporio_dei_Gracchi>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via dell'Angeletto 15, Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6681031-Reviews-Gelateria_dell_Angeletto_Emporio_dei_Gracchi-Rome_Lazio.html/" ;
+        tourisme:telephone  "39 06 4874760" .
+
+tourisme:MiPi_Pizzeria
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "11 rue Danielle Casanova | Ouver, 75001 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7122280-Reviews-MiPi_Pizzeria-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 42 86 80 80" .
+
+tourisme:Nostos  a          "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Blutenburgstrasse 2, 80636 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2721198-Reviews-Nostos-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 12027766" .
+
+tourisme:Gelateria_Valentino
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Del Lavatore, 96, 00187 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d2313678-Reviews-Gelateria_Valentino-Rome_Lazio.html/" ;
+        tourisme:telephone  "06.6783219" .
+
+tourisme:Alright  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle de Pedro Rico 54, 28029 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7239164-Reviews-Alright-Madrid.html/" ;
+        tourisme:telephone  "912190725" .
+
+<http://www.polytech.semantique/tourisme#Le_Bistrot_d'Antoine>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "27 rue de la Prefecture, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2328934-Reviews-Le_Bistrot_d_Antoine-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "04.93852957 " .
+
+tourisme:Taberna_Origen
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/Juan Alvarez Mendizabal 44, 28008 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6613386-Reviews-Taberna_Origen-Madrid.html/" ;
+        tourisme:telephone  "912240559" .
+
+tourisme:Aux_Petits_Plaisirs
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "103 boulevard Cessole, 06100 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2238274-Reviews-Aux_Petits_Plaisirs-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 44 20 23" .
+
+tourisme:Bia_Mara  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue du Marche aux Poulets 41 | 1000 Brussels, Bruxelles, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3600650-Reviews-Bia_Mara-Brussels.html/" ;
+        tourisme:telephone  "+32 2 502 00 61" .
+
+tourisme:France  a  "http://www.polytech.semantique/tourisme#Pays" ;
+        rdfs:label  "France" .
+
+tourisme:Pucci_Restaurant
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "57, avenue Cyrille Besset, 06100 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3859360-Reviews-Pucci_Restaurant-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 9 83 36 32 22" .
+
+tourisme:Metro_Bistro_-_Plaza_Mayor
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Imperial, 3, 28012 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6498928-Reviews-Metro_Bistro_Plaza_Mayor-Madrid.html/" ;
+        tourisme:telephone  "+34 913 66 33 19" .
+
+tourisme:Collage_Barcelona
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Consellers 4, 08003 Barcelone, Espagne (Anciennement Collage Art & Cocktails Social Club)" ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3747470-Reviews-Collage_Barcelona-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 931 79 37 85" .
+
+tourisme:Con_Gracia  a      "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Martinez de la Rosa 8, 08012 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d697505-Reviews-Con_Gracia-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "93 238 0201" .
+
+tourisme:Alexandre  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "164, rue du Midi, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1969696-Reviews-Alexandre-Brussels.html/" ;
+        tourisme:telephone  "+32 2 502 40 55" .
+
+tourisme:Mordi_e_Vai  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via B. Franklin, 12 E (nuovo mercato testaccio) | Box 15, Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3662985-Reviews-Mordi_e_Vai-Rome_Lazio.html/" ;
+        tourisme:telephone  "3391343344" .
+
+tourisme:Likeat  a          "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Corso Vittorio Emanuele II 310, 00186 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5777687-Reviews-Likeat-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 349 706 1072" .
+
+tourisme:La_Mie_Cale  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "132 Boulevard du Montparnasse, 75014 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d5787827-Reviews-La_Mie_Cale-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 43 20 02 90" .
+
+<http://www.polytech.semantique/tourisme#Le_Reminet_|_Jusqu'Ã _50Â %_de_rÃ©duction>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "3,rue des Grands-Degres, 75005 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719235-Reviews-Le_Reminet-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "01 44 07 04 24" .
+
+<http://www.polytech.semantique/tourisme#Comics_Cafe_|_Jusqu'Ã _30Â %_de_rÃ©duction>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Place du Grand Sablon, 8, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2351600-Reviews-Comics_Cafe-Brussels.html/" ;
+        tourisme:telephone  "02 513 13 23" .
+
+tourisme:Las_7_Maravillas
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Gran via de les Corts Catalanes 682, 08010 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4137816-Reviews-Las_7_Maravillas-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 931 19 18 07" .
+
+tourisme:Germany  a  "http://www.polytech.semantique/tourisme#Pays" ;
+        rdfs:label  "Germany" .
+
+tourisme:Polly_and_Cie
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "6, avenue du Ray, 06100 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d5220418-Reviews-Polly_and_Cie-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 97 11 01 39" .
+
+tourisme:Mystikon  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Walchenseeplatz 4, 81539 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3223828-Reviews-Mystikon-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 62009339" .
+
+tourisme:Grand_Palais
+        a                      "http://www.polytech.semantique/tourisme#Monument" ;
+        tourisme:description   "Le Grand Palais est un monument parisien situé en bordure des Champs-Élysées, face au Petit Palais, dont il est séparé par l'Avenue Winston-Churchill dans le 8e arrondissement. Ses 77 000 m2 abritent régulièrement salons et expositions prestigieuses." ;
+        tourisme:estSituéA     tourisme:Paris ;
+        tourisme:imageUrl      "http://commons.wikimedia.org/wiki/Special:FilePath/GD-FR-Paris-Grand_Palais.jpg?width=300" ;
+        tourisme:localisation  "48.866161 2.312553" , "48.866142 2.312498" ;
+        tourisme:siteWeb       "http://www.grandpalais.fr/en/Homepage/p-617-Homepage.htm" .
+
+tourisme:Moeder_Lambic
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "68, Rue de Savoie, Bruxelles 1060, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1440912-Reviews-Moeder_Lambic-Brussels.html/" ;
+        tourisme:telephone  "02 53 91 41 9" .
+
+tourisme:Chez_Mireille
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "19 Boulevard Raimbaldi, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1322108-Reviews-Chez_Mireille-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 85 27 23" .
+
+tourisme:Restaurante_Margherita
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer del Rossello, 253, 08008 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820198-Reviews-Restaurante_Margherita-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "34 936 11 56 67" .
+
+tourisme:Yuki_hana_munich
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Stollbergstrasse 6, Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4781710-Reviews-Yuki_hana_munich-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "498921269018" .
+
+tourisme:Restaurant_Montiel
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Flassaders 19, 08003 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d1205006-Reviews-Restaurant_Montiel-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 932 68 37 29" .
+
+tourisme:aQistoi  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Gerona 94, 08009 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4453379-Reviews-AQistoi-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 931 40 33 50" .
+
+tourisme:restaurant_amber
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Ostpreussen Str. 45 | ., 81927 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6103934-Reviews-Restaurant_amber-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+(49)89 99939775" .
+
+<http://www.polytech.semantique/tourisme#Restaurant_Les_GarÃ§ons>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "3 rue Centrale, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6781651-Reviews-Restaurant_Les_Garcons-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 80 87 90" .
+
+tourisme:La_Prosciutteria
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Della Panetteria, 34 | Fontana Di Trevi, 00198 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6216305-Reviews-La_Prosciutteria-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 066786990" .
+
+tourisme:Restaurante_Castilla
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Avenida de Cantabria 39 | W, 28042 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3725260-Reviews-Restaurante_Castilla-Madrid.html/" ;
+        tourisme:telephone  "917470103" .
+
+tourisme:Winehouse_Osteria
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue de la Grande Ile 42, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6475366-Reviews-Winehouse_Osteria-Brussels.html/" ;
+        tourisme:telephone  "+32 2 350 09 21" .
+
+tourisme:Bistro_Saint_Louis
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "15 Rue Tonduti de l'Escarene, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3380276-Reviews-Bistro_Saint_Louis-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 62 93 36" .
+
+tourisme:Hue_House  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "OberlÃ¤enderstr. 31, 81371 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d5523772-Reviews-Hue_House-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "8976776208" .
+
+<http://www.polytech.semantique/tourisme#Marc_de_CafÃ©>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "5 rue Colonna d'Istria | Vieux Nice, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6947349-Reviews-Marc_de_Cafe-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 9 81 99 58 09" .
+
+tourisme:Bibulus  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Siegfriedstr. 11, 80803 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1346226-Reviews-Bibulus-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 396447" .
+
+tourisme:Restaurante_La_Mi_Venta
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Plaza Marina Espanola, 7, 28013 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1511527-Reviews-Restaurante_La_Mi_Venta-Madrid.html/" ;
+        tourisme:telephone  "+34 915 59 50 91" .
+
+tourisme:Bistrot_Chaud-Vin
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "6 Rue Chauvain, Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d4814809-Reviews-Bistrot_Chaud_Vin-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 16 81 26" .
+
+tourisme:La_Porta_Del_Principe
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Portuense, 1585, 00148 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3562615-Reviews-La_Porta_Del_Principe-Rome_Lazio.html/" ;
+        tourisme:telephone  "0665001249" .
+
+tourisme:Le_Wine_Bar_du_Sablon_des_Marolles
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue Haute 198, Bruxelles 1000, Belgique (Anciennement Le Wine Bar du Sablon)" ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1635467-Reviews-Le_Wine_Bar_du_Sablon_des_Marolles-Brussels.html/" ;
+        tourisme:telephone  "+32 (0)496 82 01 05" .
+
+tourisme:Gelateria_La_Romana_Roma_Ventisettembre
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "via Venti Settembre 60, 00187 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4492728-Reviews-Gelateria_La_Romana_Roma_Ventisettembre-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 4202 0828" .
+
+tourisme:La_Veraison  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "64 Rue de la Croix Nivert, Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2431710-Reviews-La_Veraison-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 45 32 39 39" .
+
+tourisme:Paninoteca_Slurp
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Degli Scipioni 62, Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5562550-Reviews-Paninoteca_Slurp-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 328 458 5953" .
+
+tourisme:Bistrotters  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "9, rue Decres, 75014 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719507-Reviews-Bistrotters-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 45 45 58 59" .
+
+tourisme:Restaurante_Lasarte
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Mallorca, 259, 08008 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d809578-Reviews-Restaurante_Lasarte-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "(+34) 93 445 32 42" .
+
+tourisme:Restaurant_Ilios
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Situlistr 7, 80939 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6997144-Reviews-Restaurant_Ilios-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 36004112" .
+
+tourisme:Bahia_Taberna
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Bahia de Palma 9 | Esquina Bahia de Almeria, 28042 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d803211-Reviews-Bahia_Taberna-Madrid.html/" ;
+        tourisme:telephone  "91 747 69 44" .
+
+tourisme:The_Market_Madrid
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/PrÃ­ncipe de Vergara 202, 28002 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d5780943-Reviews-The_Market_Madrid-Madrid.html/" ;
+        tourisme:telephone  "+34 918 05 79 91" .
+
+tourisme:Moeder_Lambic_Fontainas
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "8 place Fontainas, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2258297-Reviews-Moeder_Lambic_Fontainas-Brussels.html/" ;
+        tourisme:telephone  "+32 2 503 60 68" .
+
+tourisme:Le_Diane  a        "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "46 avenue George V, 75008 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2286587-Reviews-Le_Diane-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "01 40 69 60 60" .
+
+tourisme:Taverna_Limani
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rotdornstrasse 2, 81547 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6638510-Reviews-Taverna_Limani-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 69804072" .
+
+tourisme:Geisels_Werneckhof
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Werneckstrasse 11, 80802 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2351481-Reviews-Geisels_Werneckhof-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 38879568" .
+
+tourisme:Tonton_Garby
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "6 Duquesnoy, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5826726-Reviews-Tonton_Garby-Brussels.html/" ;
+        tourisme:telephone  "0484-29.02.16 " .
+
+tourisme:Gourmet_Restaurant_Koenigshof
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Karlsplatz 25, 80335 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983174-Reviews-Gourmet_Restaurant_Koenigshof-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 55136141" .
+
+tourisme:Restaurante_La_Gaditana
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "C/ Fuente del Berro 23, 28009 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d5787470-Reviews-Restaurante_La_Gaditana-Madrid.html/" ;
+        tourisme:telephone  "91 115 37 51" .
+
+tourisme:The_Box  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Carrer D'en Gignas 30, 08002 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820228-Reviews-The_Box-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 933 19 67 17" .
+
+tourisme:Poechenellekelder
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue du Chene 5, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3707111-Reviews-Poechenellekelder-Brussels.html/" ;
+        tourisme:telephone  "+32 2 511 92 62" .
+
+tourisme:Spoonik  a         "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Plaza Lesseps S/N, 08023 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6278428-Reviews-Spoonik-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 648 08 52 09" .
+
+<http://www.polytech.semantique/tourisme#la_candela_restÃ²_madrid>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "10 Calle Amnistia, 28013 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6915926-Reviews-La_candela_resto_madrid-Madrid.html/" ;
+        tourisme:telephone  "+34 911 73 98 88" .
+
+<http://www.polytech.semantique/tourisme#St_James_|_Jusqu'Ã _50Â %_de_rÃ©duction>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "14 Calle de Rosario Pino, 28020 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d4542399-Reviews-St_James-Madrid.html/" ;
+        tourisme:telephone  "+34 915 70 46 91" .
+
+tourisme:Carlota_Akaneya
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Pintor Fortuny 32, 08001 Barcelone, Espagne " ;
+        tourisme:estSituéA  tourisme:Barcelone ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2369018-Reviews-Carlota_Akaneya-Barcelona_Catalonia.html/" ;
+        tourisme:telephone  "+34 933 02 77 68" .
+
+tourisme:Le_Statu.co  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "12 Rue Pastorelli, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3622787-Reviews-Le_Statu_co-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 87 84 24" .
+
+<http://www.polytech.semantique/tourisme#Cit%C3%A9_de_l'%C3%A9conomie_et_de_la_monnaie>
+        a                      "http://www.polytech.semantique/tourisme#Monument" ;
+        tourisme:description   "La Banque de France a annoncé l’ouverture d’une Cité de l’économie et de la monnaie, le 25 mai 2011, lors d’une conférence de presse du Gouverneur Christian Noyer. Son ouverture est prévue à l'été 2015.Ce lieu pédagogique, visant à expliquer l’économie et ses concepts, s’installera dans l’hôtel Gaillard, au 1, place du Général-Catroux, dans le 17e arrondissement à Paris." ;
+        tourisme:estSituéA     tourisme:Paris ;
+        tourisme:imageUrl      "http://commons.wikimedia.org/wiki/Special:FilePath/Hôtel_Gaillard_-_façade_extérieure_-_2000.jpg?width=300" ;
+        tourisme:localisation  "48.8821848 2.3103401" ;
+        tourisme:siteWeb       "http://www.citedeleconomie.fr/-English-" .
+
+tourisme:La_Maison_Corica
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Rue marche aux poulets 49, Bruxelles, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5541824-Reviews-La_Maison_Corica-Brussels.html/" ;
+        tourisme:telephone  "5.0 5 Ã©toiles" .
+
+tourisme:Panino_Divino
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Via Dei Gracchi 11/a, 00192 Rome, Italie " ;
+        tourisme:estSituéA  tourisme:Rome ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4313663-Reviews-Panino_Divino-Rome_Lazio.html/" ;
+        tourisme:telephone  "+39 06 3973 7803" .
+
+tourisme:Le_Sweeties  a     "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "16 rue Centrale, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2620129-Reviews-Le_Sweeties-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "0952410339" .
+
+tourisme:Boulangerie_Charli
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "34, rue Ste-Catherine, Bruxelles 1000, Belgique " ;
+        tourisme:estSituéA  tourisme:Bruxelle ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2039559-Reviews-Boulangerie_Charli-Brussels.html/" ;
+        tourisme:telephone  "+32 (0)2 513 63 32" .
+
+tourisme:Le_Comptoir_de_la_Crepe
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Huertas 68, 28014 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6701232-Reviews-Le_Comptoir_de_la_Crepe-Madrid.html/" ;
+        tourisme:telephone  "+34 910 24 69 02" .
+
+tourisme:Algarabia  a       "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle UniÃ³n, 8, 28013 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d991733-Reviews-Algarabia-Madrid.html/" ;
+        tourisme:telephone  "34 915 424 131" .
+
+tourisme:Le_passe-plat
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "4 Bis Quai Papacino, 06300 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6496671-Reviews-Le_passe_plat-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 26 05 80" .
+
+<http://www.polytech.semantique/tourisme#Niss'art_Burger>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "13 Rue Du commandant Raffali, 06000 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d7061088-Reviews-Niss_art-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 80 45 25" .
+
+<http://www.polytech.semantique/tourisme#Shane's_Restaurant>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Geyerstrasse 52, 80469  Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1854149-Reviews-Shane_s_Restaurant-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "089 74 64 68 20" .
+
+tourisme:Der_Verrueckte_Eismacher
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Amalienstrasse 77, Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3805135-Reviews-Der_Verrueckte_Eismacher-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "4.5 5 Ã©toiles" .
+
+<http://www.polytech.semantique/tourisme#Seb'on>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "62 rue d'Orsel, 75018 Paris, France " ;
+        tourisme:estSituéA  tourisme:Paris ;
+        tourisme:note       "5.0 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6958622-Reviews-Seb_on-Paris_Ile_de_France.html/" ;
+        tourisme:telephone  "+33 1 42 59 74 32" .
+
+tourisme:Kleinschmecker
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Sebastiansplatz 3 | 80331 Munchern, 80331 Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6774415-Reviews-Kleinschmecker-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "+49 89 26949120" .
+
+<http://www.polytech.semantique/tourisme#Vino_&_Cucina>
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "118 Bis Bd Cessole, 06100 Nice, France " ;
+        tourisme:estSituéA  tourisme:Nice ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2048444-Reviews-Vino_Cucina-Nice_French_Riviera_Cote_d_Azur_Provence.html/" ;
+        tourisme:telephone  "+33 4 93 52 28 08" .
+
+tourisme:Wirtshaus_Kurgarten
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "De-la-Paz-Strasse 10, 80639  Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1178760-Reviews-Wirtshaus_Kurgarten-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "089-17999081 " .
+
+tourisme:Restaurant_Jasmin
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Lindwurmstrasse 167, 80337  Munich, BaviÃ¨re, Allemagne " ;
+        tourisme:estSituéA  tourisme:Munich ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1905582-Reviews-Restaurant_Jasmin-Munich_Upper_Bavaria_Bavaria.html/" ;
+        tourisme:telephone  "089 76775712" .
+
+tourisme:La_Pizzateca
+        a                   "http://www.polytech.semantique/tourisme#Restaurant" ;
+        tourisme:adresse    "Calle Leon 26, 28014 Madrid, Espagne " ;
+        tourisme:estSituéA  tourisme:Madrid ;
+        tourisme:note       "4.5 5 Ã©toiles" ;
+        tourisme:siteWeb    "http://www.tripadvisor.fr/Restaurant_Review-g187514-d2086638-Reviews-La_Pizzateca-Madrid.html/" ;
+        tourisme:telephone  "+34 913 69 32 10" .

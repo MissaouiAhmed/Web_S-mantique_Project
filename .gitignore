@@ -1,0 +1,5 @@
+*.class
+wsproject/.settings
+wsproject/target
+wsproject/.classpath
+wsproject/.project
