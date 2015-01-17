@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf [
+   <!ENTITY rdfs  "http://www.w3.org/2000/01/rdf-schema">
+    ]>
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns="http://www.w3.org/2000/01/rdf-schema#" 
+xml:base="http://www.polytech.semantique/tourisme"
+xmlns:owl = "http://www.w3.org/2002/07/owl#"
+>
+
+<owl:Class rdf:ID="Emplacement">
+  <label xml:lang="en">Place</label>
+  <comment xml:lang="en">Place</comment>
+  <label xml:lang="fr">Emplacement</label>
+  <comment xml:lang="fr">Emplacement</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Batiment">
+  <label xml:lang="en">Batiment</label>
+  <comment xml:lang="en">Batiment</comment>
+  <label xml:lang="fr">Batiment</label>
+  <comment xml:lang="fr">Batiment</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Ville">
+ <subClassOf rdf:resource="#Emplacement"/>
+  <label xml:lang="en">City</label>
+  <comment xml:lang="en">place where a set of people lives</comment>
+  <label xml:lang="fr">Ville</label>
+  <comment xml:lang="fr">représente un lieu ou un ensemble d’individus vit</comment>
+</owl:Class>
+
+<owl:Class rdf:ID="Hotel">
+  <label xml:lang="fr">Hotel</label>
+  <label xml:lang="en">Hotel</label>
+  <comment xml:lang="fr">Heberge les gens</comment>
+  <comment xml:lang="en">Heberge people</comment>
+  <owl:disjointWith rdf:resource="#Monument"/>
+ <subClassOf rdf:resource="#Batiment"/>
+ </owl:Class>
+
+<owl:Class rdf:ID="Restaurant">
+  <label xml:lang="fr">Restaurant</label>
+  <label xml:lang="en">Restaurant</label>
+  <comment xml:lang="fr">Restaurant</comment>
+  <comment xml:lang="en">Restaurant</comment>
+  <owl:disjointWith rdf:resource="#Monument"/>
+ <subClassOf rdf:resource="#Batiment"/>
+ </owl:Class>
+
+<owl:Class rdf:ID="Monument">
+  <label xml:lang="en">monument</label>
+  <comment xml:lang="en"> Monument</comment>
+  <label xml:lang="fr">monument</label>
+  <comment xml:lang="fr">monument</comment>
+  <owl:disjointWith rdf:resource="#Hotel"/>
+ <subClassOf rdf:resource="#Batiment"/>
+</owl:Class>
+
+<owl:Class rdf:ID="Pays">
+  <label xml:lang="en">Pays</label>
+  <comment xml:lang="en"> Pays</comment>
+  <label xml:lang="fr">Pays</label>
+  <comment xml:lang="fr">Pays</comment>
+</owl:Class>
+
+<owl:TransitiveProperty rdf:ID="dansPays">
+  <range rdf:resource="#Pays"/>
+  <label xml:lang="en">DansPays</label>
+  <comment xml:lang="en">DansPays</comment>
+  <label xml:lang="fr">DansPays</label>
+  <comment xml:lang="fr">DansPays</comment>
+</owl:TransitiveProperty>
+
+<owl:DatatypeProperty rdf:ID="siteWeb">
+  <label xml:lang="en">siteWeb</label>
+  <label xml:lang="fr">siteWeb</label>
+  <comment xml:lang="en">siteWeb</comment>
+  <comment xml:lang="fr">siteWeb</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="imageUrl">
+  <label xml:lang="en">imageUrl</label>
+  <label xml:lang="fr">imageUrl</label>
+  <comment xml:lang="en">imageUrl</comment>
+  <comment xml:lang="fr">imageUrl</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="nom">
+  <label xml:lang="en">nom</label>
+  <label xml:lang="fr">nom</label>
+  <comment xml:lang="en">nom</comment>
+  <comment xml:lang="fr">nom</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="description">
+  <label xml:lang="en">description</label>
+  <label xml:lang="fr">description</label>
+  <comment xml:lang="en">description</comment>
+  <comment xml:lang="fr">description</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="departement">
+  <label xml:lang="en">departement</label>
+  <label xml:lang="fr">departement</label>
+  <comment xml:lang="en">departement</comment>
+  <comment xml:lang="fr">departement</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="codePostale">
+  <label xml:lang="en">codePostale</label>
+  <label xml:lang="fr">codePostale</label>
+  <comment xml:lang="en">codePostale</comment>
+  <comment xml:lang="fr">codePostale</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="localisation">
+  <label xml:lang="en">localization</label>
+  <label xml:lang="fr">localization</label>
+  <comment xml:lang="en">localization</comment>
+  <comment xml:lang="fr">localization</comment>
+</owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:ID="contientMonument">
+  <label xml:lang="en">contientMonument</label>
+  <comment xml:lang="en">contientMonument</comment>
+  <label xml:lang="fr">contientMonument</label>
+  <comment xml:lang="fr">contientMonument</comment>
+  <owl:inverseOf rdf:resource="#esSituéA"/>
+</owl:ObjectProperty> 
+
+<owl:ObjectProperty rdf:ID="estSituéA">
+  <label xml:lang="en">esSituéA</label>
+  <comment xml:lang="en">esSituéA</comment>
+  <label xml:lang="fr">esSituéA</label>
+  <comment xml:lang="fr">esSituéA</comment>
+  <owl:inverseOf rdf:resource="#contientMonument"/>
+</owl:ObjectProperty> 
+
+<owl:DatatypeProperty rdf:ID="adresse">
+  <label xml:lang="en">adresse</label>
+  <label xml:lang="fr">adresse</label>
+  <comment xml:lang="en">adresse</comment>
+  <comment xml:lang="fr">adresse</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="telephone">
+  <label xml:lang="en">telephone</label>
+  <label xml:lang="fr">telephone</label>
+  <comment xml:lang="en">telephone</comment>
+  <comment xml:lang="fr">telephone</comment>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:ID="note">
+  <label xml:lang="en">note</label>
+  <label xml:lang="fr">note</label>
+  <comment xml:lang="en">note</comment>
+  <comment xml:lang="fr">note</comment>
+</owl:DatatypeProperty>
+
+</rdf:RDF>
