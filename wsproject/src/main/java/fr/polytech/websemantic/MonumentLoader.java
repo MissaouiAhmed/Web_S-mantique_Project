@@ -55,7 +55,7 @@ public class MonumentLoader {
 			QuerySolution s = rs.nextSolution();
 			Resource r = s.getResource("?x");
 			dbpadiaURI = r.getURI();
-			//System.out.println(dbpadiaURI);
+			if(!dbpadiaURI.equalsIgnoreCase("http://dbpedia.org/resource/Cit%C3%A9_de_l'%C3%A9conomie_et_de_la_monnaie")){
 			Literal description = s.getLiteral("?description");
 			Resource imageLink = s.getResource("?imageLink");
 			Literal localisation = s.getLiteral("?localisation");
@@ -68,7 +68,7 @@ public class MonumentLoader {
 									dbpadiaURI.lastIndexOf("/") + 1,
 									dbpadiaURI.length()));
 			
-			monumentResource.addProperty(RDF.type, "http://www.polytech.semantique/tourisme#Monument");
+			monumentResource.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Monument"));
 
 			Property propDescition = model
 					.createProperty("http://www.polytech.semantique/tourisme#description");
@@ -99,9 +99,10 @@ public class MonumentLoader {
 			Property propIslocated = model
 					.createProperty("http://www.polytech.semantique/tourisme#estSituéA");
 			Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" +place);
-			placeR.addProperty(RDF.type, "http://www.polytech.semantique/tourisme#Ville");
+			placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 			monumentResource.addProperty(propIslocated,placeR );
+			}
 		}
 		return model;
 	}

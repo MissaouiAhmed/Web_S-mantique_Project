@@ -22,8 +22,10 @@ public class Runner {
 				"http://www.polytech.semantique/tourisme#");
 		model.setNsPrefix("rdfs", RDFS.getURI());
 
-		String[] places = { "Barcelone", "Bruxelle", "Madrid", "Munich",
-				"Nice", "Paris", "Rome" };
+		String[] places = { 
+				"Barcelone", "Bruxelle", "Madrid", "Munich",
+				 "Paris", "Rome",
+				 "Nice"};
 
 		for (String place : places) {
 			Model tmp = VilleLoader.villeLoading(place);
@@ -32,10 +34,13 @@ public class Runner {
 				uri = "<" + uri + ">";
 			Model tmp1 = MonumentLoader.monumentLoading(place, uri);
 			Model tmp2 = RestaurantLoader.loadRestaurant(place + ".csv", place);
+			Model tmp3 = HotelsLoader.loadhotel(place + ".csv", place);
 
 			model.add(tmp);
 			model.add(tmp1);
 			model.add(tmp2);
+			model.add(tmp3);
+			
 
 		}
 		

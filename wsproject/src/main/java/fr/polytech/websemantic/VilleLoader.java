@@ -53,7 +53,7 @@ public class VilleLoader {
 									dbpadiaURI.lastIndexOf("/") + 1,
 									dbpadiaURI.length()));
 			
-			placeResource.addProperty(RDF.type, "http://www.polytech.semantique/tourisme#Ville");
+			placeResource.addProperty(RDF.type,  model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 
 			Property propDescition = model.createProperty("http://www.polytech.semantique/tourisme#description");
@@ -70,7 +70,7 @@ public class VilleLoader {
 					s.getResource("?pays").toString().substring(s.getResource("?pays").toString().lastIndexOf("/") + 1,
 							s.getResource("?pays").toString().length()));
 			
-			pays.addProperty(RDF.type, "http://www.polytech.semantique/tourisme#Pays");
+			pays.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Pays"));
 
 			pays.addProperty(RDFS.label,s.getResource("?pays").toString().substring(s.getResource("?pays").toString().lastIndexOf("/") + 1,
 					s.getResource("?pays").toString().length()));
