@@ -5,13 +5,143 @@
 	xml:base="http://www.polytech.semantique/tourisme"
 >
 
-<skos:Concept rdf:Id="#Emplacement">
-	<skos:prefLabel>Man</skos:prefLabel>
-	<skos:altLabel>Man</skos:altLabel>
-	<skos:hiddenLabel>Man</skos:hiddenLabel>
+<skos:Concept rdf:ID="Emplacement">
+  <skos:definition xml:lang="en">Area of land considered suitable for constructing a building</skos:definition>
+  <skos:example xml:lang="en">Paris, Nice</skos:example>
 </skos:Concept>
 
+<skos:Concept rdf:ID="Batiment">
+  <skos:definition xml:lang="en">A building</skos:definition>
+  <skos:example xml:lang="en">Tour Eiffel</skos:example>
+</skos:Concept>
 
+<skos:Concept rdf:ID="Ville">
+  <skos:definition xml:lang="en">place where a set of people lives</skos:definition>
+  <skos:example xml:lang="en">Paris, Nice, Barcelone, Madrid</skos:example>
+</skos:Concept>
 
+<skos:Concept rdf:ID="Hotel">
+  <skos:definition xml:lang="en">Emplacement where a set of people sleeps</skos:definition>
+  <skos:example xml:lang="en">Negresso, Ibis</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="Vol">
+  <skos:definition xml:lang="en">Move in the atmosphere between two locations (depart and destination</skos:definition>
+  <skos:example xml:lang="en">Vol entre Nice et Paris</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="VolAffaire">
+  <skos:definition xml:lang="en">A comfortable class air transportation for passengers</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:ID="VolLoisir">
+  <skos:definition xml:lang="en">A discount class air transportation for passengers</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:ID="AgenceLocation">
+  <skos:definition xml:lang="en">gency for hire</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:ID="AgenceLocationVoiture">
+  <skos:definition xml:lang="en">Agency for hire car</skos:definition>
+  <skos:example xml:lang="en">Volautolux</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="Restaurant">
+  <skos:definition xml:lang="en">Emplacement where a set of people eats</skos:definition>
+  <skos:example xml:lang="en">Sathees, Le Cinq, Peck 47</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="Monument">
+  <skos:definition xml:lang="en">historic building</skos:definition>
+  <skos:example xml:lang="en">Tour Eiffel, Place Massena</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="Pays">
+  <skos:definition xml:lang="en">Geographical land, Indicates the home (cultural) and the state (political).</skos:definition>
+  <skos:example xml:lang="en">France, Maroc, Tunisie</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="dans">
+  <skos:definition xml:lang="en">Specifies the location of a monument / hotel / restaurant</skos:definition>
+  <skos:example xml:lang="en">Tour Eiffel dans Paris, Paris dans France, donc Tour Eiffel est dans France</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="siteWeb">
+  <skos:definition xml:lang="en">Web page containing information accessible with url</skos:definition>
+  <skos:example xml:lang="en">www.toto.ti</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="imageUrl">
+  <skos:definition xml:lang="en">Location of image in the net</skos:definition>
+  <skos:example xml:lang="en">www.toto.ti/img/1.jpg</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="nom">
+  <skos:definition xml:lang="en">A class of words for naming a thing or person</skos:definition>
+  <skos:example xml:lang="en">Nice, Maroc, Restaurant du coeur</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="description">
+  <skos:definition xml:lang="en">Represent places, monuments, hotels, cities, ..., Brief description also</skos:definition>
+  <skos:example xml:lang="en">Le musée du Louvre est l'un des plus grands musées du monde,...</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="departement">
+  <skos:definition xml:lang="en">Administrative Division in France</skos:definition>
+  <skos:example xml:lang="en">PACA, Lorraine</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="codePostale">
+  <skos:definition xml:lang="en">Set of numbers to designate a city</skos:definition>
+  <skos:example xml:lang="en">06560, 75019</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="localisation">
+  <skos:definition xml:lang="en">Determining the geographical position for one thing</skos:definition>
+  <skos:example xml:lang="en">48.860339 2.337599</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="contientMonument">
+  <skos:definition xml:lang="en">Indicates that a site contains a monument / hotel / restaurant</skos:definition>
+  <skos:example xml:lang="en">Paris contient Tour Eiffel</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="adresse">
+  <skos:definition xml:lang="en">Explicit mention of specific place</skos:definition>
+  <skos:example xml:lang="en">10, route des lucioles, 06540, Biot</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="telephone">
+  <skos:definition xml:lang="en">Set of numbers to designate a phone number</skos:definition>
+  <skos:example xml:lang="en">0659651256</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="note">
+  <skos:definition xml:lang="en">Set of numbers to evaluate something</skos:definition>
+  <skos:example xml:lang="en">4 sur 5, 5 sur 5</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="destination">
+  <skos:definition xml:lang="en">Place (city or country) where one has to go</skos:definition>
+  <skos:example xml:lang="en">Nice, Paris, France, Maroc</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="depart">
+  <skos:definition xml:lang="en">Origin, place from which a person / flight</skos:definition>
+  <skos:example xml:lang="en">Stokholm, Malmo</skos:example>
+</skos:Concept>
+
+<skos:Concept rdf:ID="recommenderMonument">
+  <skos:definition xml:lang="en">Recommend to a person of the attractions in the city of destination</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:ID="recommenderHotel">
+  <skos:definition xml:lang="en">Recommend to a person of hotels in the city of destination</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:ID="recommenderAgence">
+  <skos:definition xml:lang="en">Recommander à une personne des agences de location dans la ville de destination</skos:definition>
+</skos:Concept>
 
 </rdf:RDF>

@@ -30,9 +30,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">Emplacement</label>
   <comment xml:lang="fr">Emplacement</comment>
   <owl:disjointWith rdf:resource="#Batiment"/>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
 </owl:Class>
 
 <owl:Class rdf:ID="Batiment">
@@ -47,9 +44,6 @@ xmlns:dct="http://purl.org/dc/terms/"
    <owl:allValuesFrom  rdf:resource="#Emplacement"/>
   </owl:Restriction>
   </subClassOf>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
 </owl:Class>
 
 <owl:Class rdf:ID="Ville">
@@ -64,9 +58,6 @@ xmlns:dct="http://purl.org/dc/terms/"
    <owl:allValuesFrom rdf:resource="#Batiment"/>
   </owl:Restriction>
   </subClassOf>
-  <skos:definition xml:lang="en">place where a set of people lives</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">Paris, Nice, Barcelone, Madrid</skos:example>
 </owl:Class>
 
 <owl:Class rdf:ID="Hotel">
@@ -75,9 +66,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="fr">Heberge les gens</comment>
   <comment xml:lang="en">Heberge people</comment>
   <subClassOf rdf:resource="#Batiment"/>
-  <skos:definition xml:lang="en">Emplacement where a set of people sleeps</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">Negresso, Ibis</skos:example>
  </owl:Class>
 
  <owl:Class rdf:ID="Vol">
@@ -85,9 +73,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="en">flight</label>
   <comment xml:lang="fr">Représente une vol</comment>
   <comment xml:lang="en">represent a flight</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
  </owl:Class>
 
   <owl:Class rdf:ID="VolAffaire">
@@ -96,9 +81,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="en">VolAffaire</label>
   <comment xml:lang="fr">Représente une VolAffaire</comment>
   <comment xml:lang="en">represent a VolAffaire</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
  </owl:Class>
 
   <owl:Class rdf:ID="VolLoisir">
@@ -107,9 +89,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="en">VolLoisir</label>
   <comment xml:lang="fr">Représente une VolLoisir</comment>
   <comment xml:lang="en">represent a VolLoisir</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
  </owl:Class>
 
  <owl:Class rdf:ID="AgenceLocation">
@@ -117,9 +96,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="en">AgenceLocation</label>
   <comment xml:lang="fr">Représente une Agence Location</comment>
   <comment xml:lang="en">represent a Agence Location </comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
  </owl:Class>
  
  <owl:Class rdf:ID="AgenceLocationVoiture">
@@ -128,9 +104,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="en">AgenceLocationVoiture</label>
   <comment xml:lang="fr">Représente une Agence Location Voiture</comment>
   <comment xml:lang="en">represent a Agence Location Voiture</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
  </owl:Class>
  
 <owl:Class rdf:ID="Restaurant">
@@ -140,9 +113,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">Restaurant</comment>
   <owl:disjointWith rdf:resource="#Monument"/>
   <subClassOf rdf:resource="#Batiment"/>
-  <skos:definition xml:lang="en">Emplacement where a set of people eats</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">Sathees, Le Cinq, Peck 47</skos:example>
  </owl:Class>
 
 <owl:Class rdf:ID="Monument">
@@ -151,9 +121,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">monument</label>
   <comment xml:lang="fr">monument</comment>
   <subClassOf rdf:resource="#Batiment"/>
-  <skos:definition xml:lang="en">historic building</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">Tour Eiffel, Place Massena</skos:example>
 </owl:Class>
 
 <owl:Class rdf:ID="Pays">
@@ -161,9 +128,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en"> Pays</comment>
   <label xml:lang="fr">Pays</label>
   <comment xml:lang="fr">Pays</comment>
-  <skos:definition xml:lang="en">Geographical land, Indicates the home (cultural) and the state (political).</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">France, Maroc, Tunisie</skos:example>
 </owl:Class>
 
 <owl:TransitiveProperty rdf:ID="dans">
@@ -172,9 +136,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">DansPays</comment>
   <label xml:lang="fr">DansPays</label>
   <comment xml:lang="fr">DansPays</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
 </owl:TransitiveProperty>
 
 <owl:ObjectProperty rdf:ID="siteWeb">
@@ -182,11 +143,7 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">siteWeb</label>
   <comment xml:lang="en">siteWeb</comment>
   <comment xml:lang="fr">siteWeb</comment>
-  <skos:definition xml:lang="en">Web page containing information accessible with url</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">www.toto.ti</skos:example>
   <rdfs:range rdf:resource="#URL"/>
-
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:ID="imageUrl">
@@ -194,16 +151,12 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">imageUrl</label>
   <comment xml:lang="en">imageUrl</comment>
   <comment xml:lang="fr">imageUrl</comment>
-  <skos:definition xml:lang="en">Location of image in the net</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">www.toto.ti/img/1.jpg</skos:example>
   <rdfs:range rdf:resource="#URL"/>
 </owl:ObjectProperty>
 
  <owl:Class rdf:ID="URL">
   <label xml:lang="fr">url</label>
   <label xml:lang="en">url</label>
-  
  </owl:Class>
  
 <owl:DatatypeProperty rdf:ID="nom">
@@ -211,9 +164,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">nom</label>
   <comment xml:lang="en">nom</comment>
   <comment xml:lang="fr">nom</comment>
-  <skos:definition xml:lang="en">A class of words for naming a thing or person</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">Nice, Maroc, Restaurant du coeur</skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="description">
@@ -221,9 +171,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">description</label>
   <comment xml:lang="en">description</comment>
   <comment xml:lang="fr">description</comment>
-  <skos:definition xml:lang="en">Represent places, monuments, hotels, cities, ..., Brief description also</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="departement">
@@ -231,9 +178,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">departement</label>
   <comment xml:lang="en">departement</comment>
   <comment xml:lang="fr">departement</comment>
-  <skos:definition xml:lang="en">Administrative Division in France</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">PACA, Lorraine</skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="codePostale">
@@ -241,9 +185,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">codePostale</label>
   <comment xml:lang="en">codePostale</comment>
   <comment xml:lang="fr">codePostale</comment>
-  <skos:definition xml:lang="en">Set of numbers to designate a city</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">06560, 75019</skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="localisation">
@@ -251,9 +192,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">localization</label>
   <comment xml:lang="en">localization</comment>
   <comment xml:lang="fr">localization</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
 </owl:DatatypeProperty>
 
 <owl:ObjectProperty rdf:ID="contientMonument">
@@ -262,12 +200,10 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">contientMonument</label>
   <comment xml:lang="fr">contientMonument</comment>
   <owl:inverseOf rdf:resource="#estContenueDans"/>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
   <rdfs:domain rdf:resource="#Emplacement"/>
   <rdfs:range rdf:resource="#Batiment"/>
-</owl:ObjectProperty> 
+</owl:ObjectProperty>
+
 
 <owl:ObjectProperty rdf:ID="estContenueDans">
   <label xml:lang="en">contientMonument</label>
@@ -275,9 +211,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">contientMonument</label>
   <comment xml:lang="fr">contientMonument</comment>
   <owl:inverseOf rdf:resource="#contientMonument"/>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
   <rdfs:domain rdf:resource="#Batiment"/>
   <rdfs:range rdf:resource="#Emplacement"/>
 </owl:ObjectProperty>
@@ -287,9 +220,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">adresse</label>
   <comment xml:lang="en">adresse</comment>
   <comment xml:lang="fr">adresse</comment>
-  <skos:definition xml:lang="en">Explicit mention of specific place</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">10, route des lucioles, 06540, Biot</skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="telephone">
@@ -297,9 +227,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">telephone</label>
   <comment xml:lang="en">telephone</comment>
   <comment xml:lang="fr">telephone</comment>
-  <skos:definition xml:lang="en">Set of numbers to designate a phone number</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">0659651256</skos:example>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:ID="note">
@@ -307,9 +234,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">note</label>
   <comment xml:lang="en">note</comment>
   <comment xml:lang="fr">note</comment>
-  <skos:definition xml:lang="en">Set of numbers to evaluate something</skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en">4 sur 5, 5 sur 5</skos:example>
 </owl:DatatypeProperty>
 
 <owl:ObjectProperty rdf:ID="destination">
@@ -317,9 +241,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">destination</comment>
   <label xml:lang="fr">destination</label>
   <comment xml:lang="fr">destination</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
   <rdfs:domain rdf:resource="#Vol"/>
   <rdfs:range rdf:resource="#Ville"/>
 </owl:ObjectProperty> 
@@ -329,9 +250,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">depart</comment>
   <label xml:lang="fr">depart</label>
   <comment xml:lang="fr">depart</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
   <rdfs:domain rdf:resource="#Vol"/>
   <rdfs:range rdf:resource="#Ville"/>
 </owl:ObjectProperty> 
@@ -342,9 +260,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">recommenderMonument</comment>
   <label xml:lang="fr">recommenderMonument</label>
   <comment xml:lang="fr">recommenderMonument</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
   <rdfs:domain rdf:resource="#Vol"/>
   <rdfs:range rdf:resource="#Monument"/>
 </owl:ObjectProperty> 
@@ -355,9 +270,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">recommenderHotel</comment>
   <label xml:lang="fr">recommenderHotel</label>
   <comment xml:lang="fr">recommenderHotel</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
   <rdfs:domain rdf:resource="#Vol"/>
   <rdfs:range rdf:resource="#Hotel"/>
 </owl:ObjectProperty> 
@@ -368,9 +280,6 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">recommenderAgence</comment>
   <label xml:lang="fr">recommenderAgence</label>
   <comment xml:lang="fr">recommenderAgence</comment>
-  <skos:definition xml:lang="en"></skos:definition>
-  <skos:scopeNote xml:lang="en"></skos:scopeNote>
-  <skos:example xml:lang="en"></skos:example>
   <rdfs:domain rdf:resource="#Vol"/>
   <rdfs:range rdf:resource="#AgenceLocation"/>
 </owl:ObjectProperty> 
