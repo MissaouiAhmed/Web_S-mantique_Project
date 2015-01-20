@@ -13,9 +13,10 @@ image
 ----------------------------------------------------------------------------
 inverse of :
 -------------------------
-
-tourisme:Nice  a  tourisme:Ville;
-        tourisme:contientMonument  dbpedia-resource:Carnavalet_Museum  ;
+PREFIX tourisme: <http://www.polytech.semantique/tourisme#>
+select * where {
+  ?x tourisme:estContenueDans ?y
+}
 
 		==> Application de inverse of
 
