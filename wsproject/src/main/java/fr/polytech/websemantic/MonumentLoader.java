@@ -126,6 +126,11 @@ public class MonumentLoader {
 			placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 			monumentResource.addProperty(propIslocated,placeR );
+			
+			Property contientprop = model
+					.createProperty("http://www.polytech.semantique/tourisme#contientMonument");
+			
+			placeR.addProperty(contientprop, monumentResource);
 			}
 		}
 		return model;

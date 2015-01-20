@@ -261,7 +261,7 @@ xmlns:dct="http://purl.org/dc/terms/"
   <comment xml:lang="en">contientMonument</comment>
   <label xml:lang="fr">contientMonument</label>
   <comment xml:lang="fr">contientMonument</comment>
-  <owl:inverseOf rdf:resource="#esSitueA"/>
+  <owl:inverseOf rdf:resource="#estContenueDans"/>
   <skos:definition xml:lang="en"></skos:definition>
   <skos:scopeNote xml:lang="en"></skos:scopeNote>
   <skos:example xml:lang="en"></skos:example>
@@ -269,6 +269,18 @@ xmlns:dct="http://purl.org/dc/terms/"
   <rdfs:range rdf:resource="#Batiment"/>
 </owl:ObjectProperty> 
 
+<owl:ObjectProperty rdf:ID="estContenueDans">
+  <label xml:lang="en">contientMonument</label>
+  <comment xml:lang="en">contientMonument</comment>
+  <label xml:lang="fr">contientMonument</label>
+  <comment xml:lang="fr">contientMonument</comment>
+  <owl:inverseOf rdf:resource="#contientMonument"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Batiment"/>
+  <rdfs:range rdf:resource="#Emplacement"/>
+</owl:ObjectProperty>
 
 <owl:DatatypeProperty rdf:ID="adresse">
   <label xml:lang="en">adresse</label>

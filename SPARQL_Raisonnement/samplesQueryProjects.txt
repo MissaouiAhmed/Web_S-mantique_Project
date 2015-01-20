@@ -1,0 +1,77 @@
+----------------------------------------------------------------------------
+
+Inference Dans(transitive)
+-------------------------
+
+PREFIX : <http://www.polytech.semantique/tourisme#>
+
+select * where {
+  ?x tourisme:dans ?y
+}
+
+image 
+----------------------------------------------------------------------------
+inverse of :
+-------------------------
+
+tourisme:Nice  a  tourisme:Ville;
+        tourisme:contientMonument  dbpedia-resource:Carnavalet_Museum  ;
+
+		==> Application de inverse of
+
+<rdf:Description rdf:about='http://dbpedia.org/resource/Carnavalet_Museum'>
+ <tourisme:estContenueDans rdf:resource='http://www.polytech.semantique/tourisme#Nice'/>
+</rdf:Description>
+
+<rdf:Description rdf:about='http://www.polytech.semantique/tourisme#Nice'>
+ <tourisme:contientMonument rdf:resource='http://dbpedia.org/resource/Carnavalet_Museum'/>
+</rdf:Description>
+
+
+----------------------------------------------------------------------------
+Batiment : <owl:Restriction> <owl:onProperty rdf:resource="#dans"/> <owl:allValuesFrom  rdf:resource="#Emplacement"/> </owl:Restriction> </subClassOf>
+-------------------------
+
+entree:
+tourisme:SansDans a    tourisme:Monument; 
+tourisme:dans     tourisme:Cannes.
+
+
+PREFIX  tourisme: <http://www.polytech.semantique/tourisme#>
+
+select * where {
+  ?x a tourisme:Emplacement
+}
+<result>
+<binding name='x'><uri>http://www.polytech.semantique/tourisme#Cannes</uri></binding>
+</result>
+
+
+
+-----------------------------------------------------------------------------
+Rules:
+-------
+1/
+PREFIX  tourisme: <http://www.polytech.semantique/tourisme#>
+
+select * where {
+  ?x tourisme:recommenderMonument ?y
+}
+
+<result>
+<binding name='x'><uri>http://www.polytech.semantique/tourisme#Vol6</uri></binding>
+<binding name='y'><uri>http://dbpedia.org/resource/Carnavalet_Museum</uri></binding>
+</result>
+
+
+
+2/
+PREFIX  tourisme: <http://www.polytech.semantique/tourisme#>
+
+select * where {
+  ?x tourisme:recommenderHotel ?y
+}
+<result>
+<binding name='x'><uri>http://www.polytech.semantique/tourisme#Vol11</uri></binding>
+<binding name='y'><uri>http://www.polytech.semantique/tourisme#Hotel_Joyce_Astotel</uri></binding>
+</result>

@@ -17,7 +17,7 @@
   where {
 	  ?x rdf:type tourisme:Vol
       ?x tourisme:destination ?place
-	  ?y tourisme:estSitueA ?place
+	  ?y tourisme:dans ?place
 	  ?y rdf:type tourisme:AgenceLocation
   }
 ]]>
@@ -35,7 +35,7 @@
   where {
 	  ?x rdf:type tourisme:VolLoisir
       ?x tourisme:destination ?place
-	  ?y tourisme:estSitueA ?place
+	  ?y tourisme:dans ?place
 	  ?y rdf:type tourisme:Monument
   }
 ]]>
@@ -53,7 +53,7 @@
   where {
 	  ?x rdf:type tourisme:VolAffaire
       ?x tourisme:destination ?place
-	  ?y tourisme:estSitueA ?place
+	  ?y tourisme:dans ?place
 	  ?y rdf:type tourisme:Hotel
   }
 ]]>

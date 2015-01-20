@@ -1,14 +1,31 @@
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix tourisme: <http://www.polytech.semantique/tourisme#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix dbpedia-resource: <http://dbpedia.org/resource/> .
 
-tourisme:Nice  a  tourisme:Ville
+tourisme:Nice  a  tourisme:Ville;
+        tourisme:contientMonument  dbpedia-resource:Carnavalet_Museum  ;
 		tourisme:dans       tourisme:France.
 
 tourisme:France  a  tourisme:Pays.
 
 tourisme:Volluxauto  a  tourisme:AgenceLocationVoiture ;
         tourisme:dans  tourisme:Nice .
+
+dbpedia-resource:Carnavalet_Museum
+        a                      tourisme:Monument ;
+        tourisme:dans          tourisme:Nice ;
+        tourisme:description   "Le musée Carnavalet est le musée municipal parisien consacré à l'Histoire de Paris des origines de la ville à nos jours. Situé dans le quartier du Marais au 23, rue de Sévigné, à Paris, dans le 3e arrondissement, il présente des collections exceptionnelles : souvenirs de la Révolution française, peintures, sculptures, mobilier et objets d'art. Il est dirigé depuis 1993 par Jean-Marc Léri.Le musée est constitué de l'hôtel de Carnavalet et l'hôtel Le Peletier de Saint-Fargeau reliés par une galerie située au premier étage.Il s'agit d'un des 14 Musées de la Ville de Paris gérés depuis le 1er janvier 2013 par l'établissement public administratif Paris Musées." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Carnavalet_Museum ;
+        tourisme:localisation  "48.8574 2.36214" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Carnavalet_Museum .
+
+tourisme:URL_Monument_Carnavalet_Museum
+        foaf:page  "http://carnavalet.paris.fr/en" .
+tourisme:IMAGE_Monument_Carnavalet_Museum
+        foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/Carnavalet_Portal.JPG?width=300" .
 		
 tourisme:Piazze_Italia
         a                   tourisme:Restaurant ;
@@ -45,3 +62,5 @@ tourisme:Vol11  a             tourisme:VolAffaire ;
         tourisme:destination  tourisme:Nice .
 
 
+tourisme:SansDans a    tourisme:Monument; 
+		tourisme:dans     tourisme:Cannes.

@@ -2111,7 +2111,8 @@ tourisme:Madrid  a  tourisme:Ville .
 tourisme:URL_Hotel_Kings_Hotel_Center
         foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d230362-Reviews-King_s_Hotel_Center-Munich_Upper_Bavaria_Bavaria.html" .
 
-tourisme:Paris  a  tourisme:Ville .
+tourisme:Paris  a                  tourisme:Ville ;
+        tourisme:contientMonument  dbpedia-resource:Carnavalet_Museum , dbpedia-resource:Grand_Palais , dbpedia-resource:The_Louvre .
 
 tourisme:URL_Restaurant_Gastro_Wriasko
         foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7004356-Reviews-Gastro_Wriasko-Madrid.html" .
