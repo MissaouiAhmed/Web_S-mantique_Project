@@ -9,14 +9,16 @@ xmlns="http://www.w3.org/2000/01/rdf-schema#"
 xml:base="http://www.polytech.semantique/tourisme"
 xmlns:owl = "http://www.w3.org/2002/07/owl#"
 xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dct="http://purl.org/dc/terms/"
 >
 
        
 
-<owl:Ontology>
-<rdfs:comment>Tourisme OWL ontology</rdfs:comment>
-<owl:priorVersion>
-<owl:Ontology rdf:about="http://www.w3.org/2002/07/owl#"/> </owl:priorVersion>
+<owl:Ontology rdf:about="http://www.polytech.semantique/tourisme#">
+<dct:title xml:lang="en">Tourisme Ontology</dct:title>
+<dct:creator>Missaoui Ahmed</dct:creator>
+<dct:creator>Benathmen ayoub</dct:creator>
 <rdfs:comment>Ontologie définie dans le cadre d'un projet d'étude du cours Web sémantique </rdfs:comment>
 <rdfs:label>Tourisme Ontology</rdfs:label>
 </owl:Ontology>
@@ -78,6 +80,58 @@ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   <skos:example xml:lang="en">Negresso, Ibis</skos:example>
  </owl:Class>
 
+ <owl:Class rdf:ID="Vol">
+  <label xml:lang="fr">Vol</label>
+  <label xml:lang="en">flight</label>
+  <comment xml:lang="fr">Représente une vol</comment>
+  <comment xml:lang="en">represent a flight</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+ </owl:Class>
+
+  <owl:Class rdf:ID="VolAffaire">
+  <subClassOf rdf:resource="#Vol"/> 
+  <label xml:lang="fr">VolAffaire</label>
+  <label xml:lang="en">VolAffaire</label>
+  <comment xml:lang="fr">Représente une VolAffaire</comment>
+  <comment xml:lang="en">represent a VolAffaire</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+ </owl:Class>
+
+  <owl:Class rdf:ID="VolLoisir">
+  <subClassOf rdf:resource="#Vol"/>
+  <label xml:lang="fr">VolLoisir</label>
+  <label xml:lang="en">VolLoisir</label>
+  <comment xml:lang="fr">Représente une VolLoisir</comment>
+  <comment xml:lang="en">represent a VolLoisir</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+ </owl:Class>
+
+ <owl:Class rdf:ID="AgenceLocation">
+  <label xml:lang="fr">AgenceLocation</label>
+  <label xml:lang="en">AgenceLocation</label>
+  <comment xml:lang="fr">Représente une Agence Location</comment>
+  <comment xml:lang="en">represent a Agence Location </comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+ </owl:Class>
+ 
+ <owl:Class rdf:ID="AgenceLocationVoiture">
+  <label xml:lang="fr">AgenceLocationVoiture</label>
+  <label xml:lang="en">AgenceLocationVoiture</label>
+  <comment xml:lang="fr">Représente une Agence Location Voiture</comment>
+  <comment xml:lang="en">represent a Agence Location Voiture</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+ </owl:Class>
+ 
 <owl:Class rdf:ID="Restaurant">
   <label xml:lang="fr">Restaurant</label>
   <label xml:lang="en">Restaurant</label>
@@ -201,9 +255,11 @@ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   <skos:definition xml:lang="en"></skos:definition>
   <skos:scopeNote xml:lang="en"></skos:scopeNote>
   <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Emplacement"/>
+  <rdfs:range rdf:resource="#Batiment"/>
 </owl:ObjectProperty> 
 
-<owl:ObjectProperty rdf:ID="estSituéA">
+<owl:ObjectProperty rdf:ID="estSitueA">
   <label xml:lang="en">esSituéA</label>
   <comment xml:lang="en">esSituéA</comment>
   <label xml:lang="fr">esSituéA</label>
@@ -212,6 +268,8 @@ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   <skos:definition xml:lang="en"></skos:definition>
   <skos:scopeNote xml:lang="en"></skos:scopeNote>
   <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Batiment"/>
+  <rdfs:range rdf:resource="#Emplacement"/>
 </owl:ObjectProperty> 
 
 <owl:DatatypeProperty rdf:ID="adresse">
@@ -243,5 +301,70 @@ xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   <skos:scopeNote xml:lang="en"></skos:scopeNote>
   <skos:example xml:lang="en">4 sur 5, 5 sur 5</skos:example>
 </owl:DatatypeProperty>
+
+<owl:ObjectProperty rdf:ID="destination">
+  <label xml:lang="en">destination</label>
+  <comment xml:lang="en">destination</comment>
+  <label xml:lang="fr">destination</label>
+  <comment xml:lang="fr">destination</comment>
+  <owl:inverseOf rdf:resource="#depart"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Vol"/>
+  <rdfs:range rdf:resource="#Ville"/>
+</owl:ObjectProperty> 
+
+<owl:ObjectProperty rdf:ID="depart">
+  <label xml:lang="en">depart</label>
+  <comment xml:lang="en">depart</comment>
+  <label xml:lang="fr">depart</label>
+  <comment xml:lang="fr">depart</comment>
+  <owl:inverseOf rdf:resource="#destination"/>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Vol"/>
+  <rdfs:range rdf:resource="#Ville"/>
+</owl:ObjectProperty> 
+
+
+<owl:ObjectProperty rdf:ID="recommenderMonument">
+  <label xml:lang="en">recommenderMonument</label>
+  <comment xml:lang="en">recommenderMonument</comment>
+  <label xml:lang="fr">recommenderMonument</label>
+  <comment xml:lang="fr">recommenderMonument</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Vol"/>
+  <rdfs:range rdf:resource="#Monument"/>
+</owl:ObjectProperty> 
+
+
+<owl:ObjectProperty rdf:ID="recommenderHotel">
+  <label xml:lang="en">recommenderHotel</label>
+  <comment xml:lang="en">recommenderHotel</comment>
+  <label xml:lang="fr">recommenderHotel</label>
+  <comment xml:lang="fr">recommenderHotel</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Vol"/>
+  <rdfs:range rdf:resource="#Hotel"/>
+</owl:ObjectProperty> 
+
+
+<owl:ObjectProperty rdf:ID="recommenderAgence">
+  <label xml:lang="en">recommenderAgence</label>
+  <comment xml:lang="en">recommenderAgence</comment>
+  <label xml:lang="fr">recommenderAgence</label>
+  <comment xml:lang="fr">recommenderAgence</comment>
+  <skos:definition xml:lang="en"></skos:definition>
+  <skos:scopeNote xml:lang="en"></skos:scopeNote>
+  <skos:example xml:lang="en"></skos:example>
+  <rdfs:domain rdf:resource="#Vol"/>
+  <rdfs:range rdf:resource="#AgenceLocation"/>
+</owl:ObjectProperty> 
 
 </rdf:RDF>

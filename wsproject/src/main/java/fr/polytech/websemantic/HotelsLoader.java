@@ -65,7 +65,7 @@ public class HotelsLoader {
 				hotel.addProperty(propnote,note );
 								
 				Property propIslocated = model
-						.createProperty("http://www.polytech.semantique/tourisme#estSituéA");
+						.createProperty("http://www.polytech.semantique/tourisme#estSitueA");
 				Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" +
 						place );
 				placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));

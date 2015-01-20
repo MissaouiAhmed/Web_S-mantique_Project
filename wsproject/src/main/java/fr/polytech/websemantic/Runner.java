@@ -11,6 +11,7 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.vocabulary.DC;
 import com.hp.hpl.jena.vocabulary.RDFS;
 
 public class Runner {
@@ -20,6 +21,7 @@ public class Runner {
 		Model model = ModelFactory.createDefaultModel();
 		model.setNsPrefix("tourisme",
 				"http://www.polytech.semantique/tourisme#");
+		model.setNsPrefix("dc",DC.getURI());
 		model.setNsPrefix("rdfs", RDFS.getURI());
 
 		String[] places = { 
@@ -43,6 +45,12 @@ public class Runner {
 			
 
 		}
+		
+		Model tmp4 = VolLoader.loadVol("vols.csv");
+		model.add(tmp4);
+		
+		Model tmp5 = AgenceLoader.loadAgence("agences.csv");
+		model.add(tmp5);
 		
 		PrintWriter writer = new PrintWriter("tourisme.nt", "UTF-8");
 		model.write(writer, "N3");
