@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xml:base="http://www.polytech.semantique/tourisme"
+>
+
+<skos:Concept rdf:Id="#Emplacement">
+	<skos:prefLabel>Man</skos:prefLabel>
+	<skos:altLabel>Man</skos:altLabel>
+	<skos:hiddenLabel>Man</skos:hiddenLabel>
+</skos:Concept>
+
+
+
+
+</rdf:RDF>

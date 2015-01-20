@@ -11,6 +11,7 @@ import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.vocabulary.DC;
 import com.hp.hpl.jena.vocabulary.RDFS;
 
@@ -23,7 +24,11 @@ public class Runner {
 				"http://www.polytech.semantique/tourisme#");
 		model.setNsPrefix("dc",DC.getURI());
 		model.setNsPrefix("rdfs", RDFS.getURI());
-
+		model.setNsPrefix("dbpedia", "http://dbpedia.org/ontology/");
+		model.setNsPrefix("dbpedia-resource", "http://dbpedia.org/resource/");
+		model.setNsPrefix("foaf", FOAF.NS);
+		
+		
 		String[] places = { 
 				"Barcelone", "Bruxelle", "Madrid", "Munich",
 				 "Paris", "Rome",

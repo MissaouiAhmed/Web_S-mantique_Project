@@ -8,6 +8,7 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
 
@@ -48,10 +49,7 @@ public class VilleLoader {
 //			System.out.println(s.getLiteral("?postalecode").toString());
 
 			Resource placeResource = model
-					.createResource("http://www.polytech.semantique/tourisme#"
-							+ dbpadiaURI.substring(
-									dbpadiaURI.lastIndexOf("/") + 1,
-									dbpadiaURI.length()));
+					.createResource(dbpadiaURI);
 			
 			placeResource.addProperty(RDF.type,  model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
@@ -59,9 +57,28 @@ public class VilleLoader {
 			Property propDescition = model.createProperty("http://www.polytech.semantique/tourisme#description");
 			placeResource.addProperty(propDescition, s.getLiteral("?description").toString());
 			Property propImage = model.createProperty("http://www.polytech.semantique/tourisme#imageUrl");
-			placeResource.addProperty(propImage, "" + s.getResource("?image").toString());
+			
+			
+			Resource imre=model.createResource("http://www.polytech.semantique/tourisme#IMAGE_Ville_"+
+					dbpadiaURI.substring(
+							dbpadiaURI.lastIndexOf("/") + 1,
+							dbpadiaURI.length()));
+			imre.addProperty(FOAF.page, s.getResource("?image").toString());
+			placeResource.addProperty(propImage, imre);
+			
+			
 			Property propwebsite = model.createProperty("http://www.polytech.semantique/tourisme#siteWeb");
-			placeResource.addProperty(propwebsite, "" + s.getResource("?wbesite").toString());
+			
+			Resource webr=model.createResource("http://www.polytech.semantique/tourisme#URL_Ville_"+
+					dbpadiaURI.substring(
+							dbpadiaURI.lastIndexOf("/") + 1,
+							dbpadiaURI.length()));
+			webr.addProperty(FOAF.page,  s.getResource("?wbesite").toString());
+			
+			placeResource.addProperty(propwebsite,webr);
+			
+			
+			
 			Property proplocalisation = model.createProperty("http://www.polytech.semantique/tourisme#localisation");
 			placeResource.addProperty(proplocalisation,s.getLiteral("?localisation").toString());
 			

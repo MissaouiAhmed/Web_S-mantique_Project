@@ -11,6 +11,7 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
 
@@ -44,12 +45,17 @@ public class HotelsLoader {
 
 				hotel.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Hotel"));
 
-				Property propwebsite = model
-						.createProperty("http://www.polytech.semantique/tourisme#siteWeb");
-				hotel.addProperty(propwebsite, "" + url);
-
 				Property propadresse = model
 						.createProperty("http://www.polytech.semantique/tourisme#adresse");
+				
+				Property propwebsite = model
+						.createProperty("http://www.polytech.semantique/tourisme#siteWeb");
+				Resource urlre=model.createResource("http://www.polytech.semantique/tourisme#URL_Hotel_"+name
+						.replaceAll(" ", "_"));
+				urlre.addProperty(FOAF.page, url);
+				hotel.addProperty(propwebsite, urlre);
+
+	
 				hotel.addProperty(propadresse,adresse );
 
 				if(parts.length==4){
@@ -57,7 +63,13 @@ public class HotelsLoader {
 					
 				Property proptelphone = model
 						.createProperty("http://www.polytech.semantique/tourisme#image");
-				hotel.addProperty(proptelphone,image );
+				
+				Resource imre=model.createResource("http://www.polytech.semantique/tourisme#IMAGE_Hotel_"+name
+						.replaceAll(" ", "_"));
+				urlre.addProperty(FOAF.page, image);
+				
+				
+				hotel.addProperty(proptelphone,imre );
 
 				}
 				Property propnote = model
@@ -65,7 +77,7 @@ public class HotelsLoader {
 				hotel.addProperty(propnote,note );
 								
 				Property propIslocated = model
-						.createProperty("http://www.polytech.semantique/tourisme#estSitueA");
+						.createProperty("http://www.polytech.semantique/tourisme#dans");
 				Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" +
 						place );
 				placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));

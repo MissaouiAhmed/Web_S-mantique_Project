@@ -15,10 +15,10 @@
       ?x tourisme:recommenderAgence ?y
   }
   where {
-	  ?x rdf:type tourisme:Vol;
+	  ?x rdf:type tourisme:Vol
       ?x tourisme:destination ?place
 	  ?y tourisme:estSitueA ?place
-	  ?y rdf:type tourisme:AgenceLocation;
+	  ?y rdf:type tourisme:AgenceLocation
   }
 ]]>
 </body>
@@ -33,10 +33,10 @@
       ?x tourisme:recommenderMonument ?y
   }
   where {
-	  ?x rdf:type tourisme:VolLoisir;
+	  ?x rdf:type tourisme:VolLoisir
       ?x tourisme:destination ?place
 	  ?y tourisme:estSitueA ?place
-	  ?y rdf:type tourisme:Monument;
+	  ?y rdf:type tourisme:Monument
   }
 ]]>
 </body>
@@ -51,10 +51,10 @@
       ?x tourisme:recommenderHotel ?y
   }
   where {
-	  ?x rdf:type tourisme:VolAffaire;
+	  ?x rdf:type tourisme:VolAffaire
       ?x tourisme:destination ?place
 	  ?y tourisme:estSitueA ?place
-	  ?y rdf:type tourisme:Hotel;
+	  ?y rdf:type tourisme:Hotel
   }
 ]]>
 </body>

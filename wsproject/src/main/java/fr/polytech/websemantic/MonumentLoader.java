@@ -9,6 +9,7 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.vocabulary.RDF;
 
 public class MonumentLoader {
@@ -63,10 +64,7 @@ public class MonumentLoader {
 			// Resource
 			// placeResource=model.createResource("http://www.polytech.semantique/tourisme#"+place);
 			Resource monumentResource = model
-					.createResource("http://www.polytech.semantique/tourisme#"
-							+ dbpadiaURI.substring(
-									dbpadiaURI.lastIndexOf("/") + 1,
-									dbpadiaURI.length()));
+					.createResource(dbpadiaURI);
 			
 			monumentResource.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Monument"));
 
@@ -74,19 +72,45 @@ public class MonumentLoader {
 					.createProperty("http://www.polytech.semantique/tourisme#description");
 			monumentResource.addProperty(propDescition,
 					"" + description.getString());
+			
 			Property propImage = model
 					.createProperty("http://www.polytech.semantique/tourisme#imageUrl");
-			monumentResource.addProperty(propImage, "" + imageLink.getURI());
+			
+			Resource imre=model.createResource("http://www.polytech.semantique/tourisme#IMAGE_Monument_"+
+					dbpadiaURI.substring(
+							dbpadiaURI.lastIndexOf("/") + 1,
+							dbpadiaURI.length()));
+			imre.addProperty(FOAF.page, imageLink.getURI());
+			
+			monumentResource.addProperty(propImage, imre);
+			
 			Property propwebsite = model
 					.createProperty("http://www.polytech.semantique/tourisme#siteWeb");
 			if(s.get("?website")instanceof Resource) {
+				
 				Resource website = s.getResource("?website");
-				monumentResource.addProperty(propwebsite, "" + website.getURI());
+				Resource webr=model.createResource("http://www.polytech.semantique/tourisme#URL_Monument_"+
+						dbpadiaURI.substring(
+								dbpadiaURI.lastIndexOf("/") + 1,
+								dbpadiaURI.length()));
+				webr.addProperty(FOAF.page, website.getURI());
+				
+				
+				
+				monumentResource.addProperty(propwebsite, webr);
 				
 			}
 			else{
 				Literal website = s.getLiteral("?website");
-				monumentResource.addProperty(propwebsite, "" + website.getString());
+				
+				Resource webr=model.createResource("http://www.polytech.semantique/tourisme#URL_Monument_"+
+						dbpadiaURI.substring(
+								dbpadiaURI.lastIndexOf("/") + 1,
+								dbpadiaURI.length()));
+				webr.addProperty(FOAF.page, website.getString());
+				monumentResource.addProperty(propwebsite, webr);
+				
+				
 				
 			}
 			
@@ -97,7 +121,7 @@ public class MonumentLoader {
 					"" + localisation.getString());
 
 			Property propIslocated = model
-					.createProperty("http://www.polytech.semantique/tourisme#estSitueA");
+					.createProperty("http://www.polytech.semantique/tourisme#dans");
 			Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" +place);
 			placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 

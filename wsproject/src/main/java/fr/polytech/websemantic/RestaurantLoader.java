@@ -10,6 +10,7 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
 
@@ -43,11 +44,18 @@ public class RestaurantLoader {
 
 				restaurant.addProperty(RDFS.label, name);
 
-				restaurant.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Restaurant"));
+				restaurant.addProperty(RDF.type, model.
+						createResource("http://www.polytech.semantique/tourisme#Restaurant"));
 
 				Property propwebsite = model
 						.createProperty("http://www.polytech.semantique/tourisme#siteWeb");
-				restaurant.addProperty(propwebsite, "" + url);
+				
+				Resource webr=model.createResource("http://www.polytech.semantique/tourisme#URL_Restaurant_"+
+						name.replaceAll(" ","_"));
+				webr.addProperty(FOAF.page, url);
+		
+				
+				restaurant.addProperty(propwebsite, webr);
 
 				Property propadresse = model
 						.createProperty("http://www.polytech.semantique/tourisme#adresse");
@@ -63,7 +71,7 @@ public class RestaurantLoader {
 
 				
 				Property propIslocated = model
-						.createProperty("http://www.polytech.semantique/tourisme#estSitueA");
+						.createProperty("http://www.polytech.semantique/tourisme#dans");
 				Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" + place);
 				placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 

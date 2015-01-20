@@ -1,0 +1,47 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tourisme: <http://www.polytech.semantique/tourisme#> .
+
+tourisme:Nice  a  tourisme:Ville
+		tourisme:dans       tourisme:France.
+
+tourisme:France  a  tourisme:Pays.
+
+tourisme:Volluxauto  a  tourisme:AgenceLocationVoiture ;
+        tourisme:dans  tourisme:Nice .
+		
+tourisme:Piazze_Italia
+        a                   tourisme:Restaurant ;
+        rdfs:label          "Piazze Italia" ;
+        tourisme:adresse    "Carrer de Casanova, 94, 08011 Barcelone, Espagne " ;
+        tourisme:dans       tourisme:Barcelone ;
+        tourisme:note       "4.5 5 " ;
+        tourisme:siteWeb    tourisme:URL_Restaurant_Piazze_Italia ;
+        tourisme:telephone  "+34 933 23 59 77" .
+
+		tourisme:URL_Restaurant_Piazze_Italia
+        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d997375-Reviews-Piazze_D_Italia-Barcelona_Catalonia.html" .
+
+tourisme:Hotel_Joyce_Astotel
+        a                 tourisme:Hotel ;
+        tourisme:adresse  "29 rue la Bruyere, 75009 Paris, France " ;
+        tourisme:dans     tourisme:Nice ;
+        tourisme:note     "3.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Joyce_Astotel .
+
+tourisme:URL_Hotel_Hotel_Joyce_Astotel
+        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1631156-Reviews-Hotel_Joyce_Astotel-Paris_Ile_de_France.html" .
+		
+
+tourisme:Vol6  a              tourisme:VolLoisir ;
+        dc:identifier         "6" ;
+        tourisme:depart       tourisme:Paris ;
+        tourisme:destination  tourisme:Nice .
+
+
+tourisme:Vol11  a             tourisme:VolAffaire ;
+        dc:identifier         "11" ;
+        tourisme:depart       tourisme:Paris ;
+        tourisme:destination  tourisme:Nice .
+
+
