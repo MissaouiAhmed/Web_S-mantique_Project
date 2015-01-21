@@ -1,0 +1,64 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tourisme: <http://www.polytech.semantique/tourisme#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dbpedia: <http://dbpedia.org/ontology/> .
+@prefix dbpedia-resource: <http://dbpedia.org/resource/> .
+
+tourisme:Nice  a  tourisme:Ville;
+        tourisme:contientMonument  dbpedia-resource:Carnavalet_Museum  ;
+				tourisme:dans       tourisme:France .
+
+tourisme:France  a  tourisme:Pays .
+
+tourisme:Volluxauto  a  tourisme:AgenceLocationVoiture ;
+        tourisme:dans  tourisme:Nice .
+
+dbpedia-resource:Carnavalet_Museum
+        a                      tourisme:Monument ;
+        tourisme:dans          tourisme:Nice ;
+        tourisme:description   "Le musée Carnavalet est le musée municipal parisien consacré à l'Histoire de Paris des origines de la ville à nos jours. Situé dans le quartier du Marais au 23, rue de Sévigné, à Paris, dans le 3e arrondissement, il présente des collections exceptionnelles : souvenirs de la Révolution française, peintures, sculptures, mobilier et objets d'art. Il est dirigé depuis 1993 par Jean-Marc Léri.Le musée est constitué de l'hôtel de Carnavalet et l'hôtel Le Peletier de Saint-Fargeau reliés par une galerie située au premier étage.Il s'agit d'un des 14 Musées de la Ville de Paris gérés depuis le 1er janvier 2013 par l'établissement public administratif Paris Musées." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Carnavalet_Museum ;
+        tourisme:localisation  "48.8574 2.36214" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Carnavalet_Museum .
+
+tourisme:URL_Monument_Carnavalet_Museum
+        foaf:page  "http://carnavalet.paris.fr/en" .
+				
+tourisme:IMAGE_Monument_Carnavalet_Museum
+        foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/Carnavalet_Portal.JPG?width=300" .
+		
+tourisme:Piazze_Italia
+        a                   tourisme:Restaurant ;
+        rdfs:label          "Piazze Italia" ;
+        tourisme:adresse    "Carrer de Casanova, 94, 08011 Barcelone, Espagne " ;
+        tourisme:dans       tourisme:Barcelone ;
+        tourisme:note       "4.5 5 " ;
+        tourisme:siteWeb    tourisme:URL_Restaurant_Piazze_Italia ;
+        tourisme:telephone  "+34 933 23 59 77" .
+
+tourisme:URL_Restaurant_Piazze_Italia
+        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d997375-Reviews-Piazze_D_Italia-Barcelona_Catalonia.html" .
+
+tourisme:Hotel_Joyce_Astotel
+        a                 tourisme:Hotel ;
+        tourisme:adresse  "29 rue la Bruyere, 75009 Paris, France " ;
+        tourisme:dans     tourisme:Nice ;
+        tourisme:note     "3.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Joyce_Astotel .
+
+tourisme:URL_Hotel_Hotel_Joyce_Astotel
+        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1631156-Reviews-Hotel_Joyce_Astotel-Paris_Ile_de_France.html" .
+		
+tourisme:Vol6  a              tourisme:VolLoisir ;
+        dc:identifier         "6" ;
+        tourisme:depart       tourisme:Paris ;
+        tourisme:destination  tourisme:Nice .
+
+tourisme:Vol11  a             tourisme:VolAffaire ;
+        dc:identifier         "11" ;
+        tourisme:depart       tourisme:Paris ;
+        tourisme:destination  tourisme:Nice .
+
+tourisme:SansDans a    tourisme:Monument ; 
+				tourisme:dans     tourisme:Cannes .
