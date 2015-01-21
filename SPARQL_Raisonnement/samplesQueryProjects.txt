@@ -3,8 +3,7 @@
 Inference Dans(transitive)
 -------------------------
 
-PREFIX : <http://www.polytech.semantique/tourisme#>
-
+PREFIX tourisme: <http://www.polytech.semantique/tourisme#>
 select * where {
   ?x tourisme:dans ?y
 }

@@ -7,9 +7,9 @@
 
 tourisme:Nice  a  tourisme:Ville;
         tourisme:contientMonument  dbpedia-resource:Carnavalet_Museum  ;
-		tourisme:dans       tourisme:France.
+				tourisme:dans       tourisme:France .
 
-tourisme:France  a  tourisme:Pays.
+tourisme:France  a  tourisme:Pays .
 
 tourisme:Volluxauto  a  tourisme:AgenceLocationVoiture ;
         tourisme:dans  tourisme:Nice .
@@ -24,6 +24,7 @@ dbpedia-resource:Carnavalet_Museum
 
 tourisme:URL_Monument_Carnavalet_Museum
         foaf:page  "http://carnavalet.paris.fr/en" .
+				
 tourisme:IMAGE_Monument_Carnavalet_Museum
         foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/Carnavalet_Portal.JPG?width=300" .
 		
@@ -36,7 +37,7 @@ tourisme:Piazze_Italia
         tourisme:siteWeb    tourisme:URL_Restaurant_Piazze_Italia ;
         tourisme:telephone  "+34 933 23 59 77" .
 
-		tourisme:URL_Restaurant_Piazze_Italia
+tourisme:URL_Restaurant_Piazze_Italia
         foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d997375-Reviews-Piazze_D_Italia-Barcelona_Catalonia.html" .
 
 tourisme:Hotel_Joyce_Astotel
@@ -49,18 +50,15 @@ tourisme:Hotel_Joyce_Astotel
 tourisme:URL_Hotel_Hotel_Joyce_Astotel
         foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1631156-Reviews-Hotel_Joyce_Astotel-Paris_Ile_de_France.html" .
 		
-
 tourisme:Vol6  a              tourisme:VolLoisir ;
         dc:identifier         "6" ;
         tourisme:depart       tourisme:Paris ;
         tourisme:destination  tourisme:Nice .
-
 
 tourisme:Vol11  a             tourisme:VolAffaire ;
         dc:identifier         "11" ;
         tourisme:depart       tourisme:Paris ;
         tourisme:destination  tourisme:Nice .
 
-
-tourisme:SansDans a    tourisme:Monument; 
-		tourisme:dans     tourisme:Cannes.
+tourisme:SansDans a    tourisme:Monument ; 
+				tourisme:dans     tourisme:Cannes .

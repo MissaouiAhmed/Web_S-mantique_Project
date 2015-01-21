@@ -12,11 +12,11 @@
 <![CDATA[
   prefix tourisme: <http://www.polytech.semantique/tourisme#>
   construct {
-      ?x tourisme:recommenderAgence ?y
+    ?x tourisme:recommenderAgence ?y
   }
   where {
 	  ?x rdf:type tourisme:Vol
-      ?x tourisme:destination ?place
+    ?x tourisme:destination ?place
 	  ?y tourisme:dans ?place
 	  ?y rdf:type tourisme:AgenceLocation
   }
@@ -34,7 +34,7 @@
   }
   where {
 	  ?x rdf:type tourisme:VolLoisir
-      ?x tourisme:destination ?place
+    ?x tourisme:destination ?place
 	  ?y tourisme:dans ?place
 	  ?y rdf:type tourisme:Monument
   }
@@ -48,11 +48,11 @@
 <![CDATA[
   prefix tourisme: <http://www.polytech.semantique/tourisme#>
   construct {
-      ?x tourisme:recommenderHotel ?y
+    ?x tourisme:recommenderHotel ?y
   }
   where {
 	  ?x rdf:type tourisme:VolAffaire
-      ?x tourisme:destination ?place
+    ?x tourisme:destination ?place
 	  ?y tourisme:dans ?place
 	  ?y rdf:type tourisme:Hotel
   }
@@ -62,4 +62,3 @@
 
 
 </rdf:RDF>
-
