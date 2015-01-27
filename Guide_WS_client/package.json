@@ -1,24 +1,10 @@
 {
-  "name": "semantisationUS",
-  "description": "Semantisation des User Stories",
+  "name": "",
+  "description": "",
   "version": "0.0.1",
-  "author": [
-  {
-    "name": "Molka DHOUIB",
-    "email": ""
-  },
-    {
-    "name": "Ayoub BENATHMANE",
-    "email": ""
-  }],
-  "contributors": [
-    {
-      "name": "Isabelle MIRBEL",
-      "email": ""
-    }
-  ],
+ 
   "dependencies": {
     "express": "3.4.8",
-    "request": "2.36.0",
+    "request": "2.36.0"
   }
 }
