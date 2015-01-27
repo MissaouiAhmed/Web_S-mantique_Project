@@ -52,7 +52,7 @@ public class RestaurantLoader {
 				
 				Resource webr=model.createResource("http://www.polytech.semantique/tourisme#URL_Restaurant_"+
 						name.replaceAll(" ","_"));
-				webr.addProperty(FOAF.page, url);
+				webr.addProperty(RDFS.label, url);
 		
 				
 				restaurant.addProperty(propwebsite, webr);

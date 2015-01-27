@@ -52,7 +52,7 @@ public class HotelsLoader {
 						.createProperty("http://www.polytech.semantique/tourisme#siteWeb");
 				Resource urlre=model.createResource("http://www.polytech.semantique/tourisme#URL_Hotel_"+name
 						.replaceAll(" ", "_"));
-				urlre.addProperty(FOAF.page, url);
+				urlre.addProperty(RDFS.label, url);
 				hotel.addProperty(propwebsite, urlre);
 
 	
@@ -66,7 +66,7 @@ public class HotelsLoader {
 				
 				Resource imre=model.createResource("http://www.polytech.semantique/tourisme#IMAGE_Hotel_"+name
 						.replaceAll(" ", "_"));
-				urlre.addProperty(FOAF.page, image);
+				urlre.addProperty(RDFS.label, image);
 				
 				
 				hotel.addProperty(proptelphone,imre );

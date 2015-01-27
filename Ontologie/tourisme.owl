@@ -142,7 +142,7 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">siteWeb</label>
   <comment xml:lang="en">siteWeb</comment>
   <comment xml:lang="fr">siteWeb</comment>
-  <rdfs:range rdf:resource="#URL"/>
+  <rdfs:range rdf:resource="#LienWeb"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:ID="imageUrl">
@@ -150,13 +150,19 @@ xmlns:dct="http://purl.org/dc/terms/"
   <label xml:lang="fr">imageUrl</label>
   <comment xml:lang="en">imageUrl</comment>
   <comment xml:lang="fr">imageUrl</comment>
-  <rdfs:range rdf:resource="#URL"/>
+  <rdfs:range rdf:resource="#LienImage"/>
 </owl:ObjectProperty>
 
- <owl:Class rdf:ID="URL">
-  <label xml:lang="fr">url</label>
-  <label xml:lang="en">url</label>
+ <owl:Class rdf:ID="LienImage">
+  <label xml:lang="fr">Image</label>
+  <label xml:lang="en">Image</label>
  </owl:Class>
+ 
+ <owl:Class rdf:ID="LienWeb">
+  <label xml:lang="fr">LienWeb</label>
+  <label xml:lang="en">LienWeb</label>
+ </owl:Class>
+ 
  
 <owl:DatatypeProperty rdf:ID="nom">
   <label xml:lang="en">nom</label>

@@ -6,10 +6,10 @@
 @prefix tourisme: <http://www.polytech.semantique/tourisme#> .
 
 tourisme:URL_Hotel_Novotel_Munich_City
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d507522-Reviews-Novotel_Munich_City-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d507522-Reviews-Novotel_Munich_City-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Hotel_West_End
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197184-Reviews-Hotel_West_End-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197184-Reviews-Hotel_West_End-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Taberna_Origen
         a                   tourisme:Restaurant ;
@@ -21,15 +21,15 @@ tourisme:Taberna_Origen
         tourisme:telephone  "912240559" .
 
 tourisme:URL_Hotel_Hotel_Residence_Foch
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d234633-Reviews-Hotel_Residence_Foch-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d234633-Reviews-Hotel_Residence_Foch-Paris_Ile_de_France.html" .
 
 tourisme:Nice  a  tourisme:Ville .
 
 tourisme:URL_Hotel_Hesperia_Tower
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d630596-Reviews-Hesperia_Tower-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d630596-Reviews-Hesperia_Tower-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Le_Cinq
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d699456-Reviews-Le_Cinq-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d699456-Reviews-Le_Cinq-Paris_Ile_de_France.html" .
 
 tourisme:Chez_Toinette
         a                   tourisme:Restaurant ;
@@ -50,10 +50,10 @@ tourisme:Moratin_Vinoteca_Bistrot
         tourisme:telephone  "+34 911 27 60 85" .
 
 tourisme:URL_Hotel_Acta_Ink_606_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1999376-Reviews-Acta_Ink_606_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1999376-Reviews-Acta_Ink_606_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Jeremie
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6538833-Reviews-Jeremie-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6538833-Reviews-Jeremie-Paris_Ile_de_France.html" .
 
 tourisme:Gelateria_Valentino
         a                   tourisme:Restaurant ;
@@ -104,10 +104,10 @@ tourisme:Mati  a            tourisme:Restaurant ;
         tourisme:telephone  "+32(0)2/540.87.71" .
 
 tourisme:URL_Restaurant_Jan
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d4975072-Reviews-Jan-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d4975072-Reviews-Jan-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Rock_Salt_Chilli_Peppers
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6678011-Reviews-Rock_Salt_Chilli_Peppers-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6678011-Reviews-Rock_Salt_Chilli_Peppers-Brussels.html" .
 
 tourisme:Deko_Rome  a     tourisme:Hotel ;
         tourisme:adresse  "Via Toscana,1, 00187 Rome, Italie " ;
@@ -116,7 +116,7 @@ tourisme:Deko_Rome  a     tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Deko_Rome .
 
 tourisme:URL_Restaurant_La_Gelateria_Frigidarium
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d1536028-Reviews-La_Gelateria_Frigidarium-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d1536028-Reviews-La_Gelateria_Frigidarium-Rome_Lazio.html" .
 
 tourisme:Jedermann_Hotel
         a                 tourisme:Hotel ;
@@ -172,7 +172,7 @@ tourisme:Le_Cinq  a         tourisme:Restaurant ;
         tourisme:telephone  "+33 (1) 49 52 71 54" .
 
 tourisme:URL_Restaurant_Cientoocho
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4734463-Reviews-Cientoocho-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4734463-Reviews-Cientoocho-Barcelona_Catalonia.html" .
 
 tourisme:La_Era_Restaurante
         a                   tourisme:Restaurant ;
@@ -184,7 +184,7 @@ tourisme:La_Era_Restaurante
         tourisme:telephone  "+(34)915670144" .
 
 tourisme:URL_Restaurant_Kleinschmecker
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6774415-Reviews-Kleinschmecker-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6774415-Reviews-Kleinschmecker-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:L_Aubergeade
         a                   tourisme:Restaurant ;
@@ -211,16 +211,16 @@ tourisme:Jeremie  a         tourisme:Restaurant ;
         tourisme:telephone  "+(33)147049681" .
 
 tourisme:URL_Restaurant_Buenos_Aires_Grill_Restaurant
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6413496-Reviews-Buenos_Aires_Grill_Restaurant-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6413496-Reviews-Buenos_Aires_Grill_Restaurant-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Ibis_Styles
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d597521-Reviews-Ibis_Styles-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d597521-Reviews-Ibis_Styles-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Hotel_Campo_De_Fiori
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d208552-Reviews-Hotel_Campo_De_Fiori-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d208552-Reviews-Hotel_Campo_De_Fiori-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_The_Peninsula_Paris
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d6678144-Reviews-The_Peninsula_Paris-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d6678144-Reviews-The_Peninsula_Paris-Paris_Ile_de_France.html" .
 
 tourisme:Villa_Spalletti_Trivelli
         a                 tourisme:Hotel ;
@@ -230,7 +230,7 @@ tourisme:Villa_Spalletti_Trivelli
         tourisme:siteWeb  tourisme:URL_Hotel_Villa_Spalletti_Trivelli .
 
 tourisme:URL_Restaurant_DSTAGE
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6884911-Reviews-DSTAGE-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6884911-Reviews-DSTAGE-Madrid.html" .
 
 tourisme:U232_Hotel  a    tourisme:Hotel ;
         tourisme:adresse  "Comte d'Urgell 232, 08036 Barcelone, Espagne (Anciennement Nunez Urgell Hotel)" ;
@@ -239,22 +239,22 @@ tourisme:U232_Hotel  a    tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_U232_Hotel .
 
 tourisme:URL_Hotel_Albergo_del_Senato
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d191099-Reviews-Albergo_del_Senato-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d191099-Reviews-Albergo_del_Senato-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Pullman_Munich
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d199631-Reviews-Pullman_Munich-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d199631-Reviews-Pullman_Munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_Maitia
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3948218-Reviews-Maitia-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3948218-Reviews-Maitia-Madrid.html" .
 
 tourisme:URL_Hotel_Gran_Hotel_Princesa_Sofia
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d242975-Reviews-Gran_Hotel_Princesa_Sofia-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d242975-Reviews-Gran_Hotel_Princesa_Sofia-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Comics_Cafe
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2351600-Reviews-Comics_Cafe-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2351600-Reviews-Comics_Cafe-Brussels.html" .
 
 tourisme:URL_Hotel_ApartoSuites_Jardines_de_Sabatini
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1657593-Reviews-ApartoSuites_Jardines_de_Sabatini-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1657593-Reviews-ApartoSuites_Jardines_de_Sabatini-Madrid.html" .
 
 tourisme:Todo_Pasa  a       tourisme:Restaurant ;
         rdfs:label          "Todo Pasa" ;
@@ -265,7 +265,7 @@ tourisme:Todo_Pasa  a       tourisme:Restaurant ;
         tourisme:telephone  "933 284 692" .
 
 tourisme:URL_Restaurant_Alexandre
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1969696-Reviews-Alexandre-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1969696-Reviews-Alexandre-Brussels.html" .
 
 dbpedia-resource:Carnavalet_Museum
         a                      tourisme:Monument ;
@@ -276,7 +276,7 @@ dbpedia-resource:Carnavalet_Museum
         tourisme:siteWeb       tourisme:URL_Monument_Carnavalet_Museum .
 
 tourisme:URL_Restaurant_osteria_pane_e_vino
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d7140973-Reviews-Osteria_pane_e_vino-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d7140973-Reviews-Osteria_pane_e_vino-Brussels.html" .
 
 tourisme:Taberna_Gastromaquia
         a                   tourisme:Restaurant ;
@@ -288,10 +288,10 @@ tourisme:Taberna_Gastromaquia
         tourisme:telephone  "915226413" .
 
 tourisme:URL_Restaurant_Franchin
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1326341-Reviews-Restaurant_Franchin-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1326341-Reviews-Restaurant_Franchin-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Disfrutar
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7281314-Reviews-Disfrutar-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7281314-Reviews-Disfrutar-Barcelona_Catalonia.html" .
 
 tourisme:La_Tragantua
         a                   tourisme:Restaurant ;
@@ -303,13 +303,13 @@ tourisme:La_Tragantua
         tourisme:telephone  "914203108" .
 
 tourisme:URL_Hotel_Bayerischer_Hof_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d190303-Reviews-Bayerischer_Hof_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d190303-Reviews-Bayerischer_Hof_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Villa_San_Lorenzo_Maria_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d297048-Reviews-Villa_San_Lorenzo_Maria_Hotel-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d297048-Reviews-Villa_San_Lorenzo_Maria_Hotel-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Sheraton_Madrid_Mirasierra_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d279006-Reviews-Sheraton_Madrid_Mirasierra_Hotel_Spa-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d279006-Reviews-Sheraton_Madrid_Mirasierra_Hotel_Spa-Madrid.html" .
 
 tourisme:Hotel_Acta_Mimic
         a                 tourisme:Hotel ;
@@ -335,13 +335,13 @@ tourisme:La_Pagnottella_Gourmet
         tourisme:telephone  "+39 06 6482 4024" .
 
 tourisme:URL_Restaurant_Nissart_Burger
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d7061088-Reviews-Niss_art-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d7061088-Reviews-Niss_art-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_AC_Hotel_Barcelona_Forum_by_Marriott
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d501108-Reviews-AC_Hotel_Barcelona_Forum_by_Marriott-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d501108-Reviews-AC_Hotel_Barcelona_Forum_by_Marriott-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Hotel_Muenchen_Palace
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d217948-Reviews-Hotel_Muenchen_Palace-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d217948-Reviews-Hotel_Muenchen_Palace-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Restaurant_Mariette
         a                   tourisme:Restaurant ;
@@ -362,7 +362,7 @@ tourisme:Arena_del_Gelato
         tourisme:telephone  "+(39)0668806312" .
 
 tourisme:URL_Hotel_Hotel_Romanico_Palace
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d656857-Reviews-Hotel_Romanico_Palace-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d656857-Reviews-Hotel_Romanico_Palace-Rome_Lazio.html" .
 
 tourisme:The_Market_Madrid
         a                   tourisme:Restaurant ;
@@ -389,7 +389,7 @@ tourisme:Holiday_Inn_Madrid_-_Calle_Alcala
         tourisme:siteWeb  tourisme:URL_Hotel_Holiday_Inn_Madrid_-_Calle_Alcala .
 
 tourisme:URL_Restaurant_Restaurante_Margherita
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820198-Reviews-Restaurante_Margherita-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820198-Reviews-Restaurante_Margherita-Barcelona_Catalonia.html" .
 
 tourisme:Shangri_La_Hotel_Paris
         a                 tourisme:Hotel ;
@@ -416,10 +416,10 @@ tourisme:Seb_on  a          tourisme:Restaurant ;
         tourisme:telephone  "+33 1 42 59 74 32" .
 
 tourisme:URL_Restaurant_Bibulus
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1346226-Reviews-Bibulus-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1346226-Reviews-Bibulus-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_La_Canica
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7284099-Reviews-La_Canica-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7284099-Reviews-La_Canica-Madrid.html" .
 
 tourisme:Chez_Papa_Fred
         a                   tourisme:Restaurant ;
@@ -438,7 +438,7 @@ tourisme:Thon_Hotel_EU
         tourisme:siteWeb  tourisme:URL_Hotel_Thon_Hotel_EU .
 
 tourisme:URL_Hotel_Pullman_Barcelona_Skipper
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d614392-Reviews-Pullman_Barcelona_Skipper-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d614392-Reviews-Pullman_Barcelona_Skipper-Barcelona_Catalonia.html" .
 
 tourisme:Jan  a             tourisme:Restaurant ;
         rdfs:label          "Jan" ;
@@ -456,16 +456,16 @@ tourisme:Hotel_Primero_Primera
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Primero_Primera .
 
 tourisme:URL_Restaurant_Bar_Italia_Brasserie
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d3842915-Reviews-Bar_Italia_Brasserie-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d3842915-Reviews-Bar_Italia_Brasserie-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_Seb_on
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6958622-Reviews-Seb_on-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6958622-Reviews-Seb_on-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_Le_Vingt4
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2264534-Reviews-Le_Vingt4-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2264534-Reviews-Le_Vingt4-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Barcelona_Princess
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1227764-Reviews-Barcelona_Princess-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1227764-Reviews-Barcelona_Princess-Barcelona_Catalonia.html" .
 
 tourisme:Pasta_Divina
         a                   tourisme:Restaurant ;
@@ -500,7 +500,7 @@ tourisme:Hotel_Vice_Versa
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Vice_Versa .
 
 tourisme:URL_Hotel_Crowne_Plaza_Barcelona_-_Fira_Center
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228466-Reviews-Crowne_Plaza_Barcelona_Fira_Center-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228466-Reviews-Crowne_Plaza_Barcelona_Fira_Center-Barcelona_Catalonia.html" .
 
 tourisme:Bar_Italia_Brasserie
         a                   tourisme:Restaurant ;
@@ -512,7 +512,7 @@ tourisme:Bar_Italia_Brasserie
         tourisme:telephone  "+33 1 83 97 25 85 " .
 
 tourisme:URL_Restaurant_Bespoke
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6500714-Reviews-Bespoke-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6500714-Reviews-Bespoke-Paris_Ile_de_France.html" .
 
 tourisme:Winehouse_Osteria
         a                   tourisme:Restaurant ;
@@ -532,7 +532,7 @@ tourisme:Bibulus  a         tourisme:Restaurant ;
         tourisme:telephone  "+49 89 396447" .
 
 tourisme:URL_Hotel_Novotel_Brussels_Grand_Place
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d206697-Reviews-Novotel_Brussels_Grand_Place-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d206697-Reviews-Novotel_Brussels_Grand_Place-Brussels.html" .
 
 tourisme:Pantone_Hotel
         a                 tourisme:Hotel ;
@@ -582,7 +582,7 @@ tourisme:La_Maison_Corica
         tourisme:telephone  "5.0 5 " .
 
 tourisme:URL_Restaurant_Paninoteca_Slurp
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5562550-Reviews-Paninoteca_Slurp-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5562550-Reviews-Paninoteca_Slurp-Rome_Lazio.html" .
 
 tourisme:Vol5  a              tourisme:VolAffaire ;
         dc:identifier         "5" ;
@@ -590,7 +590,7 @@ tourisme:Vol5  a              tourisme:VolAffaire ;
         tourisme:destination  tourisme:Munich .
 
 tourisme:URL_Hotel_Relais_6
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1510499-Reviews-Relais_6-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1510499-Reviews-Relais_6-Rome_Lazio.html" .
 
 tourisme:El_Madrono  a    tourisme:Hotel ;
         tourisme:adresse  "General Diaz Porlier 101, 28006 Madrid, Espagne " ;
@@ -599,10 +599,10 @@ tourisme:El_Madrono  a    tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_El_Madrono .
 
 tourisme:URL_Restaurant_Comme_Chez_Soi
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d691977-Reviews-Comme_Chez_Soi-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d691977-Reviews-Comme_Chez_Soi-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Jazz
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d296916-Reviews-Hotel_Jazz-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d296916-Reviews-Hotel_Jazz-Barcelona_Catalonia.html" .
 
 tourisme:Hotel_Santa_Maria
         a                 tourisme:Hotel ;
@@ -619,7 +619,7 @@ tourisme:Hotel_Pulitzer_Roma
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Pulitzer_Roma .
 
 tourisme:URL_Hotel_Boscolo_Exedra_Nice
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d482672-Reviews-Boscolo_Exedra_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d482672-Reviews-Boscolo_Exedra_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Le_Sweeties  a     tourisme:Restaurant ;
         rdfs:label          "Le Sweeties" ;
@@ -630,10 +630,10 @@ tourisme:Le_Sweeties  a     tourisme:Restaurant ;
         tourisme:telephone  "0952410339" .
 
 tourisme:URL_Restaurant_La_Pizzateca
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d2086638-Reviews-La_Pizzateca-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d2086638-Reviews-La_Pizzateca-Madrid.html" .
 
 tourisme:URL_Restaurant_Spoonik
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6278428-Reviews-Spoonik-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6278428-Reviews-Spoonik-Barcelona_Catalonia.html" .
 
 tourisme:La_Prosciutteria
         a                   tourisme:Restaurant ;
@@ -652,7 +652,7 @@ tourisme:Ibis_Muenchen_Schwabing
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Muenchen_Schwabing .
 
 tourisme:URL_Restaurant_La_Roustide
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1401830-Reviews-La_Roustide-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1401830-Reviews-La_Roustide-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Pastry_Plaisirs
         a                   tourisme:Restaurant ;
@@ -671,7 +671,7 @@ tourisme:Hotel_One_Shot_Prado_23
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_One_Shot_Prado_23 .
 
 tourisme:URL_Restaurant_Le_Bistrot_d_Antoine
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2328934-Reviews-Le_Bistrot_d_Antoine-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2328934-Reviews-Le_Bistrot_d_Antoine-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Wonderful_Ice_Cream
         a                   tourisme:Restaurant ;
@@ -691,10 +691,10 @@ tourisme:Bespoke  a         tourisme:Restaurant ;
         tourisme:telephone  "+33 1 58 30 88 59" .
 
 tourisme:URL_Restaurant_Taberna_Origen
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6613386-Reviews-Taberna_Origen-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6613386-Reviews-Taberna_Origen-Madrid.html" .
 
 tourisme:URL_Restaurant_Le_Sweeties
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2620129-Reviews-Le_Sweeties-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2620129-Reviews-Le_Sweeties-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Hotel_Claridge
         a                 tourisme:Hotel ;
@@ -711,16 +711,16 @@ tourisme:Seven_Hotel_Paris
         tourisme:siteWeb  tourisme:URL_Hotel_Seven_Hotel_Paris .
 
 tourisme:URL_Restaurant_Arlequin_Gelati_Italiani
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1592829-Reviews-Arlequin_Gelati_Italiani-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1592829-Reviews-Arlequin_Gelati_Italiani-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Sofitel_Brussels_Le_Louise
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1136493-d604552-Reviews-Sofitel_Brussels_Le_Louise-Ixelles_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1136493-d604552-Reviews-Sofitel_Brussels_Le_Louise-Ixelles_Brussels.html" .
 
 tourisme:URL_Restaurant_Wonderful_Ice_Cream
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5038694-Reviews-Wonderful_Ice_Cream-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5038694-Reviews-Wonderful_Ice_Cream-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Novotel_Brussels_Centre
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d232022-Reviews-Novotel_Brussels_Centre-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d232022-Reviews-Novotel_Brussels_Centre-Brussels.html" .
 
 tourisme:Silken_Puerta_America
         a                 tourisme:Hotel ;
@@ -730,7 +730,7 @@ tourisme:Silken_Puerta_America
         tourisme:siteWeb  tourisme:URL_Hotel_Silken_Puerta_America .
 
 tourisme:URL_Hotel_Hotel_Regina
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d266365-Reviews-Hotel_Regina-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d266365-Reviews-Hotel_Regina-Madrid.html" .
 
 tourisme:Hilton_Park_Munich
         a                 tourisme:Hotel ;
@@ -769,7 +769,7 @@ tourisme:W_Barcelona  a   tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_W_Barcelona .
 
 tourisme:URL_Restaurant_Zoryani_Gelateria_Artigianale
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4420305-Reviews-Zoryani_Gelateria_Artigianale-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4420305-Reviews-Zoryani_Gelateria_Artigianale-Rome_Lazio.html" .
 
 tourisme:Tonton_Garby
         a                   tourisme:Restaurant ;
@@ -790,10 +790,10 @@ tourisme:Arlequin_Gelati_Italiani
         tourisme:telephone  "+33 4 93 04 69 88" .
 
 tourisme:URL_Hotel_Motel_One
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d6401593-Reviews-Motel_One-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d6401593-Reviews-Motel_One-Brussels.html" .
 
 tourisme:URL_Hotel_Ibis_Muenchen_City
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d201846-Reviews-Ibis_Muenchen_City-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d201846-Reviews-Ibis_Muenchen_City-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Hotel_Preciados
         a                 tourisme:Hotel ;
@@ -803,7 +803,7 @@ tourisme:Hotel_Preciados
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Preciados .
 
 tourisme:URL_Hotel_Hotel_dei_Borgia
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d4740502-Reviews-Hotel_dei_Borgia-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d4740502-Reviews-Hotel_dei_Borgia-Rome_Lazio.html" .
 
 tourisme:Paninoteca_Slurp
         a                   tourisme:Restaurant ;
@@ -849,7 +849,7 @@ tourisme:Poechenellekelder
         tourisme:telephone  "+32 2 511 92 62" .
 
 tourisme:URL_Restaurant_Restaurant_Les_Garcons
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6781651-Reviews-Restaurant_Les_Garcons-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6781651-Reviews-Restaurant_Les_Garcons-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:La_Route_du_Miam
         a                   tourisme:Restaurant ;
@@ -861,7 +861,7 @@ tourisme:La_Route_du_Miam
         tourisme:telephone  "06 16 36 33 22" .
 
 tourisme:URL_Hotel_Metropole_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d228077-Reviews-Metropole_Hotel-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d228077-Reviews-Metropole_Hotel-Brussels.html" .
 
 tourisme:be_Manos  a      tourisme:Hotel ;
         tourisme:adresse  "Square de l'Aviation 23-27, Anderlecht, Bruxelles 1070, Belgique " ;
@@ -870,13 +870,13 @@ tourisme:be_Manos  a      tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_be_Manos .
 
 tourisme:URL_Hotel_Hotel_Laimer_Hof
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d279562-Reviews-Hotel_Laimer_Hof-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d279562-Reviews-Hotel_Laimer_Hof-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_Las_7_Maravillas
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4137816-Reviews-Las_7_Maravillas-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4137816-Reviews-Las_7_Maravillas-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Chez_Toinette
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d715006-Reviews-Chez_Toinette-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d715006-Reviews-Chez_Toinette-Paris_Ile_de_France.html" .
 
 tourisme:Praktik_Metropol
         a                 tourisme:Hotel ;
@@ -886,10 +886,10 @@ tourisme:Praktik_Metropol
         tourisme:siteWeb  tourisme:URL_Hotel_Praktik_Metropol .
 
 tourisme:URL_Restaurant_Melodynice
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2508314-Reviews-Melodynice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2508314-Reviews-Melodynice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Le_Second_Degre
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5927690-Reviews-Le_Second_Degre-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5927690-Reviews-Le_Second_Degre-Brussels.html" .
 
 tourisme:Wellington_Hotel
         a                 tourisme:Hotel ;
@@ -899,7 +899,7 @@ tourisme:Wellington_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Wellington_Hotel .
 
 tourisme:URL_Restaurant_Le_Reminet
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719235-Reviews-Le_Reminet-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719235-Reviews-Le_Reminet-Paris_Ile_de_France.html" .
 
 tourisme:Casa_Camper_Hotel_Barcelona
         a                 tourisme:Hotel ;
@@ -916,10 +916,10 @@ tourisme:Hotel_Castle
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Castle .
 
 tourisme:URL_Hotel_Hotel_Curious
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1022712-Reviews-Hotel_Curious-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1022712-Reviews-Hotel_Curious-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Neuhaus_Galerie_de_la_Reine_-_Salon_de_Chocolat
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d4059377-Reviews-Neuhaus_Galerie_de_la_Reine_Salon_de_Chocolat-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d4059377-Reviews-Neuhaus_Galerie_de_la_Reine_Salon_de_Chocolat-Brussels.html" .
 
 tourisme:Bistro_Saint_Louis
         a                   tourisme:Restaurant ;
@@ -931,7 +931,7 @@ tourisme:Bistro_Saint_Louis
         tourisme:telephone  "+33 4 93 62 93 36" .
 
 tourisme:URL_Restaurant_Gelateria_Azzurro
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d799491-Reviews-Gelateria_Azzurro-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d799491-Reviews-Gelateria_Azzurro-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Innside_Madrid_Luchana
         a                 tourisme:Hotel ;
@@ -941,7 +941,7 @@ tourisme:Innside_Madrid_Luchana
         tourisme:siteWeb  tourisme:URL_Hotel_Innside_Madrid_Luchana .
 
 tourisme:URL_Hotel_Casa_Camper_Hotel_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d543153-Reviews-Casa_Camper_Hotel_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d543153-Reviews-Casa_Camper_Hotel_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:Hotel_Ares_Eiffel_Paris
         a                 tourisme:Hotel ;
@@ -951,7 +951,7 @@ tourisme:Hotel_Ares_Eiffel_Paris
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Ares_Eiffel_Paris .
 
 tourisme:URL_Restaurant_Broeding
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d692576-Reviews-Broeding-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d692576-Reviews-Broeding-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Vol12  a             tourisme:VolLoisir ;
         dc:identifier         "12" ;
@@ -968,7 +968,7 @@ tourisme:La_Forquilla
         tourisme:telephone  "93.300.79.80" .
 
 tourisme:URL_Restaurant_La_Villa_Lorraine
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d694768-Reviews-La_Villa_Lorraine-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d694768-Reviews-La_Villa_Lorraine-Brussels.html" .
 
 tourisme:Mimmo_E_Co  a      tourisme:Restaurant ;
         rdfs:label          "Mimmo E Co" ;
@@ -979,13 +979,13 @@ tourisme:Mimmo_E_Co  a      tourisme:Restaurant ;
         tourisme:telephone  "(0) 89/ 76701545" .
 
 tourisme:URL_Hotel_Hotel_La_Perouse
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d263754-Reviews-Hotel_La_Perouse-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d263754-Reviews-Hotel_La_Perouse-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Casa_9_Restaurante
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d4847445-Reviews-Casa_9_Restaurante-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d4847445-Reviews-Casa_9_Restaurante-Madrid.html" .
 
 tourisme:URL_Restaurant_Panino_Ricco
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6621383-Reviews-Panino_Ricco-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6621383-Reviews-Panino_Ricco-Rome_Lazio.html" .
 
 tourisme:Artemide_Hotel
         a                 tourisme:Hotel ;
@@ -995,13 +995,13 @@ tourisme:Artemide_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Artemide_Hotel .
 
 tourisme:URL_Hotel_Le_Meridien_Munich
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d233834-Reviews-Le_Meridien_Munich-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d233834-Reviews-Le_Meridien_Munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Hotel_Constanza_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d503136-Reviews-Hotel_Constanza_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d503136-Reviews-Hotel_Constanza_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_La_Provencita
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6899427-Reviews-La_Provencita-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6899427-Reviews-La_Provencita-Madrid.html" .
 
 tourisme:Con_Gracia  a      tourisme:Restaurant ;
         rdfs:label          "Con Gracia" ;
@@ -1029,10 +1029,10 @@ tourisme:La_Pizzateca
         tourisme:telephone  "+34 913 69 32 10" .
 
 tourisme:URL_Hotel_The_Charles_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d656270-Reviews-The_Charles_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d656270-Reviews-The_Charles_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_Sacree_fleur
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6633751-Reviews-Sacree_Fleur-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6633751-Reviews-Sacree_Fleur-Paris_Ile_de_France.html" .
 
 tourisme:Olivia_Balmes_Hotel
         a                 tourisme:Hotel ;
@@ -1056,19 +1056,19 @@ tourisme:Albergo_del_Senato
         tourisme:siteWeb  tourisme:URL_Hotel_Albergo_del_Senato .
 
 tourisme:URL_Restaurant_Le_Jamoncito
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6802665-Reviews-Le_Jamoncito-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6802665-Reviews-Le_Jamoncito-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_Chez_Papa_Fred
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3175650-Reviews-Chez_Papa_Fred-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3175650-Reviews-Chez_Papa_Fred-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Pinsere_Roma
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3570028-Reviews-Pinsere_Roma-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3570028-Reviews-Pinsere_Roma-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_Likeat
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5777687-Reviews-Likeat-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5777687-Reviews-Likeat-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Mercer_Hotel_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d3400654-Reviews-Mercer_Hotel_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d3400654-Reviews-Mercer_Hotel_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:Worldhotel_Ripa_Roma
         a                 tourisme:Hotel ;
@@ -1094,16 +1094,16 @@ tourisme:Nam_Giao_31  a     tourisme:Restaurant ;
         tourisme:telephone  "+49(0)8959988033" .
 
 tourisme:URL_Hotel_Hotel_Windsor_Nice
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d219971-Reviews-Hotel_Windsor_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d219971-Reviews-Hotel_Windsor_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Appia_Antica_Resort
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d4698947-Reviews-Appia_Antica_Resort-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d4698947-Reviews-Appia_Antica_Resort-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Thon_Hotel_Brussels_City_Centre
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d228088-Reviews-Thon_Hotel_Brussels_City_Centre-Saint_Josse_ten_Noode_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d228088-Reviews-Thon_Hotel_Brussels_City_Centre-Saint_Josse_ten_Noode_Brussels.html" .
 
 tourisme:URL_Hotel_Worldhotel_Ripa_Roma
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228949-Reviews-Worldhotel_Ripa_Roma-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228949-Reviews-Worldhotel_Ripa_Roma-Rome_Lazio.html" .
 
 tourisme:AC_Hotel_Barcelona_Forum_by_Marriott
         a                 tourisme:Hotel ;
@@ -1113,10 +1113,10 @@ tourisme:AC_Hotel_Barcelona_Forum_by_Marriott
         tourisme:siteWeb  tourisme:URL_Hotel_AC_Hotel_Barcelona_Forum_by_Marriott .
 
 tourisme:URL_Hotel_Hotel_Dharma
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d2372788-Reviews-Hotel_Dharma-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d2372788-Reviews-Hotel_Dharma-Rome_Lazio.html" .
 
 tourisme:URL_Monument_Grand_Palais
-        foaf:page  "http://www.grandpalais.fr/en/Homepage/p-617-Homepage.htm" .
+        rdfs:label  "http://www.grandpalais.fr/en/Homepage/p-617-Homepage.htm" .
 
 tourisme:Las_7_Maravillas
         a                   tourisme:Restaurant ;
@@ -1155,10 +1155,10 @@ tourisme:Soho_Hotel  a    tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Soho_Hotel .
 
 tourisme:URL_Restaurant_Pucci_Restaurant
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3859360-Reviews-Pucci_Restaurant-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3859360-Reviews-Pucci_Restaurant-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Il_Pasticcio
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d814522-Reviews-Il_Pasticcio-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d814522-Reviews-Il_Pasticcio-Brussels.html" .
 
 tourisme:Cientoocho  a      tourisme:Restaurant ;
         rdfs:label          "Cientoocho" ;
@@ -1176,7 +1176,7 @@ tourisme:Holiday_Inn_Munich_-_City_Centre
         tourisme:siteWeb  tourisme:URL_Hotel_Holiday_Inn_Munich_-_City_Centre .
 
 tourisme:URL_Hotel_Maydrit_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1153301-Reviews-Maydrit_Hotel-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1153301-Reviews-Maydrit_Hotel-Madrid.html" .
 
 tourisme:Portrait_Roma
         a                 tourisme:Hotel ;
@@ -1186,13 +1186,13 @@ tourisme:Portrait_Roma
         tourisme:siteWeb  tourisme:URL_Hotel_Portrait_Roma .
 
 tourisme:URL_Restaurant_SantaGula
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2518790-Reviews-SantaGula-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2518790-Reviews-SantaGula-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Residenza_Argentina
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d531936-Reviews-Residenza_Argentina-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d531936-Reviews-Residenza_Argentina-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_Moeder_Lambic_Fontainas
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2258297-Reviews-Moeder_Lambic_Fontainas-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2258297-Reviews-Moeder_Lambic_Fontainas-Brussels.html" .
 
 tourisme:Barocco_Hotel
         a                 tourisme:Hotel ;
@@ -1209,16 +1209,16 @@ tourisme:Hotel_Le_Plaza
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Le_Plaza .
 
 tourisme:URL_Restaurant_Collage_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3747470-Reviews-Collage_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3747470-Reviews-Collage_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Restaurante_Arume
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6839857-Reviews-Restaurante_Arume-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6839857-Reviews-Restaurante_Arume-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Sheraton_Brussels_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d206689-Reviews-Sheraton_Brussels_Hotel-Saint_Josse_ten_Noode_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d206689-Reviews-Sheraton_Brussels_Hotel-Saint_Josse_ten_Noode_Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Joyce_Astotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1631156-Reviews-Hotel_Joyce_Astotel-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1631156-Reviews-Hotel_Joyce_Astotel-Paris_Ile_de_France.html" .
 
 tourisme:napa  a            tourisme:Restaurant ;
         rdfs:label          "napa" ;
@@ -1229,7 +1229,7 @@ tourisme:napa  a            tourisme:Restaurant ;
         tourisme:telephone  "+34 933 48 36 52" .
 
 tourisme:URL_Restaurant_Vinpasa
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2182818-Reviews-Vinpasa-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2182818-Reviews-Vinpasa-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Barcelona_Princess
         a                 tourisme:Hotel ;
@@ -1239,7 +1239,7 @@ tourisme:Barcelona_Princess
         tourisme:siteWeb  tourisme:URL_Hotel_Barcelona_Princess .
 
 tourisme:URL_Hotel_Hotel_Plaza_Athenee
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d188730-Reviews-Hotel_Plaza_Athenee-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d188730-Reviews-Hotel_Plaza_Athenee-Paris_Ile_de_France.html" .
 
 tourisme:Louis_Hotel  a   tourisme:Hotel ;
         tourisme:adresse  "Rindermarkt 2 | Viktualienmarkt 6, 80331 Munich, BaviÃ¨re, Allemagne " ;
@@ -1248,13 +1248,13 @@ tourisme:Louis_Hotel  a   tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Louis_Hotel .
 
 tourisme:URL_Restaurant_St_James
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d4542399-Reviews-St_James-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d4542399-Reviews-St_James-Madrid.html" .
 
 tourisme:URL_Restaurant_Aksum_Coffee_House
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2207931-Reviews-Aksum_Coffee_House-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2207931-Reviews-Aksum_Coffee_House-Brussels.html" .
 
 tourisme:URL_Hotel_Eurostars_Grand_Central
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d1484641-Reviews-Eurostars_Grand_Central-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d1484641-Reviews-Eurostars_Grand_Central-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Crowne_Plaza_Barcelona_-_Fira_Center
         a                 tourisme:Hotel ;
@@ -1279,10 +1279,10 @@ tourisme:Hotel_Darcet
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Darcet .
 
 tourisme:URL_Hotel_U232_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d234572-Reviews-U232_Hotel-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d234572-Reviews-U232_Hotel-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Kreta_Grill
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983425-Reviews-Kreta_Grill-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983425-Reviews-Kreta_Grill-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Hotel_Georgette
         a                 tourisme:Hotel ;
@@ -1299,19 +1299,19 @@ tourisme:iQ_Hotel_Roma
         tourisme:siteWeb  tourisme:URL_Hotel_iQ_Hotel_Roma .
 
 tourisme:URL_Restaurant_Metro_Bistro_-_Plaza_Mayor
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6498928-Reviews-Metro_Bistro_Plaza_Mayor-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6498928-Reviews-Metro_Bistro_Plaza_Mayor-Madrid.html" .
 
 tourisme:URL_Hotel_Ciutat_de_Sant_Adria_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d606469-Reviews-Ciutat_de_Sant_Adria_Hotel-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d606469-Reviews-Ciutat_de_Sant_Adria_Hotel-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_EuroPark_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d232781-Reviews-EuroPark_Hotel-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d232781-Reviews-EuroPark_Hotel-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Alright
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7239164-Reviews-Alright-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7239164-Reviews-Alright-Madrid.html" .
 
 tourisme:URL_Hotel_Marc_Muenchen
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d228368-Reviews-Marc_Muenchen-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d228368-Reviews-Marc_Muenchen-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Bold_Hotel_Muenchen
         a                 tourisme:Hotel ;
@@ -1321,10 +1321,10 @@ tourisme:Bold_Hotel_Muenchen
         tourisme:siteWeb  tourisme:URL_Hotel_Bold_Hotel_Muenchen .
 
 tourisme:URL_Restaurant_Le_Bistrot_De_La_Vieille
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6550546-Reviews-Le_Bistrot_de_la_Vieille-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6550546-Reviews-Le_Bistrot_de_la_Vieille-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Portrait_Roma
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d601432-Reviews-Portrait_Roma-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d601432-Reviews-Portrait_Roma-Rome_Lazio.html" .
 
 tourisme:Panino_Ricco
         a                   tourisme:Restaurant ;
@@ -1343,7 +1343,7 @@ tourisme:Hotel_Bavaria
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Bavaria .
 
 tourisme:URL_Restaurant_Bahia_Taberna
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d803211-Reviews-Bahia_Taberna-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d803211-Reviews-Bahia_Taberna-Madrid.html" .
 
 tourisme:Hotel_Orfila
         a                 tourisme:Hotel ;
@@ -1370,10 +1370,10 @@ tourisme:Bistrotters  a     tourisme:Restaurant ;
         tourisme:telephone  "+33 1 45 45 58 59" .
 
 tourisme:URL_Restaurant_Il_Etait_Un_Square
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6575305-Reviews-Il_Etait_Un_Square-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6575305-Reviews-Il_Etait_Un_Square-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Holiday_Inn_Madrid_-_Calle_Alcala
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d282741-Reviews-Holiday_Inn_Madrid_Calle_Alcala-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d282741-Reviews-Holiday_Inn_Madrid_Calle_Alcala-Madrid.html" .
 
 tourisme:Renaissance_Brussels_Hotel
         a                 tourisme:Hotel ;
@@ -1390,7 +1390,7 @@ tourisme:Secret_de_Paris
         tourisme:siteWeb  tourisme:URL_Hotel_Secret_de_Paris .
 
 tourisme:URL_Restaurant_Hue_House
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d5523772-Reviews-Hue_House-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d5523772-Reviews-Hue_House-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Vol7  a              tourisme:VolLoisir ;
         dc:identifier         "7" ;
@@ -1398,16 +1398,16 @@ tourisme:Vol7  a              tourisme:VolLoisir ;
         tourisme:destination  tourisme:Nice .
 
 tourisme:URL_Restaurant_La_Mie_Cale
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d5787827-Reviews-La_Mie_Cale-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d5787827-Reviews-La_Mie_Cale-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Raffaello_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d316644-Reviews-Raffaello_Hotel-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d316644-Reviews-Raffaello_Hotel-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_L_inattendu
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6475397-Reviews-L_inattendu-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6475397-Reviews-L_inattendu-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Artrip_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3167750-Reviews-Artrip_Hotel-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3167750-Reviews-Artrip_Hotel-Madrid.html" .
 
 tourisme:Le_Diane  a        tourisme:Restaurant ;
         rdfs:label          "Le Diane" ;
@@ -1418,7 +1418,7 @@ tourisme:Le_Diane  a        tourisme:Restaurant ;
         tourisme:telephone  "01 40 69 60 60" .
 
 tourisme:URL_Hotel_Brussels_Welcome_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d235853-Reviews-Brussels_Welcome_Hotel-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d235853-Reviews-Brussels_Welcome_Hotel-Brussels.html" .
 
 tourisme:Sofitel_Rome_Villa_Borghese
         a                 tourisme:Hotel ;
@@ -1462,10 +1462,10 @@ tourisme:La_Porta_Del_Principe
         tourisme:telephone  "0665001249" .
 
 tourisme:IMAGE_Ville_Munich
-        foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/Munchen_collage.jpg?width=300" .
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Munchen_collage.jpg?width=300" .
 
 tourisme:URL_Restaurant_Le_Comptoir_de_la_Crepe
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6701232-Reviews-Le_Comptoir_de_la_Crepe-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6701232-Reviews-Le_Comptoir_de_la_Crepe-Madrid.html" .
 
 tourisme:Restaurante_La_Mi_Venta
         a                   tourisme:Restaurant ;
@@ -1477,10 +1477,10 @@ tourisme:Restaurante_La_Mi_Venta
         tourisme:telephone  "+34 915 59 50 91" .
 
 tourisme:URL_Hotel_Sofitel_Rome_Villa_Borghese
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d229019-Reviews-Sofitel_Rome_Villa_Borghese-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d229019-Reviews-Sofitel_Rome_Villa_Borghese-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Hotel_Villa_Les_Cygnes
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d736634-Reviews-Hotel_Villa_Les_Cygnes-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d736634-Reviews-Hotel_Villa_Les_Cygnes-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Alright  a         tourisme:Restaurant ;
         rdfs:label          "Alright" ;
@@ -1500,7 +1500,7 @@ tourisme:Kleinschmecker
         tourisme:telephone  "+49 89 26949120" .
 
 tourisme:URL_Restaurant_restaurant_amber
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6103934-Reviews-Restaurant_amber-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6103934-Reviews-Restaurant_amber-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Le_Chantecler
         a                   tourisme:Restaurant ;
@@ -1520,7 +1520,7 @@ tourisme:Mystikon  a        tourisme:Restaurant ;
         tourisme:telephone  "+49 89 62009339" .
 
 tourisme:IMAGE_Monument_The_Louvre
-        foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/Le_Louvre_-_Aile_Richelieu.jpg?width=300" .
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Le_Louvre_-_Aile_Richelieu.jpg?width=300" .
 
 tourisme:Epicure  a         tourisme:Restaurant ;
         rdfs:label          "Epicure" ;
@@ -1546,10 +1546,10 @@ tourisme:Hotel_Felicien_by_Elegancia
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Felicien_by_Elegancia .
 
 tourisme:URL_Restaurant_Restaurant_Montiel
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d1205006-Reviews-Restaurant_Montiel-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d1205006-Reviews-Restaurant_Montiel-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Locanda_Giuliva
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5889231-Reviews-Locanda_Giuliva-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5889231-Reviews-Locanda_Giuliva-Rome_Lazio.html" .
 
 tourisme:Mercer_Hotel_Barcelona
         a                 tourisme:Hotel ;
@@ -1559,10 +1559,10 @@ tourisme:Mercer_Hotel_Barcelona
         tourisme:siteWeb  tourisme:URL_Hotel_Mercer_Hotel_Barcelona .
 
 tourisme:URL_Hotel_be_Manos
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g950777-d659606-Reviews-Be_Manos-Anderlecht_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g950777-d659606-Reviews-Be_Manos-Anderlecht_Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Felicien_by_Elegancia
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d4107097-Reviews-Hotel_Felicien_by_Elegancia-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d4107097-Reviews-Hotel_Felicien_by_Elegancia-Paris_Ile_de_France.html" .
 
 tourisme:Robadora  a        tourisme:Restaurant ;
         rdfs:label          "Robadora" ;
@@ -1610,7 +1610,7 @@ tourisme:Hotel_a_la_Grande_Cloche
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_a_la_Grande_Cloche .
 
 tourisme:URL_Hotel_Hotel_Vier_Jahreszeiten_Kempinski_Munchen
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d216838-Reviews-Hotel_Vier_Jahreszeiten_Kempinski_Munchen-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d216838-Reviews-Hotel_Vier_Jahreszeiten_Kempinski_Munchen-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Grand_Hotel_le_Florence
         a                 tourisme:Hotel ;
@@ -1627,7 +1627,7 @@ tourisme:Vatican_View
         tourisme:siteWeb  tourisme:URL_Hotel_Vatican_View .
 
 tourisme:URL_Hotel_Hotel_Massena
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197187-Reviews-L_Hotel_Massena-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197187-Reviews-L_Hotel_Massena-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Restaurante_Lasarte
         a                   tourisme:Restaurant ;
@@ -1639,7 +1639,7 @@ tourisme:Restaurante_Lasarte
         tourisme:telephone  "(+34) 93 445 32 42" .
 
 tourisme:URL_Hotel_Holiday_Inn_Munich_-_City_Centre
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d199646-Reviews-Holiday_Inn_Munich_City_Centre-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d199646-Reviews-Holiday_Inn_Munich_City_Centre-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:La_Veraison  a     tourisme:Restaurant ;
         rdfs:label          "La Veraison" ;
@@ -1650,13 +1650,13 @@ tourisme:La_Veraison  a     tourisme:Restaurant ;
         tourisme:telephone  "+33 1 45 32 39 39" .
 
 tourisme:URL_Restaurant_Le_Diane
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2286587-Reviews-Le_Diane-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2286587-Reviews-Le_Diane-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_The_Box
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820228-Reviews-The_Box-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820228-Reviews-The_Box-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Yuki_hana_munich
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4781710-Reviews-Yuki_hana_munich-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4781710-Reviews-Yuki_hana_munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Vol2  a              tourisme:VolLoisir ;
         dc:identifier         "2" ;
@@ -1664,7 +1664,7 @@ tourisme:Vol2  a              tourisme:VolLoisir ;
         tourisme:destination  tourisme:Bruxelle .
 
 tourisme:URL_Hotel_Hotel_Primero_Primera
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d2367494-Reviews-Hotel_Primero_Primera-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d2367494-Reviews-Hotel_Primero_Primera-Barcelona_Catalonia.html" .
 
 tourisme:Hedera  a          tourisme:Restaurant ;
         rdfs:label          "Hedera" ;
@@ -1675,19 +1675,19 @@ tourisme:Hedera  a          tourisme:Restaurant ;
         tourisme:telephone  "+(39)066832971" .
 
 tourisme:URL_Restaurant_Why_Not_Cocktail_Bar
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5795008-Reviews-Why_Not_Cocktail_Bar-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5795008-Reviews-Why_Not_Cocktail_Bar-Barcelona_Catalonia.html" .
 
 tourisme:Volautolux  a  tourisme:AgenceLocationVoiture ;
         tourisme:dans  tourisme:Barcelone .
 
 tourisme:URL_Hotel_El_Madrono
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d231631-Reviews-El_Madrono-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d231631-Reviews-El_Madrono-Madrid.html" .
 
 tourisme:URL_Hotel_Steigenberger_Grandhotel_Brussels
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d228089-Reviews-Steigenberger_Grandhotel_Brussels-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d228089-Reviews-Steigenberger_Grandhotel_Brussels-Brussels.html" .
 
 tourisme:URL_Restaurant_The_Market_Madrid
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d5780943-Reviews-The_Market_Madrid-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d5780943-Reviews-The_Market_Madrid-Madrid.html" .
 
 tourisme:Carabassa_Restaurant
         a                   tourisme:Restaurant ;
@@ -1712,10 +1712,10 @@ tourisme:La_Villa_Nice_Victor_Hugo
         tourisme:siteWeb  tourisme:URL_Hotel_La_Villa_Nice_Victor_Hugo .
 
 tourisme:URL_Restaurant_Hedera
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4045683-Reviews-Hedera-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4045683-Reviews-Hedera-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_Mystikon
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3223828-Reviews-Mystikon-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3223828-Reviews-Mystikon-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:restaurant_amber
         a                   tourisme:Restaurant ;
@@ -1727,10 +1727,10 @@ tourisme:restaurant_amber
         tourisme:telephone  "+(49)89 99939775" .
 
 tourisme:URL_Restaurant_La_Veraison
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2431710-Reviews-La_Veraison-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2431710-Reviews-La_Veraison-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_Restaurante_Castilla
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3725260-Reviews-Restaurante_Castilla-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3725260-Reviews-Restaurante_Castilla-Madrid.html" .
 
 dbpedia-resource:The_Louvre
         a                      tourisme:Monument ;
@@ -1741,7 +1741,7 @@ dbpedia-resource:The_Louvre
         tourisme:siteWeb       tourisme:URL_Monument_The_Louvre .
 
 tourisme:IMAGE_Monument_Grand_Palais
-        foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/GD-FR-Paris-Grand_Palais.jpg?width=300" .
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/GD-FR-Paris-Grand_Palais.jpg?width=300" .
 
 tourisme:P.Korn  a          tourisme:Restaurant ;
         rdfs:label          "P.Korn" ;
@@ -1752,10 +1752,10 @@ tourisme:P.Korn  a          tourisme:Restaurant ;
         tourisme:telephone  "+49 89 99930319" .
 
 tourisme:URL_Restaurant_STREATART
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7210796-Reviews-STREATART-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7210796-Reviews-STREATART-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Mercure_Madrid_Plaza_de_Espana
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d206966-Reviews-Mercure_Madrid_Plaza_de_Espana-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d206966-Reviews-Mercure_Madrid_Plaza_de_Espana-Madrid.html" .
 
 tourisme:Waraku  a          tourisme:Restaurant ;
         rdfs:label          "Waraku" ;
@@ -1766,7 +1766,7 @@ tourisme:Waraku  a          tourisme:Restaurant ;
         tourisme:telephone  "+39 329 724 8911" .
 
 tourisme:URL_Restaurant_Mati
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6484830-Reviews-Mati-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6484830-Reviews-Mati-Brussels.html" .
 
 tourisme:The_Box  a         tourisme:Restaurant ;
         rdfs:label          "The Box" ;
@@ -1777,7 +1777,7 @@ tourisme:The_Box  a         tourisme:Restaurant ;
         tourisme:telephone  "+34 933 19 67 17" .
 
 tourisme:URL_Hotel_Hesperia_Sant_Joan
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228592-Reviews-Hesperia_Sant_Joan-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228592-Reviews-Hesperia_Sant_Joan-Barcelona_Catalonia.html" .
 
 tourisme:The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel
         a                 tourisme:Hotel ;
@@ -1787,13 +1787,13 @@ tourisme:The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel .
 
 tourisme:URL_Hotel_Hotel_Le_Six
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d777347-Reviews-Hotel_Le_Six-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d777347-Reviews-Hotel_Le_Six-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_Robadora
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7234138-Reviews-Robadora-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7234138-Reviews-Robadora-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_P.Korn
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3489142-Reviews-P_Korn-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3489142-Reviews-P_Korn-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Le_Meridien_Munich
         a                 tourisme:Hotel ;
@@ -1803,7 +1803,7 @@ tourisme:Le_Meridien_Munich
         tourisme:siteWeb  tourisme:URL_Hotel_Le_Meridien_Munich .
 
 tourisme:URL_Restaurant_Waraku
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4297416-Reviews-Waraku-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4297416-Reviews-Waraku-Rome_Lazio.html" .
 
 tourisme:Restaurante_Arume
         a                   tourisme:Restaurant ;
@@ -1847,10 +1847,10 @@ tourisme:The_Dominican
         tourisme:siteWeb  tourisme:URL_Hotel_The_Dominican .
 
 tourisme:URL_Hotel_Jedermann_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d232589-Reviews-Jedermann_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d232589-Reviews-Jedermann_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_SuiteDreams_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1051216-Reviews-SuiteDreams_Hotel-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1051216-Reviews-SuiteDreams_Hotel-Rome_Lazio.html" .
 
 tourisme:ApartoSuites_Jardines_de_Sabatini
         a                 tourisme:Hotel ;
@@ -1876,10 +1876,10 @@ tourisme:Platzl_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Platzl_Hotel .
 
 tourisme:URL_Restaurant_Aux_Petits_Plaisirs
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2238274-Reviews-Aux_Petits_Plaisirs-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2238274-Reviews-Aux_Petits_Plaisirs-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Villa_Emilia
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d623893-Reviews-Villa_Emilia-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d623893-Reviews-Villa_Emilia-Barcelona_Catalonia.html" .
 
 tourisme:Aurelius  a      tourisme:Hotel ;
         tourisme:adresse  "458 Via Aurelia, 00165 Rome, Italie " ;
@@ -1897,7 +1897,7 @@ tourisme:Yuki_hana_munich
         tourisme:telephone  "498921269018" .
 
 tourisme:URL_Hotel_Le_Grimaldi
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197193-Reviews-Le_Grimaldi-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197193-Reviews-Le_Grimaldi-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Home_Moderne
         a                 tourisme:Hotel ;
@@ -1907,7 +1907,7 @@ tourisme:Home_Moderne
         tourisme:siteWeb  tourisme:URL_Hotel_Home_Moderne .
 
 tourisme:URL_Hotel_Mercure_Nice_Promenade_des_Anglais
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197190-Reviews-Mercure_Nice_Promenade_des_Anglais-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197190-Reviews-Mercure_Nice_Promenade_des_Anglais-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Ibis_Styles  a   tourisme:Hotel ;
         tourisme:adresse  "Kronstadter Strasse 10, 81677 Munich, BaviÃ¨re, Allemagne " ;
@@ -1932,10 +1932,10 @@ tourisme:Brussels_Welcome_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Brussels_Welcome_Hotel .
 
 tourisme:URL_Restaurant_Le_Wine_Bar_du_Sablon_des_Marolles
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1635467-Reviews-Le_Wine_Bar_du_Sablon_des_Marolles-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1635467-Reviews-Le_Wine_Bar_du_Sablon_des_Marolles-Brussels.html" .
 
 tourisme:URL_Hotel_Silken_Puerta_America
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d593190-Reviews-Silken_Puerta_America-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d593190-Reviews-Silken_Puerta_America-Madrid.html" .
 
 tourisme:Hotel_Villa_Les_Cygnes
         a                 tourisme:Hotel ;
@@ -1954,13 +1954,13 @@ tourisme:Boulangerie_Charli
         tourisme:telephone  "+32 (0)2 513 63 32" .
 
 tourisme:URL_Hotel_Crowne_Plaza_Hotel_Brussels_-_Le_Palace
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d227970-Reviews-Crowne_Plaza_Hotel_Brussels_Le_Palace-Saint_Josse_ten_Noode_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d227970-Reviews-Crowne_Plaza_Hotel_Brussels_Le_Palace-Saint_Josse_ten_Noode_Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Orfila
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d232824-Reviews-Hotel_Orfila-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d232824-Reviews-Hotel_Orfila-Madrid.html" .
 
 tourisme:URL_Hotel_The_Dominican
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d677329-Reviews-The_Dominican-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d677329-Reviews-The_Dominican-Brussels.html" .
 
 tourisme:Acces  a           tourisme:Restaurant ;
         rdfs:label          "Acces" ;
@@ -1971,13 +1971,13 @@ tourisme:Acces  a           tourisme:Restaurant ;
         tourisme:telephone  "+34 691 01 56 67" .
 
 tourisme:URL_Restaurant_Peck_47
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6577463-Reviews-Peck_47-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6577463-Reviews-Peck_47-Brussels.html" .
 
 tourisme:URL_Hotel_9HOTEL_CENTRAL
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d272776-Reviews-9HOTEL_CENTRAL-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d272776-Reviews-9HOTEL_CENTRAL-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Denit_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1207602-Reviews-Hotel_Denit_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1207602-Reviews-Hotel_Denit_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:Naxos_Taverna
         a                   tourisme:Restaurant ;
@@ -2031,7 +2031,7 @@ tourisme:La_Gelateria_Frigidarium
         tourisme:telephone  "+39 334 995 1184" .
 
 tourisme:URL_Restaurant_Delicatessen
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d4741883-Reviews-Delicatessen-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d4741883-Reviews-Delicatessen-Brussels.html" .
 
 tourisme:osteria_pane_e_vino
         a                   tourisme:Restaurant ;
@@ -2052,16 +2052,16 @@ dbpedia-resource:Paris
         tourisme:siteWeb       tourisme:URL_Ville_Paris .
 
 tourisme:URL_Restaurant_Le_Vaisseau_Vert
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6856452-Reviews-Le_Vaisseau_Vert-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6856452-Reviews-Le_Vaisseau_Vert-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_Restaurant_Ilios
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6997144-Reviews-Restaurant_Ilios-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6997144-Reviews-Restaurant_Ilios-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:IMAGE_Ville_Paris
-        foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/Paris_montage2.jpg?width=300" .
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Paris_montage2.jpg?width=300" .
 
 tourisme:URL_Hotel_Deko_Rome
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d2091012-Reviews-Deko_Rome-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d2091012-Reviews-Deko_Rome-Rome_Lazio.html" .
 
 tourisme:Hotel_Torbraeu
         a                 tourisme:Hotel ;
@@ -2071,7 +2071,7 @@ tourisme:Hotel_Torbraeu
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Torbraeu .
 
 tourisme:URL_Restaurant_Matilda_Cafe_Cantina
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6404685-Reviews-Matilda_Cafe_Cantina-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6404685-Reviews-Matilda_Cafe_Cantina-Madrid.html" .
 
 tourisme:Hostal_La_Casa_de_La_Plaza
         a                 tourisme:Hotel ;
@@ -2098,33 +2098,33 @@ tourisme:Taberna_del_Chato
         tourisme:telephone  "34-915-231-629" .
 
 tourisme:URL_Restaurant_Poechenellekelder
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3707111-Reviews-Poechenellekelder-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3707111-Reviews-Poechenellekelder-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Nice_Riviera
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197194-Reviews-Hotel_Nice_Riviera-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197194-Reviews-Hotel_Nice_Riviera-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Sathees
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6557109-Reviews-Sathees-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6557109-Reviews-Sathees-Paris_Ile_de_France.html" .
 
 tourisme:Madrid  a  tourisme:Ville .
 
 tourisme:URL_Hotel_Kings_Hotel_Center
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d230362-Reviews-King_s_Hotel_Center-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d230362-Reviews-King_s_Hotel_Center-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Paris  a                  tourisme:Ville ;
         tourisme:contientMonument  dbpedia-resource:Carnavalet_Museum , dbpedia-resource:Grand_Palais , dbpedia-resource:The_Louvre .
 
 tourisme:URL_Restaurant_Gastro_Wriasko
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7004356-Reviews-Gastro_Wriasko-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7004356-Reviews-Gastro_Wriasko-Madrid.html" .
 
 tourisme:URL_Hotel_Soho_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d619681-Reviews-Soho_Hotel-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d619681-Reviews-Soho_Hotel-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Pizza_Dai_Cinque
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6367220-Reviews-Pizza_Dai_Cinque-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6367220-Reviews-Pizza_Dai_Cinque-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_Angrypig_Birretta_e_Porchetta
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6603135-Reviews-Angrypig_Birretta_e_Porchetta-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6603135-Reviews-Angrypig_Birretta_e_Porchetta-Rome_Lazio.html" .
 
 tourisme:Hotel_dei_Borgia
         a                 tourisme:Hotel ;
@@ -2147,7 +2147,7 @@ tourisme:Vol9  a              tourisme:VolAffaire ;
         tourisme:destination  tourisme:Bruxelle .
 
 tourisme:URL_Restaurant_336
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3635934-Reviews-336-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3635934-Reviews-336-Barcelona_Catalonia.html" .
 
 tourisme:Condado_Hotel_Barcelona
         a                 tourisme:Hotel ;
@@ -2157,10 +2157,10 @@ tourisme:Condado_Hotel_Barcelona
         tourisme:siteWeb  tourisme:URL_Hotel_Condado_Hotel_Barcelona .
 
 tourisme:URL_Restaurant_Der_Verrueckte_Eismacher
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3805135-Reviews-Der_Verrueckte_Eismacher-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3805135-Reviews-Der_Verrueckte_Eismacher-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_Domino_Bar
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3753321-Reviews-Domino_Bar-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3753321-Reviews-Domino_Bar-Barcelona_Catalonia.html" .
 
 tourisme:Le_Second_Degre
         a                   tourisme:Restaurant ;
@@ -2172,7 +2172,7 @@ tourisme:Le_Second_Degre
         tourisme:telephone  "+(32)2 647 29 47" .
 
 tourisme:URL_Hotel_Vatican_View
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1833800-Reviews-Vatican_View-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1833800-Reviews-Vatican_View-Rome_Lazio.html" .
 
 tourisme:Ibis_Styles_Brussels_Centre_Stephanie
         a                 tourisme:Hotel ;
@@ -2182,10 +2182,10 @@ tourisme:Ibis_Styles_Brussels_Centre_Stephanie
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Styles_Brussels_Centre_Stephanie .
 
 tourisme:URL_Hotel_Mercure_Rome_Colosseum_Centre
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228939-Reviews-Mercure_Rome_Colosseum_Centre-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228939-Reviews-Mercure_Rome_Colosseum_Centre-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Hotel_Claridge
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d228475-Reviews-Hotel_Claridge-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d228475-Reviews-Hotel_Claridge-Madrid.html" .
 
 tourisme:Sercotel_Suites_Viena
         a                 tourisme:Hotel ;
@@ -2195,13 +2195,13 @@ tourisme:Sercotel_Suites_Viena
         tourisme:siteWeb  tourisme:URL_Hotel_Sercotel_Suites_Viena .
 
 tourisme:URL_Restaurant_La_Porta_Del_Principe
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3562615-Reviews-La_Porta_Del_Principe-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3562615-Reviews-La_Porta_Del_Principe-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Hostal_La_Casa_de_La_Plaza
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1539111-Reviews-Hostal_La_Casa_de_La_Plaza-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1539111-Reviews-Hostal_La_Casa_de_La_Plaza-Madrid.html" .
 
 tourisme:URL_Restaurant_Panino_Divino
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4313663-Reviews-Panino_Divino-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4313663-Reviews-Panino_Divino-Rome_Lazio.html" .
 
 tourisme:Hotel_Amigo  a   tourisme:Hotel ;
         tourisme:adresse  "Rue de l'Amigo 1-3 | Brussels, Bruxelles 1000, Belgique (Anciennement Rocco Forte Hotel Amigo)" ;
@@ -2210,10 +2210,10 @@ tourisme:Hotel_Amigo  a   tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Amigo .
 
 tourisme:URL_Hotel_Hotel_a_la_Grande_Cloche
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d235825-Reviews-Hotel_a_la_Grande_Cloche-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d235825-Reviews-Hotel_a_la_Grande_Cloche-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Negresco
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d195659-Reviews-Hotel_Negresco-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d195659-Reviews-Hotel_Negresco-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Hotel_Laimer_Hof
         a                 tourisme:Hotel ;
@@ -2223,7 +2223,7 @@ tourisme:Hotel_Laimer_Hof
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Laimer_Hof .
 
 tourisme:URL_Restaurant_La_Era_Restaurante
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3864734-Reviews-La_Era_Restaurante-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3864734-Reviews-La_Era_Restaurante-Madrid.html" .
 
 tourisme:Sathees  a         tourisme:Restaurant ;
         rdfs:label          "Sathees" ;
@@ -2247,13 +2247,13 @@ tourisme:Etap_Hotel_  a   tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Etap_Hotel_ .
 
 tourisme:URL_Hotel_Melia_Madrid_Princesa
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d229687-Reviews-Melia_Madrid_Princesa-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d229687-Reviews-Melia_Madrid_Princesa-Madrid.html" .
 
 tourisme:URL_Hotel_Radisson_Blu_Hotel_Nice
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197181-Reviews-Radisson_Blu_Hotel_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197181-Reviews-Radisson_Blu_Hotel_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Four_Seasons_Hotel_George_V_Paris
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d188975-Reviews-Four_Seasons_Hotel_George_V_Paris-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d188975-Reviews-Four_Seasons_Hotel_George_V_Paris-Paris_Ile_de_France.html" .
 
 tourisme:Ibis_Paris_Montmartre_18eme
         a                 tourisme:Hotel ;
@@ -2263,7 +2263,7 @@ tourisme:Ibis_Paris_Montmartre_18eme
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Paris_Montmartre_18eme .
 
 tourisme:URL_Restaurant_Chez_Freddy
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1234666-Reviews-Chez_Freddy-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1234666-Reviews-Chez_Freddy-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Le_Vaisseau_Vert
         a                   tourisme:Restaurant ;
@@ -2284,22 +2284,22 @@ tourisme:Restaurant_Ilios
         tourisme:telephone  "+49 89 36004112" .
 
 tourisme:URL_Restaurant_Le_Sixieme_Sens
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d5889030-Reviews-Le_Sixieme_Sens-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d5889030-Reviews-Le_Sixieme_Sens-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Hyatt_Regency_Nice_Palais_de_la_Mediterranee
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d289384-Reviews-Hyatt_Regency_Nice_Palais_de_la_Mediterranee-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d289384-Reviews-Hyatt_Regency_Nice_Palais_de_la_Mediterranee-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Sofitel_Munich_Bayerpost
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d291533-Reviews-Sofitel_Munich_Bayerpost-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d291533-Reviews-Sofitel_Munich_Bayerpost-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Innside_Madrid_Luchana
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3863714-Reviews-Innside_Madrid_Luchana-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3863714-Reviews-Innside_Madrid_Luchana-Madrid.html" .
 
 tourisme:URL_Restaurant_Savanna
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2656918-Reviews-Savanna-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2656918-Reviews-Savanna-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Ibis_Paris_Montmartre_18eme
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197571-Reviews-Ibis_Paris_Montmartre_18eme-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197571-Reviews-Ibis_Paris_Montmartre_18eme-Paris_Ile_de_France.html" .
 
 tourisme:Radisson_Blu_Hotel_Nice
         a                 tourisme:Hotel ;
@@ -2325,7 +2325,7 @@ tourisme:Zoryani_Gelateria_Artigianale
         tourisme:telephone  "+39 06 6400 6242" .
 
 tourisme:URL_Restaurant_Le_114_Faubourg
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2013853-Reviews-Le_114_Faubourg-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2013853-Reviews-Le_114_Faubourg-Paris_Ile_de_France.html" .
 
 tourisme:SantaGula  a       tourisme:Restaurant ;
         rdfs:label          "SantaGula" ;
@@ -2336,7 +2336,7 @@ tourisme:SantaGula  a       tourisme:Restaurant ;
         tourisme:telephone  "+34 931 85 76 49" .
 
 tourisme:URL_Hotel_Le_Bristol_Paris
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d188729-Reviews-Le_Bristol_Paris-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d188729-Reviews-Le_Bristol_Paris-Paris_Ile_de_France.html" .
 
 tourisme:Hotel_La_Perouse
         a                 tourisme:Hotel ;
@@ -2353,10 +2353,10 @@ tourisme:Catalonia_Las_Cortes
         tourisme:siteWeb  tourisme:URL_Hotel_Catalonia_Las_Cortes .
 
 tourisme:URL_Restaurant_My_Little_Cup
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6995372-Reviews-My_Little_Cup-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6995372-Reviews-My_Little_Cup-Brussels.html" .
 
 tourisme:URL_Restaurant_aQistoi
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4453379-Reviews-AQistoi-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4453379-Reviews-AQistoi-Barcelona_Catalonia.html" .
 
 tourisme:Sushi_Se  a        tourisme:Restaurant ;
         rdfs:label          "Sushi Se" ;
@@ -2367,7 +2367,7 @@ tourisme:Sushi_Se  a        tourisme:Restaurant ;
         tourisme:telephone  "08928778277" .
 
 tourisme:URL_Hotel_Hotel_Nuevo_Boston
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1216895-Reviews-Hotel_Nuevo_Boston-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1216895-Reviews-Hotel_Nuevo_Boston-Madrid.html" .
 
 tourisme:Hotel_Oceania_Paris_Porte_de_Versailles
         a                 tourisme:Hotel ;
@@ -2377,7 +2377,7 @@ tourisme:Hotel_Oceania_Paris_Porte_de_Versailles
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Oceania_Paris_Porte_de_Versailles .
 
 tourisme:URL_Hotel_Mandarin_Oriental_Munich
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d233835-Reviews-Mandarin_Oriental_Munich-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d233835-Reviews-Mandarin_Oriental_Munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Volluxauto  a  tourisme:AgenceLocationVoiture ;
         tourisme:dans  tourisme:Paris , tourisme:Nice .
@@ -2392,10 +2392,10 @@ tourisme:Pizza_Dai_Cinque
         tourisme:telephone  "063208731" .
 
 tourisme:URL_Hotel_Catalonia_Las_Cortes
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d599363-Reviews-Catalonia_Las_Cortes-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d599363-Reviews-Catalonia_Las_Cortes-Madrid.html" .
 
 tourisme:URL_Restaurant_L_Aubergeade
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d718040-Reviews-L_Aubergeade-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d718040-Reviews-L_Aubergeade-Paris_Ile_de_France.html" .
 
 tourisme:Villa_San_Lorenzo_Maria_Hotel
         a                 tourisme:Hotel ;
@@ -2405,7 +2405,7 @@ tourisme:Villa_San_Lorenzo_Maria_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Villa_San_Lorenzo_Maria_Hotel .
 
 tourisme:URL_Hotel_Hotel_Villa_Rivoli
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d243896-Reviews-Hotel_Villa_Rivoli-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d243896-Reviews-Hotel_Villa_Rivoli-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Vol4  a              tourisme:VolLoisir ;
         dc:identifier         "4" ;
@@ -2422,10 +2422,10 @@ tourisme:Restaurante_La_Gaditana
         tourisme:telephone  "91 115 37 51" .
 
 tourisme:URL_Hotel_Hotel_Amigo
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d196130-Reviews-Hotel_Amigo-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d196130-Reviews-Hotel_Amigo-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Preciados
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d232819-Reviews-Hotel_Preciados-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d232819-Reviews-Hotel_Preciados-Madrid.html" .
 
 tourisme:Munich  a  tourisme:Ville .
 
@@ -2456,10 +2456,10 @@ tourisme:Moeder_Lambic
         tourisme:telephone  "02 53 91 41 9" .
 
 tourisme:URL_Hotel_Ibis_Muenchen_Schwabing
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d530680-Reviews-Ibis_Muenchen_Schwabing-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d530680-Reviews-Ibis_Muenchen_Schwabing-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Etap_Hotel_
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d777250-Reviews-Ibis_Budget_Paris_Porte_de_Vincennes-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d777250-Reviews-Ibis_Budget_Paris_Porte_de_Vincennes-Paris_Ile_de_France.html" .
 
 tourisme:Alma_Barcelona
         a                 tourisme:Hotel ;
@@ -2471,13 +2471,13 @@ tourisme:Alma_Barcelona
 tourisme:Bruxelle  a  tourisme:Ville .
 
 tourisme:URL_Hotel_Hotel_One_Shot_Prado_23
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3722055-Reviews-Hotel_One_Shot_Prado_23-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3722055-Reviews-Hotel_One_Shot_Prado_23-Madrid.html" .
 
 tourisme:URL_Restaurant_Noordzee_Mer_du_Nord
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1133830-Reviews-Noordzee_Mer_du_Nord-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1133830-Reviews-Noordzee_Mer_du_Nord-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Liabeny
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d231637-Reviews-Hotel_Liabeny-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d231637-Reviews-Hotel_Liabeny-Madrid.html" .
 
 tourisme:Sofitel_Brussels_Le_Louise
         a                 tourisme:Hotel ;
@@ -2487,7 +2487,7 @@ tourisme:Sofitel_Brussels_Le_Louise
         tourisme:siteWeb  tourisme:URL_Hotel_Sofitel_Brussels_Le_Louise .
 
 tourisme:URL_Restaurant_La_Tragantua
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1222048-Reviews-La_Tragantua-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1222048-Reviews-La_Tragantua-Madrid.html" .
 
 tourisme:aQistoi  a         tourisme:Restaurant ;
         rdfs:label          "aQistoi" ;
@@ -2498,10 +2498,10 @@ tourisme:aQistoi  a         tourisme:Restaurant ;
         tourisme:telephone  "+34 931 40 33 50" .
 
 tourisme:URL_Hotel_Aurelius
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d255192-Reviews-Aurelius-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d255192-Reviews-Aurelius-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Artemide_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d205044-Reviews-Artemide_Hotel-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d205044-Reviews-Artemide_Hotel-Rome_Lazio.html" .
 
 tourisme:336  a             tourisme:Restaurant ;
         rdfs:label          "336" ;
@@ -2544,7 +2544,7 @@ tourisme:CUARTO_y_MITAD
         tourisme:telephone  "+34 931 88 90 67" .
 
 tourisme:URL_Restaurant_NOI_Nuova_Osteria_Italiana
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4403647-Reviews-NOI_Nuova_Osteria_Italiana-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4403647-Reviews-NOI_Nuova_Osteria_Italiana-Rome_Lazio.html" .
 
 tourisme:The_Westin_Palace_Madrid
         a                 tourisme:Hotel ;
@@ -2563,10 +2563,10 @@ tourisme:Noordzee_Mer_du_Nord
         tourisme:telephone  "02 513 11 92" .
 
 tourisme:URL_Hotel_La_Villa_Nice_Victor_Hugo
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197225-Reviews-La_Villa_Nice_Victor_Hugo-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197225-Reviews-La_Villa_Nice_Victor_Hugo-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Sushi_Se
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6714776-Reviews-Sushi_Se-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6714776-Reviews-Sushi_Se-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Sofitel_Brussels_Europe
         a                 tourisme:Hotel ;
@@ -2590,7 +2590,7 @@ tourisme:Hue_House  a       tourisme:Restaurant ;
         tourisme:telephone  "8976776208" .
 
 tourisme:URL_Restaurant_Moratin_Vinoteca_Bistrot
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3669444-Reviews-Moratin_Vinoteca_Bistrot-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3669444-Reviews-Moratin_Vinoteca_Bistrot-Madrid.html" .
 
 tourisme:Hotel_Curious
         a                 tourisme:Hotel ;
@@ -2600,7 +2600,7 @@ tourisme:Hotel_Curious
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Curious .
 
 tourisme:URL_Ville_Paris
-        foaf:page  "http://www.paris.fr/" .
+        rdfs:label  "http://www.paris.fr/" .
 
 tourisme:Le_Bistrot_d_Antoine
         a                   tourisme:Restaurant ;
@@ -2612,13 +2612,13 @@ tourisme:Le_Bistrot_d_Antoine
         tourisme:telephone  "04.93852957 " .
 
 tourisme:URL_Restaurant_Con_Gracia
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d697505-Reviews-Con_Gracia-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d697505-Reviews-Con_Gracia-Barcelona_Catalonia.html" .
 
 tourisme:URL_Monument_Carnavalet_Museum
-        foaf:page  "http://carnavalet.paris.fr/en" .
+        rdfs:label  "http://carnavalet.paris.fr/en" .
 
 tourisme:URL_Restaurant_Stirwen
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1128569-Reviews-Stirwen-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1128569-Reviews-Stirwen-Brussels.html" .
 
 tourisme:Koy_Shunka  a      tourisme:Restaurant ;
         rdfs:label          "Koy Shunka" ;
@@ -2629,19 +2629,19 @@ tourisme:Koy_Shunka  a      tourisme:Restaurant ;
         tourisme:telephone  "93 412 79 39" .
 
 tourisme:URL_Restaurant_Taberna_el_Sur
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d2527526-Reviews-Taberna_el_Sur-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d2527526-Reviews-Taberna_el_Sur-Madrid.html" .
 
 tourisme:URL_Restaurant_Pasta_Divina
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2208064-Reviews-Pasta_Divina-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2208064-Reviews-Pasta_Divina-Brussels.html" .
 
 tourisme:URL_Restaurant_Restaurant_Jasmin
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1905582-Reviews-Restaurant_Jasmin-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1905582-Reviews-Restaurant_Jasmin-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Hotel_Vendome
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197208-Reviews-Hotel_Vendome-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197208-Reviews-Hotel_Vendome-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Tast-Ller
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6482227-Reviews-Tast_Ller-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6482227-Reviews-Tast_Ller-Barcelona_Catalonia.html" .
 
 tourisme:Hotel_Villa_Victoria
         a                 tourisme:Hotel ;
@@ -2681,13 +2681,13 @@ tourisme:Grand_Hotel_Francais
         tourisme:siteWeb  tourisme:URL_Hotel_Grand_Hotel_Francais .
 
 tourisme:URL_Restaurant_Arena_del_Gelato
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3844357-Reviews-L_Arena_del_Gelato-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3844357-Reviews-L_Arena_del_Gelato-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Made_in_Louise
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1136493-d1597888-Reviews-Made_in_Louise-Ixelles_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1136493-d1597888-Reviews-Made_in_Louise-Ixelles_Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Le_Plaza
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d206692-Reviews-Hotel_Le_Plaza-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d206692-Reviews-Hotel_Le_Plaza-Brussels.html" .
 
 tourisme:The_Peninsula_Paris
         a                 tourisme:Hotel ;
@@ -2704,10 +2704,10 @@ tourisme:Atelier_Montparnasse
         tourisme:siteWeb  tourisme:URL_Hotel_Atelier_Montparnasse .
 
 tourisme:URL_Hotel_Hotel_Villa_Victoria
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197188-Reviews-Hotel_Villa_Victoria-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197188-Reviews-Hotel_Villa_Victoria-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Hotel_Paris_Villette
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d501173-Reviews-Hotel_Paris_Villette-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d501173-Reviews-Hotel_Paris_Villette-Paris_Ile_de_France.html" .
 
 tourisme:Zwickl_-_Gastlichkeit_am_Viktualienmarkt
         a                   tourisme:Restaurant ;
@@ -2719,10 +2719,10 @@ tourisme:Zwickl_-_Gastlichkeit_am_Viktualienmarkt
         tourisme:telephone  "+49 89 46228833" .
 
 tourisme:URL_Restaurant_Gelateria_Valentino
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d2313678-Reviews-Gelateria_Valentino-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d2313678-Reviews-Gelateria_Valentino-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Grand_Hotel_Francais
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197447-Reviews-Grand_Hotel_Francais-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197447-Reviews-Grand_Hotel_Francais-Paris_Ile_de_France.html" .
 
 tourisme:Aldrovandi_Villa_Borghese
         a                 tourisme:Hotel ;
@@ -2732,13 +2732,13 @@ tourisme:Aldrovandi_Villa_Borghese
         tourisme:siteWeb  tourisme:URL_Hotel_Aldrovandi_Villa_Borghese .
 
 tourisme:URL_Hotel_Hotel_Oceania_Paris_Porte_de_Versailles
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d599275-Reviews-Hotel_Oceania_Paris_Porte_de_Versailles-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d599275-Reviews-Hotel_Oceania_Paris_Porte_de_Versailles-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Atelier_Montparnasse
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d233383-Reviews-Atelier_Montparnasse-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d233383-Reviews-Atelier_Montparnasse-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_La_Griffe_Roma_MGallery_Collection
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d232865-Reviews-La_Griffe_Roma_MGallery_Collection-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d232865-Reviews-La_Griffe_Roma_MGallery_Collection-Rome_Lazio.html" .
 
 tourisme:Comics_Cafe  a     tourisme:Restaurant ;
         rdfs:label          "Comics Cafe" ;
@@ -2763,7 +2763,7 @@ tourisme:Hipark_Nice  a   tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hipark_Nice .
 
 tourisme:URL_Restaurant_Taberna_Gastromaquia
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1024062-Reviews-Taberna_Gastromaquia-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1024062-Reviews-Taberna_Gastromaquia-Madrid.html" .
 
 tourisme:Vol11  a             tourisme:VolAffaire ;
         dc:identifier         "11" ;
@@ -2771,7 +2771,7 @@ tourisme:Vol11  a             tourisme:VolAffaire ;
         tourisme:destination  tourisme:Paris .
 
 tourisme:URL_Hotel_Hotel_Ares_Eiffel_Paris
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197666-Reviews-Hotel_Ares_Paris-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197666-Reviews-Hotel_Ares_Paris-Paris_Ile_de_France.html" .
 
 tourisme:Maydrit_Hotel
         a                 tourisme:Hotel ;
@@ -2796,13 +2796,13 @@ tourisme:Locanda_Giuliva
         tourisme:telephone  "+39 06 324 1835" .
 
 tourisme:URL_Restaurant_Naxos_Taverna
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2660543-Reviews-Naxos_Taverna-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2660543-Reviews-Naxos_Taverna-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_napa
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7131299-Reviews-Napa-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7131299-Reviews-Napa-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Aloft_Brussels_Schuman_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g950780-d1752126-Reviews-Aloft_Brussels_Schuman_Hotel-Etterbeek_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g950780-d1752126-Reviews-Aloft_Brussels_Schuman_Hotel-Etterbeek_Brussels.html" .
 
 tourisme:ibis_budget_Paris_Porte_d_Orleans
         a                 tourisme:Hotel ;
@@ -2821,16 +2821,16 @@ tourisme:Metro_Bistro_-_Plaza_Mayor
         tourisme:telephone  "+34 913 66 33 19" .
 
 tourisme:URL_Hotel_Urban_Hotel_Madrid
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d296957-Reviews-Urban_Hotel_Madrid-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d296957-Reviews-Urban_Hotel_Madrid-Madrid.html" .
 
 tourisme:URL_Restaurant_Restaurante_La_Mi_Venta
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1511527-Reviews-Restaurante_La_Mi_Venta-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1511527-Reviews-Restaurante_La_Mi_Venta-Madrid.html" .
 
 tourisme:URL_Restaurant_Carlota_Akaneya
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2369018-Reviews-Carlota_Akaneya-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2369018-Reviews-Carlota_Akaneya-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Alto_Resto
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1797374-Reviews-Restaurant_tapas_ALTO-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1797374-Reviews-Restaurant_tapas_ALTO-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:STREATART  a       tourisme:Restaurant ;
         rdfs:label          "STREATART" ;
@@ -2871,43 +2871,43 @@ tourisme:Kings_Hotel_Center
         tourisme:siteWeb  tourisme:URL_Hotel_Kings_Hotel_Center .
 
 tourisme:URL_Restaurant_Cera_23
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2314335-Reviews-Cera_23-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2314335-Reviews-Cera_23-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_La_Maison_Corica
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5541824-Reviews-La_Maison_Corica-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5541824-Reviews-La_Maison_Corica-Brussels.html" .
 
 tourisme:URL_Restaurant_La_Pagnottella_Gourmet
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3837037-Reviews-La_Pagnottella_Gourmet-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3837037-Reviews-La_Pagnottella_Gourmet-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Hotel_Georgette
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d239647-Reviews-Hotel_Georgette-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d239647-Reviews-Hotel_Georgette-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Hipark_Nice
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d1865881-Reviews-Hipark_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d1865881-Reviews-Hipark_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Tonton_Garby
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5826726-Reviews-Tonton_Garby-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d5826726-Reviews-Tonton_Garby-Brussels.html" .
 
 tourisme:URL_Hotel_Stanhope_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d232025-Reviews-Stanhope_Hotel-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d232025-Reviews-Stanhope_Hotel-Brussels.html" .
 
 tourisme:URL_Hotel_Olivia_Balmes_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d4569039-Reviews-Olivia_Balmes_Hotel-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d4569039-Reviews-Olivia_Balmes_Hotel-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_La_Prosciutteria
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6216305-Reviews-La_Prosciutteria-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6216305-Reviews-La_Prosciutteria-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_MEININGER_Hotel_Brussels_City_Center
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d3533397-Reviews-MEININGER_Hotel_Brussels_City_Center-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d3533397-Reviews-MEININGER_Hotel_Brussels_City_Center-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_Westminster
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197852-Reviews-Hotel_Westminster-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197852-Reviews-Hotel_Westminster-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Restaurant_Mariette
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d1897962-Reviews-Restaurant_Mariette-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d1897962-Reviews-Restaurant_Mariette-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_Bistro_Saint_Louis
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3380276-Reviews-Bistro_Saint_Louis-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3380276-Reviews-Bistro_Saint_Louis-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Wirtshaus_Kurgarten
         a                   tourisme:Restaurant ;
@@ -2919,7 +2919,7 @@ tourisme:Wirtshaus_Kurgarten
         tourisme:telephone  "089-17999081 " .
 
 tourisme:URL_Restaurant_Gelateria_La_Romana_Roma_Ventisettembre
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4492728-Reviews-Gelateria_La_Romana_Roma_Ventisettembre-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4492728-Reviews-Gelateria_La_Romana_Roma_Ventisettembre-Rome_Lazio.html" .
 
 tourisme:Marc_Muenchen
         a                 tourisme:Hotel ;
@@ -2929,13 +2929,13 @@ tourisme:Marc_Muenchen
         tourisme:siteWeb  tourisme:URL_Hotel_Marc_Muenchen .
 
 tourisme:URL_Restaurant_Nam_Giao_31
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1932566-Reviews-Nam_Giao_31-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1932566-Reviews-Nam_Giao_31-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Hotel_BLOOM
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d206690-Reviews-Hotel_BLOOM-Saint_Josse_ten_Noode_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d206690-Reviews-Hotel_BLOOM-Saint_Josse_ten_Noode_Brussels.html" .
 
 tourisme:URL_Restaurant_La_Pizzetteria
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3494494-Reviews-La_Pizzetteria-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3494494-Reviews-La_Pizzetteria-Rome_Lazio.html" .
 
 tourisme:El_Club_Allard
         a                   tourisme:Restaurant ;
@@ -2947,7 +2947,7 @@ tourisme:El_Club_Allard
         tourisme:telephone  "+34 915 59 09 39" .
 
 tourisme:URL_Hotel_Secret_de_Paris
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1633522-Reviews-Secret_de_Paris-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1633522-Reviews-Secret_de_Paris-Paris_Ile_de_France.html" .
 
 tourisme:Hotel_Dharma
         a                 tourisme:Hotel ;
@@ -2965,7 +2965,7 @@ tourisme:Dallmayr  a        tourisme:Restaurant ;
         tourisme:telephone  "089-213-50-" .
 
 tourisme:URL_Restaurant_Wirtshaus_Kurgarten
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1178760-Reviews-Wirtshaus_Kurgarten-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1178760-Reviews-Wirtshaus_Kurgarten-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Cera_23  a         tourisme:Restaurant ;
         rdfs:label          "Cera 23" ;
@@ -3012,7 +3012,7 @@ tourisme:MAS_Residence
         tourisme:siteWeb  tourisme:URL_Hotel_MAS_Residence .
 
 tourisme:URL_Restaurant_Marc_de_Cafe
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6947349-Reviews-Marc_de_Cafe-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6947349-Reviews-Marc_de_Cafe-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Gelateria_La_Romana_Roma_Ventisettembre
         a                   tourisme:Restaurant ;
@@ -3024,7 +3024,7 @@ tourisme:Gelateria_La_Romana_Roma_Ventisettembre
         tourisme:telephone  "+39 06 4202 0828" .
 
 tourisme:URL_Hotel_BEST_WESTERN_Hotel_Roosevelt
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197221-Reviews-BEST_WESTERN_Hotel_Roosevelt-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197221-Reviews-BEST_WESTERN_Hotel_Roosevelt-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Bahia_Taberna
         a                   tourisme:Restaurant ;
@@ -3036,7 +3036,7 @@ tourisme:Bahia_Taberna
         tourisme:telephone  "91 747 69 44" .
 
 tourisme:URL_Hotel_Saint_James_Paris_Relais_et_Chateaux
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d222913-Reviews-Saint_James_Paris_Relais_et_Chateaux-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d222913-Reviews-Saint_James_Paris_Relais_et_Chateaux-Paris_Ile_de_France.html" .
 
 tourisme:La_Roustide  a     tourisme:Restaurant ;
         rdfs:label          "La Roustide" ;
@@ -3047,10 +3047,10 @@ tourisme:La_Roustide  a     tourisme:Restaurant ;
         tourisme:telephone  "04 93 89 69 60" .
 
 tourisme:URL_Hotel_Crowne_Plaza_Paris_Republique
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d207687-Reviews-Crowne_Plaza_Paris_Republique-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d207687-Reviews-Crowne_Plaza_Paris_Republique-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Nice_Garden_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d604431-Reviews-Nice_Garden_Hotel-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d604431-Reviews-Nice_Garden_Hotel-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Hotel_Nuevo_Boston
         a                 tourisme:Hotel ;
@@ -3060,10 +3060,10 @@ tourisme:Hotel_Nuevo_Boston
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Nuevo_Boston .
 
 tourisme:URL_Restaurant_La_Forquilla
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2578464-Reviews-La_Forquilla-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2578464-Reviews-La_Forquilla-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_CUARTO_y_MITAD
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6916095-Reviews-CUARTO_y_MITAD-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6916095-Reviews-CUARTO_y_MITAD-Barcelona_Catalonia.html" .
 
 tourisme:Pullman_Munich
         a                 tourisme:Hotel ;
@@ -3073,10 +3073,10 @@ tourisme:Pullman_Munich
         tourisme:siteWeb  tourisme:URL_Hotel_Pullman_Munich .
 
 tourisme:URL_Hotel_Le_123_Sebastopol_Astotel_
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d4800782-Reviews-Le_123_Sebastopol_Astotel-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d4800782-Reviews-Le_123_Sebastopol_Astotel-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_NH_Collection_Palacio_de_Tepa
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1875767-Reviews-NH_Collection_Palacio_de_Tepa-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1875767-Reviews-NH_Collection_Palacio_de_Tepa-Madrid.html" .
 
 tourisme:Hotel_Villa_Rivoli
         a                 tourisme:Hotel ;
@@ -3086,13 +3086,13 @@ tourisme:Hotel_Villa_Rivoli
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Villa_Rivoli .
 
 tourisme:URL_Hotel_Hotel_Atlantico
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d227459-Reviews-Hotel_Atlantico-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d227459-Reviews-Hotel_Atlantico-Madrid.html" .
 
 tourisme:URL_Restaurant_Le_Chou_de_Bruxelles
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g1136493-d1013936-Reviews-Le_Chou_de_Bruxelles-Ixelles_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g1136493-d1013936-Reviews-Le_Chou_de_Bruxelles-Ixelles_Brussels.html" .
 
 tourisme:URL_Restaurant_La_Route_du_Miam
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1111880-Reviews-La_Route_du_Miam-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1111880-Reviews-La_Route_du_Miam-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Pucci_Restaurant
         a                   tourisme:Restaurant ;
@@ -3111,7 +3111,7 @@ tourisme:Steigenberger_Grandhotel_Brussels
         tourisme:siteWeb  tourisme:URL_Hotel_Steigenberger_Grandhotel_Brussels .
 
 tourisme:URL_Hotel_Thon_Hotel_EU
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g950780-d2293060-Reviews-Thon_Hotel_EU-Etterbeek_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g950780-d2293060-Reviews-Thon_Hotel_EU-Etterbeek_Brussels.html" .
 
 tourisme:Vol6  a              tourisme:VolLoisir ;
         dc:identifier         "6" ;
@@ -3119,10 +3119,10 @@ tourisme:Vol6  a              tourisme:VolLoisir ;
         tourisme:destination  tourisme:Madrid .
 
 tourisme:URL_Hotel_Hotel_Suisse
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d232365-Reviews-Hotel_Suisse-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d232365-Reviews-Hotel_Suisse-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_The_Westin_Palace_Madrid
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d190569-Reviews-The_Westin_Palace_Madrid-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d190569-Reviews-The_Westin_Palace_Madrid-Madrid.html" .
 
 tourisme:Vinpasa  a         tourisme:Restaurant ;
         rdfs:label          "Vinpasa" ;
@@ -3133,10 +3133,10 @@ tourisme:Vinpasa  a         tourisme:Restaurant ;
         tourisme:telephone  "+49 89 27373511" .
 
 tourisme:URL_Restaurant_L_Ange_20_Restaurant
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2042295-Reviews-L_Ange_20_Restaurant-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2042295-Reviews-L_Ange_20_Restaurant-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_beach38
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3249941-Reviews-Beach38-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3249941-Reviews-Beach38-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Motel_One  a     tourisme:Hotel ;
         tourisme:adresse  "Rue Royale 120, Bruxelles 1000, Belgique " ;
@@ -3145,13 +3145,13 @@ tourisme:Motel_One  a     tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Motel_One .
 
 tourisme:URL_Restaurant_Piazze_Italia
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d997375-Reviews-Piazze_D_Italia-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d997375-Reviews-Piazze_D_Italia-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_H2_Hotel_Muenchen_Messe
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d4556651-Reviews-H2_Hotel_Muenchen_Messe-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d4556651-Reviews-H2_Hotel_Muenchen_Messe-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_NH_Collection_Madrid_Abascal
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d206971-Reviews-NH_Collection_Madrid_Abascal-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d206971-Reviews-NH_Collection_Madrid_Abascal-Madrid.html" .
 
 tourisme:Leonardo_Royal_Hotel_Munich
         a                 tourisme:Hotel ;
@@ -3172,10 +3172,10 @@ tourisme:Sacree_fleur
 tourisme:Rome  a  tourisme:Ville .
 
 tourisme:URL_Restaurant_Dallmayr
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d695601-Reviews-Dallmayr-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d695601-Reviews-Dallmayr-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_Bateau_le_Calife
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d951228-Reviews-Bateau_le_Calife-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d951228-Reviews-Bateau_le_Calife-Paris_Ile_de_France.html" .
 
 tourisme:Hotel_Massena
         a                 tourisme:Hotel ;
@@ -3185,7 +3185,7 @@ tourisme:Hotel_Massena
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Massena .
 
 tourisme:URL_Restaurant_Cobea
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2320662-Reviews-Cobea-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2320662-Reviews-Cobea-Paris_Ile_de_France.html" .
 
 tourisme:DokiDoki  a        tourisme:Restaurant ;
         rdfs:label          "DokiDoki" ;
@@ -3203,7 +3203,7 @@ tourisme:Ibis_Styles_Nice_Aeroport
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Styles_Nice_Aeroport .
 
 tourisme:URL_Hotel_Hotel_Santa_Maria
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d239263-Reviews-Hotel_Santa_Maria-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d239263-Reviews-Hotel_Santa_Maria-Rome_Lazio.html" .
 
 tourisme:Le_Jamoncito
         a                   tourisme:Restaurant ;
@@ -3215,7 +3215,7 @@ tourisme:Le_Jamoncito
         tourisme:telephone  "0142710308" .
 
 tourisme:URL_Restaurant_Moeder_Lambic
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1440912-Reviews-Moeder_Lambic-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1440912-Reviews-Moeder_Lambic-Brussels.html" .
 
 tourisme:Le_Chou_de_Bruxelles
         a                   tourisme:Restaurant ;
@@ -3227,13 +3227,13 @@ tourisme:Le_Chou_de_Bruxelles
         tourisme:telephone  "+32 2 537 69 95" .
 
 tourisme:URL_Hotel_Leonardo_Royal_Hotel_Munich
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d1866951-Reviews-Leonardo_Royal_Hotel_Munich-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d1866951-Reviews-Leonardo_Royal_Hotel_Munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_Acces
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6277239-Reviews-Acces-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6277239-Reviews-Acces-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Ibis_Styles_Brussels_Centre_Stephanie
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d5588455-Reviews-Ibis_Styles_Brussels_Centre_Stephanie-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d5588455-Reviews-Ibis_Styles_Brussels_Centre_Stephanie-Brussels.html" .
 
 tourisme:Pinsere_Roma
         a                   tourisme:Restaurant ;
@@ -3245,7 +3245,7 @@ tourisme:Pinsere_Roma
         tourisme:telephone  "+39 06 4202 0924" .
 
 tourisme:URL_Hotel_Bold_Hotel_Muenchen
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d5272072-Reviews-Bold_Hotel_Muenchen-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d5272072-Reviews-Bold_Hotel_Muenchen-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Hotel_Negresco
         a                 tourisme:Hotel ;
@@ -3255,10 +3255,10 @@ tourisme:Hotel_Negresco
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Negresco .
 
 tourisme:URL_Hotel_MAS_Residence
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d529444-Reviews-MAS_Residence-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d529444-Reviews-MAS_Residence-Brussels.html" .
 
 tourisme:URL_Restaurant_Bistrotters
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719507-Reviews-Bistrotters-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719507-Reviews-Bistrotters-Paris_Ile_de_France.html" .
 
 tourisme:L_Ange_20_Restaurant
         a                   tourisme:Restaurant ;
@@ -3285,13 +3285,13 @@ tourisme:Novotel_Brussels_Centre
         tourisme:siteWeb  tourisme:URL_Hotel_Novotel_Brussels_Centre .
 
 tourisme:URL_Hotel_Pantone_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1136501-d1769926-Reviews-Pantone_Hotel-Saint_Gilles_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1136501-d1769926-Reviews-Pantone_Hotel-Saint_Gilles_Brussels.html" .
 
 tourisme:URL_Restaurant_Bon-bon
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d800348-Reviews-Bon_bon-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d800348-Reviews-Bon_bon-Brussels.html" .
 
 tourisme:URL_Ville_Munich
-        foaf:page  "http://www.muenchen.de/" .
+        rdfs:label  "http://www.muenchen.de/" .
 
 tourisme:Crowne_Plaza_Paris_Republique
         a                 tourisme:Hotel ;
@@ -3301,7 +3301,7 @@ tourisme:Crowne_Plaza_Paris_Republique
         tourisme:siteWeb  tourisme:URL_Hotel_Crowne_Plaza_Paris_Republique .
 
 tourisme:URL_Restaurant_Taverna_Limani
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6638510-Reviews-Taverna_Limani-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6638510-Reviews-Taverna_Limani-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Casa_9_Restaurante
         a                   tourisme:Restaurant ;
@@ -3328,13 +3328,13 @@ tourisme:Artrip_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Artrip_Hotel .
 
 tourisme:IMAGE_Monument_Carnavalet_Museum
-        foaf:page  "http://commons.wikimedia.org/wiki/Special:FilePath/Carnavalet_Portal.JPG?width=300" .
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Carnavalet_Portal.JPG?width=300" .
 
 tourisme:URL_Restaurant_Les_Papilles
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719540-Reviews-Les_Papilles-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719540-Reviews-Les_Papilles-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Seven_Hotel_Paris
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d625550-Reviews-Seven_Hotel_Paris-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d625550-Reviews-Seven_Hotel_Paris-Paris_Ile_de_France.html" .
 
 tourisme:Il_Pasticcio
         a                   tourisme:Restaurant ;
@@ -3346,7 +3346,7 @@ tourisme:Il_Pasticcio
         tourisme:telephone  "2 512 62 52" .
 
 tourisme:URL_Hotel_Hotel_Acta_Mimic
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1802185-Reviews-Hotel_Acta_Mimic-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1802185-Reviews-Hotel_Acta_Mimic-Barcelona_Catalonia.html" .
 
 tourisme:Hotel_1898  a    tourisme:Hotel ;
         tourisme:adresse  "La Rambla, 109, 08002 Barcelone, Espagne " ;
@@ -3355,7 +3355,7 @@ tourisme:Hotel_1898  a    tourisme:Hotel ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_1898 .
 
 tourisme:URL_Hotel_UNA_Hotel_Roma
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1510471-Reviews-UNA_Hotel_Roma-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1510471-Reviews-UNA_Hotel_Roma-Rome_Lazio.html" .
 
 tourisme:Mercure_Madrid_Plaza_de_Espana
         a                 tourisme:Hotel ;
@@ -3365,7 +3365,7 @@ tourisme:Mercure_Madrid_Plaza_de_Espana
         tourisme:siteWeb  tourisme:URL_Hotel_Mercure_Madrid_Plaza_de_Espana .
 
 tourisme:URL_Hotel_Sercotel_Suites_Viena
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d631004-Reviews-Sercotel_Suites_Viena-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d631004-Reviews-Sercotel_Suites_Viena-Madrid.html" .
 
 tourisme:NH_Collection_Palacio_de_Tepa
         a                 tourisme:Hotel ;
@@ -3375,7 +3375,7 @@ tourisme:NH_Collection_Palacio_de_Tepa
         tourisme:siteWeb  tourisme:URL_Hotel_NH_Collection_Palacio_de_Tepa .
 
 tourisme:URL_Hotel_Hotel_Castle
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1059872-Reviews-Hotel_Castle-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1059872-Reviews-Hotel_Castle-Rome_Lazio.html" .
 
 tourisme:Gastro_Wriasko
         a                   tourisme:Restaurant ;
@@ -3387,13 +3387,13 @@ tourisme:Gastro_Wriasko
         tourisme:telephone  "+34 916 34 08 29" .
 
 tourisme:URL_Hotel_Grand_Hotel_le_Florence
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d220181-Reviews-Grand_Hotel_le_Florence-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d220181-Reviews-Grand_Hotel_le_Florence-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Taberna_del_Chato
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3476797-Reviews-Taberna_del_Chato-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3476797-Reviews-Taberna_del_Chato-Madrid.html" .
 
 tourisme:URL_Restaurant_Garnett
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7233108-Reviews-Garnett-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7233108-Reviews-Garnett-Paris_Ile_de_France.html" .
 
 tourisme:Vol1  a              tourisme:VolLoisir ;
         dc:identifier         "1" ;
@@ -3416,7 +3416,7 @@ tourisme:Bon-bon  a         tourisme:Restaurant ;
         tourisme:telephone  "003223466615" .
 
 tourisme:URL_Restaurant_DokiDoki
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7125336-Reviews-DokiDoki-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7125336-Reviews-DokiDoki-Madrid.html" .
 
 tourisme:Bateau_le_Calife
         a                   tourisme:Restaurant ;
@@ -3428,10 +3428,10 @@ tourisme:Bateau_le_Calife
         tourisme:telephone  "+33 (0)1 43 54 50 04" .
 
 tourisme:URL_Hotel_Villa_Spalletti_Trivelli
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d597703-Reviews-Villa_Spalletti_Trivelli-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d597703-Reviews-Villa_Spalletti_Trivelli-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_MiPi_Pizzeria
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7122280-Reviews-MiPi_Pizzeria-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7122280-Reviews-MiPi_Pizzeria-Paris_Ile_de_France.html" .
 
 tourisme:La_Canica  a       tourisme:Restaurant ;
         rdfs:label          "La Canica" ;
@@ -3451,13 +3451,13 @@ tourisme:Marc_de_Cafe
         tourisme:telephone  "+33 9 81 99 58 09" .
 
 tourisme:URL_Restaurant_Le_passe-plat
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6496671-Reviews-Le_passe_plat-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6496671-Reviews-Le_passe_plat-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Fin_de_Siecle
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1852850-Reviews-Fin_de_Siecle-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1852850-Reviews-Fin_de_Siecle-Brussels.html" .
 
 tourisme:URL_Hotel_W_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1465497-Reviews-W_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1465497-Reviews-W_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:Sofitel_Munich_Bayerpost
         a                 tourisme:Hotel ;
@@ -3475,7 +3475,7 @@ tourisme:Le_Vingt4  a       tourisme:Restaurant ;
         tourisme:telephone  "+33 4 93 88 45 49" .
 
 tourisme:URL_Restaurant_Todo_Pasa
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6561880-Reviews-Todo_Pasa-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6561880-Reviews-Todo_Pasa-Barcelona_Catalonia.html" .
 
 tourisme:Bayerischer_Hof_Hotel
         a                 tourisme:Hotel ;
@@ -3509,7 +3509,7 @@ tourisme:Appia_Antica_Resort
         tourisme:siteWeb  tourisme:URL_Hotel_Appia_Antica_Resort .
 
 tourisme:URL_Restaurant_Miseria_e_Nobilta
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7158449-Reviews-Miseria_e_Nobilta-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7158449-Reviews-Miseria_e_Nobilta-Barcelona_Catalonia.html" .
 
 tourisme:Vol13  a             tourisme:VolAffaire ;
         dc:identifier         "13" ;
@@ -3517,7 +3517,7 @@ tourisme:Vol13  a             tourisme:VolAffaire ;
         tourisme:destination  tourisme:Paris .
 
 tourisme:URL_Hotel_Hotel_Vice_Versa
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d3317600-Reviews-Hotel_Vice_Versa-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d3317600-Reviews-Hotel_Vice_Versa-Paris_Ile_de_France.html" .
 
 tourisme:The_Hotel  a     tourisme:Hotel ;
         tourisme:adresse  "38, Boulevard de Waterloo, Bruxelles 1000, Belgique " ;
@@ -3590,7 +3590,7 @@ tourisme:Aux_Petits_Plaisirs
         tourisme:telephone  "+33 4 93 44 20 23" .
 
 tourisme:URL_Hotel_Aldrovandi_Villa_Borghese
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228986-Reviews-Aldrovandi_Villa_Borghese-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228986-Reviews-Aldrovandi_Villa_Borghese-Rome_Lazio.html" .
 
 tourisme:Gourmet_Restaurant_Koenigshof
         a                   tourisme:Restaurant ;
@@ -3602,10 +3602,10 @@ tourisme:Gourmet_Restaurant_Koenigshof
         tourisme:telephone  "+49 89 55136141" .
 
 tourisme:URL_Hotel_Five_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d621170-Reviews-The_Five_Hotel-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d621170-Reviews-The_Five_Hotel-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Hotel_Torbraeu
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d201931-Reviews-Hotel_Torbraeu-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d201931-Reviews-Hotel_Torbraeu-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Restaurante_Castilla
         a                   tourisme:Restaurant ;
@@ -3617,7 +3617,7 @@ tourisme:Restaurante_Castilla
         tourisme:telephone  "917470103" .
 
 tourisme:URL_Restaurant_El_Club_Allard
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1019405-Reviews-El_Club_Allard-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1019405-Reviews-El_Club_Allard-Madrid.html" .
 
 tourisme:Aksum_Coffee_House
         a                   tourisme:Restaurant ;
@@ -3670,7 +3670,7 @@ tourisme:Tramonti_e_Muffati
         tourisme:telephone  "+39 06 780 1342" .
 
 tourisme:URL_Hotel_The_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d241754-Reviews-The_Hotel_Brussels-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d241754-Reviews-The_Hotel_Brussels-Brussels.html" .
 
 tourisme:Hotel_Joyce_Astotel
         a                 tourisme:Hotel ;
@@ -3717,7 +3717,7 @@ tourisme:Hotel_Vier_Jahreszeiten_Kempinski_Munchen
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Vier_Jahreszeiten_Kempinski_Munchen .
 
 tourisme:URL_Restaurant_C_est_Bon_C_est_Belge
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3741305-Reviews-C_est_Bon_C_est_Belge-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3741305-Reviews-C_est_Bon_C_est_Belge-Brussels.html" .
 
 tourisme:Le_Bristol_Paris
         a                 tourisme:Hotel ;
@@ -3790,10 +3790,10 @@ tourisme:Angrypig_Birretta_e_Porchetta
         tourisme:telephone  "+39 06 6452 1633" .
 
 tourisme:URL_Hotel_Hotel_Darcet
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d274978-Reviews-Hotel_Darcet-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d274978-Reviews-Hotel_Darcet-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Hotel_Arts_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d190635-Reviews-Hotel_Arts_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d190635-Reviews-Hotel_Arts_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:Villa_Emilia
         a                 tourisme:Hotel ;
@@ -3803,7 +3803,7 @@ tourisme:Villa_Emilia
         tourisme:siteWeb  tourisme:URL_Hotel_Villa_Emilia .
 
 tourisme:URL_Restaurant_Pastry_Plaisirs
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3561018-Reviews-Pastry_Plaisirs-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3561018-Reviews-Pastry_Plaisirs-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Gran_Hotel_Princesa_Sofia
         a                 tourisme:Hotel ;
@@ -3819,7 +3819,7 @@ tourisme:Germany  a  tourisme:Pays ;
         rdfs:label  "Germany" .
 
 tourisme:URL_Restaurant_Bacio_Di_Puglia
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6578187-Reviews-Bacio_Di_Puglia-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6578187-Reviews-Bacio_Di_Puglia-Rome_Lazio.html" .
 
 tourisme:Kreta_Grill  a     tourisme:Restaurant ;
         rdfs:label          "Kreta Grill" ;
@@ -3844,7 +3844,7 @@ tourisme:Four_Seasons_Hotel_George_V_Paris
         tourisme:siteWeb  tourisme:URL_Hotel_Four_Seasons_Hotel_George_V_Paris .
 
 tourisme:URL_Restaurant_Restaurante_La_Gaditana
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d5787470-Reviews-Restaurante_La_Gaditana-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d5787470-Reviews-Restaurante_La_Gaditana-Madrid.html" .
 
 tourisme:Cobea  a           tourisme:Restaurant ;
         rdfs:label          "Cobea" ;
@@ -3863,10 +3863,10 @@ tourisme:Tast-Ller  a       tourisme:Restaurant ;
         tourisme:telephone  "+34 663 83 37 17" .
 
 tourisme:URL_Restaurant_Tramonti_e_Muffati
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d798103-Reviews-Tramonti_e_Muffati-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d798103-Reviews-Tramonti_e_Muffati-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_ibis_budget_Paris_Porte_d_Orleans
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d507437-Reviews-Ibis_budget_Paris_Porte_d_Orleans-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d507437-Reviews-Ibis_budget_Paris_Porte_d_Orleans-Paris_Ile_de_France.html" .
 
 tourisme:Saint_James_Paris_Relais_et_Chateaux
         a                 tourisme:Hotel ;
@@ -3890,7 +3890,7 @@ tourisme:Eurostars_Grand_Central
         tourisme:siteWeb  tourisme:URL_Hotel_Eurostars_Grand_Central .
 
 tourisme:URL_Hotel_Hotel_du_Petit_Palais
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d219970-Reviews-Hotel_du_Petit_Palais-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d219970-Reviews-Hotel_du_Petit_Palais-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Restaurant_Montiel
         a                   tourisme:Restaurant ;
@@ -3927,10 +3927,10 @@ tourisme:Shane_s_Restaurant
         tourisme:telephone  "089 74 64 68 20" .
 
 tourisme:URL_Restaurant_Gourmet_Restaurant_Koenigshof
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983174-Reviews-Gourmet_Restaurant_Koenigshof-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983174-Reviews-Gourmet_Restaurant_Koenigshof-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Hotel_Indigo_Madrid__Gran_Via
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d4962318-Reviews-Hotel_Indigo_Madrid_Gran_Via-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d4962318-Reviews-Hotel_Indigo_Madrid_Gran_Via-Madrid.html" .
 
 dbpedia-resource:Munich
         a                      tourisme:Ville ;
@@ -3942,12 +3942,12 @@ dbpedia-resource:Munich
         tourisme:siteWeb       tourisme:URL_Ville_Munich .
 
 tourisme:URL_Restaurant_Epicure
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html" .
 
 tourisme:Barcelone  a  tourisme:Ville .
 
 tourisme:URL_Hotel_Praktik_Metropol
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d530931-Reviews-Praktik_Metropol-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d530931-Reviews-Praktik_Metropol-Madrid.html" .
 
 tourisme:Pullman_Brussels_Midi_Hotel
         a                 tourisme:Hotel ;
@@ -3957,13 +3957,13 @@ tourisme:Pullman_Brussels_Midi_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Pullman_Brussels_Midi_Hotel .
 
 tourisme:URL_Hotel_La_Manufacture
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197563-Reviews-La_Manufacture-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197563-Reviews-La_Manufacture-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Barocco_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d203175-Reviews-Barocco_Hotel-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d203175-Reviews-Barocco_Hotel-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Wellington_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187514-d228658-Reviews-Wellington_Hotel-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d228658-Reviews-Wellington_Hotel-Madrid.html" .
 
 tourisme:Hotel_Cocoon_Stachus
         a                 tourisme:Hotel ;
@@ -3986,10 +3986,10 @@ tourisme:Pullman_Barcelona_Skipper
         tourisme:siteWeb  tourisme:URL_Hotel_Pullman_Barcelona_Skipper .
 
 tourisme:URL_Hotel_Alma_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d2102457-Reviews-Alma_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d2102457-Reviews-Alma_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Pullman_Brussels_Midi_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g188644-d4108273-Reviews-Pullman_Brussels_Midi_Hotel-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d4108273-Reviews-Pullman_Brussels_Midi_Hotel-Brussels.html" .
 
 tourisme:Vol8  a              tourisme:VolLoisir ;
         dc:identifier         "8" ;
@@ -3997,7 +3997,7 @@ tourisme:Vol8  a              tourisme:VolLoisir ;
         tourisme:destination  tourisme:Bruxelle .
 
 tourisme:URL_Restaurant_Boulangerie_Charli
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2039559-Reviews-Boulangerie_Charli-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2039559-Reviews-Boulangerie_Charli-Brussels.html" .
 
 tourisme:Stanhope_Hotel
         a                 tourisme:Hotel ;
@@ -4007,19 +4007,19 @@ tourisme:Stanhope_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Stanhope_Hotel .
 
 tourisme:URL_Hotel_Hotel_Cocoon_Stachus
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d2649150-Reviews-Hotel_Cocoon_Stachus-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d2649150-Reviews-Hotel_Cocoon_Stachus-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Louis_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d1544237-Reviews-Louis_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d1544237-Reviews-Louis_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Condado_Hotel_Barcelona
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228531-Reviews-Condado_Hotel_Barcelona-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228531-Reviews-Condado_Hotel_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Vinos_de_Bellota
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3530204-Reviews-Vinos_de_Bellota-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3530204-Reviews-Vinos_de_Bellota-Madrid.html" .
 
 tourisme:URL_Hotel_Renaissance_Brussels_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g1136493-d229408-Reviews-Renaissance_Brussels_Hotel-Ixelles_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1136493-d229408-Reviews-Renaissance_Brussels_Hotel-Ixelles_Brussels.html" .
 
 tourisme:Matilda_Cafe_Cantina
         a                   tourisme:Restaurant ;
@@ -4040,7 +4040,7 @@ tourisme:Restaurante_Margherita
         tourisme:telephone  "34 936 11 56 67" .
 
 tourisme:URL_Restaurant_Brasseria_Italiana_-_Punto_Giusto
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6168613-Reviews-Brasseria_Italiana_Punto_Giusto-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6168613-Reviews-Brasseria_Italiana_Punto_Giusto-Paris_Ile_de_France.html" .
 
 tourisme:NOI_Nuova_Osteria_Italiana
         a                   tourisme:Restaurant ;
@@ -4059,7 +4059,7 @@ tourisme:Hyatt_Regency_Nice_Palais_de_la_Mediterranee
         tourisme:siteWeb  tourisme:URL_Hotel_Hyatt_Regency_Nice_Palais_de_la_Mediterranee .
 
 tourisme:URL_Hotel_The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d596437-Reviews-The_Inn_At_The_Roman_Forum_Small_Luxury_Hotel-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d596437-Reviews-The_Inn_At_The_Roman_Forum_Small_Luxury_Hotel-Rome_Lazio.html" .
 
 tourisme:Gelateria_Azzurro
         a                   tourisme:Restaurant ;
@@ -4071,10 +4071,10 @@ tourisme:Gelateria_Azzurro
         tourisme:telephone  "+33 4 93 13 92 24" .
 
 tourisme:URL_Restaurant_Shane_s_Restaurant
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1854149-Reviews-Shane_s_Restaurant-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1854149-Reviews-Shane_s_Restaurant-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_iQ_Hotel_Roma
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1729030-Reviews-IQ_Hotel_Roma-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1729030-Reviews-IQ_Hotel_Roma-Rome_Lazio.html" .
 
 tourisme:La_Villa_Lorraine
         a                   tourisme:Restaurant ;
@@ -4086,7 +4086,7 @@ tourisme:La_Villa_Lorraine
         tourisme:telephone  "02 374 31 63" .
 
 tourisme:URL_Hotel_Hilton_Munich_Airport
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d201857-Reviews-Hilton_Munich_Airport-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d201857-Reviews-Hilton_Munich_Airport-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Der_Verrueckte_Eismacher
         a                   tourisme:Restaurant ;
@@ -4114,10 +4114,10 @@ tourisme:Geisels_Werneckhof
         tourisme:telephone  "+49 89 38879568" .
 
 tourisme:URL_Restaurant_Mordi_e_Vai
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3662985-Reviews-Mordi_e_Vai-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3662985-Reviews-Mordi_e_Vai-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Hotel_Bavaria
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d217912-Reviews-Hotel_Bavaria-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d217912-Reviews-Hotel_Bavaria-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Miseria_e_Nobilta
         a                   tourisme:Restaurant ;
@@ -4129,13 +4129,13 @@ tourisme:Miseria_e_Nobilta
         tourisme:telephone  "93.500.99.68" .
 
 tourisme:URL_Restaurant_Le_Chantecler
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d965976-Reviews-Le_Chantecler-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d965976-Reviews-Le_Chantecler-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_I_Vicini_Bistrot
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7097365-Reviews-I_Vicini_Bistrot-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7097365-Reviews-I_Vicini_Bistrot-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_Carabassa_Restaurant
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3357229-Reviews-Carabassa_Restaurant-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3357229-Reviews-Carabassa_Restaurant-Barcelona_Catalonia.html" .
 
 tourisme:Oliviera  a        tourisme:Restaurant ;
         rdfs:label          "Oliviera" ;
@@ -4146,7 +4146,7 @@ tourisme:Oliviera  a        tourisme:Restaurant ;
         tourisme:telephone  "0493130645" .
 
 tourisme:URL_Hotel_Ibis_Styles_Nice_Aeroport
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187234-d1143056-Reviews-Ibis_Styles_Nice_Aeroport-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d1143056-Reviews-Ibis_Styles_Nice_Aeroport-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Nissart_Burger
         a                   tourisme:Restaurant ;
@@ -4204,7 +4204,7 @@ tourisme:Raffaello_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Raffaello_Hotel .
 
 tourisme:URL_Hotel_Ibis_Budget_Paris_La_Villette
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d300729-Reviews-Ibis_Budget_Paris_La_Villette-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d300729-Reviews-Ibis_Budget_Paris_La_Villette-Paris_Ile_de_France.html" .
 
 tourisme:Bia_Mara  a        tourisme:Restaurant ;
         rdfs:label          "Bia Mara" ;
@@ -4215,7 +4215,7 @@ tourisme:Bia_Mara  a        tourisme:Restaurant ;
         tourisme:telephone  "+32 2 502 00 61" .
 
 tourisme:URL_Restaurant_Restaurante_Lasarte
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d809578-Reviews-Restaurante_Lasarte-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d809578-Reviews-Restaurante_Lasarte-Barcelona_Catalonia.html" .
 
 tourisme:Vol3  a              tourisme:VolLoisir ;
         dc:identifier         "3" ;
@@ -4230,10 +4230,10 @@ tourisme:EuroPark_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_EuroPark_Hotel .
 
 tourisme:URL_Monument_The_Louvre
-        foaf:page  "http://www.louvre.fr/en/homepage" .
+        rdfs:label  "http://www.louvre.fr/en/homepage" .
 
 tourisme:URL_Restaurant_Koy_Shunka
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d1471799-Reviews-Koy_Shunka-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d1471799-Reviews-Koy_Shunka-Barcelona_Catalonia.html" .
 
 tourisme:La_Pizzetteria
         a                   tourisme:Restaurant ;
@@ -4245,7 +4245,7 @@ tourisme:La_Pizzetteria
         tourisme:telephone  "+39 06 7696 7895" .
 
 tourisme:URL_Hotel_Gran_Hotel_Torre_Catalunya
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d289670-Reviews-Gran_Hotel_Torre_Catalunya-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d289670-Reviews-Gran_Hotel_Torre_Catalunya-Barcelona_Catalonia.html" .
 
 tourisme:NH_Collection_Madrid_Abascal
         a                 tourisme:Hotel ;
@@ -4271,7 +4271,7 @@ tourisme:Mercure_Rome_Colosseum_Centre
         tourisme:siteWeb  tourisme:URL_Hotel_Mercure_Rome_Colosseum_Centre .
 
 tourisme:URL_Hotel_Platzl_Hotel
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d228386-Reviews-Platzl_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d228386-Reviews-Platzl_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Sheraton_Madrid_Mirasierra_Hotel
         a                 tourisme:Hotel ;
@@ -4281,13 +4281,13 @@ tourisme:Sheraton_Madrid_Mirasierra_Hotel
         tourisme:siteWeb  tourisme:URL_Hotel_Sheraton_Madrid_Mirasierra_Hotel .
 
 tourisme:URL_Restaurant_Petit_Pau_Restaurant
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5484912-Reviews-Petit_Pau_Restaurant-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5484912-Reviews-Petit_Pau_Restaurant-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Geisels_Werneckhof
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2351481-Reviews-Geisels_Werneckhof-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2351481-Reviews-Geisels_Werneckhof-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Shangri_La_Hotel_Paris
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1959562-Reviews-Shangri_La_Hotel_Paris-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1959562-Reviews-Shangri_La_Hotel_Paris-Paris_Ile_de_France.html" .
 
 tourisme:Hotel_Vendome
         a                 tourisme:Hotel ;
@@ -4297,7 +4297,7 @@ tourisme:Hotel_Vendome
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Vendome .
 
 tourisme:URL_Restaurant_Bistrot_Chaud-Vin
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d4814809-Reviews-Bistrot_Chaud_Vin-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d4814809-Reviews-Bistrot_Chaud_Vin-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Collage_Barcelona
         a                   tourisme:Restaurant ;
@@ -4309,10 +4309,10 @@ tourisme:Collage_Barcelona
         tourisme:telephone  "+34 931 79 37 85" .
 
 tourisme:URL_Restaurant_Oliviera
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1155633-Reviews-Oliviera-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1155633-Reviews-Oliviera-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Hotel_Home_Moderne
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1639825-Reviews-Home_Moderne-Paris_Ile_de_France.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1639825-Reviews-Home_Moderne-Paris_Ile_de_France.html" .
 
 tourisme:Volluxcar  a  tourisme:AgenceLocationVoiture ;
         tourisme:dans  tourisme:Bruxelle .
@@ -4341,22 +4341,22 @@ tourisme:Buenos_Aires_Grill_Restaurant
         tourisme:telephone  "+34 933 28 46 33" .
 
 tourisme:URL_Hotel_Barcelo_Sants
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228507-Reviews-Barcelo_Sants-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228507-Reviews-Barcelo_Sants-Barcelona_Catalonia.html" .
 
 tourisme:URL_Hotel_Hilton_Park_Munich
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187309-d199637-Reviews-Hilton_Park_Munich-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d199637-Reviews-Hilton_Park_Munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Sofitel_Brussels_Europe
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g950780-d604560-Reviews-Sofitel_Brussels_Europe-Etterbeek_Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g950780-d604560-Reviews-Sofitel_Brussels_Europe-Etterbeek_Brussels.html" .
 
 tourisme:URL_Restaurant_Winehouse_Osteria
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6475366-Reviews-Winehouse_Osteria-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6475366-Reviews-Winehouse_Osteria-Brussels.html" .
 
 tourisme:URL_Restaurant_Polly_and_Cie
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d5220418-Reviews-Polly_and_Cie-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d5220418-Reviews-Polly_and_Cie-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Nostos
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2721198-Reviews-Nostos-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2721198-Reviews-Nostos-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Comme_Chez_Soi
         a                   tourisme:Restaurant ;
@@ -4368,13 +4368,13 @@ tourisme:Comme_Chez_Soi
         tourisme:telephone  "+32 2 512 29 21" .
 
 tourisme:URL_Hotel_Hotel_Pulitzer_Roma
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187791-d852315-Reviews-Hotel_Pulitzer_Roma-Rome_Lazio.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d852315-Reviews-Hotel_Pulitzer_Roma-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_Bia_Mara
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3600650-Reviews-Bia_Mara-Brussels.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3600650-Reviews-Bia_Mara-Brussels.html" .
 
 tourisme:URL_Hotel_Hotel_1898
-        foaf:page  "http://www.tripadvisor.fr/Hotel_Review-g187497-d506158-Reviews-Hotel_1898-Barcelona_Catalonia.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d506158-Reviews-Hotel_1898-Barcelona_Catalonia.html" .
 
 tourisme:UNA_Hotel_Roma
         a                 tourisme:Hotel ;
@@ -4400,16 +4400,16 @@ tourisme:Ibis_Budget_Paris_La_Villette
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Budget_Paris_La_Villette .
 
 tourisme:URL_Restaurant_Algarabia
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d991733-Reviews-Algarabia-Madrid.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d991733-Reviews-Algarabia-Madrid.html" .
 
 tourisme:URL_Restaurant_Dinnerhopping
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4085091-Reviews-Dinnerhopping-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4085091-Reviews-Dinnerhopping-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Restaurant_Chez_Mireille
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1322108-Reviews-Chez_Mireille-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1322108-Reviews-Chez_Mireille-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:URL_Restaurant_Mimmo_E_Co
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6676190-Reviews-Mimmo_E_Co-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6676190-Reviews-Mimmo_E_Co-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Hotel_Residence_Foch
         a                 tourisme:Hotel ;
@@ -4426,4 +4426,4 @@ tourisme:La_Griffe_Roma_MGallery_Collection
         tourisme:siteWeb  tourisme:URL_Hotel_La_Griffe_Roma_MGallery_Collection .
 
 tourisme:URL_Restaurant_Zwickl_-_Gastlichkeit_am_Viktualienmarkt
-        foaf:page  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3499387-Reviews-Zwickl_Gastlichkeit_am_Viktualienmarkt-Munich_Upper_Bavaria_Bavaria.html" .
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3499387-Reviews-Zwickl_Gastlichkeit_am_Viktualienmarkt-Munich_Upper_Bavaria_Bavaria.html" .

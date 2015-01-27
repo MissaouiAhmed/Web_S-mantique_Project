@@ -11,6 +11,7 @@ import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.sparql.vocabulary.FOAF;
 import com.hp.hpl.jena.vocabulary.RDF;
+import com.hp.hpl.jena.vocabulary.RDFS;
 
 public class MonumentLoader {
 
@@ -80,7 +81,7 @@ public class MonumentLoader {
 					dbpadiaURI.substring(
 							dbpadiaURI.lastIndexOf("/") + 1,
 							dbpadiaURI.length()));
-			imre.addProperty(FOAF.page, imageLink.getURI());
+			imre.addProperty(RDFS.label, imageLink.getURI());
 			
 			monumentResource.addProperty(propImage, imre);
 			
@@ -93,7 +94,7 @@ public class MonumentLoader {
 						dbpadiaURI.substring(
 								dbpadiaURI.lastIndexOf("/") + 1,
 								dbpadiaURI.length()));
-				webr.addProperty(FOAF.page, website.getURI());
+				webr.addProperty(RDFS.label, website.getURI());
 				
 				
 				
@@ -107,7 +108,7 @@ public class MonumentLoader {
 						dbpadiaURI.substring(
 								dbpadiaURI.lastIndexOf("/") + 1,
 								dbpadiaURI.length()));
-				webr.addProperty(FOAF.page, website.getString());
+				webr.addProperty(RDFS.label, website.getString());
 				monumentResource.addProperty(propwebsite, webr);
 				
 				

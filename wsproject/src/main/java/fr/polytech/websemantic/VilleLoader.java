@@ -63,7 +63,7 @@ public class VilleLoader {
 					dbpadiaURI.substring(
 							dbpadiaURI.lastIndexOf("/") + 1,
 							dbpadiaURI.length()));
-			imre.addProperty(FOAF.page, s.getResource("?image").toString());
+			imre.addProperty(RDFS.label, s.getResource("?image").toString());
 			placeResource.addProperty(propImage, imre);
 			
 			
@@ -73,7 +73,7 @@ public class VilleLoader {
 					dbpadiaURI.substring(
 							dbpadiaURI.lastIndexOf("/") + 1,
 							dbpadiaURI.length()));
-			webr.addProperty(FOAF.page,  s.getResource("?wbesite").toString());
+			webr.addProperty(RDFS.label,  s.getResource("?wbesite").toString());
 			
 			placeResource.addProperty(propwebsite,webr);
 			
