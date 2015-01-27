@@ -57,8 +57,8 @@ public class Runner {
 		Model tmp5 = AgenceLoader.loadAgence("agences.csv");
 		model.add(tmp5);
 		
-		PrintWriter writer = new PrintWriter("tourisme.nt", "UTF-8");
-		model.write(writer, "N3");
+		PrintWriter writer = new PrintWriter("tourisme.rdf", "UTF-8");
+		model.write(writer, "RDF/XML");
 		
 	}
 

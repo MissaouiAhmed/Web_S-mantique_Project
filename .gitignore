@@ -3,3 +3,4 @@ wsproject/.settings
 wsproject/target
 wsproject/.classpath
 wsproject/.project
+jena-fuseki-1.1.1/*
