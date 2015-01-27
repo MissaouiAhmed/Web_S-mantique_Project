@@ -1,0 +1,1 @@
+Jena : fuseki-server --update --config=config-tdb-ws.ttl
