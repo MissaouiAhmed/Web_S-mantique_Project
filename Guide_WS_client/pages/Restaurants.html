@@ -15,11 +15,11 @@
     $(document).ready(function () {
 			//Get all data from Sparql endpoint
 			//getALLData();
-			var ville=document.URL.substring(1).split('/')[3];
+			//var ville=document.URL.substring(1).split('/')[3];
 			//alert(ville);
 			//getDataVille(ville);
 			
-			//getMonuments(ville);
+			//getMonuments("Paris");
 	});
 
 </script>			
@@ -30,13 +30,13 @@
 
 <br><br><br><br>
 <article>
-	<ul>
-		<li><a href="/page/Vols/get">Vols</a></li>
-	<li><a href="/page/Villes/get">Ville</a></li>
-	<li><a href="/page/Monuments/get">Monument</a></li>
-	<li><a href="/page/Hotels/get">Hotel</a></li>
-	<li><a href="/page/Restaurants/get">Restaurant</a></li>
-	</ul>
+	<h2>Veuillez chosir une Ville </h2>
+	<select id="ville"> 
+<option>Nice</option>
+
+<option>Paris</option>
+	</select>
+	<input type="button" value="valier"/> 
 <div id='res'>
 <div>
 </article>
