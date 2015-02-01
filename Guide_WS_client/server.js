@@ -36,18 +36,33 @@ app.get('/:ville/:TypeBatiment', function (req, res) {
 	
 });
 
-app.get('/page/Monuments/get', function (req, res) {
+app.get('/page/Monuments/B', function (req, res) {
 	res.sendfile(__dirname + '/'+htmlDir+'/Monuments.html');
 	
 });
 
-app.get('/page/Hotels/get', function (req, res) {
+app.get('/page/Monuments/B/:ville', function (req, res) {
+	res.sendfile(__dirname + '/'+htmlDir+'/Monuments.html');
+	
+});
+
+app.get('/page/Hotels/B/:ville', function (req, res) {
+	res.sendfile(__dirname + '/'+htmlDir+'/Hotels.html');
+	
+});
+
+app.get('/page/Hotels/B', function (req, res) {
 	res.sendfile(__dirname + '/'+htmlDir+'/Hotels.html');
 	
 });
 
 
-app.get('/page/Restaurants/get', function (req, res) {
+app.get('/page/Restaurants/B', function (req, res) {
+	res.sendfile(__dirname + '/'+htmlDir+'/Restaurants.html');
+	
+});
+
+app.get('/page/Restaurants/B/:ville', function (req, res) {
 	res.sendfile(__dirname + '/'+htmlDir+'/Restaurants.html');
 	
 });
