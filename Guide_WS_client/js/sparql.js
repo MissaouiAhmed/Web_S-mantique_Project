@@ -113,13 +113,12 @@
 				el.innerHTML=table;
 				var elements=el.getElementsByTagName('td');
 				
-				//for(int i=2;i<elements.length;i+2){
-					
-				var url= elements[2].innerHTML;
-				 var toto="<img src="+url+"/>";
-				 //alert(toto);
-				 elements[2].innerHTML=toto;
-				//}
+				for(var i=2;i<elements.length;i++){	
+					var url= elements[i].innerHTML;
+					var toto="<img src="+url+"/>";
+					elements[i].innerHTML=toto;
+					i++;
+				}
 				
 				$("#res").html(el);
 			}	
