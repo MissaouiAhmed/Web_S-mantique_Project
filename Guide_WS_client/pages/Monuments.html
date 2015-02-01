@@ -17,8 +17,7 @@
 			//getALLData();
 			//var ville=document.URL.substring(1).split('/')[3];
 			//alert(ville);
-			//getDataVille(ville);
-			
+			//getDataVille(ville);	
 			getMonuments("Paris");
 	});
 
@@ -30,15 +29,22 @@
 
 <br><br><br><br>
 <article>
+<FORM name="formselect">
 	<h2>Veuillez chosir une Ville </h2>
-	<select id="ville"> 
-<option>Nice</option>
-
-<option>Paris</option>
-	</select>
-	<input type="button" value="valier"/> 
+		<SELECT name="listeMville" size=1>
+			<OPTION value="Paris">Paris</OPTION>
+			<OPTION value="Nice">Nice</OPTION>
+			<OPTION value="Rome">Rome</OPTION>
+			<OPTION value="Munich">Munich</OPTION>
+			<OPTION value="Madrid">Madrid</OPTION>
+			<OPTION value="Bruxelle">Bruxelle</OPTION>
+			<OPTION value="Barcelone">Barcelone</OPTION>
+		</SELECT>
+	<input type="button" value="valier" onClick="getMonuments(this.form.elements['listeMville'].options[this.form.elements['listeMville'].selectedIndex].text)"/> 
+</FORM>
+</article>
 <div id='res'>
 <div>
-</article>
+
 </body>
 </html>

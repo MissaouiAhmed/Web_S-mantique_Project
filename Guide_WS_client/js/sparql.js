@@ -117,7 +117,7 @@
 					
 				var url= elements[2].innerHTML;
 				 var toto="<img src="+url+"/>";
-				 alert(toto);
+				 //alert(toto);
 				 elements[2].innerHTML=toto;
 				//}
 				
