@@ -67,6 +67,10 @@ public class MonumentLoader {
 			Resource monumentResource = model
 					.createResource(dbpadiaURI);
 			
+			monumentResource.addProperty(RDFS.label, 
+					dbpadiaURI.substring(dbpadiaURI.lastIndexOf("/") + 1,
+					dbpadiaURI.length()));
+
 			monumentResource.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Monument"));
 
 			Property propDescition = model
@@ -123,7 +127,7 @@ public class MonumentLoader {
 
 			Property propIslocated = model
 					.createProperty("http://www.polytech.semantique/tourisme#dans");
-			Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" +place);
+			Resource placeR=model.createResource("http://dbpedia.org/resource/"+place.trim());
 			placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 			monumentResource.addProperty(propIslocated,placeR );

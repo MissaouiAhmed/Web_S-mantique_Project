@@ -58,13 +58,13 @@ public class VolLoader {
 
 				Property departprop = model
 						.createProperty("http://www.polytech.semantique/tourisme#depart");
-				vol.addProperty(departprop, model.createResource("http://www.polytech.semantique/tourisme#"+
-						depart));
+				vol.addProperty(departprop, model.createResource("http://dbpedia.org/resource/"+
+						depart.trim()));
 
 				Property destinationprop = model
 						.createProperty("http://www.polytech.semantique/tourisme#destination");
-				vol.addProperty(destinationprop, model.createResource("http://www.polytech.semantique/tourisme#"+
-						destination));
+				vol.addProperty(destinationprop, model.createResource("http://dbpedia.org/resource/"+
+						destination.trim()));
 
 			}
 

@@ -53,6 +53,10 @@ public class VilleLoader {
 			
 			placeResource.addProperty(RDF.type,  model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
+			placeResource.addProperty(RDFS.label,  dbpadiaURI.substring(
+					dbpadiaURI.lastIndexOf("/") + 1,
+					dbpadiaURI.length()));
+
 
 			Property propDescition = model.createProperty("http://www.polytech.semantique/tourisme#description");
 			placeResource.addProperty(propDescition, s.getLiteral("?description").toString());

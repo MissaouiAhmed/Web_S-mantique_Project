@@ -78,8 +78,8 @@ public class HotelsLoader {
 								
 				Property propIslocated = model
 						.createProperty("http://www.polytech.semantique/tourisme#dans");
-				Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" +
-						place );
+				Resource placeR=model.createResource("http://dbpedia.org/resource/" +
+						place.trim() );
 				placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 				hotel.addProperty(propIslocated,placeR );

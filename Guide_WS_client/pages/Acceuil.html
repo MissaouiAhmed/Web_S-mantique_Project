@@ -11,13 +11,17 @@
 
 <script type="text/javascript">
 
+
     $(document).ready(function () {
 			//Get all data from Sparql endpoint
 			//getALLData();
 			var ville=document.URL.substring(1).split('/')[3];
-			getDataVille(ville);
+			//alert(ville);
+			//getDataVille(ville);
+			
+			getMonuments(ville);
 	});
-	
+
 </script>			
 </head>
 <body>

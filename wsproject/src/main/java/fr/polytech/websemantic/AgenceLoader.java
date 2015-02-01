@@ -52,7 +52,7 @@ public class AgenceLoader {
 				
 				Property propIslocated = model
 						.createProperty("http://www.polytech.semantique/tourisme#dans");
-				Resource placeR=model.createResource("http://www.polytech.semantique/tourisme#" +ville);
+				Resource placeR=model.createResource("http://dbpedia.org/resource/" +ville.trim());
 				placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 				agence.addProperty(propIslocated,placeR );
