@@ -20,6 +20,11 @@
 			//getDataVille(ville);
 			
 			//getMonuments("Paris");
+
+			$("#valider").click(function(evt) {
+				//alert($("#ville").val());
+				AhmedgetVille($("#ville").val());
+			});
 	});
 
 </script>			
@@ -32,11 +37,11 @@
 <article>
 	<h2>Veuillez chosir une Ville </h2>
 	<select id="ville"> 
-<option>Nice</option>
+<option value="Nice">Nice</option>
+<option  value="Paris">Paris</option>
 
-<option>Paris</option>
 	</select>
-	<input type="button" value="valier"/> 
+	<input type="button" value="valider" id="valider"/> 
 <div id='res'>
 <div>
 </article>
