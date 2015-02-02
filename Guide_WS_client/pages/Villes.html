@@ -30,20 +30,30 @@
 </script>			
 </head>
 <body>
-  <header>
-	</header>
+	<center><span style="font-family: Times, serif; font-size:30pt; font-style:oblique; font-variant: normal">Guide Touristique</span></center>
+<ul class="menu1">
+    <li><a href="/">Accueil</a></li>
+    <li><a href="/page/Vols/get">Vols</a></li>
+    <li><a href="/page/Villes/get" class="current">Ville</a></li>
+    <li><a href="/page/Monuments/B">Monument</a></li>
+    <li><a href="/page/Hotels/B">Hotel</a></li>
+    <li class="lastItem"><a href="/page/Restaurants/B">Restaurant</a></li>
+</ul>
 
-<br><br><br><br>
+<br/>
 <article>
-	<h2>Veuillez chosir une Ville </h2>
+<FORM name="formselect">
+	<span id="select"><B>Veuillez choisir une Ville : </B></span>
 	<select id="ville"> 
 <option value="Nice">Nice</option>
 <option  value="Paris">Paris</option>
 
 	</select>
 	<input type="button" value="valider" id="valider"/> 
+</FORM>
+</article>
+<br/>
 <div id='res'>
 <div>
-</article>
 </body>
 </html>
