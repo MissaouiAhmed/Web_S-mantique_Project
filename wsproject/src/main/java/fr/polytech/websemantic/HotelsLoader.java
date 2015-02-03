@@ -64,7 +64,7 @@ public class HotelsLoader {
 					String image = parts[4];
 					
 				Property proptelphone = model
-						.createProperty("http://www.polytech.semantique/tourisme#image");
+						.createProperty("http://www.polytech.semantique/tourisme#imageUrl");
 				
 				Resource imre=model.createResource("http://www.polytech.semantique/tourisme#IMAGE_Hotel_"+name
 						.replaceAll(" ", "_"));
