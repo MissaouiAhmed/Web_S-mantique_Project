@@ -74,9 +74,9 @@
 		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
 		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
 		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
-		 " SELECT ?description ?url "+
-		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Monument; tourisme:description ?description "+
-		 ";tourisme:imageUrl ?urlR. ?urlR rdfs:label ?url.}";
+		 " SELECT ?Description ?Image "+
+		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Monument; tourisme:description ?Description "+
+		 ";tourisme:imageUrl ?urlR. ?urlR rdfs:label ?Image.}";
 		 
 		 
 		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
@@ -134,9 +134,9 @@ function getRestaurants (ville){
 		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
 		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
 		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
-		 " SELECT ?label ?adresse ?note ?telephone ?url"+
-		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Restaurant; rdfs:label ?label ; tourisme:adresse ?adresse ; tourisme:note ?note;"+
-		 " tourisme:telephone ?telephone; tourisme:siteWeb ?sitew . ?sitew rdfs:label ?url.}";
+		 " SELECT ?Restaurant ?Adresse ?Note ?Telephone ?SiteWeb"+
+		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Restaurant; rdfs:label ?Restaurant ; tourisme:adresse ?Adresse ; tourisme:note ?Note;"+
+		 " tourisme:telephone ?Telephone; tourisme:siteWeb ?sitew . ?sitew rdfs:label ?SiteWeb.}";
 
 		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
 		 
@@ -193,9 +193,9 @@ function getHotels (ville){
 		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
 		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
 		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
-		 " SELECT ?adresse ?note ?url "+
-		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Hotel; tourisme:adresse ?adresse ; tourisme:note ?note;"+
-		 "tourisme:siteWeb ?sitew . ?sitew rdfs:label ?url.}";
+		 " SELECT ?Adresse ?Note ?SiteWeb "+
+		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Hotel; tourisme:adresse ?Adresse ; tourisme:note ?Note;"+
+		 "tourisme:siteWeb ?sitew . ?sitew rdfs:label ?SiteWeb.}";
 
 		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
 		 
