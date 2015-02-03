@@ -79,3 +79,9 @@ app.get('/page/Vols/get', function (req, res) {
 	
 });
 
+
+app.get('/page/Vols/A/C/D/:uri', function (req, res) {
+	console.log("-----------");
+	res.sendfile(__dirname + '/'+htmlDir+'/Recommendation.html');
+	
+});

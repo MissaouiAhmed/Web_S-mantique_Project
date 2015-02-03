@@ -878,3 +878,9 @@ ul.menu1 li a:hover, ul.menu1 li a.current
 	margin-left:50px;
 	color: white;
 }
+
+
+.s1, .s0{
+
+	background-color: red;
+}
