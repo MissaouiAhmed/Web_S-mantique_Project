@@ -1,1 +1,3 @@
 Jena : fuseki-server --update --config=config-tdb-ws.ttl
+
+java -Dfile.encoding="UTF-8" -jar corese-server.jar -load "tourisme.nt;tourisme.owl;inference.rdf" -o

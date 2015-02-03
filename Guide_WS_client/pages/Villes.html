@@ -5,6 +5,7 @@
     <!-- note : in HTML5 no need to specify type=...-->
   	  <link rel="stylesheet" href="/css/styles.css"/>
     <script src="/js/jquery-1.7.2.min.js"></script>
+			<link rel="shortcut icon" type="image/x-icon" href="../img/icon.png">
 	<link rel="stylesheet" type="text/css"   href="/css/jquery-ui.css" />
 	<script src="/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
 	<script src="/js/sparql.js" type="text/javascript"></script>
@@ -30,7 +31,7 @@
 </script>			
 </head>
 <body>
-	<center><span style="font-family: Times, serif; font-size:30pt; font-style:oblique; font-variant: normal">Guide Touristique</span></center>
+	<center><span style="font-family: Times, serif; font-size:30pt; font-style:oblique; font-variant: normal; color:white">Guide Touristique</span></center>
 <ul class="menu1">
     <li><a href="/">Accueil</a></li>
     <li><a href="/page/Vols/get">Vols</a></li>
@@ -45,9 +46,13 @@
 <FORM name="formselect">
 	<span id="select"><B>Veuillez choisir une Ville : </B></span>
 	<select id="ville"> 
-<option value="Nice">Nice</option>
-<option  value="Paris">Paris</option>
-
+			<OPTION value="Paris">Paris</OPTION>
+			<OPTION value="Nice">Nice</OPTION>
+			<OPTION value="Rome">Rome</OPTION>
+			<OPTION value="Munich">Munich</OPTION>
+			<OPTION value="Madrid">Madrid</OPTION>
+			<OPTION value="Bruxelle">Bruxelle</OPTION>
+			<OPTION value="Barcelone">Barcelone</OPTION>
 	</select>
 	<input type="button" value="valider" id="valider"/> 
 </FORM>
