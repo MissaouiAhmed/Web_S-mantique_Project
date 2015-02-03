@@ -11,6 +11,9 @@ tourisme:URL_Hotel_Novotel_Munich_City
 tourisme:URL_Hotel_Hotel_West_End
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197184-Reviews-Hotel_West_End-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
+tourisme:IMAGE_Hotel_Hotel_Amigo
+        rdfs:label  "" .
+
 tourisme:Taberna_Origen
         a                   tourisme:Restaurant ;
         rdfs:label          "Taberna Origen" ;
@@ -22,6 +25,9 @@ tourisme:Taberna_Origen
 
 tourisme:URL_Hotel_Hotel_Residence_Foch
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d234633-Reviews-Hotel_Residence_Foch-Paris_Ile_de_France.html" .
+
+tourisme:URL_Monument_Cite_des_Sciences_et_de_l_Industrie
+        rdfs:label  "http://www.cite-sciences.fr/english/" .
 
 tourisme:URL_Hotel_Hesperia_Tower
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d630596-Reviews-Hesperia_Tower-Barcelona_Catalonia.html" .
@@ -47,11 +53,17 @@ tourisme:Moratin_Vinoteca_Bistrot
         tourisme:siteWeb    tourisme:URL_Restaurant_Moratin_Vinoteca_Bistrot ;
         tourisme:telephone  "+34 911 27 60 85" .
 
+tourisme:IMAGE_Hotel_Sofitel_Brussels_Europe
+        rdfs:label  "" .
+
 tourisme:URL_Hotel_Acta_Ink_606_Barcelona
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1999376-Reviews-Acta_Ink_606_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:URL_Restaurant_Jeremie
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6538833-Reviews-Jeremie-Paris_Ile_de_France.html" .
+
+tourisme:IMAGE_Hotel_Etap_Hotel_
+        rdfs:label  "" .
 
 tourisme:Gelateria_Valentino
         a                   tourisme:Restaurant ;
@@ -70,6 +82,9 @@ tourisme:Franchin  a        tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Franchin ;
         tourisme:telephone  "+33 4 93 87 15 74" .
 
+tourisme:IMAGE_Monument_Musee_Marc_Chagall
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Musée_Marc_Chagall.jpg?width=300" .
+
 tourisme:Restaurant_Les_Garcons
         a                   tourisme:Restaurant ;
         rdfs:label          "Restaurant Les Garcons" ;
@@ -81,6 +96,7 @@ tourisme:Restaurant_Les_Garcons
 
 tourisme:Hotel_Constanza_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Constanza Barcelona" ;
         tourisme:adresse  "Calle Bruc 33, 08010 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "2.0 sur 5" ;
@@ -88,8 +104,10 @@ tourisme:Hotel_Constanza_Barcelona
 
 tourisme:Hotel_Paris_Villette
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Paris Villette" ;
         tourisme:adresse  "56 Rue Curial, 75019 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Paris_Villette ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Paris_Villette .
 
@@ -107,19 +125,29 @@ tourisme:URL_Restaurant_Jan
 tourisme:URL_Restaurant_Rock_Salt_Chilli_Peppers
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6678011-Reviews-Rock_Salt_Chilli_Peppers-Brussels.html" .
 
+tourisme:IMAGE_Monument_Musee_Marmottan_Monet
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Musée_Marmottan.JPG?width=300" .
+
 tourisme:Deko_Rome  a     tourisme:Hotel ;
+        rdfs:label        "Deko Rome" ;
         tourisme:adresse  "Via Toscana,1, 00187 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Deko_Rome ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Deko_Rome .
+
+tourisme:IMAGE_Hotel_Ibis_Paris_Montmartre_18eme
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/04/0e/b1/dc/ibis-paris-montmartre.jpg" .
 
 tourisme:URL_Restaurant_La_Gelateria_Frigidarium
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d1536028-Reviews-La_Gelateria_Frigidarium-Rome_Lazio.html" .
 
 tourisme:Jedermann_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Jedermann Hotel" ;
         tourisme:adresse  "Bayerstrasse 95, 80335 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
+        tourisme:image    tourisme:IMAGE_Hotel_Jedermann_Hotel ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Jedermann_Hotel .
 
@@ -148,8 +176,10 @@ tourisme:La_Provencita
 
 tourisme:Hotel_Campo_De_Fiori
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Campo De Fiori" ;
         tourisme:adresse  "Via del Biscione, 6, 00186 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Campo_De_Fiori ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Campo_De_Fiori .
 
@@ -181,6 +211,15 @@ tourisme:La_Era_Restaurante
         tourisme:siteWeb    tourisme:URL_Restaurant_La_Era_Restaurante ;
         tourisme:telephone  "+(34)915670144" .
 
+dbpedia-resource:Cite_de_l_economie_et_de_la_monnaie
+        a                      tourisme:Monument ;
+        rdfs:label             "Cite_de_l_economie_et_de_la_monnaie" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "La Banque de France a annoncé l’ouverture d’une Cité de l’économie et de la monnaie, le 25 mai 2011, lors d’une conférence de presse du Gouverneur Christian Noyer. Son ouverture est prévue à l'été 2015.Ce lieu pédagogique, visant à expliquer l’économie et ses concepts, s’installera dans l’hôtel Gaillard, au 1, place du Général-Catroux, dans le 17e arrondissement à Paris." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Cite_de_l_economie_et_de_la_monnaie ;
+        tourisme:localisation  "48.8821848 2.3103401" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Cite_de_l_economie_et_de_la_monnaie .
+
 tourisme:URL_Restaurant_Kleinschmecker
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6774415-Reviews-Kleinschmecker-Munich_Upper_Bavaria_Bavaria.html" .
 
@@ -195,6 +234,7 @@ tourisme:L_Aubergeade
 
 tourisme:The_Charles_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "The Charles Hotel" ;
         tourisme:adresse  "Sophienstrasse 28, 80333 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "5.0 sur 5" ;
@@ -222,8 +262,10 @@ tourisme:URL_Hotel_The_Peninsula_Paris
 
 tourisme:Villa_Spalletti_Trivelli
         a                 tourisme:Hotel ;
+        rdfs:label        "Villa Spalletti Trivelli" ;
         tourisme:adresse  "Via Piacenza 4, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Villa_Spalletti_Trivelli ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Villa_Spalletti_Trivelli .
 
@@ -231,6 +273,7 @@ tourisme:URL_Restaurant_DSTAGE
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6884911-Reviews-DSTAGE-Madrid.html" .
 
 tourisme:U232_Hotel  a    tourisme:Hotel ;
+        rdfs:label        "U232 Hotel" ;
         tourisme:adresse  "Comte d'Urgell 232, 08036 Barcelone, Espagne (Anciennement Nunez Urgell Hotel)" ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
@@ -248,11 +291,17 @@ tourisme:URL_Restaurant_Maitia
 tourisme:URL_Hotel_Gran_Hotel_Princesa_Sofia
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d242975-Reviews-Gran_Hotel_Princesa_Sofia-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Hostal_La_Casa_de_La_Plaza
+        rdfs:label  "" .
+
 tourisme:URL_Restaurant_Comics_Cafe
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2351600-Reviews-Comics_Cafe-Brussels.html" .
 
 tourisme:URL_Hotel_ApartoSuites_Jardines_de_Sabatini
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1657593-Reviews-ApartoSuites_Jardines_de_Sabatini-Madrid.html" .
+
+tourisme:IMAGE_Hotel_Bold_Hotel_Muenchen
+        rdfs:label  "" .
 
 tourisme:Todo_Pasa  a       tourisme:Restaurant ;
         rdfs:label          "Todo Pasa" ;
@@ -304,6 +353,14 @@ tourisme:La_Tragantua
 tourisme:URL_Hotel_Bayerischer_Hof_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d190303-Reviews-Bayerischer_Hof_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
+tourisme:Hotel_Westminster
+        a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Westminster" ;
+        tourisme:adresse  "27, Promenade des Anglais, 06000 Nice, France " ;
+        tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:note     "4.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Westminster .
+
 tourisme:URL_Hotel_Villa_San_Lorenzo_Maria_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d297048-Reviews-Villa_San_Lorenzo_Maria_Hotel-Rome_Lazio.html" .
 
@@ -312,17 +369,14 @@ tourisme:URL_Hotel_Sheraton_Madrid_Mirasierra_Hotel
 
 tourisme:Hotel_Acta_Mimic
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Acta Mimic" ;
         tourisme:adresse  "C/ Arc del Teatre 58, 08001 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Acta_Mimic .
 
-tourisme:Hotel_Westminster
-        a                 tourisme:Hotel ;
-        tourisme:adresse  "27, Promenade des Anglais, 06000 Nice, France " ;
-        tourisme:dans     dbpedia-resource:Nice ;
-        tourisme:note     "4.0 sur 5" ;
-        tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Westminster .
+tourisme:IMAGE_Hotel_Hotel_Le_Six
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/05/96/cf/73/hotel-le-six.jpg" .
 
 tourisme:La_Pagnottella_Gourmet
         a                   tourisme:Restaurant ;
@@ -339,17 +393,11 @@ tourisme:URL_Restaurant_Nissart_Burger
 tourisme:URL_Hotel_AC_Hotel_Barcelona_Forum_by_Marriott
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d501108-Reviews-AC_Hotel_Barcelona_Forum_by_Marriott-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Hotel_Ares_Eiffel_Paris
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/02/23/72/86/suite.jpg" .
+
 tourisme:URL_Hotel_Hotel_Muenchen_Palace
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d217948-Reviews-Hotel_Muenchen_Palace-Munich_Upper_Bavaria_Bavaria.html" .
-
-tourisme:Restaurant_Mariette
-        a                   tourisme:Restaurant ;
-        rdfs:label          "Restaurant Mariette" ;
-        tourisme:adresse    "24 Rue Bosquet, 75007 Paris, France " ;
-        tourisme:dans       dbpedia-resource:Paris ;
-        tourisme:note       "4.5 5 " ;
-        tourisme:siteWeb    tourisme:URL_Restaurant_Restaurant_Mariette ;
-        tourisme:telephone  "01 45 51 78 82" .
 
 tourisme:Arena_del_Gelato
         a                   tourisme:Restaurant ;
@@ -359,6 +407,15 @@ tourisme:Arena_del_Gelato
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Arena_del_Gelato ;
         tourisme:telephone  "+(39)0668806312" .
+
+tourisme:Restaurant_Mariette
+        a                   tourisme:Restaurant ;
+        rdfs:label          "Restaurant Mariette" ;
+        tourisme:adresse    "24 Rue Bosquet, 75007 Paris, France " ;
+        tourisme:dans       dbpedia-resource:Paris ;
+        tourisme:note       "4.5 5 " ;
+        tourisme:siteWeb    tourisme:URL_Restaurant_Restaurant_Mariette ;
+        tourisme:telephone  "01 45 51 78 82" .
 
 tourisme:URL_Hotel_Hotel_Romanico_Palace
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d656857-Reviews-Hotel_Romanico_Palace-Rome_Lazio.html" .
@@ -382,6 +439,7 @@ tourisme:Chez_Freddy  a     tourisme:Restaurant ;
 
 tourisme:Holiday_Inn_Madrid_-_Calle_Alcala
         a                 tourisme:Hotel ;
+        rdfs:label        "Holiday Inn Madrid - Calle Alcala" ;
         tourisme:adresse  "C/ Alcala 476, 28027 Madrid, Espagne (Anciennement Velada Madrid Hotel)" ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
@@ -392,8 +450,10 @@ tourisme:URL_Restaurant_Restaurante_Margherita
 
 tourisme:Shangri_La_Hotel_Paris
         a                 tourisme:Hotel ;
+        rdfs:label        "Shangri La Hotel Paris" ;
         tourisme:adresse  "10 Avenue d'IÃ©na, 75116 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Shangri_La_Hotel_Paris ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Shangri_La_Hotel_Paris .
 
@@ -420,6 +480,9 @@ tourisme:URL_Restaurant_Bibulus
 tourisme:URL_Restaurant_La_Canica
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7284099-Reviews-La_Canica-Madrid.html" .
 
+tourisme:IMAGE_Monument_Museo_Nacional_Centro_de_Arte_Reina_Sofia
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/MuseoReinaSofiaMadrid.JPG?width=300" .
+
 tourisme:Chez_Papa_Fred
         a                   tourisme:Restaurant ;
         rdfs:label          "Chez Papa Fred" ;
@@ -429,10 +492,15 @@ tourisme:Chez_Papa_Fred
         tourisme:siteWeb    tourisme:URL_Restaurant_Chez_Papa_Fred ;
         tourisme:telephone  "+33 4 93 86 84 60" .
 
+tourisme:IMAGE_Hotel_Thon_Hotel_EU
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/02/7d/ee/18/business-room.jpg" .
+
 tourisme:Thon_Hotel_EU
         a                 tourisme:Hotel ;
+        rdfs:label        "Thon Hotel EU" ;
         tourisme:adresse  "Rue de la Loi / Wetstraat 75, Etterbeek, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Thon_Hotel_EU ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Thon_Hotel_EU .
 
@@ -449,6 +517,7 @@ tourisme:Jan  a             tourisme:Restaurant ;
 
 tourisme:Hotel_Primero_Primera
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Primero Primera" ;
         tourisme:adresse  "C/ Doctor Carulla 25-29, 08017 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
@@ -484,10 +553,15 @@ tourisme:Bistrot_Chaud-Vin
         tourisme:siteWeb    tourisme:URL_Restaurant_Bistrot_Chaud-Vin ;
         tourisme:telephone  "+33 4 93 16 81 26" .
 
+tourisme:URL_Monument_Musee_d_histoire_de_la_medecine
+        rdfs:label  "http://www.bium.univ-paris5.fr/musee/ Musée d’histoire de la médecine" .
+
 tourisme:Hotel_Vice_Versa
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Vice Versa" ;
         tourisme:adresse  "213 rue Croix Nivert, 75015 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Vice_Versa ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Vice_Versa .
 
@@ -523,15 +597,32 @@ tourisme:Bibulus  a         tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Bibulus ;
         tourisme:telephone  "+49 89 396447" .
 
+tourisme:IMAGE_Hotel_Pantone_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/02/24/f9/1e/pantone-hotel.jpg" .
+
 tourisme:URL_Hotel_Novotel_Brussels_Grand_Place
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d206697-Reviews-Novotel_Brussels_Grand_Place-Brussels.html" .
 
+tourisme:IMAGE_Hotel_Ibis_Budget_Paris_La_Villette
+        rdfs:label  "" .
+
 tourisme:Pantone_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Pantone Hotel" ;
         tourisme:adresse  "1 Place Loix, Saint-Gilles, Bruxelles 1060, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Pantone_Hotel ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Pantone_Hotel .
+
+tourisme:La_Manufacture
+        a                 tourisme:Hotel ;
+        rdfs:label        "La Manufacture" ;
+        tourisme:adresse  "8 rue Philippe de Champagne | 13th Arr., 75013 Paris, France " ;
+        tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_La_Manufacture ;
+        tourisme:note     "3.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_La_Manufacture .
 
 tourisme:Domino_Bar  a      tourisme:Restaurant ;
         rdfs:label          "Domino Bar" ;
@@ -540,13 +631,6 @@ tourisme:Domino_Bar  a      tourisme:Restaurant ;
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Domino_Bar ;
         tourisme:telephone  "+34 696 46 17 25" .
-
-tourisme:La_Manufacture
-        a                 tourisme:Hotel ;
-        tourisme:adresse  "8 rue Philippe de Champagne | 13th Arr., 75013 Paris, France " ;
-        tourisme:dans     dbpedia-resource:Paris ;
-        tourisme:note     "3.0 sur 5" ;
-        tourisme:siteWeb  tourisme:URL_Hotel_La_Manufacture .
 
 tourisme:Piazze_Italia
         a                   tourisme:Restaurant ;
@@ -559,10 +643,23 @@ tourisme:Piazze_Italia
 
 tourisme:Acta_Ink_606_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Acta Ink 606 Barcelona" ;
         tourisme:adresse  "C/ Mallorca, 606, 08026 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Acta_Ink_606_Barcelona .
+
+tourisme:URL_Restaurant_Paninoteca_Slurp
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5562550-Reviews-Paninoteca_Slurp-Rome_Lazio.html" .
+
+dbpedia-resource:Thyssen-Bornemisza_Museum
+        a                      tourisme:Monument ;
+        rdfs:label             "Thyssen-Bornemisza_Museum" ;
+        tourisme:dans          dbpedia-resource:Madrid ;
+        tourisme:description   "Le musée Thyssen-Bornemisza est un musée d'art ancien, moderne et contemporain situé à Madrid (Espagne).Son origine tient dans l'acquisition qu'a faite le gouvernement espagnol, en juillet 1993, de la majeure partie de la collection d'art réunie, à Lugano (Suisse), par la famille Thyssen-Bornemisza, en complément des pinacothèques et des collections nationales déjà existantes." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Thyssen-Bornemisza_Museum ;
+        tourisme:localisation  "40.416111111111114 -3.6950000000000003" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Thyssen-Bornemisza_Museum .
 
 tourisme:La_Maison_Corica
         a                   tourisme:Restaurant ;
@@ -573,9 +670,6 @@ tourisme:La_Maison_Corica
         tourisme:siteWeb    tourisme:URL_Restaurant_La_Maison_Corica ;
         tourisme:telephone  "5.0 5 " .
 
-tourisme:URL_Restaurant_Paninoteca_Slurp
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d5562550-Reviews-Paninoteca_Slurp-Rome_Lazio.html" .
-
 tourisme:Vol5  a              tourisme:VolAffaire ;
         dc:identifier         "5" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
@@ -585,6 +679,7 @@ tourisme:URL_Hotel_Relais_6
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1510499-Reviews-Relais_6-Rome_Lazio.html" .
 
 tourisme:El_Madrono  a    tourisme:Hotel ;
+        rdfs:label        "El Madrono" ;
         tourisme:adresse  "General Diaz Porlier 101, 28006 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "3.5 sur 5" ;
@@ -598,17 +693,24 @@ tourisme:URL_Hotel_Hotel_Jazz
 
 tourisme:Hotel_Santa_Maria
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Santa Maria" ;
         tourisme:adresse  "Vicolo del Piede 2, 00153 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Santa_Maria ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Santa_Maria .
 
 tourisme:Hotel_Pulitzer_Roma
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Pulitzer Roma" ;
         tourisme:adresse  "Viale Marconi 905, 00146 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Pulitzer_Roma ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Pulitzer_Roma .
+
+tourisme:IMAGE_Hotel_Sofitel_Brussels_Le_Louise
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/03/a4/fa/85/sofitel-brussels-le-louise.jpg" .
 
 tourisme:URL_Hotel_Boscolo_Exedra_Nice
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d482672-Reviews-Boscolo_Exedra_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
@@ -638,10 +740,14 @@ tourisme:La_Prosciutteria
 
 tourisme:Ibis_Muenchen_Schwabing
         a                 tourisme:Hotel ;
+        rdfs:label        "Ibis Muenchen Schwabing" ;
         tourisme:adresse  "Lyonel Feininger Strasse 20, 80807 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Muenchen_Schwabing .
+
+tourisme:IMAGE_Hotel_Hotel_BLOOM
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/04/47/cc/4c/hotel-bloom.jpg" .
 
 tourisme:URL_Restaurant_La_Roustide
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1401830-Reviews-La_Roustide-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
@@ -657,10 +763,14 @@ tourisme:Pastry_Plaisirs
 
 tourisme:Hotel_One_Shot_Prado_23
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel One Shot Prado 23" ;
         tourisme:adresse  "Calle del Prado, 23, 28014 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_One_Shot_Prado_23 .
+
+tourisme:IMAGE_Hotel_Le_Bristol_Paris
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/e5/ae/79/le-bar-du-bristol.jpg" .
 
 tourisme:URL_Restaurant_Le_Bistrot_d_Antoine
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2328934-Reviews-Le_Bistrot_d_Antoine-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
@@ -690,15 +800,19 @@ tourisme:URL_Restaurant_Le_Sweeties
 
 tourisme:Hotel_Claridge
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Claridge" ;
         tourisme:adresse  "Plaza Conde de Casal,6, 28007 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Claridge ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Claridge .
 
 tourisme:Seven_Hotel_Paris
         a                 tourisme:Hotel ;
+        rdfs:label        "Seven Hotel Paris" ;
         tourisme:adresse  "20 rue Berthollet, 75005 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Seven_Hotel_Paris ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Seven_Hotel_Paris .
 
@@ -716,23 +830,30 @@ tourisme:URL_Hotel_Novotel_Brussels_Centre
 
 tourisme:Silken_Puerta_America
         a                 tourisme:Hotel ;
+        rdfs:label        "Silken Puerta America" ;
         tourisme:adresse  "Avenida de America 41, 28002 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Silken_Puerta_America .
+
+tourisme:IMAGE_Hotel_Motel_One
+        rdfs:label  "" .
 
 tourisme:URL_Hotel_Hotel_Regina
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d266365-Reviews-Hotel_Regina-Madrid.html" .
 
 tourisme:Hilton_Park_Munich
         a                 tourisme:Hotel ;
+        rdfs:label        "Hilton Park Munich" ;
         tourisme:adresse  "Am Tucherpark 7, 80538 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hilton_Park_Munich ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hilton_Park_Munich .
 
 tourisme:Hotel_Suisse
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Suisse" ;
         tourisme:adresse  "15 quai Rauba Capeu | Promenade des Anglais, 06300 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
@@ -754,14 +875,18 @@ tourisme:Broeding  a        tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Broeding ;
         tourisme:telephone  "+49 89 164238" .
 
+tourisme:URL_Restaurant_Zoryani_Gelateria_Artigianale
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4420305-Reviews-Zoryani_Gelateria_Artigianale-Rome_Lazio.html" .
+
 tourisme:W_Barcelona  a   tourisme:Hotel ;
+        rdfs:label        "W Barcelona" ;
         tourisme:adresse  "Placa de la Rosa dels Vents, 1, 08039 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_W_Barcelona .
 
-tourisme:URL_Restaurant_Zoryani_Gelateria_Artigianale
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4420305-Reviews-Zoryani_Gelateria_Artigianale-Rome_Lazio.html" .
+tourisme:URL_Monument_Cite_de_l_economie_et_de_la_monnaie
+        rdfs:label  "http://www.citedeleconomie.fr/-English-" .
 
 tourisme:Tonton_Garby
         a                   tourisme:Restaurant ;
@@ -789,6 +914,7 @@ tourisme:URL_Hotel_Ibis_Muenchen_City
 
 tourisme:Hotel_Preciados
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Preciados" ;
         tourisme:adresse  "C/ Preciados 37, 28013 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
@@ -806,6 +932,9 @@ tourisme:Paninoteca_Slurp
         tourisme:siteWeb    tourisme:URL_Restaurant_Paninoteca_Slurp ;
         tourisme:telephone  "+39 328 458 5953" .
 
+tourisme:IMAGE_Hotel_Hotel_Residence_Foch
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/02/7e/fd/fd/hotel-entrace.jpg" .
+
 tourisme:MiPi_Pizzeria
         a                   tourisme:Restaurant ;
         rdfs:label          "MiPi Pizzeria" ;
@@ -814,6 +943,9 @@ tourisme:MiPi_Pizzeria
         tourisme:note       "5.0 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_MiPi_Pizzeria ;
         tourisme:telephone  "+33 1 42 86 80 80" .
+
+tourisme:URL_Monument_Museo_Nacional_Centro_de_Arte_Reina_Sofia
+        rdfs:label  "http://www.museoreinasofia.es" .
 
 tourisme:Le_passe-plat
         a                   tourisme:Restaurant ;
@@ -826,10 +958,20 @@ tourisme:Le_passe-plat
 
 tourisme:Hotel_Denit_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Denit Barcelona" ;
         tourisme:adresse  "Estruc 24 - 26, 08002 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Denit_Barcelona .
+
+dbpedia-resource:British_School_at_Rome
+        a                      tourisme:Monument ;
+        rdfs:label             "British_School_at_Rome" ;
+        tourisme:dans          dbpedia-resource:Rome ;
+        tourisme:description   "La British School at Rome est une institution de recherche du Royaume-Uni à l'étranger, basée à Rome et fondée en 1901. Elle a obtenu une charte en 1912. Elle accueille des résidents pour des périodes allant de 3 à 12 mois." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_British_School_at_Rome ;
+        tourisme:localisation  "41.918297 12.481187" ;
+        tourisme:siteWeb       tourisme:URL_Monument_British_School_at_Rome .
 
 tourisme:Poechenellekelder
         a                   tourisme:Restaurant ;
@@ -855,14 +997,22 @@ tourisme:La_Route_du_Miam
 tourisme:URL_Hotel_Metropole_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d228077-Reviews-Metropole_Hotel-Brussels.html" .
 
+tourisme:IMAGE_Hotel_Novotel_Brussels_Centre
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fd/d7/2e/guest-room.jpg" .
+
 tourisme:be_Manos  a      tourisme:Hotel ;
+        rdfs:label        "be Manos" ;
         tourisme:adresse  "Square de l'Aviation 23-27, Anderlecht, Bruxelles 1070, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_be_Manos ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_be_Manos .
 
 tourisme:URL_Hotel_Hotel_Laimer_Hof
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d279562-Reviews-Hotel_Laimer_Hof-Munich_Upper_Bavaria_Bavaria.html" .
+
+tourisme:IMAGE_Monument_Musee_national_Gustave_Moreau
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Paris_Musee_Gustave-Moreau_5.jpg?width=300" .
 
 tourisme:URL_Restaurant_Las_7_Maravillas
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d4137816-Reviews-Las_7_Maravillas-Barcelona_Catalonia.html" .
@@ -872,6 +1022,7 @@ tourisme:URL_Restaurant_Chez_Toinette
 
 tourisme:Praktik_Metropol
         a                 tourisme:Hotel ;
+        rdfs:label        "Praktik Metropol" ;
         tourisme:adresse  "C/ Montera 47 (esq. Gran Via), 28013 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "3.0 sur 5" ;
@@ -885,6 +1036,7 @@ tourisme:URL_Restaurant_Le_Second_Degre
 
 tourisme:Wellington_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Wellington Hotel" ;
         tourisme:adresse  "Velazquez 8, 28001 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
@@ -895,15 +1047,19 @@ tourisme:URL_Restaurant_Le_Reminet
 
 tourisme:Casa_Camper_Hotel_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Casa Camper Hotel Barcelona" ;
         tourisme:adresse  "Carrer Elisabets 11, 08001 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
+        tourisme:image    tourisme:IMAGE_Hotel_Casa_Camper_Hotel_Barcelona ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Casa_Camper_Hotel_Barcelona .
 
 tourisme:Hotel_Castle
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Castle" ;
         tourisme:adresse  "Salita di Castel Giubileo 196 | Uscita Castel Giubileo del GRA, 00138 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Castle ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Castle .
 
@@ -927,28 +1083,37 @@ tourisme:URL_Restaurant_Gelateria_Azzurro
 
 tourisme:Innside_Madrid_Luchana
         a                 tourisme:Hotel ;
+        rdfs:label        "Innside Madrid Luchana" ;
         tourisme:adresse  "Calle Luchana 22, 28010 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Innside_Madrid_Luchana .
+
+tourisme:Vol12  a             tourisme:VolLoisir ;
+        dc:identifier         "12" ;
+        tourisme:depart       dbpedia-resource:Madrid ;
+        tourisme:destination  dbpedia-resource:Nice .
+
+tourisme:IMAGE_Hotel_Hotel_Campo_De_Fiori
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/01/cb/bb/6d/top-floor-room.jpg" .
 
 tourisme:URL_Hotel_Casa_Camper_Hotel_Barcelona
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d543153-Reviews-Casa_Camper_Hotel_Barcelona-Barcelona_Catalonia.html" .
 
 tourisme:Hotel_Ares_Eiffel_Paris
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Ares Eiffel Paris" ;
         tourisme:adresse  "7 rue du General de Larminat | Quartier Tour Eiffel, 75015 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Ares_Eiffel_Paris ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Ares_Eiffel_Paris .
 
 tourisme:URL_Restaurant_Broeding
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d692576-Reviews-Broeding-Munich_Upper_Bavaria_Bavaria.html" .
 
-tourisme:Vol12  a             tourisme:VolLoisir ;
-        dc:identifier         "12" ;
-        tourisme:depart       dbpedia-resource:Madrid ;
-        tourisme:destination  dbpedia-resource:Nice .
+tourisme:IMAGE_Hotel_Hotel_a_la_Grande_Cloche
+        rdfs:label  "" .
 
 tourisme:La_Forquilla
         a                   tourisme:Restaurant ;
@@ -961,6 +1126,9 @@ tourisme:La_Forquilla
 
 tourisme:URL_Restaurant_La_Villa_Lorraine
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d694768-Reviews-La_Villa_Lorraine-Brussels.html" .
+
+tourisme:URL_Monument_Musee_Marc_Chagall
+        rdfs:label  "http://www.musee-chagall.fr/" .
 
 tourisme:Mimmo_E_Co  a      tourisme:Restaurant ;
         rdfs:label          "Mimmo E Co" ;
@@ -981,8 +1149,10 @@ tourisme:URL_Restaurant_Panino_Ricco
 
 tourisme:Artemide_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Artemide Hotel" ;
         tourisme:adresse  "Via Nazionale 22, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Artemide_Hotel ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Artemide_Hotel .
 
@@ -1002,6 +1172,15 @@ tourisme:Con_Gracia  a      tourisme:Restaurant ;
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Con_Gracia ;
         tourisme:telephone  "93 238 0201" .
+
+dbpedia-resource:Museo_del_Prado
+        a                      tourisme:Monument ;
+        rdfs:label             "Museo_del_Prado" ;
+        tourisme:dans          dbpedia-resource:Madrid ;
+        tourisme:description   "Le musée du Prado (en espagnol : Museo Nacional del Prado) à Madrid (Espagne) est l'une des plus grandes et importantes pinacothèques du monde. Il présente principalement des peintures européennes (flamandes, espagnoles, françaises, italiennes et allemandes) du XIVe siècle au début du XIXe, collectionnées par les Habsbourg et les Bourbons.Les œuvres des peintres Diego Vélasquez, Francisco Goya, et Jérôme Bosch sont les plus célèbres et les plus nombreuses mais il y a aussi celles du Greco, de Pierre Paul Rubens, Raphaël, Titien, Antonio Moro, Tintoretto, Bartolomé Esteban Murillo, Francisco de Zurbarán, José de Ribera, ainsi que des tableaux de Botticelli, Le Caravage, Albrecht Dürer, Andrea Mantegna, Rembrandt, Nicolas Poussin, Claude Gellée, Véronèse, etc.Le musée détient aussi des collections de dessins et d'estampes (quelque 6 400 dessins et 3 000 estampes), un fonds d'un millier de sculptures (dont une importante collection de sculptures gréco-romaines) et un grand nombre d'objets d'décoratifs et de documents historiques. Après les travaux d'agrandissement dirigés par Rafael Moneo, il expose en permanence une collection de 1 300 œuvres dans son siège, plus 3000 qui ont été prêtées pour être exposées dans d'autres galeries et institutions officielles." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Museo_del_Prado ;
+        tourisme:localisation  "40.413722 -3.692412" , "40.41388888888889 -3.6925" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Museo_del_Prado .
 
 tourisme:Likeat  a          tourisme:Restaurant ;
         rdfs:label          "Likeat" ;
@@ -1028,22 +1207,30 @@ tourisme:URL_Restaurant_Sacree_fleur
 
 tourisme:Olivia_Balmes_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Olivia Balmes Hotel" ;
         tourisme:adresse  "Balmes 117, 08008 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Olivia_Balmes_Hotel .
 
+tourisme:IMAGE_Hotel_Novotel_Brussels_Grand_Place
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/fd/dc/27/superior-double.jpg" .
+
 tourisme:SuiteDreams_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "SuiteDreams Hotel" ;
         tourisme:adresse  "via Modena 5, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_SuiteDreams_Hotel ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_SuiteDreams_Hotel .
 
 tourisme:Albergo_del_Senato
         a                 tourisme:Hotel ;
+        rdfs:label        "Albergo del Senato" ;
         tourisme:adresse  "Piazza della Rotonda 73, 00186 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Albergo_del_Senato ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Albergo_del_Senato .
 
@@ -1064,8 +1251,10 @@ tourisme:URL_Hotel_Mercer_Hotel_Barcelona
 
 tourisme:Worldhotel_Ripa_Roma
         a                 tourisme:Hotel ;
+        rdfs:label        "Worldhotel Ripa Roma" ;
         tourisme:adresse  "Via Orti di Trastevere 3, 00153 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Worldhotel_Ripa_Roma ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Worldhotel_Ripa_Roma .
 
@@ -1077,8 +1266,18 @@ tourisme:St_James  a        tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_St_James ;
         tourisme:telephone  "+34 915 70 46 91" .
 
+dbpedia-resource:Musee_national_Gustave_Moreau
+        a                      tourisme:Monument ;
+        rdfs:label             "Musee_national_Gustave_Moreau" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "Le musée Gustave-Moreau est un musée national situé 14, rue de La Rochefoucauld à Paris, dans l’ancien atelier du peintre symboliste Gustave Moreau, légué par l'artiste à l’État français en 1897 pour qu’y soit conservée et présentée son œuvre. Le musée conserve un total d'environ 20 000 œuvres. L’essentiel de son fonds d'atelier y est exposé, soit près de 850 de ses peintures ou cartons, 350 de ses aquarelles, plus de 13 000 dessins et calques, 15 sculptures en cire ainsi que quelques œuvres d’autres artistes : un Portrait de Gustave Moreau par Edgar Degas, un autre par Gustave Ricard, un Portrait de Pauline Moreau - la mère du peintre - par Jules-Elie Delaunay, une Nature morte du peintre flamand Jan Fyt).Après restauration à l'identique, l'appartement du peintre a été ouvert au public en 1991, et son cabinet de réception, restauré en 2003 est également visitable." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Musee_national_Gustave_Moreau ;
+        tourisme:localisation  "48.8779599 2.3343623" , "48.878 2.33436" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Musee_national_Gustave_Moreau .
+
 dbpedia-resource:Madrid
-        a       tourisme:Ville .
+        a                          tourisme:Ville ;
+        tourisme:contientMonument  dbpedia-resource:Museo_Naval_de_Madrid , dbpedia-resource:Thyssen-Bornemisza_Museum , dbpedia-resource:Museo_del_Prado , dbpedia-resource:Museo_Nacional_Centro_de_Arte_Reina_Sofia .
 
 tourisme:Nam_Giao_31  a     tourisme:Restaurant ;
         rdfs:label          "Nam Giao 31" ;
@@ -1091,17 +1290,24 @@ tourisme:Nam_Giao_31  a     tourisme:Restaurant ;
 tourisme:URL_Hotel_Hotel_Windsor_Nice
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d219971-Reviews-Hotel_Windsor_Nice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
+tourisme:IMAGE_Hotel_The_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/86/ba/a4/the-hotel-brussels.jpg" .
+
 tourisme:URL_Hotel_Appia_Antica_Resort
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d4698947-Reviews-Appia_Antica_Resort-Rome_Lazio.html" .
 
 tourisme:URL_Hotel_Thon_Hotel_Brussels_City_Centre
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d228088-Reviews-Thon_Hotel_Brussels_City_Centre-Saint_Josse_ten_Noode_Brussels.html" .
 
+tourisme:URL_Monument_Museo_Naval_de_Madrid
+        rdfs:label  "http://www.armada.mde.es/museonaval" .
+
 tourisme:URL_Hotel_Worldhotel_Ripa_Roma
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228949-Reviews-Worldhotel_Ripa_Roma-Rome_Lazio.html" .
 
 tourisme:AC_Hotel_Barcelona_Forum_by_Marriott
         a                 tourisme:Hotel ;
+        rdfs:label        "AC Hotel Barcelona Forum by Marriott" ;
         tourisme:adresse  "Paseo Taulat 278, 08019 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
@@ -1124,6 +1330,7 @@ tourisme:Las_7_Maravillas
 
 tourisme:Melia_Madrid_Princesa
         a                 tourisme:Hotel ;
+        rdfs:label        "Melia Madrid Princesa" ;
         tourisme:adresse  "C/ Princesa, 27, 28008 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
@@ -1131,6 +1338,7 @@ tourisme:Melia_Madrid_Princesa
 
 tourisme:Hotel_West_End
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel West End" ;
         tourisme:adresse  "31 Promenade Des Anglais, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
@@ -1138,12 +1346,14 @@ tourisme:Hotel_West_End
 
 tourisme:Hesperia_Tower
         a                 tourisme:Hotel ;
+        rdfs:label        "Hesperia Tower" ;
         tourisme:adresse  "Gran Via, 144 | Hospitalet de Llobregat, 08907 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hesperia_Tower .
 
 tourisme:Soho_Hotel  a    tourisme:Hotel ;
+        rdfs:label        "Soho Hotel" ;
         tourisme:adresse  "Gran Via 543-545, 08011 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "3.0 sur 5" ;
@@ -1165,6 +1375,7 @@ tourisme:Cientoocho  a      tourisme:Restaurant ;
 
 tourisme:Holiday_Inn_Munich_-_City_Centre
         a                 tourisme:Hotel ;
+        rdfs:label        "Holiday Inn Munich - City Centre" ;
         tourisme:adresse  "Hochstrasse 3, 81669 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "4.0 sur 5" ;
@@ -1173,12 +1384,26 @@ tourisme:Holiday_Inn_Munich_-_City_Centre
 tourisme:URL_Hotel_Maydrit_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1153301-Reviews-Maydrit_Hotel-Madrid.html" .
 
+tourisme:IMAGE_Hotel_Portrait_Roma
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/01/88/5a/03/panoramic-terrace.jpg" .
+
 tourisme:Portrait_Roma
         a                 tourisme:Hotel ;
+        rdfs:label        "Portrait Roma" ;
         tourisme:adresse  "Via Bocca di Leone, 23, 00187 Rome, Italie (Anciennement Portrait Suites)" ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Portrait_Roma ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Portrait_Roma .
+
+dbpedia-resource:Museo_Naval_de_Madrid
+        a                      tourisme:Monument ;
+        rdfs:label             "Museo_Naval_de_Madrid" ;
+        tourisme:dans          dbpedia-resource:Madrid ;
+        tourisme:description   "Le Museo Naval de Madrid est un musée national espagnol situé à Madrid. Ses collections sont composées d'éléments historiques de l'Armada espagnole (marine de guerre espagnole), remontant au XVe siècle et s'étendant jusqu'à nos jours. C'est en 1792, que le ministre de la marine Antonio Valdés y Fernández Bazán suggère sa création au roi Carlos IV, mais ce n'est que sous le règne d'Isabel II, en 1843, qu'il ouvre ses portes." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Museo_Naval_de_Madrid ;
+        tourisme:localisation  "40.417456 -3.692804" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Museo_Naval_de_Madrid .
 
 tourisme:URL_Restaurant_SantaGula
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d2518790-Reviews-SantaGula-Barcelona_Catalonia.html" .
@@ -1191,17 +1416,24 @@ tourisme:URL_Restaurant_Moeder_Lambic_Fontainas
 
 tourisme:Barocco_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Barocco Hotel" ;
         tourisme:adresse  "Piazza Barberini 9 | Entrance: Via della Purificazione, 4, 00187 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Barocco_Hotel ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Barocco_Hotel .
 
 tourisme:Hotel_Le_Plaza
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Le Plaza" ;
         tourisme:adresse  "Blvd Adolphe Maxlaan, 118 - 126 | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Le_Plaza ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Le_Plaza .
+
+tourisme:URL_Monument_Alte_Pinakothek
+        rdfs:label  "http://www.pinakothek.de/alte-pinakothek/index_en.php?" .
 
 tourisme:URL_Restaurant_Collage_Barcelona
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3747470-Reviews-Collage_Barcelona-Barcelona_Catalonia.html" .
@@ -1211,6 +1443,15 @@ tourisme:URL_Restaurant_Restaurante_Arume
 
 tourisme:URL_Hotel_Sheraton_Brussels_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d206689-Reviews-Sheraton_Brussels_Hotel-Saint_Josse_ten_Noode_Brussels.html" .
+
+tourisme:IMAGE_Hotel_Le_123_Sebastopol_Astotel_
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/82/8c/47/le-123-sebastopol-astotel.jpg" .
+
+tourisme:IMAGE_Hotel_Ciutat_de_Sant_Adria_Hotel
+        rdfs:label  "" .
+
+tourisme:URL_Monument_Thyssen-Bornemisza_Museum
+        rdfs:label  "http://www.museothyssen.org/en/thyssen/coleccion" .
 
 tourisme:URL_Hotel_Hotel_Joyce_Astotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1631156-Reviews-Hotel_Joyce_Astotel-Paris_Ile_de_France.html" .
@@ -1228,6 +1469,7 @@ tourisme:URL_Restaurant_Vinpasa
 
 tourisme:Barcelona_Princess
         a                 tourisme:Hotel ;
+        rdfs:label        "Barcelona Princess" ;
         tourisme:adresse  "Avenida Diagonal 1-3, 8019 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
@@ -1237,6 +1479,7 @@ tourisme:URL_Hotel_Hotel_Plaza_Athenee
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d188730-Reviews-Hotel_Plaza_Athenee-Paris_Ile_de_France.html" .
 
 tourisme:Louis_Hotel  a   tourisme:Hotel ;
+        rdfs:label        "Louis Hotel" ;
         tourisme:adresse  "Rindermarkt 2 | Viktualienmarkt 6, 80331 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "4.0 sur 5" ;
@@ -1253,6 +1496,7 @@ tourisme:URL_Hotel_Eurostars_Grand_Central
 
 tourisme:Crowne_Plaza_Barcelona_-_Fira_Center
         a                 tourisme:Hotel ;
+        rdfs:label        "Crowne Plaza Barcelona - Fira Center" ;
         tourisme:adresse  "Avenida de Rius I Taulet, 1-3 | 08004 Barcelona, 08004 Barcelone, Espagne (Anciennement Fira Palace Barcelona)" ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.5 sur 5" ;
@@ -1268,28 +1512,49 @@ tourisme:Alto_Resto  a      tourisme:Restaurant ;
 
 tourisme:Hotel_Darcet
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Darcet" ;
         tourisme:adresse  "4 rue Darcet | 17 Arr., 75017 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Darcet ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Darcet .
 
 tourisme:URL_Hotel_U232_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d234572-Reviews-U232_Hotel-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Hotel_Santa_Maria
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/04/0d/75/6c/hotel-santa-maria.jpg" .
+
 tourisme:URL_Restaurant_Kreta_Grill
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983425-Reviews-Kreta_Grill-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Hotel_Georgette
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Georgette" ;
         tourisme:adresse  "36 rue du Grenier Saint Lazare | 36 rue du Grenier Saint Lazare, 75003 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Georgette ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Georgette .
 
+tourisme:IMAGE_Hotel_iQ_Hotel_Roma
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/06/14/c6/2f/street--v2303859.jpg" .
+
+dbpedia-resource:Musee_des_Arts_Forains
+        a                      tourisme:Monument ;
+        rdfs:label             "Musee_des_Arts_Forains" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "Le musée des Arts forains est situé à Paris, à l'extrémité du parc de Bercy. Il présente la reconstitution d'une fête foraine de 1850 à 1950." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Musee_des_Arts_Forains ;
+        tourisme:localisation  "48.833056 2.388889" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Musee_des_Arts_Forains .
+
 tourisme:iQ_Hotel_Roma
         a                 tourisme:Hotel ;
+        rdfs:label        "iQ Hotel Roma" ;
         tourisme:adresse  "Via Firenze, 8, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_iQ_Hotel_Roma ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_iQ_Hotel_Roma .
 
@@ -1299,19 +1564,39 @@ tourisme:URL_Restaurant_Metro_Bistro_-_Plaza_Mayor
 tourisme:URL_Hotel_Ciutat_de_Sant_Adria_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d606469-Reviews-Ciutat_de_Sant_Adria_Hotel-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Steigenberger_Grandhotel_Brussels
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/f6/fd/59/steigenberger-grandhotel.jpg" .
+
 tourisme:URL_Hotel_EuroPark_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d232781-Reviews-EuroPark_Hotel-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Aldrovandi_Villa_Borghese
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/d2/59/c8/spa.jpg" .
+
+tourisme:IMAGE_Hotel_Sheraton_Brussels_Hotel
+        rdfs:label  "" .
+
 tourisme:URL_Restaurant_Alright
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7239164-Reviews-Alright-Madrid.html" .
+
+dbpedia-resource:Musee_Matisse_Nice
+        a                      tourisme:Monument ;
+        rdfs:label             "Musee_Matisse_Nice" ;
+        tourisme:dans          dbpedia-resource:Nice ;
+        tourisme:description   "Le Musée Matisse de Nice est consacré à l'œuvre du peintre français Henri Matisse. Il regroupe l'une plus importantes collections mondiales de ses œuvres, qui permet de retracer son parcours artistique et ses évolutions depuis débuts jusqu'à ses derniers travaux. Installé dans la Villa des Arènes, une villa génoise du XVIIe siècle du quartier de Cimiez, le musée a ouvert ses portes en 1963." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Musee_Matisse_Nice ;
+        tourisme:localisation  "43.71944444444444 7.276111111111111" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Musee_Matisse_Nice .
 
 tourisme:URL_Hotel_Marc_Muenchen
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d228368-Reviews-Marc_Muenchen-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Bold_Hotel_Muenchen
         a                 tourisme:Hotel ;
+        rdfs:label        "Bold Hotel Muenchen" ;
         tourisme:adresse  "Aschauerstrasse 12, 81549 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
+        tourisme:image    tourisme:IMAGE_Hotel_Bold_Hotel_Muenchen ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Bold_Hotel_Muenchen .
 
@@ -1332,6 +1617,7 @@ tourisme:Panino_Ricco
 
 tourisme:Hotel_Bavaria
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Bavaria" ;
         tourisme:adresse  "Gollierstrasse 9, 80339 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "3.5 sur 5" ;
@@ -1340,8 +1626,12 @@ tourisme:Hotel_Bavaria
 tourisme:URL_Restaurant_Bahia_Taberna
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d803211-Reviews-Bahia_Taberna-Madrid.html" .
 
+tourisme:IMAGE_Hotel_La_Griffe_Roma_MGallery_Collection
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fd/ef/0a/guest-room.jpg" .
+
 tourisme:Hotel_Orfila
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Orfila" ;
         tourisme:adresse  "Calle de Orfila 6, 28010 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
@@ -1375,15 +1665,19 @@ dbpedia-resource:Barcelone
 
 tourisme:Renaissance_Brussels_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Renaissance Brussels Hotel" ;
         tourisme:adresse  "Rue du Parnasse 19 | EU Quarter, Ixelles, Bruxelles 1050, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Renaissance_Brussels_Hotel ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Renaissance_Brussels_Hotel .
 
 tourisme:Secret_de_Paris
         a                 tourisme:Hotel ;
+        rdfs:label        "Secret de Paris" ;
         tourisme:adresse  "2, rue de Parme, 75009  Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Secret_de_Paris ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Secret_de_Paris .
 
@@ -1398,8 +1692,17 @@ tourisme:Vol7  a              tourisme:VolLoisir ;
 tourisme:URL_Restaurant_La_Mie_Cale
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d5787827-Reviews-La_Mie_Cale-Paris_Ile_de_France.html" .
 
+tourisme:URL_Monument_Musee_national_Gustave_Moreau
+        rdfs:label  "www.musee-moreau.fr" .
+
+tourisme:URL_Monument_Musee_de_l_Homme
+        rdfs:label  "http://www.museedelhomme.fr/" .
+
 tourisme:URL_Hotel_Raffaello_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d316644-Reviews-Raffaello_Hotel-Rome_Lazio.html" .
+
+tourisme:IMAGE_Hotel_Seven_Hotel_Paris
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/03/89/0b/46/james-bond.jpg" .
 
 tourisme:URL_Restaurant_L_inattendu
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6475397-Reviews-L_inattendu-Paris_Ile_de_France.html" .
@@ -1420,8 +1723,10 @@ tourisme:URL_Hotel_Brussels_Welcome_Hotel
 
 tourisme:Sofitel_Rome_Villa_Borghese
         a                 tourisme:Hotel ;
+        rdfs:label        "Sofitel Rome Villa Borghese" ;
         tourisme:adresse  "Via Lombardia 47, 00187 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Sofitel_Rome_Villa_Borghese ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Sofitel_Rome_Villa_Borghese .
 
@@ -1434,8 +1739,12 @@ tourisme:Le_Bistrot_De_La_Vieille
         tourisme:siteWeb    tourisme:URL_Restaurant_Le_Bistrot_De_La_Vieille ;
         tourisme:telephone  "+33 4 89 22 68 98" .
 
+tourisme:URL_Monument_Musee_Marmottan_Monet
+        rdfs:label  "http://www.marmottan.com" .
+
 tourisme:H2_Hotel_Muenchen_Messe
         a                 tourisme:Hotel ;
+        rdfs:label        "H2 Hotel Muenchen Messe" ;
         tourisme:adresse  "Olof-Palme-Str. 12, 81829 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "3.0 sur 5" ;
@@ -1459,11 +1768,14 @@ tourisme:La_Porta_Del_Principe
         tourisme:siteWeb    tourisme:URL_Restaurant_La_Porta_Del_Principe ;
         tourisme:telephone  "0665001249" .
 
+tourisme:URL_Restaurant_Le_Comptoir_de_la_Crepe
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6701232-Reviews-Le_Comptoir_de_la_Crepe-Madrid.html" .
+
 tourisme:IMAGE_Ville_Munich
         rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Munchen_collage.jpg?width=300" .
 
-tourisme:URL_Restaurant_Le_Comptoir_de_la_Crepe
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6701232-Reviews-Le_Comptoir_de_la_Crepe-Madrid.html" .
+tourisme:IMAGE_Hotel_Aloft_Brussels_Schuman_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fe/1d/b6/guest-room-king-size.jpg" .
 
 tourisme:Restaurante_La_Mi_Venta
         a                   tourisme:Restaurant ;
@@ -1479,6 +1791,9 @@ tourisme:URL_Hotel_Sofitel_Rome_Villa_Borghese
 
 tourisme:URL_Hotel_Hotel_Villa_Les_Cygnes
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d736634-Reviews-Hotel_Villa_Les_Cygnes-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+
+tourisme:IMAGE_Hotel_Novotel_Munich_City
+        rdfs:label  "" .
 
 tourisme:Alright  a         tourisme:Restaurant ;
         rdfs:label          "Alright" ;
@@ -1536,10 +1851,21 @@ tourisme:Disfrutar  a       tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Disfrutar ;
         tourisme:telephone  "+(34)933486896" .
 
+dbpedia-resource:Musee_Marmottan_Monet
+        a                      tourisme:Monument ;
+        rdfs:label             "Musee_Marmottan_Monet" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "Le musée Marmottan, devenu musée Marmottan Monet, est un musée des beaux-arts situé dans le 16e arrondissement de Paris en proximité du jardin du Ranelagh : c'est le don par l'historien d'art Paul Marmottan de son hôtel particulier et de ses collections de la Renaissance et de l'époque napoléonienne à l'Académie des Beaux-Arts en 1932. Le musée expose notamment une collection napoléonienne ainsi que des œuvres du mouvement impressionniste dont la plus grande collection au monde d'œuvres de Claude Monet. Ce site est desservi par la station de métro La Muette." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Musee_Marmottan_Monet ;
+        tourisme:localisation  "48.8593 2.2673" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Musee_Marmottan_Monet .
+
 tourisme:Hotel_Felicien_by_Elegancia
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Felicien by Elegancia" ;
         tourisme:adresse  "21 rue Felicien David, 75016 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Felicien_by_Elegancia ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Felicien_by_Elegancia .
 
@@ -1551,6 +1877,7 @@ tourisme:URL_Restaurant_Locanda_Giuliva
 
 tourisme:Mercer_Hotel_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Mercer Hotel Barcelona" ;
         tourisme:adresse  "Calle dels LledÃ³ 7, 08002 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "5.0 sur 5" ;
@@ -1581,6 +1908,7 @@ tourisme:My_Little_Cup
 
 tourisme:Hotel_Atlantico
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Atlantico" ;
         tourisme:adresse  "Gran Via 38, 28013 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
@@ -1588,13 +1916,18 @@ tourisme:Hotel_Atlantico
 
 tourisme:Ibis_Muenchen_City
         a                 tourisme:Hotel ;
+        rdfs:label        "Ibis Muenchen City" ;
         tourisme:adresse  "Dachauer Strasse 21, 80335 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Muenchen_City .
 
+tourisme:IMAGE_Hotel_Crowne_Plaza_Hotel_Brussels_-_Le_Palace
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/f7/08/aa/crowne-plaza-hotel-brussels.jpg" .
+
 tourisme:BEST_WESTERN_Hotel_Roosevelt
         a                 tourisme:Hotel ;
+        rdfs:label        "BEST WESTERN Hotel Roosevelt" ;
         tourisme:adresse  "16 Rue Marechal Joffre, 06000 Nice, France (Anciennement Comfort Hotel Roosevelt)" ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "3.0 sur 5" ;
@@ -1602,8 +1935,10 @@ tourisme:BEST_WESTERN_Hotel_Roosevelt
 
 tourisme:Hotel_a_la_Grande_Cloche
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel a la Grande Cloche" ;
         tourisme:adresse  "Pl. Rouppe 10 | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_a_la_Grande_Cloche ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_a_la_Grande_Cloche .
 
@@ -1612,6 +1947,7 @@ tourisme:URL_Hotel_Hotel_Vier_Jahreszeiten_Kempinski_Munchen
 
 tourisme:Grand_Hotel_le_Florence
         a                 tourisme:Hotel ;
+        rdfs:label        "Grand Hotel le Florence" ;
         tourisme:adresse  "3 rue Paul Deroulede, 06000  Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "3.0 sur 5" ;
@@ -1619,8 +1955,10 @@ tourisme:Grand_Hotel_le_Florence
 
 tourisme:Vatican_View
         a                 tourisme:Hotel ;
+        rdfs:label        "Vatican View" ;
         tourisme:adresse  "Via del Mascherino, 34, 00193 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Vatican_View ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Vatican_View .
 
@@ -1653,6 +1991,9 @@ tourisme:URL_Restaurant_Le_Diane
 tourisme:URL_Restaurant_The_Box
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820228-Reviews-The_Box-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Atelier_Montparnasse
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/07/32/77/20/atelier-montparnasse.jpg" .
+
 tourisme:URL_Restaurant_Yuki_hana_munich
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4781710-Reviews-Yuki_hana_munich-Munich_Upper_Bavaria_Bavaria.html" .
 
@@ -1672,6 +2013,9 @@ tourisme:Hedera  a          tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Hedera ;
         tourisme:telephone  "+(39)066832971" .
 
+tourisme:IMAGE_Hotel_The_Peninsula_Paris
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/16/c8/02/the-peninsula-paris.jpg" .
+
 tourisme:URL_Restaurant_Why_Not_Cocktail_Bar
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5795008-Reviews-Why_Not_Cocktail_Bar-Barcelona_Catalonia.html" .
 
@@ -1684,8 +2028,20 @@ tourisme:URL_Hotel_El_Madrono
 tourisme:URL_Hotel_Steigenberger_Grandhotel_Brussels
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d228089-Reviews-Steigenberger_Grandhotel_Brussels-Brussels.html" .
 
+tourisme:IMAGE_Monument_British_School_at_Rome
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/British_School_at_Rome_by_Edwin_Luytens.jpg?width=300" .
+
 tourisme:URL_Restaurant_The_Market_Madrid
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d5780943-Reviews-The_Market_Madrid-Madrid.html" .
+
+dbpedia-resource:Alte_Pinakothek
+        a                      tourisme:Monument ;
+        rdfs:label             "Alte_Pinakothek" ;
+        tourisme:dans          dbpedia-resource:Munich ;
+        tourisme:description   "L'Alte Pinakothek (Ancienne Pinacothèque) est un musée situé à Munich, en Allemagne." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Alte_Pinakothek ;
+        tourisme:localisation  "48.14833333333333 11.57" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Alte_Pinakothek .
 
 tourisme:Carabassa_Restaurant
         a                   tourisme:Restaurant ;
@@ -1696,27 +2052,40 @@ tourisme:Carabassa_Restaurant
         tourisme:siteWeb    tourisme:URL_Restaurant_Carabassa_Restaurant ;
         tourisme:telephone  "933025204" .
 
-tourisme:Le_Grimaldi  a   tourisme:Hotel ;
-        tourisme:adresse  "15 rue Grimaldi, 06000 Nice, France " ;
-        tourisme:dans     dbpedia-resource:Nice ;
-        tourisme:note     "4.0 sur 5" ;
-        tourisme:siteWeb  tourisme:URL_Hotel_Le_Grimaldi .
+tourisme:IMAGE_Monument_Museo_Naval_de_Madrid
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Museo_Naval_de_Madrid_02.jpg?width=300" .
 
 tourisme:La_Villa_Nice_Victor_Hugo
         a                 tourisme:Hotel ;
+        rdfs:label        "La Villa Nice Victor Hugo" ;
         tourisme:adresse  "19 bis Boulevard Victor Hugo, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_La_Villa_Nice_Victor_Hugo .
 
+tourisme:Le_Grimaldi  a   tourisme:Hotel ;
+        rdfs:label        "Le Grimaldi" ;
+        tourisme:adresse  "15 rue Grimaldi, 06000 Nice, France " ;
+        tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:image    tourisme:IMAGE_Hotel_Le_Grimaldi ;
+        tourisme:note     "4.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Le_Grimaldi .
+
+tourisme:IMAGE_Monument_Thyssen-Bornemisza_Museum
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Thyssen-Bornemisza.JPG?width=300" .
+
 dbpedia-resource:Nice
-        a       tourisme:Ville .
+        a                          tourisme:Ville ;
+        tourisme:contientMonument  dbpedia-resource:Musee_Matisse_Nice , dbpedia-resource:Musee_Marc_Chagall .
 
 tourisme:URL_Restaurant_Hedera
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4045683-Reviews-Hedera-Rome_Lazio.html" .
 
 tourisme:URL_Restaurant_Mystikon
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3223828-Reviews-Mystikon-Munich_Upper_Bavaria_Bavaria.html" .
+
+tourisme:IMAGE_Monument_Musee_d_histoire_de_la_medecine
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Paris,_Musee_d'Histoire_de_la_Medecine.JPG?width=300" .
 
 tourisme:restaurant_amber
         a                   tourisme:Restaurant ;
@@ -1733,6 +2102,15 @@ tourisme:URL_Restaurant_La_Veraison
 tourisme:URL_Restaurant_Restaurante_Castilla
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3725260-Reviews-Restaurante_Castilla-Madrid.html" .
 
+dbpedia-resource:Palazzo_delle_Esposizioni
+        a                      tourisme:Monument ;
+        rdfs:label             "Palazzo_delle_Esposizioni" ;
+        tourisme:dans          dbpedia-resource:Rome ;
+        tourisme:description   "Le Palazzo delle Esposizioni est un palais des congrès néoclassique situé sur la Via Nazionale à Rome.Conçu par Pio Piacentini, le Palazzo delle Esposizioni, ouvert en 1883, a été temporairement modifié pendant la période fasciste car son style était alors considéré comme désuet.Il a hébergé plusieurs expositions (Mostra della Rivoluzione Fascista, Mostra Augustea della Romanità).Il héberge un cinéma de 139 places, un auditorium de 90 places, un café, un restaurant, une bibliothèque et une salle de congrès dénommée Forum." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Palazzo_delle_Esposizioni ;
+        tourisme:localisation  "41.89944444444444 12.49" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Palazzo_delle_Esposizioni .
+
 dbpedia-resource:The_Louvre
         a                      tourisme:Monument ;
         rdfs:label             "The_Louvre" ;
@@ -1744,6 +2122,9 @@ dbpedia-resource:The_Louvre
 
 tourisme:IMAGE_Monument_Grand_Palais
         rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/GD-FR-Paris-Grand_Palais.jpg?width=300" .
+
+tourisme:IMAGE_Hotel_SuiteDreams_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/05/df/4a/c9/front-desk--v2092019.jpg" .
 
 tourisme:P.Korn  a          tourisme:Restaurant ;
         rdfs:label          "P.Korn" ;
@@ -1783,13 +2164,18 @@ tourisme:URL_Hotel_Hesperia_Sant_Joan
 
 tourisme:The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "The Inn At The Roman Forum - Small Luxury Hotel" ;
         tourisme:adresse  "Via degli Ibernesi 30, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel ;
         tourisme:note     "4.5 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel .
 
 tourisme:URL_Hotel_Hotel_Le_Six
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d777347-Reviews-Hotel_Le_Six-Paris_Ile_de_France.html" .
+
+tourisme:IMAGE_Hotel_The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/05/f7/d8/9e/the-inn-at-the-roman.jpg" .
 
 tourisme:URL_Restaurant_Robadora
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7234138-Reviews-Robadora-Barcelona_Catalonia.html" .
@@ -1799,10 +2185,14 @@ tourisme:URL_Restaurant_P.Korn
 
 tourisme:Le_Meridien_Munich
         a                 tourisme:Hotel ;
+        rdfs:label        "Le Meridien Munich" ;
         tourisme:adresse  "Bayerstrasse 41, 80335 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Le_Meridien_Munich .
+
+tourisme:IMAGE_Hotel_Secret_de_Paris
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/02/3b/c9/76/facade.jpg" .
 
 tourisme:URL_Restaurant_Waraku
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4297416-Reviews-Waraku-Rome_Lazio.html" .
@@ -1818,8 +2208,10 @@ tourisme:Restaurante_Arume
 
 tourisme:Residenza_Argentina
         a                 tourisme:Hotel ;
+        rdfs:label        "Residenza Argentina" ;
         tourisme:adresse  "Via di Torre Argentina 47 | Largo Argentina, 00186 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Residenza_Argentina ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Residenza_Argentina .
 
@@ -1841,21 +2233,30 @@ tourisme:I_Vicini_Bistrot
         tourisme:siteWeb    tourisme:URL_Restaurant_I_Vicini_Bistrot ;
         tourisme:telephone  "+39 06 4555 5563" .
 
+tourisme:IMAGE_Hotel_The_Dominican
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fd/f2/94/deluxe-double-room.jpg" .
+
 tourisme:The_Dominican
         a                 tourisme:Hotel ;
+        rdfs:label        "The Dominican" ;
         tourisme:adresse  "Leopoldstraat / Rue Leopold 9 | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_The_Dominican ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_The_Dominican .
 
 tourisme:URL_Hotel_Jedermann_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d232589-Reviews-Jedermann_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
+tourisme:IMAGE_Hotel_Pullman_Brussels_Midi_Hotel
+        rdfs:label  "" .
+
 tourisme:URL_Hotel_SuiteDreams_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1051216-Reviews-SuiteDreams_Hotel-Rome_Lazio.html" .
 
 tourisme:ApartoSuites_Jardines_de_Sabatini
         a                 tourisme:Hotel ;
+        rdfs:label        "ApartoSuites Jardines de Sabatini" ;
         tourisme:adresse  "Cuesta de San Vicente 16, 28008 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "3.0 sur 5" ;
@@ -1872,6 +2273,7 @@ tourisme:Petit_Pau_Restaurant
 
 tourisme:Platzl_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Platzl Hotel" ;
         tourisme:adresse  "Sparkassenstrasse 10, 80331 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "4.5 sur 5" ;
@@ -1884,8 +2286,10 @@ tourisme:URL_Hotel_Villa_Emilia
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d623893-Reviews-Villa_Emilia-Barcelona_Catalonia.html" .
 
 tourisme:Aurelius  a      tourisme:Hotel ;
+        rdfs:label        "Aurelius" ;
         tourisme:adresse  "458 Via Aurelia, 00165 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Aurelius ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Aurelius .
 
@@ -1901,17 +2305,38 @@ tourisme:Yuki_hana_munich
 tourisme:URL_Hotel_Le_Grimaldi
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197193-Reviews-Le_Grimaldi-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
+tourisme:URL_Monument_Musee_des_Arts_Forains
+        rdfs:label  "http://www.pavillons-de-bercy.com" .
+
+dbpedia-resource:National_Museum_of_Natural_History_France
+        a                      tourisme:Monument ;
+        rdfs:label             "National_Museum_of_Natural_History_France" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "Le Muséum national d'histoire naturelle (sigle usuel : MNHN) est un établissement français de recherche et de diffusion de la culture scientifique naturaliste. C'est l'un des premiers établissements mondiaux de ce type, avec le Natural History Museum de Londres. Il a aujourd'hui le statut de grand établissement, placé sous tutelle conjointe des ministres de l'Enseignement supérieur et de la Recherche et de l'Environnement. Son siège se trouve au Jardin des plantes de Paris mais il comporte d'autres sites à Paris et en France." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_National_Museum_of_Natural_History_France ;
+        tourisme:localisation  "48.8422 2.3564" , "48.842109 2.356286" ;
+        tourisme:siteWeb       tourisme:URL_Monument_National_Museum_of_Natural_History_France .
+
 tourisme:Home_Moderne
         a                 tourisme:Hotel ;
+        rdfs:label        "Home Moderne" ;
         tourisme:adresse  "61, rue Brancion, 75015 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Home_Moderne ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Home_Moderne .
+
+tourisme:IMAGE_Hotel_Hotel_Vice_Versa
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/06/3c/ef/ab/lobby--v2305680.jpg" .
+
+tourisme:IMAGE_Monument_Cite_des_Sciences_et_de_l_Industrie
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/La_cite_des_sciences_2.jpg?width=300" .
 
 tourisme:URL_Hotel_Mercure_Nice_Promenade_des_Anglais
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d197190-Reviews-Mercure_Nice_Promenade_des_Anglais-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Ibis_Styles  a   tourisme:Hotel ;
+        rdfs:label        "Ibis Styles" ;
         tourisme:adresse  "Kronstadter Strasse 10, 81677 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "2.0 sur 5" ;
@@ -1928,10 +2353,21 @@ tourisme:Le_Wine_Bar_du_Sablon_des_Marolles
 
 tourisme:Brussels_Welcome_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Brussels Welcome Hotel" ;
         tourisme:adresse  "Quai au bois a bruler 23 | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Brussels_Welcome_Hotel ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Brussels_Welcome_Hotel .
+
+dbpedia-resource:Musee_de_l_Homme
+        a                      tourisme:Monument ;
+        rdfs:label             "Musee_de_l_Homme" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "Le musée de l'Homme est un musée national dont la vocation est de présenter l'Humanité dans sa diversité anthropologique, historique et culturelle. Le musée de l'Homme est administrativement un département de diffusion du Muséum national d'histoire naturelle, sous la tutelle conjointe du ministère de l'Enseignement supérieur et de la Recherche et du ministère de l'Écologie, du Développement durable et de l'Énergie.Héritier d'une histoire prestigieuse, installé depuis 1937 dans le Palais de Chaillot à Paris où il a succédé à l'ancien musée d'ethnographie du Trocadéro, le musée de l'Homme est actuellement fermé pour rénovation. La réouverture au public est prévue en 2015. C'est un des grands chantiers culturels de l’État en Île-de-France." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Musee_de_l_Homme ;
+        tourisme:localisation  "48.8627 2.2886" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Musee_de_l_Homme .
 
 tourisme:URL_Restaurant_Le_Wine_Bar_du_Sablon_des_Marolles
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1635467-Reviews-Le_Wine_Bar_du_Sablon_des_Marolles-Brussels.html" .
@@ -1939,10 +2375,15 @@ tourisme:URL_Restaurant_Le_Wine_Bar_du_Sablon_des_Marolles
 tourisme:URL_Hotel_Silken_Puerta_America
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d593190-Reviews-Silken_Puerta_America-Madrid.html" .
 
+tourisme:IMAGE_Hotel_Hotel_Claridge
+        rdfs:label  "" .
+
 tourisme:Hotel_Villa_Les_Cygnes
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Villa Les Cygnes" ;
         tourisme:adresse  "6 av Chateau de la Tour, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Villa_Les_Cygnes ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Villa_Les_Cygnes .
 
@@ -1955,11 +2396,20 @@ tourisme:Boulangerie_Charli
         tourisme:siteWeb    tourisme:URL_Restaurant_Boulangerie_Charli ;
         tourisme:telephone  "+32 (0)2 513 63 32" .
 
+tourisme:IMAGE_Hotel_Four_Seasons_Hotel_George_V_Paris
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/07/33/a0/fd/four-seasons-hotel-george.jpg" .
+
 tourisme:URL_Hotel_Crowne_Plaza_Hotel_Brussels_-_Le_Palace
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d227970-Reviews-Crowne_Plaza_Hotel_Brussels_Le_Palace-Saint_Josse_ten_Noode_Brussels.html" .
 
+tourisme:IMAGE_Hotel_Hotel_Negresco
+        rdfs:label  "" .
+
 tourisme:URL_Hotel_Hotel_Orfila
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d232824-Reviews-Hotel_Orfila-Madrid.html" .
+
+tourisme:IMAGE_Hotel_Hotel_Castle
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/02/43/b3/d9/reception.jpg" .
 
 tourisme:URL_Hotel_The_Dominican
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d677329-Reviews-The_Dominican-Brussels.html" .
@@ -1974,6 +2424,9 @@ tourisme:Acces  a           tourisme:Restaurant ;
 
 tourisme:URL_Restaurant_Peck_47
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d6577463-Reviews-Peck_47-Brussels.html" .
+
+tourisme:IMAGE_Hotel_Raffaello_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/02/25/8d/e7/in-a-late-19th-century.jpg" .
 
 tourisme:URL_Hotel_Hotel_Denit_Barcelona
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1207602-Reviews-Hotel_Denit_Barcelona-Barcelona_Catalonia.html" .
@@ -2015,10 +2468,15 @@ tourisme:Maitia  a          tourisme:Restaurant ;
 
 tourisme:Thon_Hotel_Brussels_City_Centre
         a                 tourisme:Hotel ;
+        rdfs:label        "Thon Hotel Brussels City Centre" ;
         tourisme:adresse  "Avenue du Boulevard 17, Saint-Josse-ten-Noode, Bruxelles 1210, Belgique (Anciennement Tulip Inn Brussels)" ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Thon_Hotel_Brussels_City_Centre ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Thon_Hotel_Brussels_City_Centre .
+
+tourisme:IMAGE_Hotel_Deko_Rome
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/01/dc/61/2f/suite-fun.jpg" .
 
 tourisme:La_Gelateria_Frigidarium
         a                   tourisme:Restaurant ;
@@ -2045,7 +2503,7 @@ dbpedia-resource:Paris
         a                          tourisme:Ville ;
         rdfs:label                 "Paris" ;
         tourisme:codePostale       "75001-75020, 75116" ;
-        tourisme:contientMonument  dbpedia-resource:Grand_Palais , dbpedia-resource:The_Louvre , dbpedia-resource:Carnavalet_Museum ;
+        tourisme:contientMonument  dbpedia-resource:Musee_Marmottan_Monet , dbpedia-resource:Cent_Quatre , dbpedia-resource:Grand_Palais , dbpedia-resource:Musee_des_Arts_Forains , dbpedia-resource:Musee_national_Gustave_Moreau , dbpedia-resource:Cite_de_l_economie_et_de_la_monnaie , dbpedia-resource:The_Louvre , dbpedia-resource:Musee_d_histoire_de_la_medecine , dbpedia-resource:National_Museum_of_Natural_History_France , dbpedia-resource:Cite_des_Sciences_et_de_l_Industrie , dbpedia-resource:Carnavalet_Museum , dbpedia-resource:Musee_de_l_Homme ;
         tourisme:dansPays          tourisme:France ;
         tourisme:description       "Paris (prononcé [pa.ʁi] ) est la commune la plus peuplée et la capitale de la France, le chef-lieu de la région Île-de-France et l'unique commune-département du pays. Elle se situe au centre du Bassin parisien, sur une boucle de la Seine, entre les confluents de celle-ci avec la Marne et l’Oise. Ses habitants s’appellent les Parisiens. La ville est divisée en vingt arrondissements.D’après le recensement de l’Insee, la commune de Paris comptait au 1er janvier 2010 plus de 2,2 millions d'habitants. L'agglomération de Paris s’est largement développée au cours du XXe siècle, rassemblant 10,5 millions d'habitants au 1er janvier 2010, et son aire urbaine (l’agglomération et la couronne périurbaine) comptait environ 12,2 millions d'habitants au 1er janvier 2010. Elle est l'une des agglomérations européennes les plus peuplées.La position de Paris, à un carrefour entre les itinéraires commerciaux terrestres et fluviaux et au cœur d’une riche région agricole, en fait une des principales villes de France au cours du Xe siècle, avec des palais royaux, de riches abbayes et une cathédrale ; au cours du XIIe siècle, Paris devient un des premiers foyers en Europe pour l’enseignement et les arts. Le pouvoir royal se fixant dans cette ville, son importance économique et politique ne cesse de croître. Ainsi, au début du XIVe siècle, Paris est l'une des villes les plus importantes de tout le monde chrétien. Au XVIIe siècle, elle est la capitale de l'une des principales puissances politiques européenne, au XVIIIe siècle l'un des plus grands centres culturels de l’Europe et au XIXe siècle la capitale des arts et des plaisirs. Paris joue donc un rôle politique et économique majeur dans l’histoire de l'Europe au cours du IIe millénaire. Symbole de la culture française, abritant de nombreux monuments, la ville attire dans les années 2000 près de trente millions de visiteurs par an. Paris occupe également une place prépondérante dans le milieu de la mode et du luxe ; c'est aussi la capitale la plus visitée au monde.La ville est, avec sa banlieue, la capitale économique et commerciale de la France, ainsi que sa première place financière et boursière. La région parisienne, avec un produit intérieur brut (PIB) de 607 milliards d'euros (845 milliards de dollars) en 2011, est un acteur économique européen majeur. Elle est la 1re région européenne en termes de PIB régional et 6e en termes de PIB par habitant PPA. La densité de son réseau ferroviaire, autoroutier et sa structure aéroportuaire, plaque tournante du réseau aérien français et européen, en font un point de convergence pour les transports internationaux. Cette situation résulte d’une longue évolution, en particulier des conceptions centralisatrices des monarchies et des républiques, qui donnent un rôle considérable à la capitale dans le pays et tendent à y concentrer les institutions. Depuis les années 1960, les politiques gouvernementales oscillent toutefois entre déconcentration et décentralisation.@fr" ;
         tourisme:imageUrl          tourisme:IMAGE_Ville_Paris ;
@@ -2069,8 +2527,10 @@ tourisme:URL_Hotel_Deko_Rome
 
 tourisme:Hotel_Torbraeu
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Torbraeu" ;
         tourisme:adresse  "Tal 41, 80331 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Torbraeu ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Torbraeu .
 
@@ -2079,8 +2539,10 @@ tourisme:URL_Restaurant_Matilda_Cafe_Cantina
 
 tourisme:Hostal_La_Casa_de_La_Plaza
         a                 tourisme:Hotel ;
+        rdfs:label        "Hostal La Casa de La Plaza" ;
         tourisme:adresse  "Plaza de San Miguel 5, 28005 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hostal_La_Casa_de_La_Plaza ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hostal_La_Casa_de_La_Plaza .
 
@@ -2127,8 +2589,10 @@ tourisme:URL_Restaurant_Angrypig_Birretta_e_Porchetta
 
 tourisme:Hotel_dei_Borgia
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel dei Borgia" ;
         tourisme:adresse  "Via Palermo 20, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_dei_Borgia ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_dei_Borgia .
 
@@ -2147,6 +2611,7 @@ tourisme:Vol9  a              tourisme:VolAffaire ;
 
 tourisme:Condado_Hotel_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Condado Hotel Barcelona" ;
         tourisme:adresse  "Aribau 201, 08021 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "3.0 sur 5" ;
@@ -2172,8 +2637,10 @@ tourisme:URL_Hotel_Vatican_View
 
 tourisme:Ibis_Styles_Brussels_Centre_Stephanie
         a                 tourisme:Hotel ;
+        rdfs:label        "Ibis Styles Brussels Centre Stephanie" ;
         tourisme:adresse  "Chaussee De Charleroi 66, Bruxelles 1060, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Ibis_Styles_Brussels_Centre_Stephanie ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Styles_Brussels_Centre_Stephanie .
 
@@ -2185,6 +2652,7 @@ tourisme:URL_Hotel_Hotel_Claridge
 
 tourisme:Sercotel_Suites_Viena
         a                 tourisme:Hotel ;
+        rdfs:label        "Sercotel Suites Viena" ;
         tourisme:adresse  "Juan Alvarez Mendizabal 17, 28008 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "3.0 sur 5" ;
@@ -2200,8 +2668,10 @@ tourisme:URL_Restaurant_Panino_Divino
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4313663-Reviews-Panino_Divino-Rome_Lazio.html" .
 
 tourisme:Hotel_Amigo  a   tourisme:Hotel ;
+        rdfs:label        "Hotel Amigo" ;
         tourisme:adresse  "Rue de l'Amigo 1-3 | Brussels, Bruxelles 1000, Belgique (Anciennement Rocco Forte Hotel Amigo)" ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Amigo ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Amigo .
 
@@ -2213,6 +2683,7 @@ tourisme:URL_Hotel_Hotel_Negresco
 
 tourisme:Hotel_Laimer_Hof
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Laimer Hof" ;
         tourisme:adresse  "Laimerstrasse 40, 80639 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "3.5 sur 5" ;
@@ -2231,14 +2702,17 @@ tourisme:Sathees  a         tourisme:Restaurant ;
 
 tourisme:Hotel_Liabeny
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Liabeny" ;
         tourisme:adresse  "Calle Salud, 3, 28013  Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Liabeny .
 
 tourisme:Etap_Hotel_  a   tourisme:Hotel ;
+        rdfs:label        "Etap Hotel " ;
         tourisme:adresse  "2 Avenue LÃ©on Gaumont | 20 Arr., 75020 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Etap_Hotel_ ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Etap_Hotel_ .
 
@@ -2253,8 +2727,10 @@ tourisme:URL_Hotel_Four_Seasons_Hotel_George_V_Paris
 
 tourisme:Ibis_Paris_Montmartre_18eme
         a                 tourisme:Hotel ;
+        rdfs:label        "Ibis Paris Montmartre 18eme" ;
         tourisme:adresse  "5, rue Caulaincourt, 75018 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Ibis_Paris_Montmartre_18eme ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Paris_Montmartre_18eme .
 
@@ -2288,17 +2764,21 @@ tourisme:URL_Hotel_Hyatt_Regency_Nice_Palais_de_la_Mediterranee
 tourisme:URL_Hotel_Sofitel_Munich_Bayerpost
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d291533-Reviews-Sofitel_Munich_Bayerpost-Munich_Upper_Bavaria_Bavaria.html" .
 
+tourisme:URL_Monument_Palazzo_delle_Esposizioni
+        rdfs:label  "http://english.palazzoesposizioni.it/" .
+
 tourisme:URL_Hotel_Innside_Madrid_Luchana
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3863714-Reviews-Innside_Madrid_Luchana-Madrid.html" .
-
-tourisme:URL_Restaurant_Savanna
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2656918-Reviews-Savanna-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:URL_Hotel_Ibis_Paris_Montmartre_18eme
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197571-Reviews-Ibis_Paris_Montmartre_18eme-Paris_Ile_de_France.html" .
 
+tourisme:URL_Restaurant_Savanna
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2656918-Reviews-Savanna-Munich_Upper_Bavaria_Bavaria.html" .
+
 tourisme:Radisson_Blu_Hotel_Nice
         a                 tourisme:Hotel ;
+        rdfs:label        "Radisson Blu Hotel Nice" ;
         tourisme:adresse  "223 Promenade des Anglais, 06200 Nice, France (Anciennement Radisson SAS)" ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
@@ -2306,6 +2786,7 @@ tourisme:Radisson_Blu_Hotel_Nice
 
 tourisme:Nice_Garden_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Nice Garden Hotel" ;
         tourisme:adresse  "11 rue du Congres, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "2.0 sur 5" ;
@@ -2319,6 +2800,15 @@ tourisme:Zoryani_Gelateria_Artigianale
         tourisme:note       "5.0 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Zoryani_Gelateria_Artigianale ;
         tourisme:telephone  "+39 06 6400 6242" .
+
+tourisme:IMAGE_Hotel_Hotel_Oceania_Paris_Porte_de_Versailles
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/01/5f/4a/dc/exterieur.jpg" .
+
+tourisme:IMAGE_Hotel_Hotel_Darcet
+        rdfs:label  "" .
+
+tourisme:IMAGE_Hotel_be_Manos
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/03/14/76/f9/be-manos.jpg" .
 
 tourisme:URL_Restaurant_Le_114_Faubourg
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2013853-Reviews-Le_114_Faubourg-Paris_Ile_de_France.html" .
@@ -2336,6 +2826,7 @@ tourisme:URL_Hotel_Le_Bristol_Paris
 
 tourisme:Hotel_La_Perouse
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel La Perouse" ;
         tourisme:adresse  "11 quai Rauba-Capeu, 06300 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
@@ -2343,6 +2834,7 @@ tourisme:Hotel_La_Perouse
 
 tourisme:Catalonia_Las_Cortes
         a                 tourisme:Hotel ;
+        rdfs:label        "Catalonia Las Cortes" ;
         tourisme:adresse  "Calle del Prado 6, 28014 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
@@ -2367,8 +2859,10 @@ tourisme:URL_Hotel_Hotel_Nuevo_Boston
 
 tourisme:Hotel_Oceania_Paris_Porte_de_Versailles
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Oceania Paris Porte de Versailles" ;
         tourisme:adresse  "52 Rue d'Oradour-sur-Glane | 15th Arr., 75015 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Oceania_Paris_Porte_de_Versailles ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Oceania_Paris_Porte_de_Versailles .
 
@@ -2387,6 +2881,9 @@ tourisme:Pizza_Dai_Cinque
         tourisme:siteWeb    tourisme:URL_Restaurant_Pizza_Dai_Cinque ;
         tourisme:telephone  "063208731" .
 
+tourisme:URL_Monument_Museo_del_Prado
+        rdfs:label  "http://www.museodelprado.es" .
+
 tourisme:URL_Hotel_Catalonia_Las_Cortes
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d599363-Reviews-Catalonia_Las_Cortes-Madrid.html" .
 
@@ -2395,10 +2892,15 @@ tourisme:URL_Restaurant_L_Aubergeade
 
 tourisme:Villa_San_Lorenzo_Maria_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Villa San Lorenzo Maria Hotel" ;
         tourisme:adresse  "Via dei Liguri 7, 00185 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Villa_San_Lorenzo_Maria_Hotel ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Villa_San_Lorenzo_Maria_Hotel .
+
+tourisme:IMAGE_Hotel_Jedermann_Hotel
+        rdfs:label  "" .
 
 tourisme:URL_Hotel_Hotel_Villa_Rivoli
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d243896-Reviews-Hotel_Villa_Rivoli-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
@@ -2419,6 +2921,9 @@ tourisme:Restaurante_La_Gaditana
 
 tourisme:URL_Hotel_Hotel_Amigo
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d196130-Reviews-Hotel_Amigo-Brussels.html" .
+
+tourisme:IMAGE_Hotel_Made_in_Louise
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/03/d0/d5/c2/reception.jpg" .
 
 tourisme:URL_Hotel_Hotel_Preciados
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d232819-Reviews-Hotel_Preciados-Madrid.html" .
@@ -2457,10 +2962,20 @@ tourisme:URL_Hotel_Etap_Hotel_
 
 tourisme:Alma_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Alma Barcelona" ;
         tourisme:adresse  "Mallorca 271, 08008 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Alma_Barcelona .
+
+dbpedia-resource:Musee_Marc_Chagall
+        a                      tourisme:Monument ;
+        rdfs:label             "Musee_Marc_Chagall" ;
+        tourisme:dans          dbpedia-resource:Nice ;
+        tourisme:description   "Le musée Marc-Chagall (ou musée national du message biblique Marc-Chagall) est un musée national consacré à l'œuvre du peintre Marc Chagall – essentiellement celle d'inspiration religieuse – et situé à Nice dans les Alpes-Maritimes." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Musee_Marc_Chagall ;
+        tourisme:localisation  "43.709167 7.269536" , "43.70916666666667 7.269536111111111" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Musee_Marc_Chagall .
 
 tourisme:URL_Hotel_Hotel_One_Shot_Prado_23
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d3722055-Reviews-Hotel_One_Shot_Prado_23-Madrid.html" .
@@ -2471,12 +2986,20 @@ tourisme:URL_Restaurant_Noordzee_Mer_du_Nord
 tourisme:URL_Hotel_Hotel_Liabeny
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d231637-Reviews-Hotel_Liabeny-Madrid.html" .
 
+tourisme:URL_Monument_National_Museum_of_Natural_History_France
+        rdfs:label  "http://www.mnhn.fr/" .
+
 tourisme:Sofitel_Brussels_Le_Louise
         a                 tourisme:Hotel ;
+        rdfs:label        "Sofitel Brussels Le Louise" ;
         tourisme:adresse  "40 Avenue de la Toison d'Or, Ixelles, Bruxelles 1050, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Sofitel_Brussels_Le_Louise ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Sofitel_Brussels_Le_Louise .
+
+tourisme:IMAGE_Hotel_Appia_Antica_Resort
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/04/88/60/f3/appia-antica-resort.jpg" .
 
 tourisme:URL_Restaurant_La_Tragantua
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1222048-Reviews-La_Tragantua-Madrid.html" .
@@ -2497,6 +3020,7 @@ tourisme:URL_Hotel_Artemide_Hotel
 
 tourisme:Hesperia_Sant_Joan
         a                 tourisme:Hotel ;
+        rdfs:label        "Hesperia Sant Joan" ;
         tourisme:adresse  "Josep Trueta, 2 | Sant Joan Despi, 08970 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "3.0 sur 5" ;
@@ -2504,8 +3028,10 @@ tourisme:Hesperia_Sant_Joan
 
 tourisme:Novotel_Munich_City
         a                 tourisme:Hotel ;
+        rdfs:label        "Novotel Munich City" ;
         tourisme:adresse  "Hochstrasse 11, 81669 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
+        tourisme:image    tourisme:IMAGE_Hotel_Novotel_Munich_City ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Novotel_Munich_City .
 
@@ -2532,6 +3058,7 @@ tourisme:URL_Restaurant_NOI_Nuova_Osteria_Italiana
 
 tourisme:The_Westin_Palace_Madrid
         a                 tourisme:Hotel ;
+        rdfs:label        "The Westin Palace Madrid" ;
         tourisme:adresse  "Plaza de las Cortes 7, 28014 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
@@ -2554,14 +3081,21 @@ tourisme:URL_Restaurant_Sushi_Se
 
 tourisme:Sofitel_Brussels_Europe
         a                 tourisme:Hotel ;
+        rdfs:label        "Sofitel Brussels Europe" ;
         tourisme:adresse  "Place Jourdan 1, Etterbeek, Bruxelles 1040, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Sofitel_Brussels_Europe ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Sofitel_Brussels_Europe .
 
+tourisme:IMAGE_Hotel_Residenza_Argentina
+        rdfs:label  "" .
+
 tourisme:Five_Hotel  a    tourisme:Hotel ;
+        rdfs:label        "Five Hotel" ;
         tourisme:adresse  "3, rue Flatters, 75005 Paris, France (Anciennement The Five Hotel by Elegancia)" ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Five_Hotel ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Five_Hotel .
 
@@ -2578,6 +3112,7 @@ tourisme:URL_Restaurant_Moratin_Vinoteca_Bistrot
 
 tourisme:Hotel_Curious
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Curious" ;
         tourisme:adresse  "C/ Carrer Carme, 25, 08001  Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "1.0 sur 5" ;
@@ -2601,6 +3136,9 @@ tourisme:URL_Restaurant_Con_Gracia
 tourisme:URL_Monument_Carnavalet_Museum
         rdfs:label  "http://carnavalet.paris.fr/en" .
 
+tourisme:IMAGE_Hotel_Hotel_Joyce_Astotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/82/8a/0e/hotel-joyce-astotel.jpg" .
+
 tourisme:URL_Restaurant_Stirwen
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d1128569-Reviews-Stirwen-Brussels.html" .
 
@@ -2615,8 +3153,14 @@ tourisme:Koy_Shunka  a      tourisme:Restaurant ;
 tourisme:URL_Restaurant_Taberna_el_Sur
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d2527526-Reviews-Taberna_el_Sur-Madrid.html" .
 
+tourisme:IMAGE_Hotel_Vatican_View
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/05/9e/a9/50/entrance--v1364152-90.jpg" .
+
 tourisme:URL_Restaurant_Pasta_Divina
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d2208064-Reviews-Pasta_Divina-Brussels.html" .
+
+tourisme:IMAGE_Hotel_Hotel_Plaza_Athenee
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/07/26/b0/54/facade-plaza-athenee.jpg" .
 
 tourisme:URL_Restaurant_Restaurant_Jasmin
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d1905582-Reviews-Restaurant_Jasmin-Munich_Upper_Bavaria_Bavaria.html" .
@@ -2627,8 +3171,12 @@ tourisme:URL_Hotel_Hotel_Vendome
 tourisme:URL_Restaurant_Tast-Ller
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6482227-Reviews-Tast_Ller-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Stanhope_Hotel
+        rdfs:label  "" .
+
 tourisme:Hotel_Villa_Victoria
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Villa Victoria" ;
         tourisme:adresse  "33 Blvd Victor-Hugo, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
@@ -2636,8 +3184,10 @@ tourisme:Hotel_Villa_Victoria
 
 tourisme:Hotel_du_Petit_Palais
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel du Petit Palais" ;
         tourisme:adresse  "17, avenue Bieckert, 06000 Nice, France (Anciennement Formerly )" ;
         tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_du_Petit_Palais ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_du_Petit_Palais .
 
@@ -2652,20 +3202,27 @@ tourisme:Fin_de_Siecle
 
 tourisme:Hotel_Regina
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Regina" ;
         tourisme:adresse  "19 Alcala Street, 28014 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Regina ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Regina .
 
 tourisme:Grand_Hotel_Francais
         a                 tourisme:Hotel ;
+        rdfs:label        "Grand Hotel Francais" ;
         tourisme:adresse  "223 Boulevard Voltaire | 11th Arr., 75011 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Grand_Hotel_Francais ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Grand_Hotel_Francais .
 
 tourisme:URL_Restaurant_Arena_del_Gelato
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3844357-Reviews-L_Arena_del_Gelato-Rome_Lazio.html" .
+
+tourisme:IMAGE_Monument_Cent_Quatre
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Le_CENTQUATRE_à_Paris.jpg?width=300" .
 
 tourisme:URL_Hotel_Made_in_Louise
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1136493-d1597888-Reviews-Made_in_Louise-Ixelles_Brussels.html" .
@@ -2675,15 +3232,19 @@ tourisme:URL_Hotel_Hotel_Le_Plaza
 
 tourisme:The_Peninsula_Paris
         a                 tourisme:Hotel ;
+        rdfs:label        "The Peninsula Paris" ;
         tourisme:adresse  "19 Avenue Kleber, 75116 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_The_Peninsula_Paris ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_The_Peninsula_Paris .
 
 tourisme:Atelier_Montparnasse
         a                 tourisme:Hotel ;
+        rdfs:label        "Atelier Montparnasse" ;
         tourisme:adresse  "84, rue Raymond Losserand | 14th Arr., 75014 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Atelier_Montparnasse ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Atelier_Montparnasse .
 
@@ -2710,8 +3271,10 @@ tourisme:URL_Hotel_Grand_Hotel_Francais
 
 tourisme:Aldrovandi_Villa_Borghese
         a                 tourisme:Hotel ;
+        rdfs:label        "Aldrovandi Villa Borghese" ;
         tourisme:adresse  "Via Ulisse Aldrovandi 15, 00197 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Aldrovandi_Villa_Borghese ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Aldrovandi_Villa_Borghese .
 
@@ -2741,10 +3304,14 @@ tourisme:Stirwen  a         tourisme:Restaurant ;
         tourisme:telephone  "+32 2 640 85 41" .
 
 tourisme:Hipark_Nice  a   tourisme:Hotel ;
+        rdfs:label        "Hipark Nice" ;
         tourisme:adresse  "22 Boulevard General Louis Delfino, 06300 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hipark_Nice .
+
+tourisme:IMAGE_Monument_Palazzo_delle_Esposizioni
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/2013-04-11_Roma_Palazzo_delle_Esposizioni.jpg?width=300" .
 
 tourisme:URL_Restaurant_Taberna_Gastromaquia
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1024062-Reviews-Taberna_Gastromaquia-Madrid.html" .
@@ -2757,16 +3324,35 @@ tourisme:Vol11  a             tourisme:VolAffaire ;
 tourisme:URL_Hotel_Hotel_Ares_Eiffel_Paris
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197666-Reviews-Hotel_Ares_Paris-Paris_Ile_de_France.html" .
 
+dbpedia-resource:Museo_Nacional_Centro_de_Arte_Reina_Sofia
+        a                      tourisme:Monument ;
+        rdfs:label             "Museo_Nacional_Centro_de_Arte_Reina_Sofia" ;
+        tourisme:dans          dbpedia-resource:Madrid ;
+        tourisme:description   "Le musée national centre d’art Reina Sofía (en espagnol, Museo Nacional Centro de Arte Reina Sofía, abrégé en MNCARS), appelé simplement le « Reina Sofía » est un musée national espagnol d’art moderne et contemporain situé à Madrid, qui couvre la période s’étalant de 1900 à nos jours.Il a été nommé en l’honneur de Sofía de Grèce, actuelle reine d’Espagne, épouse du roi Juan Carlos Ier." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Museo_Nacional_Centro_de_Arte_Reina_Sofia ;
+        tourisme:localisation  "40.40888888888889 -3.6944444444444446" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Museo_Nacional_Centro_de_Arte_Reina_Sofia .
+
+tourisme:IMAGE_Hotel_Maydrit_Hotel
+        rdfs:label  "" .
+
 tourisme:Maydrit_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Maydrit Hotel" ;
         tourisme:adresse  "C / Piragua, 1, 28042 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
+        tourisme:image    tourisme:IMAGE_Hotel_Maydrit_Hotel ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Maydrit_Hotel .
 
+tourisme:IMAGE_Monument_Musee_de_l_Homme
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Musée_de_l'homme.jpg?width=300" .
+
 tourisme:Hotel_BLOOM  a   tourisme:Hotel ;
+        rdfs:label        "Hotel BLOOM" ;
         tourisme:adresse  "Rue Royale 250, Saint-Josse-ten-Noode, Bruxelles 1210, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_BLOOM ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_BLOOM .
 
@@ -2788,10 +3374,15 @@ tourisme:URL_Restaurant_napa
 tourisme:URL_Hotel_Aloft_Brussels_Schuman_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g950780-d1752126-Reviews-Aloft_Brussels_Schuman_Hotel-Etterbeek_Brussels.html" .
 
+tourisme:IMAGE_Hotel_Ibis_Styles_Brussels_Centre_Stephanie
+        rdfs:label  "" .
+
 tourisme:ibis_budget_Paris_Porte_d_Orleans
         a                 tourisme:Hotel ;
+        rdfs:label        "ibis budget Paris Porte d Orleans" ;
         tourisme:adresse  "15-21 Boulevard Romain Rolland | 14 Arr., 75014 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_ibis_budget_Paris_Porte_d_Orleans ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_ibis_budget_Paris_Porte_d_Orleans .
 
@@ -2826,10 +3417,19 @@ tourisme:STREATART  a       tourisme:Restaurant ;
 
 tourisme:Hilton_Munich_Airport
         a                 tourisme:Hotel ;
+        rdfs:label        "Hilton Munich Airport" ;
         tourisme:adresse  "Terminalstrasse Mitte 20, 85356 Munich, BaviÃ¨re, Allemagne (Anciennement Kempinski Hotel Airport MÃ¼nchen)" ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hilton_Munich_Airport .
+
+tourisme:Hotel_Nice_Riviera
+        a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Nice Riviera" ;
+        tourisme:adresse  "45 Rue Pastorelli, 06000 Nice, France " ;
+        tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:note     "4.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Nice_Riviera .
 
 tourisme:C_est_Bon_C_est_Belge
         a                   tourisme:Restaurant ;
@@ -2840,15 +3440,12 @@ tourisme:C_est_Bon_C_est_Belge
         tourisme:siteWeb    tourisme:URL_Restaurant_C_est_Bon_C_est_Belge ;
         tourisme:telephone  "+32 2 512 19 99" .
 
-tourisme:Hotel_Nice_Riviera
-        a                 tourisme:Hotel ;
-        tourisme:adresse  "45 Rue Pastorelli, 06000 Nice, France " ;
-        tourisme:dans     dbpedia-resource:Nice ;
-        tourisme:note     "4.0 sur 5" ;
-        tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Nice_Riviera .
+tourisme:IMAGE_Hotel_Home_Moderne
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/06/57/11/87/garden--v2303295.jpg" .
 
 tourisme:Kings_Hotel_Center
         a                 tourisme:Hotel ;
+        rdfs:label        "Kings Hotel Center" ;
         tourisme:adresse  "Marsstrasse 15, 80335 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "3.5 sur 5" ;
@@ -2878,8 +3475,29 @@ tourisme:URL_Hotel_Stanhope_Hotel
 tourisme:URL_Hotel_Olivia_Balmes_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d4569039-Reviews-Olivia_Balmes_Hotel-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Mandarin_Oriental_Munich
+        rdfs:label  "" .
+
+tourisme:IMAGE_Hotel_Villa_San_Lorenzo_Maria_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/9f/d1/de/villa-san-lorenzo-maria.jpg" .
+
+dbpedia-resource:Musee_d_histoire_de_la_medecine
+        a                      tourisme:Monument ;
+        rdfs:label             "Musee_d_histoire_de_la_medecine" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "Le Musée d'histoire de la médecine est un musée français situé à Paris dans le 6e arrondissement, à l'Université Paris Descartes et consacré à l'histoire de la médecine. Le musée se trouve au deuxième étage du bâtiment, dans une salle construite en 1905, ancienne bibliothèque. Ouvert de 14 h à 17 h 30, sauf le dimanche ; fermé le jeudi en hiver et le samedi en été." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Musee_d_histoire_de_la_medecine ;
+        tourisme:localisation  "48.85111111111111 2.341111111111111" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Musee_d_histoire_de_la_medecine .
+
+tourisme:IMAGE_Hotel_Mercure_Rome_Colosseum_Centre
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/fe/34/74/guest-room.jpg" .
+
 tourisme:URL_Restaurant_La_Prosciutteria
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6216305-Reviews-La_Prosciutteria-Rome_Lazio.html" .
+
+tourisme:URL_Monument_Cent_Quatre
+        rdfs:label  "http://www.104.fr" .
 
 tourisme:URL_Hotel_MEININGER_Hotel_Brussels_City_Center
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d3533397-Reviews-MEININGER_Hotel_Brussels_City_Center-Brussels.html" .
@@ -2903,13 +3521,15 @@ tourisme:Wirtshaus_Kurgarten
         tourisme:telephone  "089-17999081 " .
 
 dbpedia-resource:Rome
-        a       tourisme:Ville .
+        a                          tourisme:Ville ;
+        tourisme:contientMonument  dbpedia-resource:Galleria_Borghese , dbpedia-resource:Palazzo_delle_Esposizioni , dbpedia-resource:British_School_at_Rome .
 
 tourisme:URL_Restaurant_Gelateria_La_Romana_Roma_Ventisettembre
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4492728-Reviews-Gelateria_La_Romana_Roma_Ventisettembre-Rome_Lazio.html" .
 
 tourisme:Marc_Muenchen
         a                 tourisme:Hotel ;
+        rdfs:label        "Marc Muenchen" ;
         tourisme:adresse  "Senefelderstrasse 12, 80336 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "4.0 sur 5" ;
@@ -2921,8 +3541,14 @@ tourisme:URL_Restaurant_Nam_Giao_31
 tourisme:URL_Hotel_Hotel_BLOOM
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g1891930-d206690-Reviews-Hotel_BLOOM-Saint_Josse_ten_Noode_Brussels.html" .
 
+tourisme:IMAGE_Hotel_Hotel_du_Petit_Palais
+        rdfs:label  "" .
+
 tourisme:URL_Restaurant_La_Pizzetteria
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d3494494-Reviews-La_Pizzetteria-Rome_Lazio.html" .
+
+tourisme:URL_Hotel_Secret_de_Paris
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1633522-Reviews-Secret_de_Paris-Paris_Ile_de_France.html" .
 
 tourisme:El_Club_Allard
         a                   tourisme:Restaurant ;
@@ -2933,13 +3559,12 @@ tourisme:El_Club_Allard
         tourisme:siteWeb    tourisme:URL_Restaurant_El_Club_Allard ;
         tourisme:telephone  "+34 915 59 09 39" .
 
-tourisme:URL_Hotel_Secret_de_Paris
-        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1633522-Reviews-Secret_de_Paris-Paris_Ile_de_France.html" .
-
 tourisme:Hotel_Dharma
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Dharma" ;
         tourisme:adresse  "Via Torino 122 | Small Boutique Hotel, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Dharma ;
         tourisme:note     "1.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Dharma .
 
@@ -2972,20 +3597,31 @@ tourisme:Algarabia  a       tourisme:Restaurant ;
 
 tourisme:Le_123_Sebastopol_Astotel_
         a                 tourisme:Hotel ;
+        rdfs:label        "Le 123 Sebastopol Astotel " ;
         tourisme:adresse  "123, boulevard de SÃ©bastopol, 75002 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Le_123_Sebastopol_Astotel_ ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Le_123_Sebastopol_Astotel_ .
 
 tourisme:Ciutat_de_Sant_Adria_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Ciutat de Sant Adria Hotel" ;
         tourisme:adresse  "Santa Caterina 38 | Sant Adria del Besos, 08930 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
+        tourisme:image    tourisme:IMAGE_Hotel_Ciutat_de_Sant_Adria_Hotel ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Ciutat_de_Sant_Adria_Hotel .
 
+tourisme:IMAGE_Hotel_MAS_Residence
+        rdfs:label  "" .
+
+tourisme:IMAGE_Hotel_Brussels_Welcome_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/01/63/f1/66/suite-route-de-la-soie.jpg" .
+
 tourisme:Boscolo_Exedra_Nice
         a                 tourisme:Hotel ;
+        rdfs:label        "Boscolo Exedra Nice" ;
         tourisme:adresse  "12 Boulevard Victor Hugo, 06000 Nice, France (Anciennement Boscolo Atlantic)" ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "5.0 sur 5" ;
@@ -2993,13 +3629,18 @@ tourisme:Boscolo_Exedra_Nice
 
 tourisme:MAS_Residence
         a                 tourisme:Hotel ;
+        rdfs:label        "MAS Residence" ;
         tourisme:adresse  "Rue de Spa 14 | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_MAS_Residence ;
         tourisme:note     "http://media-cdn.tripadvisor.com/media/photo-o/04/29/1b/db/mas-residence.jpg" ;
         tourisme:siteWeb  tourisme:URL_Hotel_MAS_Residence .
 
 tourisme:URL_Restaurant_Marc_de_Cafe
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d6947349-Reviews-Marc_de_Cafe-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+
+tourisme:IMAGE_Hotel_UNA_Hotel_Roma
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/05/9e/87/21/lobby--v1603240-63.jpg" .
 
 tourisme:Gelateria_La_Romana_Roma_Ventisettembre
         a                   tourisme:Restaurant ;
@@ -3033,14 +3674,21 @@ tourisme:La_Roustide  a     tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_La_Roustide ;
         tourisme:telephone  "04 93 89 69 60" .
 
+tourisme:IMAGE_Hotel_Hilton_Park_Munich
+        rdfs:label  "" .
+
 tourisme:URL_Hotel_Crowne_Plaza_Paris_Republique
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d207687-Reviews-Crowne_Plaza_Paris_Republique-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Nice_Garden_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d604431-Reviews-Nice_Garden_Hotel-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
+tourisme:IMAGE_Hotel_Hotel_Villa_Les_Cygnes
+        rdfs:label  "" .
+
 tourisme:Hotel_Nuevo_Boston
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Nuevo Boston" ;
         tourisme:adresse  "Avenida de Aragon 332, 28022 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
@@ -3054,6 +3702,7 @@ tourisme:URL_Restaurant_CUARTO_y_MITAD
 
 tourisme:Pullman_Munich
         a                 tourisme:Hotel ;
+        rdfs:label        "Pullman Munich" ;
         tourisme:adresse  "Theodor-Dombart-Strasse 4, 80805 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "4.0 sur 5" ;
@@ -3062,11 +3711,15 @@ tourisme:Pullman_Munich
 tourisme:URL_Hotel_Le_123_Sebastopol_Astotel_
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d4800782-Reviews-Le_123_Sebastopol_Astotel-Paris_Ile_de_France.html" .
 
+tourisme:IMAGE_Hotel_Five_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/05/89/6d/c2/lobby--v1618514-39.jpg" .
+
 tourisme:URL_Hotel_NH_Collection_Palacio_de_Tepa
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d1875767-Reviews-NH_Collection_Palacio_de_Tepa-Madrid.html" .
 
 tourisme:Hotel_Villa_Rivoli
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Villa Rivoli" ;
         tourisme:adresse  "10, rue de Rivoli, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "3.0 sur 5" ;
@@ -3074,6 +3727,9 @@ tourisme:Hotel_Villa_Rivoli
 
 tourisme:URL_Hotel_Hotel_Atlantico
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d227459-Reviews-Hotel_Atlantico-Madrid.html" .
+
+tourisme:IMAGE_Hotel_Casa_Camper_Hotel_Barcelona
+        rdfs:label  "" .
 
 tourisme:URL_Restaurant_Le_Chou_de_Bruxelles
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g1136493-d1013936-Reviews-Le_Chou_de_Bruxelles-Ixelles_Brussels.html" .
@@ -3092,8 +3748,10 @@ tourisme:Pucci_Restaurant
 
 tourisme:Steigenberger_Grandhotel_Brussels
         a                 tourisme:Hotel ;
+        rdfs:label        "Steigenberger Grandhotel Brussels" ;
         tourisme:adresse  "Ave. Louise 71 | Elsene, Bruxelles 1050, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Steigenberger_Grandhotel_Brussels ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Steigenberger_Grandhotel_Brussels .
 
@@ -3111,6 +3769,15 @@ tourisme:URL_Hotel_Hotel_Suisse
 tourisme:URL_Hotel_The_Westin_Palace_Madrid
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d190569-Reviews-The_Westin_Palace_Madrid-Madrid.html" .
 
+dbpedia-resource:Cent_Quatre
+        a                      tourisme:Monument ;
+        rdfs:label             "Cent_Quatre" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "Le Cent Quatre est un établissement public de coopération culturelle parisien, ouvert depuis le 11 octobre 2008 sur le site de l'ancien Service municipal des pompes funèbres, au 104 rue d'Aubervilliers, dans le 19e arrondissement de Paris." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Cent_Quatre ;
+        tourisme:localisation  "48.89016667 2.369891667" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Cent_Quatre .
+
 tourisme:Vinpasa  a         tourisme:Restaurant ;
         rdfs:label          "Vinpasa" ;
         tourisme:adresse    "Isabellastrasse 47, 80796 Munich, BaviÃ¨re, Allemagne " ;
@@ -3126,8 +3793,10 @@ tourisme:URL_Restaurant_beach38
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d3249941-Reviews-Beach38-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Motel_One  a     tourisme:Hotel ;
+        rdfs:label        "Motel One" ;
         tourisme:adresse  "Rue Royale 120, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Motel_One ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Motel_One .
 
@@ -3142,6 +3811,7 @@ tourisme:URL_Hotel_NH_Collection_Madrid_Abascal
 
 tourisme:Leonardo_Royal_Hotel_Munich
         a                 tourisme:Hotel ;
+        rdfs:label        "Leonardo Royal Hotel Munich" ;
         tourisme:adresse  "Moosacher Strasse 90, 80809 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "4.5 sur 5" ;
@@ -3156,6 +3826,9 @@ tourisme:Sacree_fleur
         tourisme:siteWeb    tourisme:URL_Restaurant_Sacree_fleur ;
         tourisme:telephone  "+33 1 42 51 66 18" .
 
+tourisme:IMAGE_Hotel_Hotel_Massena
+        rdfs:label  "" .
+
 tourisme:URL_Restaurant_Dallmayr
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d695601-Reviews-Dallmayr-Munich_Upper_Bavaria_Bavaria.html" .
 
@@ -3164,8 +3837,10 @@ tourisme:URL_Restaurant_Bateau_le_Calife
 
 tourisme:Hotel_Massena
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Massena" ;
         tourisme:adresse  "58 rue Gioffredo, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Massena ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Massena .
 
@@ -3182,8 +3857,10 @@ tourisme:DokiDoki  a        tourisme:Restaurant ;
 
 tourisme:Ibis_Styles_Nice_Aeroport
         a                 tourisme:Hotel ;
+        rdfs:label        "Ibis Styles Nice Aeroport" ;
         tourisme:adresse  "127 boulevard Rene Cassin, 06200 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:image    tourisme:IMAGE_Hotel_Ibis_Styles_Nice_Aeroport ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Styles_Nice_Aeroport .
 
@@ -3217,9 +3894,6 @@ tourisme:URL_Hotel_Leonardo_Royal_Hotel_Munich
 tourisme:URL_Restaurant_Acces
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6277239-Reviews-Acces-Barcelona_Catalonia.html" .
 
-tourisme:URL_Hotel_Ibis_Styles_Brussels_Centre_Stephanie
-        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d5588455-Reviews-Ibis_Styles_Brussels_Centre_Stephanie-Brussels.html" .
-
 tourisme:Pinsere_Roma
         a                   tourisme:Restaurant ;
         rdfs:label          "Pinsere Roma" ;
@@ -3229,15 +3903,26 @@ tourisme:Pinsere_Roma
         tourisme:siteWeb    tourisme:URL_Restaurant_Pinsere_Roma ;
         tourisme:telephone  "+39 06 4202 0924" .
 
+tourisme:URL_Hotel_Ibis_Styles_Brussels_Centre_Stephanie
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d5588455-Reviews-Ibis_Styles_Brussels_Centre_Stephanie-Brussels.html" .
+
+tourisme:IMAGE_Hotel_MEININGER_Hotel_Brussels_City_Center
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/04/08/14/bd/meininger-hotel-brussels.jpg" .
+
 tourisme:URL_Hotel_Bold_Hotel_Muenchen
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d5272072-Reviews-Bold_Hotel_Muenchen-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Hotel_Negresco
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Negresco" ;
         tourisme:adresse  "37 Promenade des Anglais, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Negresco ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Negresco .
+
+tourisme:IMAGE_Hotel_Aurelius
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/03/33/7d/64/entrata-dell-albergo.jpg" .
 
 tourisme:URL_Hotel_MAS_Residence
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d529444-Reviews-MAS_Residence-Brussels.html" .
@@ -3264,8 +3949,10 @@ tourisme:Alexandre  a       tourisme:Restaurant ;
 
 tourisme:Novotel_Brussels_Centre
         a                 tourisme:Hotel ;
+        rdfs:label        "Novotel Brussels Centre" ;
         tourisme:adresse  "Rue de la Vierge Noire 32 | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Novotel_Brussels_Centre ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Novotel_Brussels_Centre .
 
@@ -3275,15 +3962,20 @@ tourisme:URL_Hotel_Pantone_Hotel
 tourisme:URL_Restaurant_Bon-bon
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d800348-Reviews-Bon_bon-Brussels.html" .
 
+tourisme:Crowne_Plaza_Paris_Republique
+        a                 tourisme:Hotel ;
+        rdfs:label        "Crowne Plaza Paris Republique" ;
+        tourisme:adresse  "10 Place de la Republique, 75011 Paris, France " ;
+        tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Crowne_Plaza_Paris_Republique ;
+        tourisme:note     "4.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Crowne_Plaza_Paris_Republique .
+
 tourisme:URL_Ville_Munich
         rdfs:label  "http://www.muenchen.de/" .
 
-tourisme:Crowne_Plaza_Paris_Republique
-        a                 tourisme:Hotel ;
-        tourisme:adresse  "10 Place de la Republique, 75011 Paris, France " ;
-        tourisme:dans     dbpedia-resource:Paris ;
-        tourisme:note     "4.0 sur 5" ;
-        tourisme:siteWeb  tourisme:URL_Hotel_Crowne_Plaza_Paris_Republique .
+tourisme:IMAGE_Hotel_Hotel_Torbraeu
+        rdfs:label  "" .
 
 tourisme:URL_Restaurant_Taverna_Limani
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6638510-Reviews-Taverna_Limani-Munich_Upper_Bavaria_Bavaria.html" .
@@ -3297,6 +3989,9 @@ tourisme:Casa_9_Restaurante
         tourisme:siteWeb    tourisme:URL_Restaurant_Casa_9_Restaurante ;
         tourisme:telephone  "915237493" .
 
+tourisme:IMAGE_Hotel_Thon_Hotel_Brussels_City_Centre
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/05/49/66/64/thon-hotel-brussels-city.jpg" .
+
 tourisme:beach38  a         tourisme:Restaurant ;
         rdfs:label          "beach38" ;
         tourisme:adresse    "Friedenstrasse 22c | 81671, Munich, BaviÃ¨re, Allemagne " ;
@@ -3307,6 +4002,7 @@ tourisme:beach38  a         tourisme:Restaurant ;
 
 tourisme:Artrip_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Artrip Hotel" ;
         tourisme:adresse  "Valencia, 11, 28012 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "2.0 sur 5" ;
@@ -3334,6 +4030,7 @@ tourisme:URL_Hotel_Hotel_Acta_Mimic
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d1802185-Reviews-Hotel_Acta_Mimic-Barcelona_Catalonia.html" .
 
 tourisme:Hotel_1898  a    tourisme:Hotel ;
+        rdfs:label        "Hotel 1898" ;
         tourisme:adresse  "La Rambla, 109, 08002 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
@@ -3344,16 +4041,22 @@ tourisme:URL_Hotel_UNA_Hotel_Roma
 
 tourisme:Mercure_Madrid_Plaza_de_Espana
         a                 tourisme:Hotel ;
+        rdfs:label        "Mercure Madrid Plaza de Espana" ;
         tourisme:adresse  "Calle de Tutor 1 | Esquina Ventura Rodriguez, 28008 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
+        tourisme:image    tourisme:IMAGE_Hotel_Mercure_Madrid_Plaza_de_Espana ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Mercure_Madrid_Plaza_de_Espana .
+
+tourisme:IMAGE_Monument_Musee_Matisse_Nice
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Musée_Matisse_Nice.JPG?width=300" .
 
 tourisme:URL_Hotel_Sercotel_Suites_Viena
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d631004-Reviews-Sercotel_Suites_Viena-Madrid.html" .
 
 tourisme:NH_Collection_Palacio_de_Tepa
         a                 tourisme:Hotel ;
+        rdfs:label        "NH Collection Palacio de Tepa" ;
         tourisme:adresse  "San Sebastian, 2 | Barrio de Las Letras, 28012 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
@@ -3361,6 +4064,9 @@ tourisme:NH_Collection_Palacio_de_Tepa
 
 tourisme:URL_Hotel_Hotel_Castle
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1059872-Reviews-Hotel_Castle-Rome_Lazio.html" .
+
+tourisme:IMAGE_Hotel_Albergo_del_Senato
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-fw/05/93/b6/fa/front-desk--v1773617-48.jpg" .
 
 tourisme:Gastro_Wriasko
         a                   tourisme:Restaurant ;
@@ -3373,6 +4079,9 @@ tourisme:Gastro_Wriasko
 
 tourisme:URL_Hotel_Grand_Hotel_le_Florence
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d220181-Reviews-Grand_Hotel_le_Florence-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
+
+tourisme:IMAGE_Hotel_Saint_James_Paris_Relais_et_Chateaux
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/05/ea/d3/1b/saint-james-paris-relais.jpg" .
 
 tourisme:URL_Restaurant_Taberna_del_Chato
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3476797-Reviews-Taberna_del_Chato-Madrid.html" .
@@ -3387,10 +4096,15 @@ tourisme:Vol1  a              tourisme:VolLoisir ;
 
 tourisme:Novotel_Brussels_Grand_Place
         a                 tourisme:Hotel ;
+        rdfs:label        "Novotel Brussels Grand Place" ;
         tourisme:adresse  "120 rue du Marche Aux Herbes | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Novotel_Brussels_Grand_Place ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Novotel_Brussels_Grand_Place .
+
+tourisme:IMAGE_Hotel_Hotel_Paris_Villette
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/05/13/d8/d3/hotel-paris-villette.jpg" .
 
 tourisme:Bon-bon  a         tourisme:Restaurant ;
         rdfs:label          "Bon-bon" ;
@@ -3402,6 +4116,9 @@ tourisme:Bon-bon  a         tourisme:Restaurant ;
 
 tourisme:URL_Restaurant_DokiDoki
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d7125336-Reviews-DokiDoki-Madrid.html" .
+
+tourisme:IMAGE_Hotel_Grand_Hotel_Francais
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/03/c9/bb/7a/grand-hotel-francais.jpg" .
 
 tourisme:Bateau_le_Calife
         a                   tourisme:Restaurant ;
@@ -3446,6 +4163,7 @@ tourisme:URL_Hotel_W_Barcelona
 
 tourisme:Sofitel_Munich_Bayerpost
         a                 tourisme:Hotel ;
+        rdfs:label        "Sofitel Munich Bayerpost" ;
         tourisme:adresse  "Bayerstrasse 12 | 80335 Munich, 80335 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "5.0 sur 5" ;
@@ -3462,8 +4180,15 @@ tourisme:Le_Vingt4  a       tourisme:Restaurant ;
 tourisme:URL_Restaurant_Todo_Pasa
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d6561880-Reviews-Todo_Pasa-Barcelona_Catalonia.html" .
 
+tourisme:IMAGE_Hotel_Hotel_dei_Borgia
+        rdfs:label  "" .
+
+tourisme:IMAGE_Hotel_ibis_budget_Paris_Porte_d_Orleans
+        rdfs:label  "" .
+
 tourisme:Bayerischer_Hof_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Bayerischer Hof Hotel" ;
         tourisme:adresse  "2-6 Promenadeplatz, 80333 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "5.0 sur 5" ;
@@ -3488,10 +4213,15 @@ tourisme:Neuhaus_Galerie_de_la_Reine_-_Salon_de_Chocolat
 
 tourisme:Appia_Antica_Resort
         a                 tourisme:Hotel ;
+        rdfs:label        "Appia Antica Resort" ;
         tourisme:adresse  "Via Appia Pignatelli 368, 00178 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Appia_Antica_Resort ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Appia_Antica_Resort .
+
+tourisme:IMAGE_Hotel_Hotel_Georgette
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/03/8a/80/38/hotel-georgette.jpg" .
 
 tourisme:URL_Restaurant_Miseria_e_Nobilta
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7158449-Reviews-Miseria_e_Nobilta-Barcelona_Catalonia.html" .
@@ -3505,15 +4235,19 @@ tourisme:URL_Hotel_Hotel_Vice_Versa
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d3317600-Reviews-Hotel_Vice_Versa-Paris_Ile_de_France.html" .
 
 tourisme:The_Hotel  a     tourisme:Hotel ;
+        rdfs:label        "The Hotel" ;
         tourisme:adresse  "38, Boulevard de Waterloo, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_The_Hotel ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_The_Hotel .
 
 tourisme:Mandarin_Oriental_Munich
         a                 tourisme:Hotel ;
+        rdfs:label        "Mandarin Oriental Munich" ;
         tourisme:adresse  "Neuturmstrasse 1, 80331 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
+        tourisme:image    tourisme:IMAGE_Hotel_Mandarin_Oriental_Munich ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Mandarin_Oriental_Munich .
 
@@ -3537,6 +4271,7 @@ tourisme:Polly_and_Cie
 
 tourisme:Hotel_Muenchen_Palace
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Muenchen Palace" ;
         tourisme:adresse  "Trogerstrasse 21, 81675 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "5.0 sur 5" ;
@@ -3544,6 +4279,7 @@ tourisme:Hotel_Muenchen_Palace
 
 tourisme:Mercure_Nice_Promenade_des_Anglais
         a                 tourisme:Hotel ;
+        rdfs:label        "Mercure Nice Promenade des Anglais" ;
         tourisme:adresse  "2 rue Halevy, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
@@ -3560,8 +4296,10 @@ tourisme:Le_Sixieme_Sens
 
 tourisme:Hotel_Romanico_Palace
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Romanico Palace" ;
         tourisme:adresse  "Via Boncompagni 37, 00187 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Romanico_Palace ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Romanico_Palace .
 
@@ -3577,6 +4315,9 @@ tourisme:Aux_Petits_Plaisirs
 tourisme:URL_Hotel_Aldrovandi_Villa_Borghese
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d228986-Reviews-Aldrovandi_Villa_Borghese-Rome_Lazio.html" .
 
+tourisme:URL_Hotel_Five_Hotel
+        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d621170-Reviews-The_Five_Hotel-Paris_Ile_de_France.html" .
+
 tourisme:Gourmet_Restaurant_Koenigshof
         a                   tourisme:Restaurant ;
         rdfs:label          "Gourmet Restaurant Koenigshof" ;
@@ -3585,9 +4326,6 @@ tourisme:Gourmet_Restaurant_Koenigshof
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Gourmet_Restaurant_Koenigshof ;
         tourisme:telephone  "+49 89 55136141" .
-
-tourisme:URL_Hotel_Five_Hotel
-        rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d621170-Reviews-The_Five_Hotel-Paris_Ile_de_France.html" .
 
 tourisme:URL_Hotel_Hotel_Torbraeu
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d201931-Reviews-Hotel_Torbraeu-Munich_Upper_Bavaria_Bavaria.html" .
@@ -3624,13 +4362,16 @@ tourisme:Le_114_Faubourg
 
 tourisme:Metropole_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Metropole Hotel" ;
         tourisme:adresse  "Place De Brouckere 31 | Brussels, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Metropole_Hotel ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Metropole_Hotel .
 
 tourisme:Urban_Hotel_Madrid
         a                 tourisme:Hotel ;
+        rdfs:label        "Urban Hotel Madrid" ;
         tourisme:adresse  "Carrera de San Jeronimo 34, 28014 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
@@ -3654,25 +4395,42 @@ tourisme:Tramonti_e_Muffati
         tourisme:siteWeb    tourisme:URL_Restaurant_Tramonti_e_Muffati ;
         tourisme:telephone  "+39 06 780 1342" .
 
+tourisme:URL_Monument_Galleria_Borghese
+        rdfs:label  "http://www.galleriaborghese.it/" .
+
+tourisme:IMAGE_Hotel_La_Manufacture
+        rdfs:label  "" .
+
 tourisme:URL_Hotel_The_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d241754-Reviews-The_Hotel_Brussels-Brussels.html" .
 
+tourisme:IMAGE_Hotel_Sofitel_Rome_Villa_Borghese
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/01/bd/b4/af/hotel-facade.jpg" .
+
+tourisme:IMAGE_Monument_Museo_del_Prado
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Museo_del_Prado_(Madrid)_04.jpg?width=300" .
+
 tourisme:Hotel_Joyce_Astotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Joyce Astotel" ;
         tourisme:adresse  "29 rue la Bruyere, 75009 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Joyce_Astotel ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Joyce_Astotel .
 
 tourisme:Hotel_Le_Six
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Le Six" ;
         tourisme:adresse  "14, rue Stanislas, 75006 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Le_Six ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Le_Six .
 
 tourisme:Hotel_Windsor_Nice
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Windsor Nice" ;
         tourisme:adresse  "11 rue Dalpozzo, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "4.0 sur 5" ;
@@ -3696,32 +4454,39 @@ tourisme:Le_Reminet  a      tourisme:Restaurant ;
 
 tourisme:Hotel_Vier_Jahreszeiten_Kempinski_Munchen
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Vier Jahreszeiten Kempinski Munchen" ;
         tourisme:adresse  "Maximilianstrasse 17, 80539 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Vier_Jahreszeiten_Kempinski_Munchen .
 
-tourisme:URL_Restaurant_C_est_Bon_C_est_Belge
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3741305-Reviews-C_est_Bon_C_est_Belge-Brussels.html" .
-
-tourisme:Le_Bristol_Paris
-        a                 tourisme:Hotel ;
-        tourisme:adresse  "112 rue du Faubourg Saint-HonorÃ© | 8th Arr., 75008 Paris, France " ;
-        tourisme:dans     dbpedia-resource:Paris ;
-        tourisme:note     "5.0 sur 5" ;
-        tourisme:siteWeb  tourisme:URL_Hotel_Le_Bristol_Paris .
-
 tourisme:Hotel_Plaza_Athenee
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Plaza Athenee" ;
         tourisme:adresse  "25 avenue Montaigne | 25 Avenue Montaigne, 75008 Paris, 75008 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Plaza_Athenee ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Plaza_Athenee .
 
+tourisme:Le_Bristol_Paris
+        a                 tourisme:Hotel ;
+        rdfs:label        "Le Bristol Paris" ;
+        tourisme:adresse  "112 rue du Faubourg Saint-HonorÃ© | 8th Arr., 75008 Paris, France " ;
+        tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Le_Bristol_Paris ;
+        tourisme:note     "5.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Le_Bristol_Paris .
+
+tourisme:URL_Restaurant_C_est_Bon_C_est_Belge
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g188644-d3741305-Reviews-C_est_Bon_C_est_Belge-Brussels.html" .
+
 tourisme:MEININGER_Hotel_Brussels_City_Center
         a                 tourisme:Hotel ;
+        rdfs:label        "MEININGER Hotel Brussels City Center" ;
         tourisme:adresse  "Quai Du Hainaut 33, Bruxelles 1080, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_MEININGER_Hotel_Brussels_City_Center ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_MEININGER_Hotel_Brussels_City_Center .
 
@@ -3736,15 +4501,24 @@ dbpedia-resource:Grand_Palais
 
 tourisme:Hotel_Arts_Barcelona
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Arts Barcelona" ;
         tourisme:adresse  "Marina 19 - 21, 08005 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Arts_Barcelona .
 
+tourisme:IMAGE_Hotel_Barocco_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/03/6d/7b/8b/junior-suite-light-sight.jpg" .
+
+tourisme:IMAGE_Hotel_Hotel_Regina
+        rdfs:label  "" .
+
 tourisme:Made_in_Louise
         a                 tourisme:Hotel ;
+        rdfs:label        "Made in Louise" ;
         tourisme:adresse  "40 Rue Veydt, Ixelles, Bruxelles 1050, Belgique (Anciennement Louise Hotel)" ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Made_in_Louise ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Made_in_Louise .
 
@@ -3783,16 +4557,21 @@ tourisme:URL_Hotel_Hotel_Arts_Barcelona
 
 tourisme:Villa_Emilia
         a                 tourisme:Hotel ;
+        rdfs:label        "Villa Emilia" ;
         tourisme:adresse  "Calle Calabria 115-117, 08015 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Villa_Emilia .
+
+tourisme:IMAGE_Hotel_Hotel_Felicien_by_Elegancia
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fe/1e/6e/chambre-collection-etage.jpg" .
 
 tourisme:URL_Restaurant_Pastry_Plaisirs
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d3561018-Reviews-Pastry_Plaisirs-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Gran_Hotel_Princesa_Sofia
         a                 tourisme:Hotel ;
+        rdfs:label        "Gran Hotel Princesa Sofia" ;
         tourisme:adresse  "Plaza Pio XII 4, 08028 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "5.0 sur 5" ;
@@ -3801,11 +4580,11 @@ tourisme:Gran_Hotel_Princesa_Sofia
 tourisme:France  a  tourisme:Pays ;
         rdfs:label  "France" .
 
-tourisme:Germany  a  tourisme:Pays ;
-        rdfs:label  "Germany" .
-
 tourisme:URL_Restaurant_Bacio_Di_Puglia
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d6578187-Reviews-Bacio_Di_Puglia-Rome_Lazio.html" .
+
+tourisme:Germany  a  tourisme:Pays ;
+        rdfs:label  "Germany" .
 
 tourisme:Kreta_Grill  a     tourisme:Restaurant ;
         rdfs:label          "Kreta Grill" ;
@@ -3817,15 +4596,19 @@ tourisme:Kreta_Grill  a     tourisme:Restaurant ;
 
 tourisme:Sheraton_Brussels_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Sheraton Brussels Hotel" ;
         tourisme:adresse  "Place Rogier 3, Saint-Josse-ten-Noode, Bruxelles 1210, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Sheraton_Brussels_Hotel ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Sheraton_Brussels_Hotel .
 
 tourisme:Four_Seasons_Hotel_George_V_Paris
         a                 tourisme:Hotel ;
+        rdfs:label        "Four Seasons Hotel George V Paris" ;
         tourisme:adresse  "31 Av George V | 8th Arr., 75008 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Four_Seasons_Hotel_George_V_Paris ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Four_Seasons_Hotel_George_V_Paris .
 
@@ -3840,6 +4623,9 @@ tourisme:Cobea  a           tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Cobea ;
         tourisme:telephone  "+33 1 43 20 21 39 " .
 
+tourisme:URL_Restaurant_Tramonti_e_Muffati
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d798103-Reviews-Tramonti_e_Muffati-Rome_Lazio.html" .
+
 tourisme:Tast-Ller  a       tourisme:Restaurant ;
         rdfs:label          "Tast-Ller" ;
         tourisme:adresse    "Barri Gotic, 08002 Barcelone, Espagne " ;
@@ -3848,28 +4634,33 @@ tourisme:Tast-Ller  a       tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Tast-Ller ;
         tourisme:telephone  "+34 663 83 37 17" .
 
-tourisme:URL_Restaurant_Tramonti_e_Muffati
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d798103-Reviews-Tramonti_e_Muffati-Rome_Lazio.html" .
-
 tourisme:URL_Hotel_ibis_budget_Paris_Porte_d_Orleans
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d507437-Reviews-Ibis_budget_Paris_Porte_d_Orleans-Paris_Ile_de_France.html" .
 
 tourisme:Saint_James_Paris_Relais_et_Chateaux
         a                 tourisme:Hotel ;
+        rdfs:label        "Saint James Paris Relais et Chateaux" ;
         tourisme:adresse  "43 avenue Bugeaud, 75116 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Saint_James_Paris_Relais_et_Chateaux ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Saint_James_Paris_Relais_et_Chateaux .
 
+tourisme:IMAGE_Hotel_Mercure_Madrid_Plaza_de_Espana
+        rdfs:label  "" .
+
 tourisme:Aloft_Brussels_Schuman_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Aloft Brussels Schuman Hotel" ;
         tourisme:adresse  "Place Jean Rey, Etterbeek, Bruxelles 1040, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Aloft_Brussels_Schuman_Hotel ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Aloft_Brussels_Schuman_Hotel .
 
 tourisme:Eurostars_Grand_Central
         a                 tourisme:Hotel ;
+        rdfs:label        "Eurostars Grand Central" ;
         tourisme:adresse  "Arnulfstrasse 35, 80335 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "4.0 sur 5" ;
@@ -3895,6 +4686,15 @@ tourisme:La_Mie_Cale  a     tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_La_Mie_Cale ;
         tourisme:telephone  "+33 1 43 20 02 90" .
 
+dbpedia-resource:Galleria_Borghese
+        a                      tourisme:Monument ;
+        rdfs:label             "Galleria_Borghese" ;
+        tourisme:dans          dbpedia-resource:Rome ;
+        tourisme:description   "La Galerie Borghèse est un musée public situé dans le parc de la Villa Borghèse à Rome." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Galleria_Borghese ;
+        tourisme:localisation  "41.914 12.492" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Galleria_Borghese .
+
 tourisme:L_inattendu  a     tourisme:Restaurant ;
         rdfs:label          "L inattendu" ;
         tourisme:adresse    "13 Rue St Paul, 75004 Paris, France " ;
@@ -3912,6 +4712,9 @@ tourisme:Shane_s_Restaurant
         tourisme:siteWeb    tourisme:URL_Restaurant_Shane_s_Restaurant ;
         tourisme:telephone  "089 74 64 68 20" .
 
+tourisme:IMAGE_Hotel_Crowne_Plaza_Paris_Republique
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fe/86/4b/special-events.jpg" .
+
 tourisme:URL_Restaurant_Gourmet_Restaurant_Koenigshof
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d983174-Reviews-Gourmet_Restaurant_Koenigshof-Munich_Upper_Bavaria_Bavaria.html" .
 
@@ -3919,30 +4722,57 @@ tourisme:URL_Hotel_Hotel_Indigo_Madrid__Gran_Via
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d4962318-Reviews-Hotel_Indigo_Madrid_Gran_Via-Madrid.html" .
 
 dbpedia-resource:Munich
-        a                      tourisme:Ville ;
-        rdfs:label             "Munich" ;
-        tourisme:codePostale   "80331–81929" ;
-        tourisme:dansPays      tourisme:Germany ;
-        tourisme:description   "Munich [mynik] (München en allemand, Minga en bavarois) est, avec 1 443 122 habitants, la troisième ville d'Allemagne par la population après Berlin et Hambourg. Son aire urbaine compte 2 351 706 habitants. Munich est la capitale du Land de Bavière et du district de Haute-Bavière. Située entre 482 et 579 mètres d'altitude, la ville est traversée par l'Isar sur une distance de 13,7 km, du sud-ouest au nord-est. Important pôle économique, siège de grandes sociétés dont Siemens, Allianz, BMW, Münchener Rückversicherung, Linde, EADS Deutschland et HypoVereinsbank.Selon Eurostat, la zone urbaine élargie de la région métropolitaine de Munich est la plus importante d'Allemagne en termes de PIB avec 117,6 milliards d'euros, devant Hambourg, Berlin et Francfort. Avec un PIB par habitant de 53 073 euros, Munich est également l'une des villes les plus riches de l'Union européenne.La ville est célèbre pour sa traditionnelle fête de la bière (Oktoberfest) qui se déroule, chaque année, de fin septembre à début octobre.C'est la deuxième destination touristique d'Allemagne après Berlin.Les habitants de Munich sont des Munichois(e)s.@fr" ;
-        tourisme:imageUrl      tourisme:IMAGE_Ville_Munich ;
-        tourisme:localisation  "48.13333333333333 11.566666666666666" ;
-        tourisme:siteWeb       tourisme:URL_Ville_Munich .
+        a                          tourisme:Ville ;
+        rdfs:label                 "Munich" ;
+        tourisme:codePostale       "80331–81929" ;
+        tourisme:contientMonument  dbpedia-resource:Alte_Pinakothek ;
+        tourisme:dansPays          tourisme:Germany ;
+        tourisme:description       "Munich [mynik] (München en allemand, Minga en bavarois) est, avec 1 443 122 habitants, la troisième ville d'Allemagne par la population après Berlin et Hambourg. Son aire urbaine compte 2 351 706 habitants. Munich est la capitale du Land de Bavière et du district de Haute-Bavière. Située entre 482 et 579 mètres d'altitude, la ville est traversée par l'Isar sur une distance de 13,7 km, du sud-ouest au nord-est. Important pôle économique, siège de grandes sociétés dont Siemens, Allianz, BMW, Münchener Rückversicherung, Linde, EADS Deutschland et HypoVereinsbank.Selon Eurostat, la zone urbaine élargie de la région métropolitaine de Munich est la plus importante d'Allemagne en termes de PIB avec 117,6 milliards d'euros, devant Hambourg, Berlin et Francfort. Avec un PIB par habitant de 53 073 euros, Munich est également l'une des villes les plus riches de l'Union européenne.La ville est célèbre pour sa traditionnelle fête de la bière (Oktoberfest) qui se déroule, chaque année, de fin septembre à début octobre.C'est la deuxième destination touristique d'Allemagne après Berlin.Les habitants de Munich sont des Munichois(e)s.@fr" ;
+        tourisme:imageUrl          tourisme:IMAGE_Ville_Munich ;
+        tourisme:localisation      "48.13333333333333 11.566666666666666" ;
+        tourisme:siteWeb           tourisme:URL_Ville_Munich .
+
+tourisme:IMAGE_Hotel_Le_Grimaldi
+        rdfs:label  "" .
+
+tourisme:IMAGE_Hotel_Hotel_Romanico_Palace
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/fe/22/42/prestige-room.jpg" .
+
+dbpedia-resource:Cite_des_Sciences_et_de_l_Industrie
+        a                      tourisme:Monument ;
+        rdfs:label             "Cite_des_Sciences_et_de_l_Industrie" ;
+        tourisme:dans          dbpedia-resource:Paris ;
+        tourisme:description   "La Cité des sciences et de l’industrie est un établissement spécialisé dans la diffusion de la culture scientifique et technique. Crée à l'initiative du Président Giscard d'Estaing, elle a pour mission de diffuser à un large public, notamment aux enfants et aux adolescents, les connaissances scientifiques et techniques, ainsi que de susciter l'intérêt des citoyens pour les enjeux de société liés à la science, à la recherche et à l'industrie.La Cité est située dans le Parc de la Villette au niveau de la porte de la Villette, sur un emplacement occupé auparavant par les abattoirs de la Villette, dans le XIXe arrondissement de Paris, en France. Elle est au cœur d'un dispositif visant à valoriser la culture scientifique et technique : les Centres de culture scientifique, technique et industrielle (CCSTI). Avec la Cité de la musique et Le Conservatoire national supérieur de musique et de danse de Paris, elle fait partie du parc de la Villette.Le projet de réhabilitation des abattoirs, qui a pour vocation de les transformer en musée des sciences et techniques est confié le 15 septembre 1980 à Adrien Fainsilber. Complément du Palais de la découverte situé au Grand Palais, la Cité des sciences et de l'industrie ouvre ses portes le 13 mars 1986, inaugurée par François Mitterrand à l'occasion de la rencontre entre la sonde astronomique Giotto et la Comète de Halley. En 2009, la Cité des sciences et le Palais de la découverte sont regroupés dans un établissement commun, nommé Universcience, au statut d’EPIC." ;
+        tourisme:imageUrl      tourisme:IMAGE_Monument_Cite_des_Sciences_et_de_l_Industrie ;
+        tourisme:localisation  "48.895556 2.388056" ;
+        tourisme:siteWeb       tourisme:URL_Monument_Cite_des_Sciences_et_de_l_Industrie .
 
 tourisme:URL_Restaurant_Epicure
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html" .
 
+tourisme:IMAGE_Monument_National_Museum_of_Natural_History_France
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Logo_mnhn.jpg?width=300" .
+
 tourisme:URL_Hotel_Praktik_Metropol
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d530931-Reviews-Praktik_Metropol-Madrid.html" .
 
-tourisme:Pullman_Brussels_Midi_Hotel
-        a                 tourisme:Hotel ;
-        tourisme:adresse  "Place Victor Horta 1, Bruxelles 1060, Belgique " ;
-        tourisme:dans     dbpedia-resource:Bruxelle ;
-        tourisme:note     "4.0 sur 5" ;
-        tourisme:siteWeb  tourisme:URL_Hotel_Pullman_Brussels_Midi_Hotel .
+tourisme:URL_Monument_British_School_at_Rome
+        rdfs:label  "http://www.bsr.ac.uk/" .
+
+tourisme:IMAGE_Hotel_Renaissance_Brussels_Hotel
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/fe/34/53/world-class-fitness-indoor.jpg" .
 
 tourisme:URL_Hotel_La_Manufacture
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d197563-Reviews-La_Manufacture-Paris_Ile_de_France.html" .
+
+tourisme:Pullman_Brussels_Midi_Hotel
+        a                 tourisme:Hotel ;
+        rdfs:label        "Pullman Brussels Midi Hotel" ;
+        tourisme:adresse  "Place Victor Horta 1, Bruxelles 1060, Belgique " ;
+        tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Pullman_Brussels_Midi_Hotel ;
+        tourisme:note     "4.0 sur 5" ;
+        tourisme:siteWeb  tourisme:URL_Hotel_Pullman_Brussels_Midi_Hotel .
 
 tourisme:URL_Hotel_Barocco_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d203175-Reviews-Barocco_Hotel-Rome_Lazio.html" .
@@ -3950,14 +4780,22 @@ tourisme:URL_Hotel_Barocco_Hotel
 tourisme:URL_Hotel_Wellington_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d228658-Reviews-Wellington_Hotel-Madrid.html" .
 
+tourisme:IMAGE_Hotel_Relais_6
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/02/a0/f2/17/filename-hotel-facade.jpg" .
+
+tourisme:IMAGE_Hotel_Hotel_Pulitzer_Roma
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/ce/32/83/hotel-pulitzer-roma.jpg" .
+
 tourisme:Hotel_Cocoon_Stachus
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Cocoon Stachus" ;
         tourisme:adresse  "Adolf-Kolping-Str. 11, 80336 Munich, BaviÃ¨re, Allemagne " ;
         tourisme:dans     dbpedia-resource:Munich ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Cocoon_Stachus .
 
 tourisme:Hotel_Jazz  a    tourisme:Hotel ;
+        rdfs:label        "Hotel Jazz" ;
         tourisme:adresse  "Pelai 3, 08001 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "3.0 sur 5" ;
@@ -3965,6 +4803,7 @@ tourisme:Hotel_Jazz  a    tourisme:Hotel ;
 
 tourisme:Pullman_Barcelona_Skipper
         a                 tourisme:Hotel ;
+        rdfs:label        "Pullman Barcelona Skipper" ;
         tourisme:adresse  "Avinguda Litoral 10, 08005 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "5.0 sur 5" ;
@@ -3976,6 +4815,9 @@ tourisme:URL_Hotel_Alma_Barcelona
 tourisme:URL_Hotel_Pullman_Brussels_Midi_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d4108273-Reviews-Pullman_Brussels_Midi_Hotel-Brussels.html" .
 
+tourisme:IMAGE_Monument_Musee_des_Arts_Forains
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/MuseeDesArtsForains04Dec2011.JPG?width=300" .
+
 tourisme:Vol8  a              tourisme:VolLoisir ;
         dc:identifier         "8" ;
         tourisme:depart       dbpedia-resource:Nice ;
@@ -3986,8 +4828,10 @@ tourisme:URL_Restaurant_Boulangerie_Charli
 
 tourisme:Stanhope_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Stanhope Hotel" ;
         tourisme:adresse  "9, Rue du Commerce, Bruxelles 1000, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Stanhope_Hotel ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Stanhope_Hotel .
 
@@ -3999,6 +4843,12 @@ tourisme:URL_Hotel_Louis_Hotel
 
 tourisme:URL_Hotel_Condado_Hotel_Barcelona
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228531-Reviews-Condado_Hotel_Barcelona-Barcelona_Catalonia.html" .
+
+tourisme:IMAGE_Hotel_Metropole_Hotel
+        rdfs:label  "" .
+
+tourisme:IMAGE_Hotel_Villa_Spalletti_Trivelli
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/01/99/d5/54/front-view-villa-spalleti.jpg" .
 
 tourisme:URL_Restaurant_Vinos_de_Bellota
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d3530204-Reviews-Vinos_de_Bellota-Madrid.html" .
@@ -4038,10 +4888,14 @@ tourisme:NOI_Nuova_Osteria_Italiana
 
 tourisme:Hyatt_Regency_Nice_Palais_de_la_Mediterranee
         a                 tourisme:Hotel ;
+        rdfs:label        "Hyatt Regency Nice Palais de la Mediterranee" ;
         tourisme:adresse  "13 Promenade des Anglais, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hyatt_Regency_Nice_Palais_de_la_Mediterranee .
+
+tourisme:IMAGE_Hotel_Artemide_Hotel
+        rdfs:label  "" .
 
 tourisme:URL_Hotel_The_Inn_At_The_Roman_Forum_-_Small_Luxury_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d596437-Reviews-The_Inn_At_The_Roman_Forum_Small_Luxury_Hotel-Rome_Lazio.html" .
@@ -4060,6 +4914,9 @@ tourisme:URL_Restaurant_Shane_s_Restaurant
 
 tourisme:URL_Hotel_iQ_Hotel_Roma
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d1729030-Reviews-IQ_Hotel_Roma-Rome_Lazio.html" .
+
+tourisme:IMAGE_Hotel_Hotel_Dharma
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/05/c9/e3/ec/hotel-dharma.jpg" .
 
 tourisme:La_Villa_Lorraine
         a                   tourisme:Restaurant ;
@@ -4084,6 +4941,7 @@ tourisme:Der_Verrueckte_Eismacher
 
 tourisme:Hotel_Indigo_Madrid__Gran_Via
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Indigo Madrid  Gran Via" ;
         tourisme:adresse  "Calle Silva 6, 28013 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
@@ -4116,12 +4974,6 @@ tourisme:Miseria_e_Nobilta
 tourisme:URL_Restaurant_Le_Chantecler
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d965976-Reviews-Le_Chantecler-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
-tourisme:URL_Restaurant_I_Vicini_Bistrot
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7097365-Reviews-I_Vicini_Bistrot-Rome_Lazio.html" .
-
-tourisme:URL_Restaurant_Carabassa_Restaurant
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3357229-Reviews-Carabassa_Restaurant-Barcelona_Catalonia.html" .
-
 tourisme:Oliviera  a        tourisme:Restaurant ;
         rdfs:label          "Oliviera" ;
         tourisme:adresse    "8 bis rue du Collet, 06300 Nice, France " ;
@@ -4129,6 +4981,15 @@ tourisme:Oliviera  a        tourisme:Restaurant ;
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Oliviera ;
         tourisme:telephone  "0493130645" .
+
+tourisme:URL_Restaurant_I_Vicini_Bistrot
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d7097365-Reviews-I_Vicini_Bistrot-Rome_Lazio.html" .
+
+tourisme:URL_Restaurant_Carabassa_Restaurant
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d3357229-Reviews-Carabassa_Restaurant-Barcelona_Catalonia.html" .
+
+tourisme:IMAGE_Hotel_Shangri_La_Hotel_Paris
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/04/66/97/3f/shangri-la-hotel-paris.jpg" .
 
 tourisme:URL_Hotel_Ibis_Styles_Nice_Aeroport
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d1143056-Reviews-Ibis_Styles_Nice_Aeroport-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
@@ -4144,6 +5005,7 @@ tourisme:Nissart_Burger
 
 tourisme:Gran_Hotel_Torre_Catalunya
         a                 tourisme:Hotel ;
+        rdfs:label        "Gran Hotel Torre Catalunya" ;
         tourisme:adresse  "Avda de Roma 2-4, 08014 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.5 sur 5" ;
@@ -4151,8 +5013,10 @@ tourisme:Gran_Hotel_Torre_Catalunya
 
 tourisme:Crowne_Plaza_Hotel_Brussels_-_Le_Palace
         a                 tourisme:Hotel ;
+        rdfs:label        "Crowne Plaza Hotel Brussels - Le Palace" ;
         tourisme:adresse  "Rue Gineste 3, Saint-Josse-ten-Noode, Bruxelles 1210, Belgique " ;
         tourisme:dans     dbpedia-resource:Bruxelle ;
+        tourisme:image    tourisme:IMAGE_Hotel_Crowne_Plaza_Hotel_Brussels_-_Le_Palace ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Crowne_Plaza_Hotel_Brussels_-_Le_Palace .
 
@@ -4167,6 +5031,7 @@ tourisme:Moeder_Lambic_Fontainas
 
 tourisme:Barcelo_Sants
         a                 tourisme:Hotel ;
+        rdfs:label        "Barcelo Sants" ;
         tourisme:adresse  "Pl PaÃ¯sos Catalans, Estacion Barcelona Sants, 08014 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "4.0 sur 5" ;
@@ -4183,8 +5048,10 @@ tourisme:Carlota_Akaneya
 
 tourisme:Raffaello_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Raffaello Hotel" ;
         tourisme:adresse  "Via Urbana 3 / 5, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Raffaello_Hotel ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Raffaello_Hotel .
 
@@ -4209,6 +5076,7 @@ tourisme:Vol3  a              tourisme:VolLoisir ;
 
 tourisme:EuroPark_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "EuroPark Hotel" ;
         tourisme:adresse  "Arago 325, 08009 Barcelone, Espagne " ;
         tourisme:dans     dbpedia-resource:Barcelone ;
         tourisme:note     "3.0 sur 5" ;
@@ -4216,6 +5084,9 @@ tourisme:EuroPark_Hotel
 
 tourisme:URL_Monument_The_Louvre
         rdfs:label  "http://www.louvre.fr/en/homepage" .
+
+tourisme:URL_Monument_Musee_Matisse_Nice
+        rdfs:label  "http://www.musee-matisse-nice.org/" .
 
 tourisme:URL_Restaurant_Koy_Shunka
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d1471799-Reviews-Koy_Shunka-Barcelona_Catalonia.html" .
@@ -4234,6 +5105,7 @@ tourisme:URL_Hotel_Gran_Hotel_Torre_Catalunya
 
 tourisme:NH_Collection_Madrid_Abascal
         a                 tourisme:Hotel ;
+        rdfs:label        "NH Collection Madrid Abascal" ;
         tourisme:adresse  "c/Jose Abascal 47 | Chamberi, 28003 Madrid, Espagne (Anciennement NH Abascal)" ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "4.0 sur 5" ;
@@ -4250,16 +5122,22 @@ tourisme:Vinos_de_Bellota
 
 tourisme:Mercure_Rome_Colosseum_Centre
         a                 tourisme:Hotel ;
+        rdfs:label        "Mercure Rome Colosseum Centre" ;
         tourisme:adresse  "Via Labicana 144, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Mercure_Rome_Colosseum_Centre ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Mercure_Rome_Colosseum_Centre .
+
+tourisme:IMAGE_Hotel_Hotel_Le_Plaza
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/01/99/6b/34/lobby.jpg" .
 
 tourisme:URL_Hotel_Platzl_Hotel
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d228386-Reviews-Platzl_Hotel-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Sheraton_Madrid_Mirasierra_Hotel
         a                 tourisme:Hotel ;
+        rdfs:label        "Sheraton Madrid Mirasierra Hotel" ;
         tourisme:adresse  "Calle Alfredo Marquerie 43, 28034 Madrid, Espagne " ;
         tourisme:dans     dbpedia-resource:Madrid ;
         tourisme:note     "5.0 sur 5" ;
@@ -4276,6 +5154,7 @@ tourisme:URL_Hotel_Shangri_La_Hotel_Paris
 
 tourisme:Hotel_Vendome
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Vendome" ;
         tourisme:adresse  "26, rue Pastorelli, 06000 Nice, France " ;
         tourisme:dans     dbpedia-resource:Nice ;
         tourisme:note     "3.0 sur 5" ;
@@ -4303,10 +5182,15 @@ tourisme:Volluxcar  a  tourisme:AgenceLocationVoiture ;
         tourisme:dans  dbpedia-resource:Bruxelle .
 
 tourisme:Relais_6  a      tourisme:Hotel ;
+        rdfs:label        "Relais 6" ;
         tourisme:adresse  "Via Tolmino 6, 00198 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_Relais_6 ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Relais_6 .
+
+tourisme:IMAGE_Monument_Alte_Pinakothek
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Alte_Pinakothek.JPG?width=300" .
 
 tourisme:Nostos  a          tourisme:Restaurant ;
         rdfs:label          "Nostos" ;
@@ -4324,6 +5208,9 @@ tourisme:Buenos_Aires_Grill_Restaurant
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Buenos_Aires_Grill_Restaurant ;
         tourisme:telephone  "+34 933 28 46 33" .
+
+tourisme:IMAGE_Hotel_Worldhotel_Ripa_Roma
+        rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fe/84/f2/worldhotel-ripa-roma.jpg" .
 
 tourisme:URL_Hotel_Barcelo_Sants
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187497-d228507-Reviews-Barcelo_Sants-Barcelona_Catalonia.html" .
@@ -4343,6 +5230,9 @@ tourisme:URL_Restaurant_Polly_and_Cie
 tourisme:URL_Restaurant_Nostos
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d2721198-Reviews-Nostos-Munich_Upper_Bavaria_Bavaria.html" .
 
+tourisme:IMAGE_Monument_Galleria_Borghese
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Galleria_Borghese2.jpg?width=300" .
+
 tourisme:Comme_Chez_Soi
         a                   tourisme:Restaurant ;
         rdfs:label          "Comme Chez Soi" ;
@@ -4351,6 +5241,9 @@ tourisme:Comme_Chez_Soi
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Comme_Chez_Soi ;
         tourisme:telephone  "+32 2 512 29 21" .
+
+tourisme:IMAGE_Hotel_Ibis_Styles_Nice_Aeroport
+        rdfs:label  "" .
 
 tourisme:URL_Hotel_Hotel_Pulitzer_Roma
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d852315-Reviews-Hotel_Pulitzer_Roma-Rome_Lazio.html" .
@@ -4363,8 +5256,10 @@ tourisme:URL_Hotel_Hotel_1898
 
 tourisme:UNA_Hotel_Roma
         a                 tourisme:Hotel ;
+        rdfs:label        "UNA Hotel Roma" ;
         tourisme:adresse  "Via Giovanni Amendola 57, 00185 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_UNA_Hotel_Roma ;
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_UNA_Hotel_Roma .
 
@@ -4379,13 +5274,18 @@ tourisme:Le_Comptoir_de_la_Crepe
 
 tourisme:Ibis_Budget_Paris_La_Villette
         a                 tourisme:Hotel ;
+        rdfs:label        "Ibis Budget Paris La Villette" ;
         tourisme:adresse  "57 - 63 Avenue Jean Jaures | 19 Arr., 75019 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Ibis_Budget_Paris_La_Villette ;
         tourisme:note     "2.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Ibis_Budget_Paris_La_Villette .
 
 tourisme:URL_Restaurant_Algarabia
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d991733-Reviews-Algarabia-Madrid.html" .
+
+tourisme:IMAGE_Monument_Cite_de_l_economie_et_de_la_monnaie
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Hôtel_Gaillard_-_façade_extérieure_-_2000.jpg?width=300" .
 
 tourisme:URL_Restaurant_Dinnerhopping
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4085091-Reviews-Dinnerhopping-Munich_Upper_Bavaria_Bavaria.html" .
@@ -4393,20 +5293,24 @@ tourisme:URL_Restaurant_Dinnerhopping
 tourisme:URL_Restaurant_Chez_Mireille
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d1322108-Reviews-Chez_Mireille-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
-tourisme:URL_Restaurant_Mimmo_E_Co
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6676190-Reviews-Mimmo_E_Co-Munich_Upper_Bavaria_Bavaria.html" .
-
 tourisme:Hotel_Residence_Foch
         a                 tourisme:Hotel ;
+        rdfs:label        "Hotel Residence Foch" ;
         tourisme:adresse  "10 rue Marbeau, 75116 Paris, France " ;
         tourisme:dans     dbpedia-resource:Paris ;
+        tourisme:image    tourisme:IMAGE_Hotel_Hotel_Residence_Foch ;
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Residence_Foch .
 
+tourisme:URL_Restaurant_Mimmo_E_Co
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6676190-Reviews-Mimmo_E_Co-Munich_Upper_Bavaria_Bavaria.html" .
+
 tourisme:La_Griffe_Roma_MGallery_Collection
         a                 tourisme:Hotel ;
+        rdfs:label        "La Griffe Roma MGallery Collection" ;
         tourisme:adresse  "Via Nazionale 13, 00184 Rome, Italie " ;
         tourisme:dans     dbpedia-resource:Rome ;
+        tourisme:image    tourisme:IMAGE_Hotel_La_Griffe_Roma_MGallery_Collection ;
         tourisme:note     "5.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_La_Griffe_Roma_MGallery_Collection .
 

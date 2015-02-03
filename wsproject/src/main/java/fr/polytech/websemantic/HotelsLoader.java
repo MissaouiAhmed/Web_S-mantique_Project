@@ -45,6 +45,8 @@ public class HotelsLoader {
 
 				hotel.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Hotel"));
 
+				hotel.addProperty(RDFS.label, name);
+
 				Property propadresse = model
 						.createProperty("http://www.polytech.semantique/tourisme#adresse");
 				
@@ -58,7 +60,7 @@ public class HotelsLoader {
 	
 				hotel.addProperty(propadresse,adresse );
 
-				if(parts.length==4){
+				if(parts.length==5){
 					String image = parts[4];
 					
 				Property proptelphone = model
@@ -66,7 +68,7 @@ public class HotelsLoader {
 				
 				Resource imre=model.createResource("http://www.polytech.semantique/tourisme#IMAGE_Hotel_"+name
 						.replaceAll(" ", "_"));
-				urlre.addProperty(RDFS.label, image);
+				imre.addProperty(RDFS.label, image);
 				
 				
 				hotel.addProperty(proptelphone,imre );

@@ -36,9 +36,12 @@ public class Runner {
 
 		for (String place : places) {
 			Model tmp = VilleLoader.villeLoading(place);
-			String uri = getDBpediaResourceFromPlace(place);
+			//String uri = getDBpediaResourceFromPlace(place);
+			
+			String uri = "http://dbpedia.org/resource/"+place+"";
 			if (uri != null)
 				uri = "<" + uri + ">";
+			System.out.println(place+"-"+uri);
 			Model tmp1 = MonumentLoader.monumentLoading(place, uri);
 			Model tmp2 = RestaurantLoader.loadRestaurant(place + ".csv", place);
 			Model tmp3 = HotelsLoader.loadhotel(place + ".csv", place);
@@ -62,24 +65,24 @@ public class Runner {
 		
 	}
 
-	public static String getDBpediaResourceFromPlace(String place) {
-		String query = "PREFIX dbo:<http://dbpedia.org/ontology/>"
-				+ "PREFIX : <http://dbpedia.org/resource/>"
-				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-				+ "SELECT * WHERE { " + "?x rdfs:label '" + place + "'@en }";
-		String dbpadiaURI = null;
-		QueryExecution qe = QueryExecutionFactory.sparqlService(
-				"http://dbpedia.org/sparql", query);
-		ResultSet rs = qe.execSelect();
-		while (rs.hasNext()) {
-			QuerySolution s = rs.nextSolution();
-			Resource r = s.getResource("?x");
-			if (r.toString().contains("dbpedia"))
-				dbpadiaURI = r.toString();
-
-		}
-
-		return dbpadiaURI;
-	}
+//	public static String getDBpediaResourceFromPlace(String place) {
+//		String query = "PREFIX dbo:<http://dbpedia.org/ontology/>"
+//				+ "PREFIX : <http://dbpedia.org/resource/>"
+//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+//				+ "SELECT * WHERE { " + "?x rdfs:label '" + place + "'@en }";
+//		String dbpadiaURI = null;
+//		QueryExecution qe = QueryExecutionFactory.sparqlService(
+//				"http://dbpedia.org/sparql", query);
+//		ResultSet rs = qe.execSelect();
+//		while (rs.hasNext()) {
+//			QuerySolution s = rs.nextSolution();
+//			Resource r = s.getResource("?x");
+//			if (r.toString().contains("dbpedia"))
+//				dbpadiaURI = r.toString();
+//
+//		}
+//
+//		return dbpadiaURI;
+//	}
 
 }

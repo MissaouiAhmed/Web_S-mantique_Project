@@ -1,5 +1,8 @@
 package fr.polytech.websemantic;
 
+import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
+
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.QuerySolution;
@@ -15,7 +18,7 @@ import com.hp.hpl.jena.vocabulary.RDFS;
 
 public class MonumentLoader {
 
-	public static Model monumentLoading(String place, String placeUri) {
+	public static Model monumentLoading(String place, String placeUri) throws UnsupportedEncodingException {
 
 		Model model = ModelFactory.createDefaultModel();
 
@@ -30,7 +33,7 @@ public class MonumentLoader {
 	}
 
 	public static Model monumentLoadingBothWaysAndgenrateResource(String place, String placeUri,
-			String specialQuery) {
+			String specialQuery) throws UnsupportedEncodingException {
 		Model model = ModelFactory.createDefaultModel();
 
 		model.setNsPrefix("tourisme", "http://www.polytech.semantique/tourisme");
@@ -49,7 +52,7 @@ public class MonumentLoader {
 				+ "grs:point ?localisation"
 				+ ".FILTER(langMatches(lang(?description), 'FR'))" + "}";
 		String dbpadiaURI = "";
-		//System.out.println(query);
+		System.out.println(query);
 		QueryExecution qe = QueryExecutionFactory.sparqlService(
 				"http://dbpedia.org/sparql", query);
 		ResultSet rs = qe.execSelect();
@@ -57,6 +60,17 @@ public class MonumentLoader {
 			QuerySolution s = rs.nextSolution();
 			Resource r = s.getResource("?x");
 			dbpadiaURI = r.getURI();
+			
+			dbpadiaURI=dbpadiaURI.replaceAll("%C3%A9", "e");
+			
+			dbpadiaURI=dbpadiaURI.replaceAll("%C3%A9", "_");
+			
+			dbpadiaURI=dbpadiaURI.replaceAll("%C3%AD", "i");
+			dbpadiaURI=dbpadiaURI.replaceAll("\\(", "");	
+			dbpadiaURI=dbpadiaURI.replaceAll("\\)", "");
+			dbpadiaURI=dbpadiaURI.replaceAll("'", "_");
+			
+			dbpadiaURI=dbpadiaURI.replaceAll("%E2%80%99", "_");
 			if(!dbpadiaURI.equalsIgnoreCase("http://dbpedia.org/resource/Cit%C3%A9_de_l'%C3%A9conomie_et_de_la_monnaie")){
 			Literal description = s.getLiteral("?description");
 			Resource imageLink = s.getResource("?imageLink");
@@ -95,9 +109,8 @@ public class MonumentLoader {
 				
 				Resource website = s.getResource("?website");
 				Resource webr=model.createResource("http://www.polytech.semantique/tourisme#URL_Monument_"+
-						dbpadiaURI.substring(
-								dbpadiaURI.lastIndexOf("/") + 1,
-								dbpadiaURI.length()));
+						dbpadiaURI.substring(dbpadiaURI.lastIndexOf("/") + 1,dbpadiaURI.length())
+						);
 				webr.addProperty(RDFS.label, website.getURI());
 				
 				
