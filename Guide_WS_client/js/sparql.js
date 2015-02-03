@@ -179,6 +179,7 @@ function getRestaurants (ville){
 					elements[i].innerHTML=toto;
 					i++;
 				}*/
+
 				$("#res").html(el);
 			}	
 		});

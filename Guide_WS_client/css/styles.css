@@ -879,8 +879,11 @@ ul.menu1 li a:hover, ul.menu1 li a.current
 	color: white;
 }
 
+table, td, th {
+    border: 1px solid #2193BD;
+}
 
 .s1{
 		border: 1px solid green;
-		background-color: #2193BD;
+		background-color: #21A9BD;
 }
