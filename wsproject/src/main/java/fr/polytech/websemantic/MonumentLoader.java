@@ -52,7 +52,7 @@ public class MonumentLoader {
 				+ "grs:point ?localisation"
 				+ ".FILTER(langMatches(lang(?description), 'FR'))" + "}";
 		String dbpadiaURI = "";
-		System.out.println(query);
+	//	System.out.println(query);
 		QueryExecution qe = QueryExecutionFactory.sparqlService(
 				"http://dbpedia.org/sparql", query);
 		ResultSet rs = qe.execSelect();

@@ -15,11 +15,12 @@
     $(document).ready(function () {
 			//Get all data from Sparql endpoint
 			//getALLData();
-			var uri=document.URL.substring(1).split('/')[8].split("%")[0];
-			
+			var uri=document.URL.substring(1).split('/')[8];
+			//alert(uri);
+			//alert(uri.substr(3,uri.length-6).replace("%20",""));
 			//getDataVille(ville);
 			
-			getRecommendation(uri);
+			getRecommendation(uri.substr(3,uri.length-6).replace("%20",""));
 
 			
 	});

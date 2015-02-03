@@ -41,7 +41,8 @@ public class AgenceLoader {
 				Resource agence = model
 						.createResource("http://www.polytech.semantique/tourisme#Vol"+name.replaceAll(" ",
 								""));
-
+				
+				agence.addProperty(RDFS.label, name);
 				
 				switch (type) {
 				case "voiture":
@@ -53,6 +54,7 @@ public class AgenceLoader {
 				Property propIslocated = model
 						.createProperty("http://www.polytech.semantique/tourisme#dans");
 				Resource placeR=model.createResource("http://dbpedia.org/resource/" +ville.trim());
+				placeR.addProperty(RDFS.label, ville);
 				placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 				agence.addProperty(propIslocated,placeR );

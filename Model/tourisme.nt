@@ -152,6 +152,7 @@ tourisme:Jedermann_Hotel
         tourisme:siteWeb   tourisme:URL_Hotel_Jedermann_Hotel .
 
 tourisme:Vol10  a             tourisme:VolLoisir ;
+        rdfs:label            "Vol 10" ;
         dc:identifier         "10" ;
         tourisme:depart       dbpedia-resource:Nice ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -671,6 +672,7 @@ tourisme:La_Maison_Corica
         tourisme:telephone  "5.0 5 " .
 
 tourisme:Vol5  a              tourisme:VolAffaire ;
+        rdfs:label            "Vol 5" ;
         dc:identifier         "5" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Munich .
@@ -1090,6 +1092,7 @@ tourisme:Innside_Madrid_Luchana
         tourisme:siteWeb  tourisme:URL_Hotel_Innside_Madrid_Luchana .
 
 tourisme:Vol12  a             tourisme:VolLoisir ;
+        rdfs:label            "Vol 12" ;
         dc:identifier         "12" ;
         tourisme:depart       dbpedia-resource:Madrid ;
         tourisme:destination  dbpedia-resource:Nice .
@@ -1277,6 +1280,7 @@ dbpedia-resource:Musee_national_Gustave_Moreau
 
 dbpedia-resource:Madrid
         a                          tourisme:Ville ;
+        rdfs:label                 "Madrid" ;
         tourisme:contientMonument  dbpedia-resource:Museo_Naval_de_Madrid , dbpedia-resource:Thyssen-Bornemisza_Museum , dbpedia-resource:Museo_del_Prado , dbpedia-resource:Museo_Nacional_Centro_de_Arte_Reina_Sofia .
 
 tourisme:Nam_Giao_31  a     tourisme:Restaurant ;
@@ -1661,7 +1665,8 @@ tourisme:URL_Hotel_Holiday_Inn_Madrid_-_Calle_Alcala
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d282741-Reviews-Holiday_Inn_Madrid_Calle_Alcala-Madrid.html" .
 
 dbpedia-resource:Barcelone
-        a       tourisme:Ville .
+        a           tourisme:Ville ;
+        rdfs:label  "Barcelone" .
 
 tourisme:Renaissance_Brussels_Hotel
         a                  tourisme:Hotel ;
@@ -1685,6 +1690,7 @@ tourisme:URL_Restaurant_Hue_House
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d5523772-Reviews-Hue_House-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Vol7  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 7" ;
         dc:identifier         "7" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Nice .
@@ -1998,6 +2004,7 @@ tourisme:URL_Restaurant_Yuki_hana_munich
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4781710-Reviews-Yuki_hana_munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Vol2  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 2" ;
         dc:identifier         "2" ;
         tourisme:depart       dbpedia-resource:Munich ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -2020,6 +2027,7 @@ tourisme:URL_Restaurant_Why_Not_Cocktail_Bar
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5795008-Reviews-Why_Not_Cocktail_Bar-Barcelona_Catalonia.html" .
 
 tourisme:Volautolux  a  tourisme:AgenceLocationVoiture ;
+        rdfs:label     "autolux" ;
         tourisme:dans  dbpedia-resource:Barcelone .
 
 tourisme:URL_Hotel_El_Madrono
@@ -2076,6 +2084,7 @@ tourisme:IMAGE_Monument_Thyssen-Bornemisza_Museum
 
 dbpedia-resource:Nice
         a                          tourisme:Ville ;
+        rdfs:label                 "Nice" ;
         tourisme:contientMonument  dbpedia-resource:Musee_Matisse_Nice , dbpedia-resource:Musee_Marc_Chagall .
 
 tourisme:URL_Restaurant_Hedera
@@ -2520,7 +2529,8 @@ tourisme:IMAGE_Ville_Paris
         rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Paris_montage2.jpg?width=300" .
 
 dbpedia-resource:Bruxelle
-        a       tourisme:Ville .
+        a           tourisme:Ville ;
+        rdfs:label  "Bruxelle" .
 
 tourisme:URL_Hotel_Deko_Rome
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d2091012-Reviews-Deko_Rome-Rome_Lazio.html" .
@@ -2605,6 +2615,7 @@ tourisme:Mordi_e_Vai  a     tourisme:Restaurant ;
         tourisme:telephone  "3391343344" .
 
 tourisme:Vol9  a              tourisme:VolAffaire ;
+        rdfs:label            "Vol 9" ;
         dc:identifier         "9" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -2870,6 +2881,7 @@ tourisme:URL_Hotel_Mandarin_Oriental_Munich
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d233835-Reviews-Mandarin_Oriental_Munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Volluxauto  a  tourisme:AgenceLocationVoiture ;
+        rdfs:label     "luxauto" ;
         tourisme:dans  dbpedia-resource:Paris , dbpedia-resource:Nice .
 
 tourisme:Pizza_Dai_Cinque
@@ -2906,6 +2918,7 @@ tourisme:URL_Hotel_Hotel_Villa_Rivoli
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d243896-Reviews-Hotel_Villa_Rivoli-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Vol4  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 4" ;
         dc:identifier         "4" ;
         tourisme:depart       dbpedia-resource:Madrid ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -3317,6 +3330,7 @@ tourisme:URL_Restaurant_Taberna_Gastromaquia
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1024062-Reviews-Taberna_Gastromaquia-Madrid.html" .
 
 tourisme:Vol11  a             tourisme:VolAffaire ;
+        rdfs:label            "Vol 11" ;
         dc:identifier         "11" ;
         tourisme:depart       dbpedia-resource:Rome ;
         tourisme:destination  dbpedia-resource:Paris .
@@ -3522,6 +3536,7 @@ tourisme:Wirtshaus_Kurgarten
 
 dbpedia-resource:Rome
         a                          tourisme:Ville ;
+        rdfs:label                 "Rome" ;
         tourisme:contientMonument  dbpedia-resource:Galleria_Borghese , dbpedia-resource:Palazzo_delle_Esposizioni , dbpedia-resource:British_School_at_Rome .
 
 tourisme:URL_Restaurant_Gelateria_La_Romana_Roma_Ventisettembre
@@ -3759,6 +3774,7 @@ tourisme:URL_Hotel_Thon_Hotel_EU
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g950780-d2293060-Reviews-Thon_Hotel_EU-Etterbeek_Brussels.html" .
 
 tourisme:Vol6  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 6" ;
         dc:identifier         "6" ;
         tourisme:depart       dbpedia-resource:Rome ;
         tourisme:destination  dbpedia-resource:Madrid .
@@ -4090,6 +4106,7 @@ tourisme:URL_Restaurant_Garnett
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7233108-Reviews-Garnett-Paris_Ile_de_France.html" .
 
 tourisme:Vol1  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 1" ;
         dc:identifier         "1" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -4227,6 +4244,7 @@ tourisme:URL_Restaurant_Miseria_e_Nobilta
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7158449-Reviews-Miseria_e_Nobilta-Barcelona_Catalonia.html" .
 
 tourisme:Vol13  a             tourisme:VolAffaire ;
+        rdfs:label            "Vol 13" ;
         dc:identifier         "13" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Paris .
@@ -4819,6 +4837,7 @@ tourisme:IMAGE_Monument_Musee_des_Arts_Forains
         rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/MuseeDesArtsForains04Dec2011.JPG?width=300" .
 
 tourisme:Vol8  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 8" ;
         dc:identifier         "8" ;
         tourisme:depart       dbpedia-resource:Nice ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -5070,6 +5089,7 @@ tourisme:URL_Restaurant_Restaurante_Lasarte
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d809578-Reviews-Restaurante_Lasarte-Barcelona_Catalonia.html" .
 
 tourisme:Vol3  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 3" ;
         dc:identifier         "3" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Madrid .
@@ -5179,6 +5199,7 @@ tourisme:URL_Hotel_Home_Moderne
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1639825-Reviews-Home_Moderne-Paris_Ile_de_France.html" .
 
 tourisme:Volluxcar  a  tourisme:AgenceLocationVoiture ;
+        rdfs:label     "luxcar" ;
         tourisme:dans  dbpedia-resource:Bruxelle .
 
 tourisme:Relais_6  a       tourisme:Hotel ;

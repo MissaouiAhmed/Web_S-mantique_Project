@@ -65,6 +65,14 @@ tourisme:URL_Restaurant_Jeremie
 tourisme:IMAGE_Hotel_Etap_Hotel_
         rdfs:label  "" .
 
+tourisme:Franchin  a        tourisme:Restaurant ;
+        rdfs:label          "Franchin" ;
+        tourisme:adresse    "10 rue Massenet | Zone Pietonne, 06000 Nice, France " ;
+        tourisme:dans       dbpedia-resource:Nice ;
+        tourisme:note       "4.5 5 " ;
+        tourisme:siteWeb    tourisme:URL_Restaurant_Franchin ;
+        tourisme:telephone  "+33 4 93 87 15 74" .
+
 tourisme:Gelateria_Valentino
         a                   tourisme:Restaurant ;
         rdfs:label          "Gelateria Valentino" ;
@@ -74,17 +82,6 @@ tourisme:Gelateria_Valentino
         tourisme:siteWeb    tourisme:URL_Restaurant_Gelateria_Valentino ;
         tourisme:telephone  "06.6783219" .
 
-tourisme:Franchin  a        tourisme:Restaurant ;
-        rdfs:label          "Franchin" ;
-        tourisme:adresse    "10 rue Massenet | Zone Pietonne, 06000 Nice, France " ;
-        tourisme:dans       dbpedia-resource:Nice ;
-        tourisme:note       "4.5 5 " ;
-        tourisme:siteWeb    tourisme:URL_Restaurant_Franchin ;
-        tourisme:telephone  "+33 4 93 87 15 74" .
-
-tourisme:IMAGE_Monument_Musee_Marc_Chagall
-        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Musée_Marc_Chagall.jpg?width=300" .
-
 tourisme:Restaurant_Les_Garcons
         a                   tourisme:Restaurant ;
         rdfs:label          "Restaurant Les Garcons" ;
@@ -93,6 +90,12 @@ tourisme:Restaurant_Les_Garcons
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Restaurant_Les_Garcons ;
         tourisme:telephone  "+33 4 93 80 87 90" .
+
+tourisme:IMAGE_Monument_Musee_Marc_Chagall
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Musée_Marc_Chagall.jpg?width=300" .
+
+tourisme:URL_Ville_Brussels
+        rdfs:label  "" .
 
 tourisme:Hotel_Constanza_Barcelona
         a                 tourisme:Hotel ;
@@ -142,6 +145,19 @@ tourisme:IMAGE_Hotel_Ibis_Paris_Montmartre_18eme
 tourisme:URL_Restaurant_La_Gelateria_Frigidarium
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d1536028-Reviews-La_Gelateria_Frigidarium-Rome_Lazio.html" .
 
+tourisme:URL_Ville_Barcelona
+        rdfs:label  "" .
+
+dbpedia-resource:Brussels
+        a                      tourisme:Ville ;
+        rdfs:label             "Brussels" ;
+        tourisme:codePostale   "BE-BRU" ;
+        tourisme:dansPays      tourisme:Belgium ;
+        tourisme:description   "La Région de Bruxelles-Capitale, Région bruxelloise ou communément Bruxelles (en néerlandais : Brussels Hoofdstedelijk Gewest ou Brussel, prononcez [ˈbrʏsəl]), est l'une des trois Régions qui composent la Belgique. Si on la compare à la plupart des régions d'Europe, elle dispose d'un territoire relativement réduit de 161 km2 enclavé en Région flamande, mais distinct de celle-ci. Par contre, si l'on considère qu'il s'agit d'un ensemble urbain dont les parties sont étroitement intégrées les unes aux autres, dans un arrondissement unique dénommé Bruxelles-Capitale, sa taille apparaît respectable puisque le tout forme une seule ville qui représente 1,6 fois la surface de Paris à l'intérieur de son boulevard périphérique.La région de Bruxelles est dotée de son propre gouvernement et de son propre parlement. Le gouvernement fédéral et le parlement fédéral belges, dont la compétence s'exerce sur toute la Belgique, siègent également à Bruxelles-Capitale ainsi que les institutions directrices de l'Union européenne. Cela fait de cette ville, qui est aussi une région, une capitale emblématique, ce qui explique que, dans le monde, on dit couramment \"Bruxelles\" en identifiant la ville avec la Belgique ou avec l'Europe.Le gouvernement et le parlement bruxellois exercent leur pouvoir sur dix-neuf communes. On peut comparer les communes de Bruxelles aux arrondissements ou aux districts d'autres capitales. L'article 194 de la Constitution belge de 1831 désigne la commune centrale nommée Ville de Bruxelles comme capitale de la Belgique. Mais, depuis la naissance de la région de Bruxelles-Capitale inscrite à l'article 4 de la révision constitutionnelle de 1994, on a assisté à l'installation de sièges de ministères fédéraux dans d'autres communes que la commune centrale, consacrant ainsi l'extension aux dix-neuf communes de la fonction de capitale de la Belgique. Ainsi, le Comité Interministériel fédéral (CIPS) a son siège à 1060 Bruxelles, c'est-à-dire dans la commune de Saint-Gilles, et l'administration centrale du ministère fédéral de l'emploi et du travail est installée à 1070 Bruxelles, dans la commune d'Anderlecht. Cette évolution est conforme au titre officiel de l'ensemble des dix-neuf communes groupées dans un grand arrondissement électoral unique dénommé par la constitution belge BRUXELLES-CAPITALE. Les administrations du gouvernement de Bruxelles-Capitale proprement dit sont également installées dans plusieurs communes. Cependant, les dix-neuf communes ont chacune un bourgmestre, des échevins et un conseil communal qui disposent d'une autonomie interne en matière d'urbanisme, de culture et d'aide sociale, fruit de la tradition historique, alors que, par contre, dans le domaine budgétaire, elles sont soumises au contrôle centralisé du gouvernement et du parlement bruxellois, ce qui contribue à harmoniser la gestion des composantes de l'ensemble urbain. Le gouvernement bruxellois exerce aussi un pouvoir exclusif sur les transports en commun, les grandes voiries, la politique du logement, la lutte contre le chômage et il dispose même d'une capacité dans le domaine du commerce extérieur quand il s'agit de relations entre les entreprises bruxelloises et le reste du monde. D'autre part, l'autorité supérieure bruxelloise est dotée d'une compétence dans le domaine de l'environnement -incluant la lutte contre la pollution atmosphérique- et, notamment, de la préservation de la nature, car 10 % de la surface de Bruxelles-Capitale est constituée de nombreux parcs ainsi que par le bois de la Cambre et la forêt de Soignes, réserve naturelle protégée avec de nombreuses espèces animales et qui s'étend aussi sur les régions voisines de Flandre et de Wallonie. La réforme constitutionnelle de 2012, qui doit entrer en vigueur en 2014, renforce la centralisation bruxelloise en dotant le gouvernement et le parlement bruxellois d'un pouvoir accru en matière sociale et dans le domaine urbanistique.Bruxelles recense environ 7.200 habitants au kilomètre carré. Elle compte plus de 1,16 million d'habitants et constitue le premier bassin d'emplois de Belgique, en particulier dans le secteur tertiaire, malgré un taux de chômage de 20,8 % (en janvier 2013) .La fleur représentée sur le drapeau officiel bruxellois est un iris des marais.@fr" ;
+        tourisme:imageUrl      tourisme:IMAGE_Ville_Brussels ;
+        tourisme:localisation  "50.85 4.35" ;
+        tourisme:siteWeb       tourisme:URL_Ville_Brussels .
+
 tourisme:Jedermann_Hotel
         a                  tourisme:Hotel ;
         rdfs:label         "Jedermann Hotel" ;
@@ -152,6 +168,7 @@ tourisme:Jedermann_Hotel
         tourisme:siteWeb   tourisme:URL_Hotel_Jedermann_Hotel .
 
 tourisme:Vol10  a             tourisme:VolLoisir ;
+        rdfs:label            "Vol 10" ;
         dc:identifier         "10" ;
         tourisme:depart       dbpedia-resource:Nice ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -671,6 +688,7 @@ tourisme:La_Maison_Corica
         tourisme:telephone  "5.0 5 " .
 
 tourisme:Vol5  a              tourisme:VolAffaire ;
+        rdfs:label            "Vol 5" ;
         dc:identifier         "5" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Munich .
@@ -1028,6 +1046,9 @@ tourisme:Praktik_Metropol
         tourisme:note     "3.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Praktik_Metropol .
 
+tourisme:IMAGE_Ville_Brussels
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/TE-Collage_Brussels.png" .
+
 tourisme:URL_Restaurant_Melodynice
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187234-d2508314-Reviews-Melodynice-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
@@ -1090,6 +1111,7 @@ tourisme:Innside_Madrid_Luchana
         tourisme:siteWeb  tourisme:URL_Hotel_Innside_Madrid_Luchana .
 
 tourisme:Vol12  a             tourisme:VolLoisir ;
+        rdfs:label            "Vol 12" ;
         dc:identifier         "12" ;
         tourisme:depart       dbpedia-resource:Madrid ;
         tourisme:destination  dbpedia-resource:Nice .
@@ -1277,7 +1299,10 @@ dbpedia-resource:Musee_national_Gustave_Moreau
 
 dbpedia-resource:Madrid
         a                          tourisme:Ville ;
-        tourisme:contientMonument  dbpedia-resource:Museo_Naval_de_Madrid , dbpedia-resource:Thyssen-Bornemisza_Museum , dbpedia-resource:Museo_del_Prado , dbpedia-resource:Museo_Nacional_Centro_de_Arte_Reina_Sofia .
+        rdfs:label                 "Madrid" ;
+        tourisme:contientMonument  dbpedia-resource:Museo_Naval_de_Madrid , dbpedia-resource:Thyssen-Bornemisza_Museum , dbpedia-resource:Museo_del_Prado , dbpedia-resource:Museo_Nacional_Centro_de_Arte_Reina_Sofia ;
+        tourisme:description       "Madrid (prononcé [ma.ˈdʁid] ; en espagnol [ma.ˈðɾið]) est la capitale de l'Espagne.Elle fut fondée au IXe siècle par l'émir Muhammad Ier sous le nom de Majrît (مجريط).Désormais ville la plus vaste et la plus peuplée du pays, elle est aussi la capitale de la Communauté autonome de Madrid. Elle abrite le siège de l'Organisation mondiale du tourisme.La ville a une population de 3 207 247 habitants (les Madrilènes), comprise dans une région urbaine de 6 495 551 habitants en 2013.Le Musée du Prado, le Musée Reina Sofía, et le Musée Thyssen-Bornemisza sont parmi les musées les plus visités au monde.@fr" ;
+        tourisme:localisation      "40.4 -3.6833333333333336" .
 
 tourisme:Nam_Giao_31  a     tourisme:Restaurant ;
         rdfs:label          "Nam Giao 31" ;
@@ -1661,7 +1686,8 @@ tourisme:URL_Hotel_Holiday_Inn_Madrid_-_Calle_Alcala
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187514-d282741-Reviews-Holiday_Inn_Madrid_Calle_Alcala-Madrid.html" .
 
 dbpedia-resource:Barcelone
-        a       tourisme:Ville .
+        a           tourisme:Ville ;
+        rdfs:label  "Barcelone" .
 
 tourisme:Renaissance_Brussels_Hotel
         a                  tourisme:Hotel ;
@@ -1685,6 +1711,7 @@ tourisme:URL_Restaurant_Hue_House
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d5523772-Reviews-Hue_House-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Vol7  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 7" ;
         dc:identifier         "7" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Nice .
@@ -1772,7 +1799,7 @@ tourisme:URL_Restaurant_Le_Comptoir_de_la_Crepe
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d6701232-Reviews-Le_Comptoir_de_la_Crepe-Madrid.html" .
 
 tourisme:IMAGE_Ville_Munich
-        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Munchen_collage.jpg?width=300" .
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Munchen_collage.jpg" .
 
 tourisme:IMAGE_Hotel_Aloft_Brussels_Schuman_Hotel
         rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/06/fe/1d/b6/guest-room-king-size.jpg" .
@@ -1977,6 +2004,9 @@ tourisme:Restaurante_Lasarte
 tourisme:URL_Hotel_Holiday_Inn_Munich_-_City_Centre
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d199646-Reviews-Holiday_Inn_Munich_City_Centre-Munich_Upper_Bavaria_Bavaria.html" .
 
+tourisme:URL_Restaurant_Le_Diane
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2286587-Reviews-Le_Diane-Paris_Ile_de_France.html" .
+
 tourisme:La_Veraison  a     tourisme:Restaurant ;
         rdfs:label          "La Veraison" ;
         tourisme:adresse    "64 Rue de la Croix Nivert, Paris, France " ;
@@ -1984,9 +2014,6 @@ tourisme:La_Veraison  a     tourisme:Restaurant ;
         tourisme:note       "4.5 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_La_Veraison ;
         tourisme:telephone  "+33 1 45 32 39 39" .
-
-tourisme:URL_Restaurant_Le_Diane
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2286587-Reviews-Le_Diane-Paris_Ile_de_France.html" .
 
 tourisme:URL_Restaurant_The_Box
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5820228-Reviews-The_Box-Barcelona_Catalonia.html" .
@@ -1998,6 +2025,7 @@ tourisme:URL_Restaurant_Yuki_hana_munich
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d4781710-Reviews-Yuki_hana_munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Vol2  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 2" ;
         dc:identifier         "2" ;
         tourisme:depart       dbpedia-resource:Munich ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -2020,6 +2048,7 @@ tourisme:URL_Restaurant_Why_Not_Cocktail_Bar
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d5795008-Reviews-Why_Not_Cocktail_Bar-Barcelona_Catalonia.html" .
 
 tourisme:Volautolux  a  tourisme:AgenceLocationVoiture ;
+        rdfs:label     "autolux" ;
         tourisme:dans  dbpedia-resource:Barcelone .
 
 tourisme:URL_Hotel_El_Madrono
@@ -2076,6 +2105,7 @@ tourisme:IMAGE_Monument_Thyssen-Bornemisza_Museum
 
 dbpedia-resource:Nice
         a                          tourisme:Ville ;
+        rdfs:label                 "Nice" ;
         tourisme:contientMonument  dbpedia-resource:Musee_Matisse_Nice , dbpedia-resource:Musee_Marc_Chagall .
 
 tourisme:URL_Restaurant_Hedera
@@ -2411,6 +2441,9 @@ tourisme:URL_Hotel_Hotel_Orfila
 tourisme:IMAGE_Hotel_Hotel_Castle
         rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/02/43/b3/d9/reception.jpg" .
 
+tourisme:IMAGE_Ville_Barcelona
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Barcelona_collage.JPG" .
+
 tourisme:URL_Hotel_The_Dominican
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g188644-d677329-Reviews-The_Dominican-Brussels.html" .
 
@@ -2478,6 +2511,9 @@ tourisme:Thon_Hotel_Brussels_City_Centre
 tourisme:IMAGE_Hotel_Deko_Rome
         rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-w/01/dc/61/2f/suite-fun.jpg" .
 
+tourisme:Belgium  a  tourisme:Pays ;
+        rdfs:label  "Belgium" .
+
 tourisme:La_Gelateria_Frigidarium
         a                   tourisme:Restaurant ;
         rdfs:label          "La Gelateria Frigidarium" ;
@@ -2499,6 +2535,9 @@ tourisme:osteria_pane_e_vino
         tourisme:siteWeb    tourisme:URL_Restaurant_osteria_pane_e_vino ;
         tourisme:telephone  "+32 2 230 59 51" .
 
+tourisme:URL_Restaurant_Le_Vaisseau_Vert
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6856452-Reviews-Le_Vaisseau_Vert-Paris_Ile_de_France.html" .
+
 dbpedia-resource:Paris
         a                          tourisme:Ville ;
         rdfs:label                 "Paris" ;
@@ -2510,17 +2549,15 @@ dbpedia-resource:Paris
         tourisme:localisation      "48.8567 2.3508" ;
         tourisme:siteWeb           tourisme:URL_Ville_Paris .
 
-tourisme:URL_Restaurant_Le_Vaisseau_Vert
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d6856452-Reviews-Le_Vaisseau_Vert-Paris_Ile_de_France.html" .
-
 tourisme:URL_Restaurant_Restaurant_Ilios
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187309-d6997144-Reviews-Restaurant_Ilios-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:IMAGE_Ville_Paris
-        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Paris_montage2.jpg?width=300" .
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Paris_montage2.jpg" .
 
 dbpedia-resource:Bruxelle
-        a       tourisme:Ville .
+        a           tourisme:Ville ;
+        rdfs:label  "Bruxelle" .
 
 tourisme:URL_Hotel_Deko_Rome
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187791-d2091012-Reviews-Deko_Rome-Rome_Lazio.html" .
@@ -2605,6 +2642,7 @@ tourisme:Mordi_e_Vai  a     tourisme:Restaurant ;
         tourisme:telephone  "3391343344" .
 
 tourisme:Vol9  a              tourisme:VolAffaire ;
+        rdfs:label            "Vol 9" ;
         dc:identifier         "9" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -2832,6 +2870,9 @@ tourisme:Hotel_La_Perouse
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_La_Perouse .
 
+tourisme:Italy  a   tourisme:Pays ;
+        rdfs:label  "Italy" .
+
 tourisme:Catalonia_Las_Cortes
         a                 tourisme:Hotel ;
         rdfs:label        "Catalonia Las Cortes" ;
@@ -2870,6 +2911,7 @@ tourisme:URL_Hotel_Mandarin_Oriental_Munich
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187309-d233835-Reviews-Mandarin_Oriental_Munich-Munich_Upper_Bavaria_Bavaria.html" .
 
 tourisme:Volluxauto  a  tourisme:AgenceLocationVoiture ;
+        rdfs:label     "luxauto" ;
         tourisme:dans  dbpedia-resource:Paris , dbpedia-resource:Nice .
 
 tourisme:Pizza_Dai_Cinque
@@ -2906,6 +2948,7 @@ tourisme:URL_Hotel_Hotel_Villa_Rivoli
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187234-d243896-Reviews-Hotel_Villa_Rivoli-Nice_French_Riviera_Cote_d_Azur_Provence.html" .
 
 tourisme:Vol4  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 4" ;
         dc:identifier         "4" ;
         tourisme:depart       dbpedia-resource:Madrid ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -3119,7 +3162,7 @@ tourisme:Hotel_Curious
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Curious .
 
 tourisme:URL_Ville_Paris
-        rdfs:label  "http://www.paris.fr/" .
+        rdfs:label  "" .
 
 tourisme:Le_Bistrot_d_Antoine
         a                   tourisme:Restaurant ;
@@ -3317,6 +3360,7 @@ tourisme:URL_Restaurant_Taberna_Gastromaquia
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187514-d1024062-Reviews-Taberna_Gastromaquia-Madrid.html" .
 
 tourisme:Vol11  a             tourisme:VolAffaire ;
+        rdfs:label            "Vol 11" ;
         dc:identifier         "11" ;
         tourisme:depart       dbpedia-resource:Rome ;
         tourisme:destination  dbpedia-resource:Paris .
@@ -3431,6 +3475,9 @@ tourisme:Hotel_Nice_Riviera
         tourisme:note     "4.0 sur 5" ;
         tourisme:siteWeb  tourisme:URL_Hotel_Hotel_Nice_Riviera .
 
+tourisme:IMAGE_Ville_Rome
+        rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Rome.svg" .
+
 tourisme:C_est_Bon_C_est_Belge
         a                   tourisme:Restaurant ;
         rdfs:label          "C est Bon C est Belge" ;
@@ -3522,7 +3569,13 @@ tourisme:Wirtshaus_Kurgarten
 
 dbpedia-resource:Rome
         a                          tourisme:Ville ;
-        tourisme:contientMonument  dbpedia-resource:Galleria_Borghese , dbpedia-resource:Palazzo_delle_Esposizioni , dbpedia-resource:British_School_at_Rome .
+        rdfs:label                 "Rome" ;
+        tourisme:codePostale       "00100; 00121 to 00199" ;
+        tourisme:contientMonument  dbpedia-resource:Galleria_Borghese , dbpedia-resource:British_School_at_Rome , dbpedia-resource:Palazzo_delle_Esposizioni ;
+        tourisme:dansPays          tourisme:Italy ;
+        tourisme:description       "Rome (en italien Roma /'roˑma/) est la capitale de l'Italie depuis 1871. Elle se trouve dans la région du Latium, dans le centre du pays. Avec 2 638 842 habitants établis sur 1 285 km² (4 039 813 habitants avec l'agglomération en 2012), Rome est la commune la plus peuplée d'Italie et la troisième plus étendue d'Europe après Moscou et Londres; son aire urbaine est en revanche moins importante que celles de Milan et Naples. Ses habitants s'appellent les Romains.Ville berceau de la civilisation occidentale après Athènes, Rome a une histoire qui s'étend sur plus de deux mille cinq cents ans. Elle était le centre de l'Empire romain, qui a dominé l'Europe, l'Afrique du Nord et le Moyen-Orient pendant plus de cinq cents ans à partir du Ier siècle av. J.-C. jusqu'au Ve siècle apr. J.-C.. Rome occupe une place capitale dans le christianisme et abrite le siège de l'Église catholique romaine et la Cité du Vatican, un État souverain dont le chef est le pape.Le centre historique est de style Renaissance et baroque. Rome est la troisième destination touristique la plus visitée d'Europe derrière Londres et Paris et son centre historique est classé par l'Unesco comme site du patrimoine mondial.@fr" ;
+        tourisme:imageUrl          tourisme:IMAGE_Ville_Rome ;
+        tourisme:localisation      "41.9 12.5" .
 
 tourisme:URL_Restaurant_Gelateria_La_Romana_Roma_Ventisettembre
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187791-d4492728-Reviews-Gelateria_La_Romana_Roma_Ventisettembre-Rome_Lazio.html" .
@@ -3759,6 +3812,7 @@ tourisme:URL_Hotel_Thon_Hotel_EU
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g950780-d2293060-Reviews-Thon_Hotel_EU-Etterbeek_Brussels.html" .
 
 tourisme:Vol6  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 6" ;
         dc:identifier         "6" ;
         tourisme:depart       dbpedia-resource:Rome ;
         tourisme:destination  dbpedia-resource:Madrid .
@@ -3785,6 +3839,9 @@ tourisme:Vinpasa  a         tourisme:Restaurant ;
         tourisme:note       "5.0 5 " ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Vinpasa ;
         tourisme:telephone  "+49 89 27373511" .
+
+tourisme:Spain  a   tourisme:Pays ;
+        rdfs:label  "Spain" .
 
 tourisme:URL_Restaurant_L_Ange_20_Restaurant
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d2042295-Reviews-L_Ange_20_Restaurant-Paris_Ile_de_France.html" .
@@ -3972,7 +4029,7 @@ tourisme:Crowne_Plaza_Paris_Republique
         tourisme:siteWeb   tourisme:URL_Hotel_Crowne_Plaza_Paris_Republique .
 
 tourisme:URL_Ville_Munich
-        rdfs:label  "http://www.muenchen.de/" .
+        rdfs:label  "" .
 
 tourisme:IMAGE_Hotel_Hotel_Torbraeu
         rdfs:label  "" .
@@ -4090,6 +4147,7 @@ tourisme:URL_Restaurant_Garnett
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d7233108-Reviews-Garnett-Paris_Ile_de_France.html" .
 
 tourisme:Vol1  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 1" ;
         dc:identifier         "1" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -4227,6 +4285,7 @@ tourisme:URL_Restaurant_Miseria_e_Nobilta
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d7158449-Reviews-Miseria_e_Nobilta-Barcelona_Catalonia.html" .
 
 tourisme:Vol13  a             tourisme:VolAffaire ;
+        rdfs:label            "Vol 13" ;
         dc:identifier         "13" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Paris .
@@ -4738,6 +4797,9 @@ tourisme:IMAGE_Hotel_Le_Grimaldi
 tourisme:IMAGE_Hotel_Hotel_Romanico_Palace
         rdfs:label  "http://media-cdn.tripadvisor.com/media/photo-o/06/fe/22/42/prestige-room.jpg" .
 
+tourisme:URL_Restaurant_Epicure
+        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html" .
+
 dbpedia-resource:Cite_des_Sciences_et_de_l_Industrie
         a                      tourisme:Monument ;
         rdfs:label             "Cite_des_Sciences_et_de_l_Industrie" ;
@@ -4746,9 +4808,6 @@ dbpedia-resource:Cite_des_Sciences_et_de_l_Industrie
         tourisme:imageUrl      tourisme:IMAGE_Monument_Cite_des_Sciences_et_de_l_Industrie ;
         tourisme:localisation  "48.895556 2.388056" ;
         tourisme:siteWeb       tourisme:URL_Monument_Cite_des_Sciences_et_de_l_Industrie .
-
-tourisme:URL_Restaurant_Epicure
-        rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187147-d719052-Reviews-Epicure-Paris_Ile_de_France.html" .
 
 tourisme:IMAGE_Monument_National_Museum_of_Natural_History_France
         rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/Logo_mnhn.jpg?width=300" .
@@ -4819,6 +4878,7 @@ tourisme:IMAGE_Monument_Musee_des_Arts_Forains
         rdfs:label  "http://commons.wikimedia.org/wiki/Special:FilePath/MuseeDesArtsForains04Dec2011.JPG?width=300" .
 
 tourisme:Vol8  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 8" ;
         dc:identifier         "8" ;
         tourisme:depart       dbpedia-resource:Nice ;
         tourisme:destination  dbpedia-resource:Bruxelle .
@@ -5066,10 +5126,21 @@ tourisme:Bia_Mara  a        tourisme:Restaurant ;
         tourisme:siteWeb    tourisme:URL_Restaurant_Bia_Mara ;
         tourisme:telephone  "+32 2 502 00 61" .
 
+dbpedia-resource:Barcelona
+        a                      tourisme:Ville ;
+        rdfs:label             "Barcelona" ;
+        tourisme:codePostale   "08001–08080" ;
+        tourisme:dansPays      tourisme:Spain ;
+        tourisme:description   "Barcelone (Barcelona en catalan, prononcé /bəɾsəˈlonə/, et en castillan, prononcé /baɾθeˈlona/) est la capitale administrative et économique de la Catalogne, de la province de Barcelone, de la comarque d'El Barcelonès ainsi que de son aire urbaine et de sa région métropolitaine, en Espagne.Elle est la deuxième ville d'Espagne en termes de population et d'activités, la onzième ville la plus peuplée de l'Union européenne et la sixième en incluant sa banlieue: Plus de 5 millions de personnes vivent dans l'agglomération barcelonaise. La majeure partie des municipalités adjacentes sont en outre rassemblées dans l'Àrea Metropolitana de Barcelona.Située sur le littoral méditerranéen, elle est traversée par les fleuves Llobregat et Besòs et bordée à l'ouest par la Serra de Collserola qui culmine à 512 mètres (sommet : Tibidabo). Elle est considérée comme ville mondiale en raison de son importance dans les domaines de la finance, du commerce international, de l'édition, des arts, du divertissement et des médias. Barcelone est donc un centre économique majeur qui jouit de surcroît d'un des principaux ports méditerranéens et du deuxième aéroport espagnol derrière celui de Madrid-Barajas. Elle est aussi la ville qui possède le plus grand parc métropolitain du monde, le parc Collserola, devant Central Park à New York. Ayant été fondée par les Romains, la ville devint la capitale des comtes de Barcelone puis l'une des villes majeures de la Couronne d'Aragon. Redessinée plusieurs fois pendant son histoire, elle est aujourd'hui une destination touristique majeure et jouit d'un patrimoine culturel unique. Le palais Güell (en 1984), la Casa Milà, le parc Güell, le Palais de la musique catalane et l'Hôpital de Sant Pau figurent d'ailleurs sur la liste du patrimoine mondial de l'UNESCO. En outre, la ville est également connue pour avoir accueilli les Jeux olympiques en 1992 et, plus récemment, le siège de l'union pour la Méditerranée.@fr" ;
+        tourisme:imageUrl      tourisme:IMAGE_Ville_Barcelona ;
+        tourisme:localisation  "41.38333333333333 2.183333333333333" ;
+        tourisme:siteWeb       tourisme:URL_Ville_Barcelona .
+
 tourisme:URL_Restaurant_Restaurante_Lasarte
         rdfs:label  "http://www.tripadvisor.fr/Restaurant_Review-g187497-d809578-Reviews-Restaurante_Lasarte-Barcelona_Catalonia.html" .
 
 tourisme:Vol3  a              tourisme:VolLoisir ;
+        rdfs:label            "Vol 3" ;
         dc:identifier         "3" ;
         tourisme:depart       dbpedia-resource:Barcelone ;
         tourisme:destination  dbpedia-resource:Madrid .
@@ -5179,6 +5250,7 @@ tourisme:URL_Hotel_Home_Moderne
         rdfs:label  "http://www.tripadvisor.fr/Hotel_Review-g187147-d1639825-Reviews-Home_Moderne-Paris_Ile_de_France.html" .
 
 tourisme:Volluxcar  a  tourisme:AgenceLocationVoiture ;
+        rdfs:label     "luxcar" ;
         tourisme:dans  dbpedia-resource:Bruxelle .
 
 tourisme:Relais_6  a       tourisme:Hotel ;

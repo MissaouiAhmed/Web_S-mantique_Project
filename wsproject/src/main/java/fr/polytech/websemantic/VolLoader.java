@@ -43,7 +43,7 @@ public class VolLoader {
 						.createResource("http://www.polytech.semantique/tourisme#Vol"+num);
 
 				vol.addProperty(DC.identifier, num);
-				
+				vol.addProperty(RDFS.label, "Vol "+num);
 				switch (type) {
 				case "loisir":
 					vol.addProperty(RDF.type, 
@@ -58,13 +58,19 @@ public class VolLoader {
 
 				Property departprop = model
 						.createProperty("http://www.polytech.semantique/tourisme#depart");
-				vol.addProperty(departprop, model.createResource("http://dbpedia.org/resource/"+
-						depart.trim()));
+				
+				Resource r=model.createResource("http://dbpedia.org/resource/"+
+						depart.trim());
+				r.addProperty(RDFS.label, depart.trim());
+				vol.addProperty(departprop, r);
 
 				Property destinationprop = model
 						.createProperty("http://www.polytech.semantique/tourisme#destination");
-				vol.addProperty(destinationprop, model.createResource("http://dbpedia.org/resource/"+
-						destination.trim()));
+				
+				Resource destinationr=model.createResource("http://dbpedia.org/resource/"+
+						destination.trim());
+				r.addProperty(RDFS.label, depart.trim());
+				vol.addProperty(destinationprop, destinationr);
 
 			}
 

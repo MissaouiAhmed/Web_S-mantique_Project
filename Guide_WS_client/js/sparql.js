@@ -250,12 +250,22 @@ function AhmedgetVols (){
  var url = "http://localhost:8080/sparql/template?profile=st%3Aldp&query=";
 		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
 		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
-		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
-		 //" SELECT ?x ?depart ?destination ?type"+
-		 " SELECT DISTINCT ?x ?depart ?destination "+
+		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> PREFIX dc:<http://purl.org/dc/elements/1.1/>"+
+		 " SELECT ?volID ?Depart ?Destination"+
+		// " SELECT  DISTINCT  ?depart ?Destination "+
 		// " WHERE {?x  a tourisme:Vol; tourisme:depart ?depart; tourisme:destination ?destination .}";
 		 
-		 " WHERE {?x  a tourisme:VolAffaire; tourisme:depart ?depart; tourisme:destination ?destination ; a ?type.}";
+		 //" WHERE {?x  a tourisme:VolAffaire."
+		 " WHERE {?x  a tourisme:Vol."
+		 + "?x rdfs:label ?volID."
+		 + "?x tourisme:depart ?depart."
+		 + "?depart rdfs:label ?Depart."
+		 + "?destination rdfs:label ?Destination."
+		 + "?x tourisme:destination ?destination."
+		// + "?x a ?type."
+
+		 
+		 	+"}";
 		 
 		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
 		 
@@ -288,11 +298,12 @@ function AhmedgetVols (){
 							//result.next;
 				}
 				*/
-				
+				/*
 
 
 				var el=document.createElement('div');
 				el.innerHTML=table;
+				
 				
 				var uris=el.getElementsByTagName('td');
 
@@ -328,7 +339,37 @@ function AhmedgetVols (){
 				//alert();
 					//elements[1].innerHTML=elements[1].innerHTML+"<td><button>+</button></td>"
 				//}
+				*/
+
+
+				var el=document.createElement('div');
+				el.innerHTML=table;
 				
+				
+				var uris=el.getElementsByTagName('td');
+
+				var vols={};var j=0;
+				for(var i=3;i<uris.length;i+=3){
+					var tmp=document.createElement('div');
+					//tmp.innerHTML=uris[i].innerHTML;
+					//alert(uris[i].innerHTML);
+					vols[j]=uris[i].innerHTML;
+					j++;
+					
+				}
+
+
+
+				var elements=el.getElementsByTagName('tr');
+				//alert(elements.length);
+				for(var i=1;i<elements.length;i++){
+					//var tt=vols[i-1].split("#")[1];	
+					//tt=	tt.replace(">","");		
+					elements[i].innerHTML=elements[i].innerHTML+"<td><a href='http://127.0.0.1:8081/page/Vols/A/C/D/"+vols[i-1]
+					+"'>Recommendations	</td>";
+					}
+
+
 				$("#res").html(el);
 			}	
 		});
@@ -342,10 +383,22 @@ function AhmedgetVille (ville){
 		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
 		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
 		 //" SELECT ?x ?depart ?destination ?type"+
-		 " SELECT ?propriety ?value "+
+		 " SELECT ?codePostale ?description ?localisation ?SiteWeb ?ImageUrl"+
 		// " WHERE {?x  a tourisme:Vol; tourisme:depart ?depart; tourisme:destination ?destination .}";
 		 
-		 " WHERE {dbpedia-resource:"+ville+" ?propriety ?value.}";
+		 //" WHERE {dbpedia-resource:"+ville+" ?propriety ?value.}";
+		 " WHERE {"
+		+"dbpedia-resource:"+ville+" tourisme:codePostale ?codePostale."
+		+"dbpedia-resource:"+ville+" tourisme:description ?description."
+
+		+"dbpedia-resource:"+ville+" tourisme:localisation ?localisation."
+		+"dbpedia-resource:"+ville+" tourisme:siteWeb  ?siteWeb."
+		+"?siteWeb rdfs:label  ?SiteWeb."
+
+		+"dbpedia-resource:"+ville+" tourisme:imageUrl  ?imageUrl."
+		+"?imageUrl rdfs:label  ?ImageUrl."
+
+		+"}";
 		 
 		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
 		 
@@ -393,6 +446,17 @@ function AhmedgetVille (ville){
 				//alert();
 					//elements[1].innerHTML=elements[1].innerHTML+"<td><button>+</button></td>"
 				//}
+
+				var el=document.createElement('div');
+				el.innerHTML=table;
+				var elements=el.getElementsByTagName('td');
+				
+				//for(var i=1;i<elements.length;i++){	
+					var url= elements[1].innerHTML;
+					var toto="<img src="+url+"/>";
+					elements[1].innerHTML=toto;
+				//	i++;
+				//}
 				
 				$("#res").html(el);
 			}	
@@ -414,8 +478,8 @@ function getRecommendation (uri){
 		 " SELECT ?Hotel "+
 		// " WHERE {?x  a tourisme:Vol; tourisme:depart ?depart; tourisme:destination ?destination .}";
 		 
-		 //" WHERE {tourisme:"+uri+" tourisme:recommenderHotel ?recommenderHotel;tourisme:recommenderMonument ?recommenderMonument;"
-		// +"tourisme:recommenderAgence ?recommenderAgence;}";
+		//" WHERE {tourisme:"+uri+" tourisme:recommenderHotel ?recommenderHotel;tourisme:recommenderMonument ?recommenderMonument;"
+		// +"tourisme:recommenderAgence ?recommenderAgence;} limit 5";
 		 
  " WHERE {tourisme:"+uri+" tourisme:recommenderHotel ?recommenderHotel. ?recommenderHotel rdfs:label ?Hotel;} limit 5";
 

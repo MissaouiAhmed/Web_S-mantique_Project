@@ -82,6 +82,8 @@ public class HotelsLoader {
 						.createProperty("http://www.polytech.semantique/tourisme#dans");
 				Resource placeR=model.createResource("http://dbpedia.org/resource/" +
 						place.trim() );
+				placeR.addProperty(RDFS.label, place);
+				
 				placeR.addProperty(RDF.type, model.createResource("http://www.polytech.semantique/tourisme#Ville"));
 
 				hotel.addProperty(propIslocated,placeR );
