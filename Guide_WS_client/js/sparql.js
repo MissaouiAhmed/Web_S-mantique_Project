@@ -392,8 +392,6 @@ function AhmedgetVols (){
 					elements[i].innerHTML=elements[i].innerHTML+"<td><a href='http://127.0.0.1:8081/page/Vols/A/C/D/"+vols[i-1]
 					+"'>Recommendations	</td>";
 					}
-
-
 				$("#res").html(el);
 			}	
 		});
@@ -485,14 +483,12 @@ function AhmedgetVille (ville){
 				//}
 				
 				/* Script enlevé les guillemets */
-				/*
 				var reg=new RegExp('["]+', 'g');
 				for(var i=1;i<elements.length;i++){	
 					var desc= elements[i].innerHTML;
 					desc=desc.replace(reg, ''); 
 					elements[i].innerHTML=desc;
 				}
-	*/
 				/*  */
 				$("#res").html(el);
 			}	

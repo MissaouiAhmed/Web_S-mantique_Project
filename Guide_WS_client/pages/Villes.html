@@ -22,9 +22,9 @@
 			
 			//getMonuments("Paris");
 
-			$("#valider").click(function(evt) {
+			//$("#valider").click(function(evt) {
 				//alert($("#ville").val());
-				AhmedgetVille($("#ville").val());
+				//AhmedgetVille($("#ville").val());
 			});
 	});
 
@@ -45,7 +45,7 @@
 <article>
 <FORM name="formselect">
 	<span id="select"><B>Veuillez choisir une Ville : </B></span>
-	<select id="ville"> 
+	<SELECT name="listeMville" size=1>
 			<OPTION value="Paris">Paris</OPTION>
 			<OPTION value="Nice">Nice</OPTION>
 			<OPTION value="Rome">Rome</OPTION>
@@ -53,8 +53,8 @@
 			<OPTION value="Madrid">Madrid</OPTION>
 			<OPTION value="Bruxelle">Bruxelle</OPTION>
 			<OPTION value="Barcelone">Barcelone</OPTION>
-	</select>
-	<input type="button" value="valider" id="valider"/> 
+	</SELECT>
+	<input type="button" value="valider" onClick="AhmedgetVille(this.form.elements['listeMville'].options[this.form.elements['listeMville'].selectedIndex].text)"/> 
 </FORM>
 </article>
 <br/>
