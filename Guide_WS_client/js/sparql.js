@@ -120,6 +120,15 @@
 					elements[i].innerHTML=toto;
 					i++;
 				}
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+					i++;
+				}
+				/*  */
 				$("#res").html(el);
 			}	
 		});
@@ -179,7 +188,14 @@ function getRestaurants (ville){
 					elements[i].innerHTML=toto;
 					i++;
 				}*/
-
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/*  */
 				$("#res").html(el);
 			}	
 		});
@@ -232,7 +248,14 @@ function getHotels (ville){
 				var el=document.createElement('div');
 				el.innerHTML=table;
 				var elements=el.getElementsByTagName('td');
-				
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/* */ 
 				for(var i=3;i<elements.length;i++){	
 					var url= elements[i].innerHTML;
 					var toto="<img src="+url+" width height='100' width='100'/>";
@@ -382,8 +405,9 @@ function AhmedgetVille (ville){
 
 				var el=document.createElement('div');
 				el.innerHTML=table;
-				/*
+				
 				var elements=el.getElementsByTagName('tr');
+				/*
 				//alert(elements.length);
 				for(var i=1;i<elements.length;i++){
 					elements[i].innerHTML=elements[i].innerHTML+"<td><button id='b_"+i+"'>Recommendations</button></td>";
@@ -394,7 +418,14 @@ function AhmedgetVille (ville){
 				//alert();
 					//elements[1].innerHTML=elements[1].innerHTML+"<td><button>+</button></td>"
 				//}
-				
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/*  */
 				$("#res").html(el);
 			}	
 		});
@@ -455,6 +486,7 @@ function getRecommendation (uri){
 
 				var el=document.createElement('div');
 				el.innerHTML=table;
+				var elements=el.getElementsByTagName('tr');
 				/*
 				var elements=el.getElementsByTagName('tr');
 				//alert(elements.length);
@@ -467,7 +499,14 @@ function getRecommendation (uri){
 				//alert();
 					//elements[1].innerHTML=elements[1].innerHTML+"<td><button>+</button></td>"
 				//}
-				
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/*  */
 				$("#res").html(el);
 			}	
 		});
