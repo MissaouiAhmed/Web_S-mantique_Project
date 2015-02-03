@@ -880,7 +880,7 @@ ul.menu1 li a:hover, ul.menu1 li a.current
 }
 
 
-.s1, .s0{
-
-	background-color: red;
+.s1{
+		border: 1px solid green;
+		background-color: #2193BD;
 }

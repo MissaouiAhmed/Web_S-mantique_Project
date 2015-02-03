@@ -411,13 +411,13 @@ function getRecommendation (uri){
 		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
 		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
 		 //" SELECT ?x ?depart ?destination ?type"+
-		 " SELECT * "+
+		 " SELECT ?Hotel "+
 		// " WHERE {?x  a tourisme:Vol; tourisme:depart ?depart; tourisme:destination ?destination .}";
 		 
 		 //" WHERE {tourisme:"+uri+" tourisme:recommenderHotel ?recommenderHotel;tourisme:recommenderMonument ?recommenderMonument;"
 		// +"tourisme:recommenderAgence ?recommenderAgence;}";
 		 
- " WHERE {tourisme:"+uri+" tourisme:recommenderHotel ?recommenderHotel;}";
+ " WHERE {tourisme:"+uri+" tourisme:recommenderHotel ?recommenderHotel. ?recommenderHotel rdfs:label ?Hotel;} limit 5";
 
 
 		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
