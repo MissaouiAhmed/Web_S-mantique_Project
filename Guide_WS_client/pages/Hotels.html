@@ -40,6 +40,9 @@
 <br/>
 <article>
 <FORM name="formselect">
+	<span id="select"><B>Trier les hotels par Note&nbsp;:&nbsp;&nbsp;<input type="button" value="▲" onClick="getOrderDESCHotels(this.form.elements['listeMville'].options[this.form.elements['listeMville'].selectedIndex].text)"/>
+		<input type="button" value="▼" onClick="getOrderASCHotels(this.form.elements['listeMville'].options[this.form.elements['listeMville'].selectedIndex].text)"/></B>
+	</span><br/>
 	<span id="select"><B>Veuillez choisir une Ville : </B></span>
 		<SELECT name="listeMville" size=1>
 			<OPTION value="Paris">Paris</OPTION>

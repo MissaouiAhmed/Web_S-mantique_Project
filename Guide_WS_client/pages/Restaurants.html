@@ -39,7 +39,10 @@
 <br/>
 <article>
 <FORM name="formselect">
-	<span id="select"><B>Veuillez choisir une Ville : </B></span>
+	<span id="select"><B>Trier les Restaurants par Note : <input type="button" value="▲" onClick="getASCRestaurants(this.form.elements['listeMville'].options[this.form.elements['listeMville'].selectedIndex].text)"/>
+		<input type="button" value="▼" onClick="getDESCRestaurants(this.form.elements['listeMville'].options[this.form.elements['listeMville'].selectedIndex].text)"/></B>
+	</span><br/>
+	<span id="select"><B>Veuillez choisir une Ville&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></span>
 		<SELECT name="listeMville" size=1>
 			<OPTION value="Paris">Paris</OPTION>
 			<OPTION value="Nice">Nice</OPTION>

@@ -201,6 +201,137 @@ function getRestaurants (ville){
 		});
 }
 
+/* Ayoub function return Restaurants */
+function getASCRestaurants (ville){
+		 var tableContent ='<thead><tr> <br/> <td>x</td></tr></thead> <tbody>';
+		 //var url = "http://localhost:3030/data/query";		 
+ var url = "http://localhost:8080/sparql/template?profile=st%3Aldp&query=";
+		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
+		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
+		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
+		 " SELECT ?Restaurant ?Adresse ?Note ?Telephone ?SiteWeb"+
+		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Restaurant; rdfs:label ?Restaurant ; tourisme:adresse ?Adresse ; tourisme:note ?Note;"+
+		 " tourisme:telephone ?Telephone; tourisme:siteWeb ?sitew . ?sitew rdfs:label ?SiteWeb.} ORDER BY ASC(?Note)";
+
+		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
+		 
+		 
+		//var queryUrl = url+"?query="+query+"&format=json" ;
+	var queryUrl = url+query ;
+
+		 $.ajax({
+				//dataType: "jsonp",
+				url: queryUrl,
+				success: function( _data ) {
+					//alert(_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8));
+					/*
+				var results = _data.results.bindings;
+				sparqlItemsData = _data;
+				   for ( var i in results ) {
+                        tableContent += '<tr>';
+                        tableContent += '<td>' + results[i].x.value + '</td>';						
+                        tableContent += '</tr>'
+                    }
+				$("#res").html(tableContent);
+				
+				*/
+				var table=_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8);
+				/*
+				var re = new RegExp('<td>.*</td>');
+				var results  = re.exec(table);
+				for (int i=0;i<results.length;i++) ) {
+						alert(results[i]);
+							//result.next;
+				}
+				*/
+				var el=document.createElement('div');
+				el.innerHTML=table;
+				var elements=el.getElementsByTagName('td');
+				
+				/*for(var i=2;i<elements.length;i++){	
+					var url= elements[i].innerHTML;
+					var toto="<img src="+url+"/>";
+					elements[i].innerHTML=toto;
+					i++;
+				}*/
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/*  */
+				$("#res").html(el);
+			}	
+		});
+}
+
+function getDESCRestaurants (ville){
+		 var tableContent ='<thead><tr> <br/> <td>x</td></tr></thead> <tbody>';
+		 //var url = "http://localhost:3030/data/query";		 
+ var url = "http://localhost:8080/sparql/template?profile=st%3Aldp&query=";
+		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
+		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
+		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
+		 " SELECT ?Restaurant ?Adresse ?Note ?Telephone ?SiteWeb"+
+		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Restaurant; rdfs:label ?Restaurant ; tourisme:adresse ?Adresse ; tourisme:note ?Note;"+
+		 " tourisme:telephone ?Telephone; tourisme:siteWeb ?sitew . ?sitew rdfs:label ?SiteWeb.} ORDER BY DESC(?Note)";
+
+		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
+		 
+		 
+		//var queryUrl = url+"?query="+query+"&format=json" ;
+	var queryUrl = url+query ;
+
+		 $.ajax({
+				//dataType: "jsonp",
+				url: queryUrl,
+				success: function( _data ) {
+					//alert(_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8));
+					/*
+				var results = _data.results.bindings;
+				sparqlItemsData = _data;
+				   for ( var i in results ) {
+                        tableContent += '<tr>';
+                        tableContent += '<td>' + results[i].x.value + '</td>';						
+                        tableContent += '</tr>'
+                    }
+				$("#res").html(tableContent);
+				
+				*/
+				var table=_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8);
+				/*
+				var re = new RegExp('<td>.*</td>');
+				var results  = re.exec(table);
+				for (int i=0;i<results.length;i++) ) {
+						alert(results[i]);
+							//result.next;
+				}
+				*/
+				var el=document.createElement('div');
+				el.innerHTML=table;
+				var elements=el.getElementsByTagName('td');
+				
+				/*for(var i=2;i<elements.length;i++){	
+					var url= elements[i].innerHTML;
+					var toto="<img src="+url+"/>";
+					elements[i].innerHTML=toto;
+					i++;
+				}*/
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/*  */
+				$("#res").html(el);
+			}	
+		});
+}
+
 /* Ayoub function return Hotels */
 
 function getHotels (ville){
@@ -213,6 +344,136 @@ function getHotels (ville){
 		 " SELECT ?Hotel ?Adresse ?Note ?SiteWeb ?Image"+
 		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Hotel; tourisme:adresse ?Adresse ; tourisme:note ?Note; rdfs:label ?Hotel;"+
 		 "tourisme:siteWeb ?sitew; tourisme:imageUrl ?urlR. ?sitew rdfs:label ?SiteWeb. ?urlR rdfs:label ?Image}";
+
+		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
+		 
+		 
+		//var queryUrl = url+"?query="+query+"&format=json" ;
+	var queryUrl = url+query ;
+
+		 $.ajax({
+				//dataType: "jsonp",
+				url: queryUrl,
+				success: function( _data ) {
+					//alert(_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8));
+					/*
+				var results = _data.results.bindings;
+				sparqlItemsData = _data;
+				   for ( var i in results ) {
+                        tableContent += '<tr>';
+                        tableContent += '<td>' + results[i].x.value + '</td>';						
+                        tableContent += '</tr>'
+                    }
+				$("#res").html(tableContent);
+				
+				*/
+				var table=_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8);
+				/*
+				var re = new RegExp('<td>.*</td>');
+				var results  = re.exec(table);
+				for (int i=0;i<results.length;i++) ) {
+						alert(results[i]);
+							//result.next;
+				}
+				*/
+				var el=document.createElement('div');
+				el.innerHTML=table;
+				var elements=el.getElementsByTagName('td');
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/* */ 
+				for(var i=3;i<elements.length;i++){	
+					var url= elements[i].innerHTML;
+					var toto="<img src="+url+" width height='100' width='100'/>";
+					elements[i].innerHTML=toto;
+					i=i+4;
+				}
+				$("#res").html(el);
+			}	
+		});
+}
+
+/* Gethotel orderby ASC Note */
+function getOrderASCHotels (ville){
+		 var tableContent ='<thead><tr> <br/> <td>x</td></tr></thead> <tbody>';
+		 //var url = "http://localhost:3030/data/query";		 
+ var url = "http://localhost:8080/sparql/template?profile=st%3Aldp&query=";
+		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
+		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
+		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
+		 " SELECT ?Hotel ?Adresse ?Note ?SiteWeb ?Image"+
+		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Hotel; tourisme:adresse ?Adresse ; tourisme:note ?Note; rdfs:label ?Hotel;"+
+		 "tourisme:siteWeb ?sitew; tourisme:imageUrl ?urlR. ?sitew rdfs:label ?SiteWeb. ?urlR rdfs:label ?Image} ORDER BY DESC(?Note)";
+
+		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
+		 
+		 
+		//var queryUrl = url+"?query="+query+"&format=json" ;
+	var queryUrl = url+query ;
+
+		 $.ajax({
+				//dataType: "jsonp",
+				url: queryUrl,
+				success: function( _data ) {
+					//alert(_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8));
+					/*
+				var results = _data.results.bindings;
+				sparqlItemsData = _data;
+				   for ( var i in results ) {
+                        tableContent += '<tr>';
+                        tableContent += '<td>' + results[i].x.value + '</td>';						
+                        tableContent += '</tr>'
+                    }
+				$("#res").html(tableContent);
+				
+				*/
+				var table=_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8);
+				/*
+				var re = new RegExp('<td>.*</td>');
+				var results  = re.exec(table);
+				for (int i=0;i<results.length;i++) ) {
+						alert(results[i]);
+							//result.next;
+				}
+				*/
+				var el=document.createElement('div');
+				el.innerHTML=table;
+				var elements=el.getElementsByTagName('td');
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/* */ 
+				for(var i=3;i<elements.length;i++){	
+					var url= elements[i].innerHTML;
+					var toto="<img src="+url+" width height='100' width='100'/>";
+					elements[i].innerHTML=toto;
+					i=i+4;
+				}
+				$("#res").html(el);
+			}	
+		});
+}
+
+/* Gethotel orderby ASC Note */
+function getOrderDESCHotels (ville){
+		 var tableContent ='<thead><tr> <br/> <td>x</td></tr></thead> <tbody>';
+		 //var url = "http://localhost:3030/data/query";		 
+ var url = "http://localhost:8080/sparql/template?profile=st%3Aldp&query=";
+		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
+		 var query = "PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> PREFIX dbpedia-resource:<http://dbpedia.org/resource/>"
+		+	"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema%23> "+
+		 " SELECT ?Hotel ?Adresse ?Note ?SiteWeb ?Image"+
+		 " WHERE {?x tourisme:dans dbpedia-resource:"+ville+"; a tourisme:Hotel; tourisme:adresse ?Adresse ; tourisme:note ?Note; rdfs:label ?Hotel;"+
+		 "tourisme:siteWeb ?sitew; tourisme:imageUrl ?urlR. ?sitew rdfs:label ?SiteWeb. ?urlR rdfs:label ?Image} ORDER BY ASC(?Note)";
 
 		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
 		 
