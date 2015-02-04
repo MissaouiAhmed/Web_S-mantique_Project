@@ -657,6 +657,111 @@ function AhmedgetVols (){
 			}	
 		});
 }
+function AyoubgetReelVille(ville){
+	 var tableContent ='<thead><tr> <br/> <td>x</td></tr></thead> <tbody>';
+		 //var url = "http://localhost:3030/data/query";		 
+ var url = "http://localhost:8080/sparql/template?profile=st%3Aldp&query=";
+		 //var query = "\PREFIX tourisme: <http://www.polytech.semantique/tourisme%23> "+
+		 var query = "PREFIX :<http://dbpedia.org/resource/>"
+		+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema%23> "
+		+ "PREFIX r: <http://fr.dbpedia.org/resource/> "
+		+ "PREFIX p: <http://fr.dbpedia.org/property/> "
+		+ "prefix o: <http://dbpedia.org/ontology/> "
+		+ "PREFIX dbo:<http://dbpedia.org/ontology/> "
+		+ "PREFIX foaf:<http://xmlns.com/foaf/0.1/> "
+		+ "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns%23> "
+		+ "PREFIX dbpprop:<http://dbpedia.org/property/> "
+		+ "PREFIX grs:<http://www.georss.org/georss/> "+
+		 //" SELECT ?x ?depart ?destination ?type"+
+		 " SELECT ?wbesite ?image ?description ?localisation ?postalecode ?pays"+
+		// " WHERE {?x  a tourisme:Vol; tourisme:depart ?depart; tourisme:destination ?destination .}";
+		 
+		 //" WHERE {dbpedia-resource:"+ville+" ?propriety ?value.}";
+		 " WHERE { service <http://dbpedia.org/sparql> {"
+		+"?x rdfs:label '"+ville+"'@en;"
+		+"rdf:type dbo:Place;"
+		+"dbpprop:website ?wbesite;"
+		+"dbo:thumbnail ?image;"
+		+"dbo:abstract ?description;"
+		+"grs:point ?localisation;"
+		+"dbo:country ?pays;"
+		+"dbo:postalCode ?postalecode."
+		+"FILTER(langMatches(lang(?description), 'FR'))"
+		+"}}";
+		 
+		 //http://localhost:8080/sparql/template?profile=st%3Aldp&query=PREFIX+tourisme%3A+%3Chttp%3A%2F%2Fwww.polytech.semantique%2Ftourisme%23%3E+%0D%0ASELECT+*+WHERE+%7B%0D%0A++%3Fx+tourisme%3Adans+tourisme%3ANice%0D%0A+%7D
+		 
+		//alert(query);
+		//var queryUrl = url+"?query="+query+"&format=json" ;
+	var queryUrl = url+query ;
+
+		 $.ajax({
+				//dataType: "jsonp",
+				url: queryUrl,
+				success: function( _data ) {	
+					//alert(_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8));
+					/*
+				var results = _data.results.bindings;
+				sparqlItemsData = _data;
+				   for ( var i in results ) {
+                        tableContent += '<tr>';
+                        tableContent += '<td>' + results[i].x.value + '</td>';						
+                        tableContent += '</tr>'
+                    }
+				$("#res").html(tableContent);
+				
+				*/
+				var table=_data.substring(_data.lastIndexOf("<table>"),_data.lastIndexOf("</table>")+8);
+				/*
+				var re = new RegExp('<td>.*</td>');
+				var results  = re.exec(table);
+				for (int i=0;i<results.length;i++) ) {
+						alert(results[i]);
+							//result.next;
+				}
+				*/
+
+				var el=document.createElement('div');
+				el.innerHTML=table;
+				
+				var elements=el.getElementsByTagName('tr');
+				/*
+				//alert(elements.length);
+				for(var i=1;i<elements.length;i++){
+					elements[i].innerHTML=elements[i].innerHTML+"<td><button id='b_"+i+"'>Recommendations</button></td>";
+					}
+					*/
+				//ivar url= elements[1].innerHTML;
+				// var toto="<img src="+url+"/>";
+				//alert();
+					//elements[1].innerHTML=elements[1].innerHTML+"<td><button>+</button></td>"
+				//}
+
+
+				var el=document.createElement('div');
+				el.innerHTML=table;
+				var elements=el.getElementsByTagName('td');
+				
+				//for(var i=1;i<elements.length;i++){	
+					/*var url= elements[2].innerHTML;
+					var toto="<img src="+url+"/>";
+					elements[2].innerHTML=toto;*/
+				//	i++;
+				//}
+				
+				/* Script enlevé les guillemets */
+				var reg=new RegExp('["]+', 'g');
+				for(var i=1;i<elements.length;i++){	
+					var desc= elements[i].innerHTML;
+					desc=desc.replace(reg, ''); 
+					elements[i].innerHTML=desc;
+				}
+				/*  */
+				$("#res").html(el);
+			}	
+		});
+}
+
 
 function AhmedgetVille (ville){
 		 var tableContent ='<thead><tr> <br/> <td>x</td></tr></thead> <tbody>';
