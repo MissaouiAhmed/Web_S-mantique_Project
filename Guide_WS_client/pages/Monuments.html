@@ -39,7 +39,7 @@
 <br/>
 <article>
 <FORM name="formselect">
-	<span id="select"><B>Veuillez choisir une Ville : </B></span>
+	<span id="select"><B>Veuillez choisir une Ville :&nbsp;&nbsp;&nbsp;&nbsp; </B></span>
 		<SELECT name="listeMville" size=1>
 			<OPTION value="Paris">Paris</OPTION>
 			<OPTION value="Nice">Nice</OPTION>
@@ -52,7 +52,9 @@
 	<input type="button" value="valider" onClick="getMonuments(this.form.elements['listeMville'].options[this.form.elements['listeMville'].selectedIndex].text)"/> 
 </FORM>
 </article>
-</br>
+<span id="select"><B>Ou veuillez saisir une Ville : </B><input type="text" name="villeR" id="hu" placeholder="Enter une ville" /> 
+<input type="button" value="Chercher une ville" onclick="getReelMonuments(document.getElementById('hu').value);" /></span>
+</br></br>
 <div id='res'>
 <div>
 
