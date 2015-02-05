@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#">
+<!ENTITY rul "http://ns.inria.fr/edelweiss/2011/rule#">
+]>
+<rdf:RDF xmlns:rdfs="&rdfs;" xmlns:rdf="&rdf;" xmlns = '&rul;' >
+
+
+<rule>
+<body> 
+<![CDATA[
+  prefix tourisme: <http://www.polytech.semantique/tourisme#>
+  construct {
+    ?x tourisme:recommenderAgence ?y
+  }
+  where {
+	  ?x rdf:type tourisme:VolLoisir
+      ?x tourisme:destination ?place
+	  ?y tourisme:dans ?place
+	  ?y rdf:type tourisme:AgenceLocation
+  }
+]]>
+</body>
+</rule>
+
+<rule>
+<body> 
+<![CDATA[
+  prefix tourisme: <http://www.polytech.semantique/tourisme#>
+  construct {
+    ?x tourisme:recommenderAgence ?y
+  }
+  where {
+	  ?x rdf:type tourisme:VolAffaire
+      ?x tourisme:destination ?place
+	  ?y tourisme:dans ?place
+	  ?y rdf:type tourisme:AgenceLocation
+  }
+]]>
+</body>
+</rule>
+
+<rule>
+<body> 
+<![CDATA[
+  prefix tourisme: <http://www.polytech.semantique/tourisme#>
+  construct {
+      ?x tourisme:recommenderMonument ?y
+  }
+  where {
+	  ?x rdf:type tourisme:VolLoisir
+    ?x tourisme:destination ?place
+	  ?y tourisme:dans ?place
+	  ?y rdf:type tourisme:Monument
+  }
+]]>
+</body>
+</rule>
+
+
+<rule>
+<body> 
+<![CDATA[
+  prefix tourisme: <http://www.polytech.semantique/tourisme#>
+  construct {
+    ?x tourisme:recommenderHotel ?y
+  }
+  where {
+	  ?x rdf:type tourisme:VolAffaire
+    ?x tourisme:destination ?place
+	  ?y tourisme:dans ?place
+	  ?y rdf:type tourisme:Hotel
+  }
+]]>
+</body>
+</rule>
+
+
+</rdf:RDF>

@@ -1,0 +1,14 @@
+NUM,TYPE,DEPART,DESTINATION
+1,loisir,Barcelona,Brussels
+2,loisir,Munich,Brussels
+3,loisir,Barcelona,Madrid
+4,loisir,Madrid,Brussels
+5,affaire,Barcelona,Munich
+6,loisir,Rome,Madrid
+7,loisir,Barcelona,Nice
+8,loisir,Nice,Brussels
+9,affaire,Barcelona,Brussels
+10,loisir,Nice,Brussels
+11,affaire,Rome,Paris
+12,loisir,Madrid,Nice
+13,affaire,Barcelona,Paris

@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Guide touristique</title>
+  	  <link rel="stylesheet" href="/css/styles.css"/>
+    <script src="/js/jquery-1.7.2.min.js"></script>
+	<link rel="stylesheet" type="text/css"   href="/css/jquery-ui.css" />
+	<script src="/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
+	<script src="/js/sparql.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+
+    $(document).ready(function () {
+			var uri=document.URL.substring(1).split('/')[8];
+			getRecommendation(uri.substr(3,uri.length-6).replace("%20",""));
+});
+
+</script>			
+</head>
+<body>
+	<center><span style="font-family: Times, serif; font-size:30pt; font-style:oblique; font-variant: normal; color:white">Guide Touristique</span></center>
+<ul class="menu1">
+    <li><a href="/">Accueil</a></li>
+    <li><a href="/page/Vols/get" class="current">Vols</a></li>
+    <li><a href="/page/Villes/get">Ville</a></li>
+    <li><a href="/page/Monuments/B">Monument</a></li>
+    <li><a href="/page/Hotels/B">Hotel</a></li>
+    <li class="lastItem"><a href="/page/Restaurants/B">Restaurant</a></li>
+</ul>
+
+<br><br>
+<article>
+	<h2>Vols </h2>
+
+	
+	
+<div id='res'>
+<div>
+</article>
+</body>
+</html>
