@@ -1,0 +1,10 @@
+{
+  "name": "Guide_WS_client",
+  "description": "Projet Web Sémantique : Tourisme . Client Side Part",
+  "version": "1.0.0",
+ 
+  "dependencies": {
+    "express": "3.4.8",
+    "request": "2.36.0"
+  }
+}
