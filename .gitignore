@@ -9,4 +9,4 @@ SRC/Semantique_Tourisme_Client/node_modules/*
 SRC/Guide_WS_client/node_modules/*
 SRC/*.class
 *.log
-corese
+DEV/corese
