@@ -7,6 +7,7 @@ jena-fuseki-1.1.1/*
 Guide_WS_client/node_modules/*
 SRC/Semantique_Tourisme_Client/node_modules/*
 SRC/Guide_WS_client/node_modules/*
+Rendu final/Code_Source/corese/corese-server.jar
 SRC/*.class
 *.log
 DEV/corese
